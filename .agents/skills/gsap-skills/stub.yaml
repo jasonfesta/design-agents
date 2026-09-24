@@ -1,0 +1,7 @@
+type: package
+tier: official
+category: motion-animation
+rank: 1
+upstream: https://github.com/greensock/gsap-skills
+version: latest
+install_default: "npx skills add https://github.com/greensock/gsap-skills"

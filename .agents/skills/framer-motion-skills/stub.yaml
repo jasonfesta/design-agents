@@ -1,0 +1,7 @@
+type: package
+tier: experimental
+category: motion-animation
+rank: 1
+upstream: https://github.com/C-Jeril/framer-motion-skills
+version: latest
+install_default: "npx skills add C-Jeril/framer-motion-skills"

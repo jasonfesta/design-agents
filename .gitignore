@@ -1,0 +1,5 @@
+.tools/
+**/.venv/
+**/node_modules/
+**/.env
+**/.env.local

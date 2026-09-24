@@ -1,0 +1,7 @@
+type: skill
+tier: community
+category: visual-components
+rank: 2
+upstream: https://github.com/ilikescience/design-tokens-skill
+upstream_path: SKILL.md
+version: latest

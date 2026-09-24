@@ -1,0 +1,7 @@
+type: package
+tier: official
+category: visual-components
+rank: 1
+upstream: https://github.com/shadcn-ui/ui
+version: latest
+install_default: "npx skills add shadcn-ui/skills"

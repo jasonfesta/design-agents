@@ -1,0 +1,34 @@
+{
+  "name": "superdesign-dsh",
+  "version": "0.6.0",
+  "type": "module",
+  "description": "Design frontend UI, presentations, and marketing graphics on the Superdesign infinite canvas — packaged as a DeepSeek Harness skill bundle.",
+  "main": "dsh/index.js",
+  "files": [
+    "dsh/index.js",
+    "dsh/cordis.patch.yml",
+    "skills",
+    "assets"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./dsh/cordis.patch.yml"
+    }
+  },
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "design",
+    "ui-design",
+    "presentations",
+    "slide-decks",
+    "infinite-canvas"
+  ],
+  "homepage": "https://superdesign.dev",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/superdesigndev/superdesign-skill.git"
+  },
+  "author": "Superdesign dev, Inc. <support@superdesign.dev> (https://superdesign.dev)",
+  "license": "MIT"
+}

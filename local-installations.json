@@ -1,0 +1,23 @@
+[
+  {
+    "directory": "screenshot-to-code",
+    "origin": "https://github.com/abi/screenshot-to-code.git",
+    "commit": "d026163f586dfa8c5c10d28c36edd59a9d3b0e88",
+    "status": "dependencies installed; production build and backend HTTP smoke check passed",
+    "installed_skill": null
+  },
+  {
+    "directory": "Open-AI-Design-Agent",
+    "origin": "https://github.com/Anil-matcha/Open-AI-Design-Agent.git",
+    "commit": "e179fe1a6c47b26ee6afac9128155d9f259a5d14",
+    "status": "dependencies installed; production build and backend HTTP smoke check passed",
+    "installed_skill": null
+  },
+  {
+    "directory": "superdesign-skill",
+    "origin": "https://github.com/superdesigndev/superdesign-skill.git",
+    "commit": "f9f05cd988c247dce6c072eaf9ac6b162f2ffc4b",
+    "status": "source downloaded; project-local skill installed",
+    "installed_skill": ".agents/skills/superdesign"
+  }
+]
