@@ -3,3 +3,18 @@
 **/node_modules/
 **/.env
 **/.env.local
+.exports/
+**/__pycache__/
+**/*.pyc
+.DS_Store
+
+# Local installations; reusable source is preserved under resources/history/sources.
+/tools/*
+!/tools/README.md
+!/tools/workspace.py
+!/tools/benchmark/
+**/.env.*
+!**/.env.example
+!**/.env.sample
+**/dist/
+**/.svelte-kit/

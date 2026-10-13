@@ -1,0 +1,53 @@
+{
+  "id": "730",
+  "app": "Ditto",
+  "slug": "ditto",
+  "title": "Onboarding",
+  "source": "https://www.spottedinprod.com/tags/flow/onboarding/730",
+  "app_source": "https://www.spottedinprod.com/apps/ditto/730",
+  "captured": "2026-10-12",
+  "timezone": "America/New_York",
+  "tags": [
+    "flow/onboarding",
+    "visual/animated_text",
+    "visual/cards",
+    "design_language/collage"
+  ],
+  "assets": [
+    {
+      "kind": "video",
+      "path": "ditto/730.mp4",
+      "url": "https://cdn.spottedinprod.com/clips/be7fd439-f510-409e-b17f-d64a431133c9.mp4",
+      "bytes": 2562085,
+      "sha256": "15239e897f525faab6076b7fd2a7085c4d52bdc96c4243dc40bac18fad06c502"
+    },
+    {
+      "kind": "poster",
+      "path": "ditto/730-poster.webp",
+      "url": "https://cdn.spottedinprod.com/clips/be7fd439-f510-409e-b17f-d64a431133c9-poster.webp",
+      "bytes": 16288,
+      "sha256": "f2f0d0f5118b7e9fc722b1e73b1fef522a26f9135da2d9d057f11eb977627a5d"
+    }
+  ],
+  "media": {
+    "duration": 9.333333,
+    "width": 1180,
+    "height": 2556,
+    "fps": "30/1"
+  },
+  "inspection": "six evenly spaced frames visually reviewed",
+  "sample_times_seconds": [
+    0.0,
+    1.847,
+    3.693,
+    5.54,
+    7.387,
+    9.233
+  ],
+  "contact_sheet": "ditto/730-contact.jpg",
+  "design_type": "apps",
+  "viewport": "mobile portrait; encoded pixel dimensions are not device-point dimensions",
+  "observations": "A cobalt scene builds from a text card into a photograph with comment pills, then reframes into a social-card collage surrounding the wordmark. A white phone-signup panel with a flower symbol and red Next button follows.",
+  "learning_candidate": "Use realistic social content to establish value before reducing the screen to a sparse sign-up form.",
+  "preference_state": "unspecified; source retained for study"
+}

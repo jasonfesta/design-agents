@@ -1,0 +1,52 @@
+{
+  "id": "677",
+  "app": "Aave",
+  "slug": "aave",
+  "title": "Simulate your future",
+  "source": "https://www.spottedinprod.com/tags/flow/onboarding/677",
+  "app_source": "https://www.spottedinprod.com/apps/aave/677",
+  "captured": "2026-10-12",
+  "timezone": "America/New_York",
+  "tags": [
+    "flow/data_viz",
+    "flow/onboarding",
+    "pattern/keypad"
+  ],
+  "assets": [
+    {
+      "kind": "video",
+      "path": "aave/677.mp4",
+      "url": "https://cdn.spottedinprod.com/clips/ac744538-92fc-4e30-b70b-40a5456a3196.mp4",
+      "bytes": 1545283,
+      "sha256": "140ea5b9ab39c83bf0049bc66df316cb814798a08e818f8ca989bdcb73bd2121"
+    },
+    {
+      "kind": "poster",
+      "path": "aave/677-poster.webp",
+      "url": "https://cdn.spottedinprod.com/clips/ac744538-92fc-4e30-b70b-40a5456a3196-poster.webp",
+      "bytes": 42018,
+      "sha256": "375ac86946d46cfb41398582e76c53255f51576635c790e6f3493dd0b49555a4"
+    }
+  ],
+  "media": {
+    "duration": 8.3,
+    "width": 1180,
+    "height": 2556,
+    "fps": "30/1"
+  },
+  "inspection": "six evenly spaced frames visually reviewed",
+  "sample_times_seconds": [
+    0.0,
+    1.64,
+    3.28,
+    4.92,
+    6.56,
+    8.2
+  ],
+  "contact_sheet": "aave/677-contact.jpg",
+  "design_type": "apps",
+  "viewport": "mobile portrait; encoded pixel dimensions are not device-point dimensions",
+  "observations": "A pale savings dashboard and checklist open into a dark projection view with a large gradient number and vertical bars. A rounded money-entry sheet introduces a numeric keypad and recurring/one-off options; later frames show an updated projection and a return to the dashboard.",
+  "learning_candidate": "An interactive example can demonstrate the product before setup is complete; financial figures here are recorded UI content, not validated outcomes.",
+  "preference_state": "unspecified; source retained for study"
+}

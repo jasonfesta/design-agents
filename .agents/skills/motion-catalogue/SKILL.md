@@ -33,6 +33,24 @@ Activate when the user:
 - Needs generative art (p5.js, algorithmic art, creative coding)
 - Wants video/media generation (Remotion, fal.ai, generative media)
 
+## Installed Emil Kowalski motion suite
+
+Choose the task-specific installed skill before following a download pointer. All supporting guides are included; see the [full suite router](../emilkowalski-skill/SKILL.md).
+
+| Task | Local skill |
+| --- | --- |
+| Decide whether and how motion should work | [emil-design-eng](../emil-design-eng/SKILL.md) |
+| Implement web animation | [animate](../animate/SKILL.md) |
+| Implement Expo or React Native animation | [animate-expo](../animate-expo/SKILL.md) |
+| Diagnose dropped frames | [animation-performance](../animation-performance/SKILL.md) |
+| Name a visible effect | [animation-vocabulary](../animation-vocabulary/SKILL.md) |
+| Propose places for motion without implementing | [find-animation-opportunities](../find-animation-opportunities/SKILL.md) |
+| Audit a codebase and prepare plans | [improve-animations](../improve-animations/SKILL.md) |
+| Explicitly requested focused motion review | [review-animations](../review-animations/SKILL.md) |
+| Gesture continuity, springs, and momentum | [apple-design](../apple-design/SKILL.md) |
+
+Keep a request to implement moving toward implementation; use advisory skills for requested discovery or planning. The upstream-inspired `animate-skill` pointer below is distinct from Emil's installed `animate` skill.
+
 ## Motion & Animation
 
 | Skill | Best for |
@@ -44,7 +62,7 @@ Activate when the user:
 | [`animate-css-skill`](../animate-css-skill/SKILL.md) | Animate.css v4 + scroll triggers + RTL + prefers-reduced-motion |
 | [`css-animation-skill`](../css-animation-skill/SKILL.md) | Scrapes live app design language → standalone animation file |
 | [`wiggle-claude-skill`](../wiggle-claude-skill/SKILL.md) | Animates SVG logos → Lottie JSON → GIF + MP4 |
-| [`emilkowalski-skill`](../emilkowalski-skill/SKILL.md) | Animation decision framework, easing curves, interaction principles |
+| [`emilkowalski-skill`](../emilkowalski-skill/SKILL.md) | Installed router for Emil's full motion and design-engineering suite |
 | [`claudedesignskills`](../claudedesignskills/SKILL.md) | 22-skill bundle: Three.js, GSAP, R3F, Framer, Babylon, A-Frame, PixiJS, Rive, Lottie |
 | [`hyperframes`](../hyperframes/SKILL.md) | "Write HTML → render video": GSAP/CSS/Lottie/Three.js + TTS (HeyGen) |
 

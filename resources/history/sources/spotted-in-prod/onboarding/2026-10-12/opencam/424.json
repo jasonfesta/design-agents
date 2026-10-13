@@ -1,0 +1,52 @@
+{
+  "id": "424",
+  "app": "OpenCam",
+  "slug": "opencam",
+  "title": "Onboarding",
+  "source": "https://www.spottedinprod.com/tags/flow/onboarding/424",
+  "app_source": "https://www.spottedinprod.com/apps/opencam/424",
+  "captured": "2026-10-12",
+  "timezone": "America/New_York",
+  "tags": [
+    "flow/onboarding",
+    "gesture/swipe",
+    "visual/video"
+  ],
+  "assets": [
+    {
+      "kind": "video",
+      "path": "opencam/424.mp4",
+      "url": "https://cdn.spottedinprod.com/clips/6a233c74-e52a-4d95-a6d8-deec539221ec.mp4",
+      "bytes": 5070695,
+      "sha256": "9ca6e6e4d826e9a171fdda3b05d661c96eeb75e93eff254992236ac23282d217"
+    },
+    {
+      "kind": "poster",
+      "path": "opencam/424-poster.webp",
+      "url": "https://cdn.spottedinprod.com/clips/6a233c74-e52a-4d95-a6d8-deec539221ec-poster.webp",
+      "bytes": 4186,
+      "sha256": "4ef03b91dfc2b2809b168e36efd428aa95dbacea1ee145067e2f02e5fdbce2ce"
+    }
+  ],
+  "media": {
+    "duration": 12.966667,
+    "width": 1180,
+    "height": 2556,
+    "fps": "30/1"
+  },
+  "inspection": "six evenly spaced frames visually reviewed",
+  "sample_times_seconds": [
+    0.0,
+    2.573,
+    5.147,
+    7.72,
+    10.293,
+    12.867
+  ],
+  "contact_sheet": "opencam/424-contact.jpg",
+  "design_type": "apps",
+  "viewport": "mobile portrait; encoded pixel dimensions are not device-point dimensions",
+  "observations": "A black launch screen leads into a scenic vertical video, manual camera-control examples, a gesture instruction, and a trial offer. A small upward chevron and swipe instruction connect the screens.",
+  "learning_candidate": "Show the output and a concrete control gesture before presenting the subscription offer.",
+  "preference_state": "unspecified; source retained for study"
+}

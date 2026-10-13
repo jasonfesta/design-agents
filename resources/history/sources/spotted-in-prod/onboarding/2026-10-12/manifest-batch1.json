@@ -1,0 +1,353 @@
+[
+    [
+        "10",
+        "2006",
+        "2006cam",
+        "Permissions capture",
+        "2006cam-1",
+        "webp",
+        "flow/camera flow/launch_screen flow/onboarding flow/paywall flow/permissions gesture/tap visual/3d visual/animated_text design_language/skeuomorphism"
+    ],
+    [
+        "17",
+        "Yapster",
+        "yapster",
+        "Capture permissions",
+        "yapster-2",
+        "webp",
+        "flow/onboarding gesture/tap visual/artwork visual/cutouts"
+    ],
+    [
+        "18",
+        "Abode",
+        "abode",
+        "Knock knock",
+        "abode-3",
+        "webp",
+        "flow/onboarding flow/gated_entry flow/easter_egg gesture/tap visual/motion_graphics"
+    ],
+    [
+        "39",
+        "Carbon",
+        "carbon",
+        "Launch screen",
+        "carbon-1",
+        "webp",
+        "team_type/startup category/music flow/launch_screen flow/onboarding visual/gradient design_language/cryptopunk"
+    ],
+    [
+        "61",
+        "Couple Joy",
+        "couplejoy",
+        "Onboarding",
+        "couplejoy-1",
+        "webp",
+        "team_type/indie category/social category/utilities flow/onboarding pattern/waterfall visual/map visual/memoji visual/emoji"
+    ],
+    [
+        "75",
+        "corner",
+        "corner",
+        "Launch screen",
+        "corner-1",
+        "webp",
+        "flow/launch_screen flow/onboarding visual/3d visual/cutouts visual/video_intro"
+    ],
+    [
+        "116",
+        "Grok",
+        "grok",
+        "Sign in",
+        "grok-1",
+        "webp",
+        "team_type/big_co category/ai category/utilities flow/onboarding flow/launch_screen visual/animated_text"
+    ],
+    [
+        "157",
+        "Remi",
+        "remi",
+        "Launch sequence",
+        "remi-1",
+        "webp",
+        "flow/onboarding flow/launch_screen visual/video_intro"
+    ],
+    [
+        "197",
+        "Shuffles",
+        "shuffles",
+        "Gesture tutorials",
+        "shuffles-2",
+        "webp",
+        "flow/onboarding flow/tutorial pattern/tray visual/motion_graphics"
+    ],
+    [
+        "206",
+        "Scoop",
+        "scoop",
+        "Landing screen",
+        "scoop-1",
+        "webp",
+        "team_type/startup category/crypto category/social flow/launch_screen flow/onboarding visual/video_intro visual/gradient visual/blur"
+    ],
+    [
+        "245",
+        "Roze",
+        "roze",
+        "Invite friends",
+        "roze-2",
+        "webp",
+        "flow/onboarding visual/memoji visual/gradient"
+    ],
+    [
+        "267",
+        "Tolan",
+        "tolan",
+        "Video intro",
+        "tolan-1",
+        "webp",
+        "flow/onboarding visual/video_intro"
+    ],
+    [
+        "276",
+        "DS Clock",
+        "dsclock",
+        "Widget tutorial",
+        "fc6825bd-f16d-42e8-815c-a8e643e88a07",
+        "webp",
+        "flow/onboarding flow/tutorial visual/video"
+    ],
+    [
+        "312",
+        "BlueNote",
+        "bluenote",
+        "Split stems",
+        "55464b08-af3b-457e-8349-1029e6c05112",
+        "webp",
+        "team_type/indie category/music category/utility flow/onboarding flow/paywall pattern/tray visual/motion_graphics visual/menu_icons"
+    ],
+    [
+        "315",
+        "Focus Four",
+        "focusfour",
+        "Onboarding",
+        "5fa9ea7c-770a-4ce0-a295-db286b7dec3c",
+        "webp",
+        "flow/onboarding flow/launch_screen flow/paywall"
+    ],
+    [
+        "319",
+        "Tiempo",
+        "tiempo",
+        "Onboarding",
+        "37dcd5ed-7fa4-4062-95ec-34de3c002f76",
+        "webp",
+        "flow/onboarding flow/paywall pattern/carousel"
+    ],
+    [
+        "350",
+        "Schema",
+        "schema",
+        "Welcome",
+        "b8609cca-480f-4dc6-adcf-716b8996cb7c",
+        "webp",
+        "flow/launch_screen flow/onboarding visual/menu_icons visual/motion_graphics design_language/collage"
+    ],
+    [
+        "381",
+        "Blackbird",
+        "blackbird",
+        "Snappy onboarding",
+        "492f6dea-8e75-4124-9b03-dbe5b78bd17e",
+        "webp",
+        "team_type/startup category/crypto category/food__dining flow/onboarding flow/keyboard flow/input visual/animated_text"
+    ],
+    [
+        "382",
+        "Blackbird",
+        "blackbird",
+        "Sign up rewards",
+        "69b3ff98-ad38-42a0-adeb-2d6f30dba423",
+        "webp",
+        "flow/onboarding visual/animated_text"
+    ],
+    [
+        "424",
+        "OpenCam",
+        "opencam",
+        "Onboarding",
+        "6a233c74-e52a-4d95-a6d8-deec539221ec",
+        "webp",
+        "flow/onboarding gesture/swipe visual/video"
+    ],
+    [
+        "457",
+        "Ivy",
+        "ivy",
+        "Onboarding",
+        "245a7c62-8e44-4325-a9ca-ed51d4878363",
+        "webp",
+        "flow/onboarding pattern/carousel gesture/swipe visual/blur design_language/system"
+    ],
+    [
+        "554",
+        "Focus Flight",
+        "focusflight",
+        "Choose your focus",
+        "8a047bb2-d30c-454d-beb2-f7f128c6701d",
+        "webp",
+        "flow/onboarding pattern/pills gesture/gyroscope visual/menu_icons visual/sticker design_language/system"
+    ],
+    [
+        "570",
+        "Find your Faith",
+        "fyf",
+        "Welcome",
+        "081e66fa-bf4c-4c9a-b52c-4dd680ab7ade",
+        "webp",
+        "flow/launch_screen flow/onboarding visual/3d visual/motion_graphics design_language/minimal"
+    ],
+    [
+        "664",
+        "Alyx",
+        "alyx",
+        "Onboarding",
+        "a7ba6ad0-23bd-4934-8333-29036d8786ef",
+        "webp",
+        "flow/onboarding flow/permissions flow/tutorial pattern/morph visual/animated_text visual/blur visual/mascot"
+    ],
+    [
+        "677",
+        "Aave",
+        "aave",
+        "Simulate your future",
+        "ac744538-92fc-4e30-b70b-40a5456a3196",
+        "webp",
+        "flow/data_viz flow/onboarding pattern/keypad"
+    ],
+    [
+        "687",
+        "Are.na",
+        "arena",
+        "Tutorial",
+        "01b74a56-9219-4d42-92cd-d6d885533387",
+        "webp",
+        "flow/onboarding flow/tutorial design_language/minimal"
+    ],
+    [
+        "730",
+        "Ditto",
+        "ditto",
+        "Onboarding",
+        "be7fd439-f510-409e-b17f-d64a431133c9",
+        "webp",
+        "flow/onboarding visual/animated_text visual/cards design_language/collage"
+    ],
+    [
+        "782",
+        "Acme Weather",
+        "acmeweather",
+        "Onboarding",
+        "a198a757-31b7-4726-b4c4-33ccc7aa2dd5",
+        "webp",
+        "flow/paywall flow/onboarding pattern/carousel gesture/swipe design_language/warm"
+    ],
+    [
+        "797",
+        "Kurzgedacht",
+        "kurzgedacht",
+        "Onboarding",
+        "980f6095-f3da-426e-bbf4-0975d2c5e0a4",
+        "webp",
+        "team_type/indie category/utility flow/onboarding pattern/carousel visual/illustration design_language/minimal"
+    ],
+    [
+        "808",
+        "Art of Flora",
+        "artofflora",
+        "Onboarding",
+        "e98d02de-9212-4043-a330-8c3d29f215e3",
+        "webp",
+        "flow/onboarding flow/gameplay flow/confirmation gesture/tap gesture/drag visual/artwork design_language/skeuomorphism"
+    ],
+    [
+        "835",
+        "Pool",
+        "pool",
+        "Importing",
+        "a8cd393b-05cb-4c1f-a747-ce7ddc3634a1",
+        "webp",
+        "flow/import flow/onboarding flow/loading pattern/list visual/shader design_language/skeuomorphism"
+    ],
+    [
+        "847",
+        "Spark",
+        "spark",
+        "Onboarding",
+        "0971d43b-88b3-46d7-b4d6-8c7d3b6f8136",
+        "webp",
+        "flow/splash_screen flow/onboarding pattern/carousel pattern/card_stack pattern/rail gesture/tap visual/cards design_language/friendly design_language/colorful design_language/warm"
+    ],
+    [
+        "858",
+        "Introspect",
+        "introspect",
+        "Onboarding",
+        "1fff12bd-404b-4012-b412-cfc946c4f768",
+        "webp",
+        "flow/onboarding flow/permissions pattern/carousel gesture/tap visual/emoji visual/motion_graphics visual/sticker design_language/friendly"
+    ],
+    [
+        "860",
+        "Moods Faster",
+        "moodsfaster",
+        "Onboarding",
+        "8b0077b9-86c7-4a33-9422-191803957ac9",
+        "webp",
+        "team_type/indie category/health__fitness flow/permissions flow/onboarding pattern/morph gesture/swipe visual/glow design_language/system"
+    ],
+    [
+        "886",
+        "Tolan",
+        "tolan",
+        "Name your tolan",
+        "3c2eb9a3-d17a-47aa-8aeb-c361ecf47c70",
+        "webp",
+        "flow/onboarding flow/customize flow/keyboard visual/motion_graphics"
+    ],
+    [
+        "895",
+        "Frenzy",
+        "frenzy",
+        "Permissions capture",
+        "1c2de762-d3da-4796-b9c2-ce066db8f986",
+        "webp",
+        "team_type/startup category/crypto category/social flow/permissions flow/onboarding design_language/loud"
+    ],
+    [
+        "901",
+        "Stash",
+        "stash",
+        "Ratings capture",
+        "69816424-5807-4759-b79b-11a5e3d5f5e3",
+        "webp",
+        "flow/ratings_capture flow/onboarding design_language/pixel_art"
+    ],
+    [
+        "934",
+        "Revolut",
+        "revolut",
+        "Launch video",
+        "1d3a7c78-6ba1-4c44-a748-3607709e26be",
+        "webp",
+        "flow/onboarding visual/video_intro"
+    ],
+    [
+        "1013",
+        "Aave",
+        "aave",
+        "Set up",
+        "curation-42",
+        "jpg",
+        "team_type/startup category/crypto flow/onboarding flow/input pattern/tray gesture/tap visual/chart"
+    ]
+]

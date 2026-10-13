@@ -1,0 +1,58 @@
+{
+  "id": "10",
+  "app": "2006",
+  "slug": "2006cam",
+  "title": "Permissions capture",
+  "source": "https://www.spottedinprod.com/tags/flow/onboarding/10",
+  "app_source": "https://www.spottedinprod.com/apps/2006cam/10",
+  "captured": "2026-10-12",
+  "timezone": "America/New_York",
+  "tags": [
+    "flow/camera",
+    "flow/launch_screen",
+    "flow/onboarding",
+    "flow/paywall",
+    "flow/permissions",
+    "gesture/tap",
+    "visual/3d",
+    "visual/animated_text",
+    "design_language/skeuomorphism"
+  ],
+  "assets": [
+    {
+      "kind": "video",
+      "path": "2006cam/10.mp4",
+      "url": "https://cdn.spottedinprod.com/clips/2006cam-1.mp4",
+      "bytes": 15494897,
+      "sha256": "a0acece964f54b57cb700b578650db43ec0fe1993dbecd3db338e129ed193780"
+    },
+    {
+      "kind": "poster",
+      "path": "2006cam/10-poster.webp",
+      "url": "https://cdn.spottedinprod.com/clips/2006cam-1-poster.webp",
+      "bytes": 19312,
+      "sha256": "96a19297d4c91e59d36fd363d411e0c854479bd10379711460c4650b943cbe41"
+    }
+  ],
+  "media": {
+    "duration": 23.216667,
+    "width": 1180,
+    "height": 2556,
+    "fps": "60/1"
+  },
+  "inspection": "six evenly spaced frames visually reviewed",
+  "sample_times_seconds": [
+    0.0,
+    4.623,
+    9.247,
+    13.87,
+    18.493,
+    23.117
+  ],
+  "contact_sheet": "2006cam/10-contact.jpg",
+  "design_type": "apps",
+  "viewport": "mobile portrait; encoded pixel dimensions are not device-point dimensions",
+  "observations": "A black permission screen gives way to a miniature camera inside a tactile candybar-phone frame, complete with metallic directional control and stickers. The camera view expands, followed by neon branding and a purchase or continuation screen.",
+  "learning_candidate": "Connect a permission request to an immediate, recognizable camera experience; retain the physical-device metaphor across states.",
+  "preference_state": "unspecified; source retained for study"
+}

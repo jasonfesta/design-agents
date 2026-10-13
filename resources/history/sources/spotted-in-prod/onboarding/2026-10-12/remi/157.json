@@ -1,0 +1,52 @@
+{
+  "id": "157",
+  "app": "Remi",
+  "slug": "remi",
+  "title": "Launch sequence",
+  "source": "https://www.spottedinprod.com/tags/flow/onboarding/157",
+  "app_source": "https://www.spottedinprod.com/apps/remi/157",
+  "captured": "2026-10-12",
+  "timezone": "America/New_York",
+  "tags": [
+    "flow/onboarding",
+    "flow/launch_screen",
+    "visual/video_intro"
+  ],
+  "assets": [
+    {
+      "kind": "video",
+      "path": "remi/157.mp4",
+      "url": "https://cdn.spottedinprod.com/clips/remi-1.mp4",
+      "bytes": 4036781,
+      "sha256": "ade82561f1eb078eb86ea542c7c778b0afb303b5ff35c3c8796d9f359be33e53"
+    },
+    {
+      "kind": "poster",
+      "path": "remi/157-poster.webp",
+      "url": "https://cdn.spottedinprod.com/clips/remi-1-poster.webp",
+      "bytes": 9452,
+      "sha256": "961c605fe67ea70e45a2da1f0c691034aa368cef120775068c3fe57a26327c0e"
+    }
+  ],
+  "media": {
+    "duration": 12.25,
+    "width": 1180,
+    "height": 2556,
+    "fps": "60/1"
+  },
+  "inspection": "six evenly spaced frames visually reviewed",
+  "sample_times_seconds": [
+    0.0,
+    2.43,
+    4.86,
+    7.29,
+    9.72,
+    12.15
+  ],
+  "contact_sheet": "remi/157-contact.jpg",
+  "design_type": "apps",
+  "viewport": "mobile portrait; encoded pixel dimensions are not device-point dimensions",
+  "observations": "Oversized mixed-type messages and high-contrast graphics animate on black. White fragments surround a large Filler word; cookbook and creator references tilt and change scale. Serif, pixel-like, and bold lettering alternate throughout the promotional sequence.",
+  "learning_candidate": "Kinetic typography can communicate a product promise before interface detail is introduced.",
+  "preference_state": "unspecified; source retained for study"
+}

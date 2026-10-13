@@ -1,0 +1,53 @@
+{
+  "id": "886",
+  "app": "Tolan",
+  "slug": "tolan",
+  "title": "Name your tolan",
+  "source": "https://www.spottedinprod.com/tags/flow/onboarding/886",
+  "app_source": "https://www.spottedinprod.com/apps/tolan/886",
+  "captured": "2026-10-12",
+  "timezone": "America/New_York",
+  "tags": [
+    "flow/onboarding",
+    "flow/customize",
+    "flow/keyboard",
+    "visual/motion_graphics"
+  ],
+  "assets": [
+    {
+      "kind": "video",
+      "path": "tolan/886.mp4",
+      "url": "https://cdn.spottedinprod.com/clips/3c2eb9a3-d17a-47aa-8aeb-c361ecf47c70.mp4",
+      "bytes": 3193435,
+      "sha256": "34a0953703e7aecca0c63a40a60d34a8bcc8f57cc396871a3ecd8514dc6a36f5"
+    },
+    {
+      "kind": "poster",
+      "path": "tolan/886-poster.webp",
+      "url": "https://cdn.spottedinprod.com/clips/3c2eb9a3-d17a-47aa-8aeb-c361ecf47c70-poster.webp",
+      "bytes": 31668,
+      "sha256": "89480d0dd97d3132af1c0df0b319defc681abd8e489c2fa4f659058d04fbef2e"
+    }
+  ],
+  "media": {
+    "duration": 15.033333,
+    "width": 996,
+    "height": 2160,
+    "fps": "30/1"
+  },
+  "inspection": "six evenly spaced frames visually reviewed",
+  "sample_times_seconds": [
+    0.0,
+    2.987,
+    5.973,
+    8.96,
+    11.947,
+    14.933
+  ],
+  "contact_sheet": "tolan/886-contact.jpg",
+  "design_type": "apps",
+  "viewport": "mobile portrait; encoded pixel dimensions are not device-point dimensions",
+  "observations": "A small multicolored glow resolves into a warmly rim-lit planet against a dark star field. A small character silhouette appears on top. The planet shifts higher as a name field and keyboard enter below, with brief introductory text preceding the form.",
+  "learning_candidate": "Make naming feel connected to the character reveal, while leaving clear space for the keyboard.",
+  "preference_state": "unspecified; source retained for study"
+}

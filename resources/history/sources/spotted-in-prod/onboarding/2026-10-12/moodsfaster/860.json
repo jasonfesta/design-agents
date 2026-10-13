@@ -1,0 +1,57 @@
+{
+  "id": "860",
+  "app": "Moods Faster",
+  "slug": "moodsfaster",
+  "title": "Onboarding",
+  "source": "https://www.spottedinprod.com/tags/flow/onboarding/860",
+  "app_source": "https://www.spottedinprod.com/apps/moodsfaster/860",
+  "captured": "2026-10-12",
+  "timezone": "America/New_York",
+  "tags": [
+    "team_type/indie",
+    "category/health__fitness",
+    "flow/permissions",
+    "flow/onboarding",
+    "pattern/morph",
+    "gesture/swipe",
+    "visual/glow",
+    "design_language/system"
+  ],
+  "assets": [
+    {
+      "kind": "video",
+      "path": "moodsfaster/860.mp4",
+      "url": "https://cdn.spottedinprod.com/clips/8b0077b9-86c7-4a33-9422-191803957ac9.mp4",
+      "bytes": 2514303,
+      "sha256": "eff4fb0451e6ee9c07ac90a0a918e205cb83aacd83fc245c221d5d9ba00e083f"
+    },
+    {
+      "kind": "poster",
+      "path": "moodsfaster/860-poster.webp",
+      "url": "https://cdn.spottedinprod.com/clips/8b0077b9-86c7-4a33-9422-191803957ac9-poster.webp",
+      "bytes": 25564,
+      "sha256": "680d6a89f212a66d41d92ffafb4858d9a98135e55e9be03601de1f35c248c191"
+    }
+  ],
+  "media": {
+    "duration": 14.666667,
+    "width": 996,
+    "height": 2160,
+    "fps": "30/1"
+  },
+  "inspection": "six evenly spaced frames visually reviewed",
+  "sample_times_seconds": [
+    0.0,
+    2.913,
+    5.827,
+    8.74,
+    11.653,
+    14.567
+  ],
+  "contact_sheet": "moodsfaster/860-contact.jpg",
+  "design_type": "apps",
+  "viewport": "mobile portrait; encoded pixel dimensions are not device-point dimensions",
+  "observations": "A dark welcome leads to a luminous yellow vertical mood capsule. An Apple Health rationale sheet precedes the system permission panel. The mood interface returns, changes between current-mood and day-level choices, and later takes on blue lighting for a different mood.",
+  "learning_candidate": "Connect permission to a visible action and use color with labels to distinguish states.",
+  "preference_state": "unspecified; source retained for study"
+}

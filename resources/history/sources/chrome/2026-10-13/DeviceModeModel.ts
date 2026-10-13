@@ -1,0 +1,1205 @@
+// Copyright 2015 The Chromium Authors
+// Use of this source code is governed by a BSD-style license that can be
+// found in the LICENSE file.
+
+import * as Common from '../../core/common/common.js';
+import * as Host from '../../core/host/host.js';
+import * as i18n from '../../core/i18n/i18n.js';
+import * as Platform from '../../core/platform/platform.js';
+import * as Root from '../../core/root/root.js';
+import * as SDK from '../../core/sdk/sdk.js';
+import * as Protocol from '../../generated/protocol.js';
+
+import {
+  type Cutout,
+  CutoutShape,
+  type EmulatedDevice,
+  Horizontal,
+  HorizontalSpanned,
+  type Mode,
+  Vertical,
+  VerticalSpanned,
+} from './EmulatedDevices.js';
+
+const UIStrings = {
+  /**
+   * @description Error message shown on the Devices settings tab when the user enters an empty
+   * width for a custom device.
+   */
+  widthCannotBeEmpty: 'Width can’t be empty',
+  /**
+   * @description Error message shown on the Devices settings tab when the user enters an invalid
+   * width for a custom device.
+   */
+  widthMustBeANumber: 'Width must be a number',
+  /**
+   * @description Error message shown on the Devices settings tab when the user has entered a width
+   * for a custom device that is too large.
+   * @example {9999} PH1
+   */
+  widthMustBeLessThanOrEqualToS: 'Width must be less than or equal to {PH1}',
+  /**
+   * @description Error message shown on the Devices settings tab when the user has entered a width
+   * for a custom device that is too small.
+   * @example {50} PH1
+   */
+  widthMustBeGreaterThanOrEqualToS: 'Width must be greater than or equal to {PH1}',
+  /**
+   * @description Error message shown on the Devices settings tab when the user enters an empty
+   * height for a custom device.
+   */
+  heightCannotBeEmpty: 'Height can’t be empty',
+  /**
+   * @description Error message shown on the Devices settings tab when the user enters an invalid
+   * height for a custom device.
+   */
+  heightMustBeANumber: 'Height must be a number',
+  /**
+   * @description Error message shown on the Devices settings tab when the user has entered a height
+   * for a custom device that is too large.
+   * @example {9999} PH1
+   */
+  heightMustBeLessThanOrEqualToS: 'Height must be less than or equal to {PH1}',
+  /**
+   * @description Error message shown on the Devices settings tab when the user has entered a height
+   * for a custom device that is too small.
+   * @example {50} PH1
+   */
+  heightMustBeGreaterThanOrEqualTo: 'Height must be greater than or equal to {PH1}',
+  /**
+   * @description Error message shown on the Devices settings tab when the user enters an invalid
+   * device pixel ratio for a custom device.
+   */
+  devicePixelRatioMustBeANumberOr: 'Device pixel ratio must be a number or blank',
+  /**
+   * @description Error message shown on the Devices settings tab when the user enters a device
+   * pixel ratio for a custom device that is too large.
+   * @example {10} PH1
+   */
+  devicePixelRatioMustBeLessThanOr: 'Device pixel ratio must be less than or equal to {PH1}',
+  /**
+   * @description Error message shown on the Devices settings tab when the user enters a device
+   * pixel ratio for a custom device that is too small.
+   * @example {0} PH1
+   */
+  devicePixelRatioMustBeGreater: 'Device pixel ratio must be greater than or equal to {PH1}',
+} as const;
+const str_ = i18n.i18n.registerUIStrings('models/emulation/DeviceModeModel.ts', UIStrings);
+const i18nString = i18n.i18n.getLocalizedString.bind(undefined, str_);
+
+const CUTOUT_SHAPE_TO_PROTOCOL: Record<CutoutShape, Protocol.Overlay.DisplayCutoutShape> = {
+  [CutoutShape.PILL]: Protocol.Overlay.DisplayCutoutShape.Pill,
+  [CutoutShape.NOTCH]: Protocol.Overlay.DisplayCutoutShape.Notch,
+  [CutoutShape.CIRCLE]: Protocol.Overlay.DisplayCutoutShape.Circle,
+  [CutoutShape.RECTANGLE]: Protocol.Overlay.DisplayCutoutShape.Rectangle,
+};
+
+export class DeviceModeModel extends Common.ObjectWrapper.ObjectWrapper<EventTypes> implements
+    SDK.TargetManager.SDKModelObserver<SDK.EmulationModel.EmulationModel> {
+  #screenRect: Rect;
+  #visiblePageRect: Rect;
+  #availableSize: Platform.Size;
+  #preferredSize: Platform.Size;
+  #initialized: boolean;
+  #autoFitScaleOnInitialize: boolean;
+  #appliedDeviceSize: Platform.Size;
+  #appliedDeviceScaleFactor: number;
+  #appliedUserAgentType: UA;
+  readonly #scaleSetting: Common.Settings.Setting<number>;
+  #scale: number;
+  readonly #autoAdjustScaleSetting: Common.Settings.Setting<boolean>;
+  readonly #deviceScaleMapSetting: Common.Settings.Setting<Record<string, {scale: number, autoAdjust: boolean}>>;
+  #isApplyingDeviceScale = false;
+  #widthSetting: Common.Settings.Setting<number>;
+  #heightSetting: Common.Settings.Setting<number>;
+  #uaSetting: Common.Settings.Setting<UA>;
+  readonly #deviceScaleFactorSetting: Common.Settings.Setting<number>;
+
+  readonly #toolbarControlsEnabledSetting: Common.Settings.Setting<boolean>;
+  #type: Type;
+  #device: EmulatedDevice|null;
+  #mode: Mode|null;
+  #fitScale: number;
+  #touchEnabled: boolean;
+  #touchMobile: boolean;
+  #emulationModel: SDK.EmulationModel.EmulationModel|null;
+  #onModelAvailable: (() => void)|null;
+  #screenOrientationLocked: boolean;
+  readonly #targetManager: SDK.TargetManager.TargetManager;
+  readonly #settings: Common.Settings.Settings;
+  readonly #multitargetNetworkManager: SDK.NetworkManager.MultitargetNetworkManager;
+
+  constructor(
+      targetManager: SDK.TargetManager.TargetManager,
+      settings: Common.Settings.Settings,
+      multitargetNetworkManager: SDK.NetworkManager.MultitargetNetworkManager,
+  ) {
+    super();
+    this.#targetManager = targetManager;
+    this.#settings = settings;
+    this.#multitargetNetworkManager = multitargetNetworkManager;
+    this.#screenRect = new Rect(0, 0, 1, 1);
+    this.#visiblePageRect = new Rect(0, 0, 1, 1);
+    this.#availableSize = new Platform.Size(1, 1);
+    this.#preferredSize = new Platform.Size(1, 1);
+    this.#initialized = false;
+    this.#autoFitScaleOnInitialize = false;
+    this.#appliedDeviceSize = new Platform.Size(1, 1);
+    this.#appliedDeviceScaleFactor = Platform.HostRuntime.HOST_RUNTIME.getDevicePixelRatio();
+    this.#appliedUserAgentType = UA.DESKTOP;
+
+    this.#scaleSetting = this.#settings.createSetting('emulation.device-scale', 1);
+    // We've used to allow zero before.
+    if (!this.#scaleSetting.get()) {
+      this.#scaleSetting.set(1);
+    }
+    this.#scaleSetting.addChangeListener(this.scaleSettingChanged, this);
+    this.#scale = 1;
+
+    this.#autoAdjustScaleSetting = this.#settings.createSetting('emulation.auto-adjust-scale', true);
+    this.#deviceScaleMapSetting = this.#settings.createSetting('emulation.device-scale-map', {});
+    this.#scaleSetting.addChangeListener(this.#saveScaleForCurrentDevice, this);
+    this.#autoAdjustScaleSetting.addChangeListener(this.#saveScaleForCurrentDevice, this);
+
+    this.#widthSetting = this.#settings.createSetting('emulation.device-width', 400);
+    if (this.#widthSetting.get() < MinDeviceSize) {
+      this.#widthSetting.set(MinDeviceSize);
+    }
+    if (this.#widthSetting.get() > MaxDeviceSize) {
+      this.#widthSetting.set(MaxDeviceSize);
+    }
+    this.#widthSetting.addChangeListener(this.widthSettingChanged, this);
+
+    this.#heightSetting = this.#settings.createSetting('emulation.device-height', 0);
+    if (this.#heightSetting.get() && this.#heightSetting.get() < MinDeviceSize) {
+      this.#heightSetting.set(MinDeviceSize);
+    }
+    if (this.#heightSetting.get() > MaxDeviceSize) {
+      this.#heightSetting.set(MaxDeviceSize);
+    }
+    this.#heightSetting.addChangeListener(this.heightSettingChanged, this);
+
+    this.#uaSetting = this.#settings.createSetting('emulation.device-ua', UA.MOBILE);
+    this.#uaSetting.addChangeListener(this.uaSettingChanged, this);
+    this.#deviceScaleFactorSetting = this.#settings.createSetting('emulation.device-scale-factor', 0);
+    this.#deviceScaleFactorSetting.addChangeListener(this.deviceScaleFactorSettingChanged, this);
+
+    this.#toolbarControlsEnabledSetting = this.#settings.createSetting('emulation.toolbar-controls-enabled', true,
+                                                                       Common.Settings.SettingStorageType.SESSION);
+
+    this.#type = Type.None;
+    this.#device = null;
+    this.#mode = null;
+    this.#fitScale = 1;
+    this.#touchEnabled = false;
+    this.#touchMobile = false;
+
+    this.#emulationModel = null;
+    this.#onModelAvailable = null;
+    this.#screenOrientationLocked = false;
+    this.#targetManager.observeModels(SDK.EmulationModel.EmulationModel, this);
+  }
+
+  static instance(opts?: {forceNew: boolean}): DeviceModeModel {
+    if (!Root.DevToolsContext.globalInstance().has(DeviceModeModel) || opts?.forceNew) {
+      Root.DevToolsContext.globalInstance().set(
+          DeviceModeModel,
+          new DeviceModeModel(
+              // eslint-disable-next-line @devtools/no-instance-of-migrated-singletons
+              SDK.TargetManager.TargetManager.instance(),
+              // eslint-disable-next-line @devtools/no-instance-of-migrated-singletons
+              Common.Settings.Settings.instance(),
+              // eslint-disable-next-line @devtools/no-instance-of-migrated-singletons
+              SDK.NetworkManager.MultitargetNetworkManager.instance(),
+              ));
+    }
+
+    return Root.DevToolsContext.globalInstance().get(DeviceModeModel);
+  }
+
+  /**
+   * This wraps `instance()` in a try/catch because in some DevTools entry points
+   * (such as worker_app.ts) the Emulation panel is not included and as such
+   * the below code fails; it tries to instantiate the model which requires
+   * reading the value of a setting which has not been registered.
+   * See crbug.com/361515458 for an example bug that this resolves.
+   */
+  static tryInstance(opts?: {forceNew: boolean}): DeviceModeModel|null {
+    try {
+      return this.instance(opts);
+    } catch {
+      return null;
+    }
+  }
+
+  static removeInstance(): void {
+    if (Root.DevToolsContext.globalInstance().has(DeviceModeModel)) {
+      Root.DevToolsContext.globalInstance().get(DeviceModeModel).dispose();
+    }
+    Root.DevToolsContext.globalInstance().delete(DeviceModeModel);
+  }
+
+  dispose(): void {
+    this.#targetManager.unobserveModels(SDK.EmulationModel.EmulationModel, this);
+    this.#revokeLastScreenshotBlobUrl();
+  }
+
+  static widthValidator(value: string): {
+    valid: boolean,
+    errorMessage: (string|undefined),
+  } {
+    let valid = false;
+    let errorMessage;
+
+    if (!value) {
+      errorMessage = i18nString(UIStrings.widthCannotBeEmpty);
+    } else if (!/^[\d]+$/.test(value)) {
+      errorMessage = i18nString(UIStrings.widthMustBeANumber);
+    } else if (Number(value) > MaxDeviceSize) {
+      errorMessage = i18nString(UIStrings.widthMustBeLessThanOrEqualToS, {PH1: MaxDeviceSize});
+    } else if (Number(value) < MinDeviceSize) {
+      errorMessage = i18nString(UIStrings.widthMustBeGreaterThanOrEqualToS, {PH1: MinDeviceSize});
+    } else {
+      valid = true;
+    }
+
+    return {valid, errorMessage};
+  }
+
+  static heightValidator(value: string): {
+    valid: boolean,
+    errorMessage: (string|undefined),
+  } {
+    let valid = false;
+    let errorMessage;
+
+    if (!value) {
+      errorMessage = i18nString(UIStrings.heightCannotBeEmpty);
+    } else if (!/^[\d]+$/.test(value)) {
+      errorMessage = i18nString(UIStrings.heightMustBeANumber);
+    } else if (Number(value) > MaxDeviceSize) {
+      errorMessage = i18nString(UIStrings.heightMustBeLessThanOrEqualToS, {PH1: MaxDeviceSize});
+    } else if (Number(value) < MinDeviceSize) {
+      errorMessage = i18nString(UIStrings.heightMustBeGreaterThanOrEqualTo, {PH1: MinDeviceSize});
+    } else {
+      valid = true;
+    }
+
+    return {valid, errorMessage};
+  }
+
+  static scaleValidator(value: string): {
+    valid: boolean,
+    errorMessage: (string|undefined),
+  } {
+    let valid = false;
+    let errorMessage;
+    const parsedValue = Number(value.trim());
+
+    if (!value) {
+      valid = true;
+    } else if (Number.isNaN(parsedValue)) {
+      errorMessage = i18nString(UIStrings.devicePixelRatioMustBeANumberOr);
+    } else if (Number(value) > MaxDeviceScaleFactor) {
+      errorMessage = i18nString(UIStrings.devicePixelRatioMustBeLessThanOr, {PH1: MaxDeviceScaleFactor});
+    } else if (Number(value) < MinDeviceScaleFactor) {
+      errorMessage = i18nString(UIStrings.devicePixelRatioMustBeGreater, {PH1: MinDeviceScaleFactor});
+    } else {
+      valid = true;
+    }
+
+    return {valid, errorMessage};
+  }
+
+  get scaleSettingInternal(): Common.Settings.Setting<number> {
+    return this.#scaleSetting;
+  }
+
+  #updateFitScale(): void {
+    if (this.#type === Type.Device && this.#device && this.#mode) {
+      const orientation = this.#device.orientationByName(this.#mode.orientation);
+      this.#scaleSetting.set(this.calculateFitScale(orientation.width, orientation.height));
+    } else if (this.#type === Type.Responsive) {
+      this.#scaleSetting.set(this.calculateFitScale(this.#widthSetting.get(), this.#heightSetting.get()));
+    }
+  }
+
+  #saveScaleForCurrentDevice(): void {
+    // The scale settings don't reflect the current device yet while emulate() is applying them or while the fit
+    // scale is pending.
+    if (this.#isApplyingDeviceScale || this.#autoFitScaleOnInitialize) {
+      return;
+    }
+    let key: string;
+    if (this.#type === Type.Device && this.#device) {
+      key = this.#device.title;
+    } else if (this.#type === Type.Responsive) {
+      key = 'Responsive';
+    } else {
+      return;
+    }
+    const scale = this.#scaleSetting.get();
+    const autoAdjust = this.#autoAdjustScaleSetting.get();
+    const map = this.#deviceScaleMapSetting.get();
+    if (map[key]?.scale === scale && map[key]?.autoAdjust === autoAdjust) {
+      return;
+    }
+    map[key] = {scale, autoAdjust};
+    this.#deviceScaleMapSetting.set(map);
+  }
+
+  setAvailableSize(availableSize: Platform.Size, preferredSize: Platform.Size): void {
+    this.#availableSize = availableSize;
+    this.#preferredSize = preferredSize;
+    this.#initialized = true;
+    if (this.#autoFitScaleOnInitialize) {
+      this.#autoFitScaleOnInitialize = false;
+      this.#updateFitScale();
+    }
+    this.calculateAndEmulate(false);
+  }
+
+  emulate(type: Type, device: EmulatedDevice|null, mode: Mode|null, scale?: number): void {
+    const resetPageScaleFactor = this.#type !== type || this.#device !== device || this.#mode !== mode;
+    const deviceChanged = this.#type !== type || this.#device !== device;
+
+    this.#type = type;
+
+    // Save the resulting scale settings once rather than every intermediate change.
+    this.#isApplyingDeviceScale = true;
+    try {
+      if (type === Type.Device && device && mode) {
+        console.assert(Boolean(device) && Boolean(mode), 'Must pass device and mode for device emulation');
+        this.#mode = mode;
+        this.#device = device;
+
+        if (deviceChanged) {
+          const map = this.#deviceScaleMapSetting.get();
+          const savedDevice = map[device.title];
+          if (savedDevice) {
+            this.#autoAdjustScaleSetting.set(savedDevice.autoAdjust);
+            // An explicitly requested scale takes precedence over the saved one.
+            if (scale === undefined && !savedDevice.autoAdjust && savedDevice.scale > 0) {
+              scale = savedDevice.scale;
+            }
+          } else {
+            this.#autoAdjustScaleSetting.set(scale === undefined);
+          }
+        }
+
+        if (scale !== undefined) {
+          this.#autoFitScaleOnInitialize = false;
+          this.#scaleSetting.set(scale);
+        } else if (this.#initialized) {
+          this.#autoFitScaleOnInitialize = false;
+          this.#updateFitScale();
+        } else {
+          this.#autoFitScaleOnInitialize = true;
+        }
+      } else {
+        this.#device = null;
+        this.#mode = null;
+        this.#autoFitScaleOnInitialize = false;
+
+        if (deviceChanged && type === Type.Responsive) {
+          const map = this.#deviceScaleMapSetting.get();
+          const savedDevice = map['Responsive'];
+          if (savedDevice) {
+            this.#autoAdjustScaleSetting.set(savedDevice.autoAdjust);
+            if (!savedDevice.autoAdjust && savedDevice.scale > 0) {
+              this.#scaleSetting.set(savedDevice.scale);
+            } else if (this.#initialized) {
+              this.#updateFitScale();
+            } else {
+              // Defer fit-scale calculation until setAvailableSize() initializes #preferredSize.
+              this.#autoFitScaleOnInitialize = true;
+            }
+          } else {
+            this.#autoAdjustScaleSetting.set(true);
+            this.#scaleSetting.set(1);
+          }
+        }
+      }
+    } finally {
+      this.#isApplyingDeviceScale = false;
+    }
+    this.#saveScaleForCurrentDevice();
+
+    if (type !== Type.None) {
+      Host.userMetrics.actionTaken(Host.UserMetrics.Action.DeviceModeEnabled);
+    } else {
+      this.#revokeLastScreenshotBlobUrl();
+    }
+    this.calculateAndEmulate(resetPageScaleFactor);
+  }
+
+  setWidth(width: number): void {
+    const max = Math.min(MaxDeviceSize, this.preferredScaledWidth());
+    width = Math.max(Math.min(width, max), 1);
+    this.#widthSetting.set(width);
+  }
+
+  setWidthAndScaleToFit(width: number): void {
+    width = Math.max(Math.min(width, MaxDeviceSize), 1);
+    this.#scaleSetting.set(this.calculateFitScale(width, this.#heightSetting.get()));
+    this.#widthSetting.set(width);
+  }
+
+  setHeight(height: number): void {
+    const max = Math.min(MaxDeviceSize, this.preferredScaledHeight());
+    height = Math.max(Math.min(height, max), 0);
+    if (height === this.preferredScaledHeight()) {
+      height = 0;
+    }
+    this.#heightSetting.set(height);
+  }
+
+  setHeightAndScaleToFit(height: number): void {
+    height = Math.max(Math.min(height, MaxDeviceSize), 0);
+    this.#scaleSetting.set(this.calculateFitScale(this.#widthSetting.get(), height));
+    this.#heightSetting.set(height);
+  }
+
+  setScale(scale: number): void {
+    this.#scaleSetting.set(scale);
+  }
+
+  device(): EmulatedDevice|null {
+    return this.#device;
+  }
+
+  mode(): Mode|null {
+    return this.#mode;
+  }
+
+  type(): Type {
+    return this.#type;
+  }
+
+  screenRect(): Rect {
+    return this.#screenRect;
+  }
+
+  visiblePageRect(): Rect {
+    return this.#visiblePageRect;
+  }
+
+  scale(): number {
+    return this.#scale;
+  }
+
+  fitScale(): number {
+    return this.#fitScale;
+  }
+
+  appliedDeviceSize(): Platform.Size {
+    return this.#appliedDeviceSize;
+  }
+
+  appliedDeviceScaleFactor(): number {
+    return this.#appliedDeviceScaleFactor;
+  }
+
+  appliedUserAgentType(): UA {
+    return this.#appliedUserAgentType;
+  }
+
+  isFullHeight(): boolean {
+    return !this.#heightSetting.get();
+  }
+
+  isMobile(): boolean {
+    switch (this.#type) {
+      case Type.Device:
+        return this.#device ? this.#device.mobile() : false;
+      case Type.None:
+        return false;
+      case Type.Responsive:
+        return this.#uaSetting.get() === UA.MOBILE || this.#uaSetting.get() === UA.MOBILE_NO_TOUCH;
+    }
+    return false;
+  }
+
+  enabledSetting(): Common.Settings.Setting<boolean> {
+    return this.#settings.createSetting('emulation.show-device-mode', false);
+  }
+
+  isDeviceModeOn(): boolean {
+    return this.enabledSetting().get();
+  }
+
+  toggleDeviceMode(): void {
+    this.enabledSetting().set(!this.enabledSetting().get());
+  }
+
+  scaleSetting(): Common.Settings.Setting<number> {
+    return this.#scaleSetting;
+  }
+
+  uaSetting(): Common.Settings.Setting<UA> {
+    return this.#uaSetting;
+  }
+
+  deviceScaleFactorSetting(): Common.Settings.Setting<number> {
+    return this.#deviceScaleFactorSetting;
+  }
+
+  toolbarControlsEnabledSetting(): Common.Settings.Setting<boolean> {
+    return this.#toolbarControlsEnabledSetting;
+  }
+
+  reset(): void {
+    this.#deviceScaleFactorSetting.set(0);
+    this.#scaleSetting.set(1);
+    this.setWidth(400);
+    this.setHeight(0);
+    this.#uaSetting.set(UA.MOBILE);
+  }
+
+  modelAdded(emulationModel: SDK.EmulationModel.EmulationModel): void {
+    if (emulationModel.target() === this.#targetManager.primaryPageTarget() &&
+        emulationModel.supportsDeviceEmulation()) {
+      this.#emulationModel = emulationModel;
+      if (this.#onModelAvailable) {
+        const callback = this.#onModelAvailable;
+        this.#onModelAvailable = null;
+        callback();
+      }
+      emulationModel.addEventListener(
+          SDK.EmulationModel.EmulationModelEvents.SCREEN_ORIENTATION_LOCK_CHANGED, this.onScreenOrientationLockChanged,
+          this);
+      const resourceTreeModel = emulationModel.target().model(SDK.ResourceTreeModel.ResourceTreeModel);
+      if (resourceTreeModel) {
+        resourceTreeModel.addEventListener(SDK.ResourceTreeModel.Events.FrameResized, this.onFrameChange, this);
+        resourceTreeModel.addEventListener(SDK.ResourceTreeModel.Events.FrameNavigated, this.onFrameNavigated, this);
+      }
+    } else {
+      void emulationModel.emulateTouch(this.#touchEnabled, this.#touchMobile);
+    }
+  }
+
+  modelRemoved(emulationModel: SDK.EmulationModel.EmulationModel): void {
+    if (this.#emulationModel === emulationModel) {
+      emulationModel.removeEventListener(
+          SDK.EmulationModel.EmulationModelEvents.SCREEN_ORIENTATION_LOCK_CHANGED, this.onScreenOrientationLockChanged,
+          this);
+      const resourceTreeModel = emulationModel.target().model(SDK.ResourceTreeModel.ResourceTreeModel);
+      if (resourceTreeModel) {
+        resourceTreeModel.removeEventListener(SDK.ResourceTreeModel.Events.FrameResized, this.onFrameChange, this);
+        resourceTreeModel.removeEventListener(SDK.ResourceTreeModel.Events.FrameNavigated, this.onFrameNavigated, this);
+      }
+      this.#emulationModel = null;
+      this.#screenOrientationLocked = false;
+      this.#revokeLastScreenshotBlobUrl();
+      this.dispatchEventToListeners(Events.UPDATED);
+    }
+  }
+
+  inspectedURL(): string|null {
+    return this.#emulationModel ? this.#emulationModel.target().inspectedURL() : null;
+  }
+
+  private onFrameChange(): void {
+    const overlayModel = this.#emulationModel ? this.#emulationModel.overlayModel() : null;
+    if (!overlayModel) {
+      return;
+    }
+
+    this.showDeviceOverlaysIfApplicable(overlayModel);
+  }
+
+  private onFrameNavigated(event: Common.EventTarget.EventTargetEvent<SDK.ResourceTreeModel.ResourceTreeFrame>): void {
+    if (event.data.isMainFrame()) {
+      this.#revokeLastScreenshotBlobUrl();
+    }
+    this.onFrameChange();
+  }
+
+  private onScreenOrientationLockChanged(
+      event: Common.EventTarget.EventTargetEvent<SDK.EmulationModel.ScreenOrientationLockChangedEvent>): void {
+    this.#screenOrientationLocked = event.data.locked;
+    if (event.data.locked && event.data.orientation) {
+      this.applyOrientationLock(event.data.orientation);
+    }
+    this.dispatchEventToListeners(Events.UPDATED);
+  }
+
+  private applyOrientationLock(orientation: Protocol.Emulation.ScreenOrientation): void {
+    const wantsLandscape = orientation.type === Protocol.Emulation.ScreenOrientationType.LandscapePrimary ||
+        orientation.type === Protocol.Emulation.ScreenOrientationType.LandscapeSecondary;
+
+    if (this.#type === Type.Device && this.#device && this.#mode) {
+      // For device emulation, switch to the matching orientation mode.
+      const isCurrentlyLandscape =
+          this.#mode.orientation === Horizontal || this.#mode.orientation === HorizontalSpanned;
+      if (wantsLandscape !== isCurrentlyLandscape) {
+        const rotationPartner = this.#device.getRotationPartner(this.#mode);
+        if (rotationPartner) {
+          this.emulate(this.#type, this.#device, rotationPartner);
+        }
+      }
+    } else if (this.#type === Type.Responsive) {
+      // For responsive mode, swap width/height if orientation doesn't match.
+      const appliedSize = this.appliedDeviceSize();
+      const isCurrentlyLandscape = appliedSize.width > appliedSize.height;
+      if (wantsLandscape !== isCurrentlyLandscape) {
+        this.setSizeAndScaleToFit(appliedSize.height, appliedSize.width);
+      }
+    }
+  }
+
+  isScreenOrientationLocked(): boolean {
+    return this.#screenOrientationLocked;
+  }
+
+  private scaleSettingChanged(): void {
+    this.calculateAndEmulate(false);
+  }
+
+  private widthSettingChanged(): void {
+    this.calculateAndEmulate(false);
+  }
+
+  private heightSettingChanged(): void {
+    this.calculateAndEmulate(false);
+  }
+
+  private uaSettingChanged(): void {
+    this.calculateAndEmulate(true);
+  }
+
+  private deviceScaleFactorSettingChanged(): void {
+    this.calculateAndEmulate(false);
+  }
+
+  private preferredScaledWidth(): number {
+    return Math.floor(this.#preferredSize.width / (this.#scaleSetting.get() || 1));
+  }
+
+  private preferredScaledHeight(): number {
+    return Math.floor(this.#preferredSize.height / (this.#scaleSetting.get() || 1));
+  }
+
+  private currentSafeAreaInsets(): Insets|null {
+    if (!Root.Runtime.hostConfig.devToolsMobileSafeAreaEmulation?.enabled) {
+      return null;
+    }
+    if (this.#type !== Type.Device || !this.#mode) {
+      return null;
+    }
+    return this.#mode.safeAreaInsets ?? null;
+  }
+
+  private applySafeAreaInsets(insets: Insets|null): void {
+    if (!this.#emulationModel) {
+      return;
+    }
+    if (insets && Root.Runtime.hostConfig.devToolsMobileSafeAreaEmulation?.enabled) {
+      void this.#emulationModel.setSafeAreaInsets(
+          {top: insets.top, left: insets.left, bottom: insets.bottom, right: insets.right});
+    } else {
+      void this.#emulationModel.setSafeAreaInsets({});
+    }
+  }
+
+  private getScreenOrientationType(): Protocol.Emulation.ScreenOrientationType {
+    if (!this.#mode) {
+      throw new Error('Mode required to get orientation type.');
+    }
+    switch (this.#mode.orientation) {
+      case VerticalSpanned:
+      case Vertical:
+        return Protocol.Emulation.ScreenOrientationType.PortraitPrimary;
+      case HorizontalSpanned:
+      case Horizontal:
+      default:
+        return Protocol.Emulation.ScreenOrientationType.LandscapePrimary;
+    }
+  }
+
+  private calculateAndEmulate(resetPageScaleFactor: boolean): void {
+    if (!this.#emulationModel) {
+      this.#onModelAvailable = this.calculateAndEmulate.bind(this, resetPageScaleFactor);
+    }
+    const mobile = this.isMobile();
+    const overlayModel = this.#emulationModel ? this.#emulationModel.overlayModel() : null;
+    if (overlayModel) {
+      this.showDeviceOverlaysIfApplicable(overlayModel);
+    }
+    if (this.#type === Type.Device && this.#device && this.#mode) {
+      const orientation = this.#device.orientationByName(this.#mode.orientation);
+      this.#fitScale = this.calculateFitScale(orientation.width, orientation.height);
+      if (mobile) {
+        this.#appliedUserAgentType = this.#device.touch() ? UA.MOBILE : UA.MOBILE_NO_TOUCH;
+      } else {
+        this.#appliedUserAgentType = this.#device.touch() ? UA.DESKTOP_TOUCH : UA.DESKTOP;
+      }
+      this.applyDeviceMetrics(new Platform.Size(orientation.width, orientation.height), this.#scaleSetting.get(),
+                              this.#device.deviceScaleFactor, mobile, this.getScreenOrientationType(),
+                              resetPageScaleFactor);
+      this.applyUserAgent(this.#device.userAgent, this.#device.userAgentMetadata);
+      this.applyTouch(this.#device.touch(), mobile);
+    } else if (this.#type === Type.None) {
+      this.#fitScale = this.calculateFitScale(this.#availableSize.width, this.#availableSize.height);
+      this.#appliedUserAgentType = UA.DESKTOP;
+      this.applyDeviceMetrics(this.#availableSize, 1, 0, mobile, null, resetPageScaleFactor);
+      this.applyUserAgent('', null);
+      this.applyTouch(false, false);
+    } else if (this.#type === Type.Responsive) {
+      let screenWidth = this.#widthSetting.get();
+      if (!screenWidth || screenWidth > this.preferredScaledWidth()) {
+        screenWidth = this.preferredScaledWidth();
+      }
+      let screenHeight = this.#heightSetting.get();
+      if (!screenHeight || screenHeight > this.preferredScaledHeight()) {
+        screenHeight = this.preferredScaledHeight();
+      }
+      const defaultDeviceScaleFactor = mobile ? defaultMobileScaleFactor : 0;
+      this.#fitScale = this.calculateFitScale(this.#widthSetting.get(), this.#heightSetting.get());
+      this.#appliedUserAgentType = this.#uaSetting.get();
+      this.applyDeviceMetrics(new Platform.Size(screenWidth, screenHeight), this.#scaleSetting.get(),
+                              this.#deviceScaleFactorSetting.get() || defaultDeviceScaleFactor, mobile,
+                              screenHeight >= screenWidth ? Protocol.Emulation.ScreenOrientationType.PortraitPrimary :
+                                                            Protocol.Emulation.ScreenOrientationType.LandscapePrimary,
+                              resetPageScaleFactor);
+      this.applyUserAgent(
+          mobile ? DeviceModeModel.defaultMobileUserAgent() : '',
+          mobile ? DeviceModeModel.defaultMobileUserAgentMetadata() : null);
+      this.applyTouch(
+          this.#uaSetting.get() === UA.DESKTOP_TOUCH || this.#uaSetting.get() === UA.MOBILE,
+          this.#uaSetting.get() === UA.MOBILE);
+    }
+
+    if (overlayModel) {
+      overlayModel.setShowViewportSizeOnResize(this.#type === Type.None);
+    }
+    this.applySafeAreaInsets(this.currentSafeAreaInsets());
+    this.dispatchEventToListeners(Events.UPDATED);
+  }
+
+  private calculateFitScale(screenWidth: number, screenHeight: number): number {
+    const scaleW = screenWidth ? Math.floor(this.#preferredSize.width * 100 / screenWidth) : 100;
+    const scaleH = screenHeight ? Math.floor(this.#preferredSize.height * 100 / screenHeight) : 100;
+    const scale = Math.min(scaleW, scaleH, 100);
+    return Math.max(scale, 1) / 100;
+  }
+
+  setSizeAndScaleToFit(width: number, height: number): void {
+    this.#scaleSetting.set(this.calculateFitScale(width, height));
+    this.setWidth(width);
+    this.setHeight(height);
+  }
+
+  private applyUserAgent(userAgent: string, userAgentMetadata: Protocol.Emulation.UserAgentMetadata|null): void {
+    // When the user agent string is empty (e.g. custom desktop device without
+    // a UA override), metadata must also be cleared. The backend rejects
+    // setUserAgentOverride calls that provide metadata without a UA string.
+    this.#multitargetNetworkManager.setUserAgentOverride(userAgent, userAgent ? userAgentMetadata : null);
+  }
+
+  private applyDeviceMetrics(screenSize: Platform.Size, scale: number, deviceScaleFactor: number, mobile: boolean,
+                             screenOrientation: Protocol.Emulation.ScreenOrientationType|null,
+                             resetPageScaleFactor: boolean): void {
+    screenSize.width = Math.max(1, Math.floor(screenSize.width));
+    screenSize.height = Math.max(1, Math.floor(screenSize.height));
+
+    let pageWidth: 0|number = screenSize.width;
+    let pageHeight: 0|number = screenSize.height;
+
+    const positionX = 0;
+    const positionY = 0;
+    const screenOrientationAngle =
+        screenOrientation === Protocol.Emulation.ScreenOrientationType.LandscapePrimary ? 90 : 0;
+
+    this.#appliedDeviceSize = screenSize;
+    this.#appliedDeviceScaleFactor = deviceScaleFactor || Platform.HostRuntime.HOST_RUNTIME.getDevicePixelRatio();
+    this.#screenRect = new Rect(Math.max(0, (this.#availableSize.width - screenSize.width * scale) / 2), 0,
+                                screenSize.width * scale, screenSize.height * scale);
+    this.#visiblePageRect = new Rect(
+        positionX * scale, positionY * scale,
+        Math.min(pageWidth * scale, this.#availableSize.width - this.#screenRect.left - positionX * scale),
+        Math.min(pageHeight * scale, this.#availableSize.height - this.#screenRect.top - positionY * scale));
+    this.#scale = scale;
+    const displayFeature = this.getDisplayFeature();
+    if (!displayFeature) {
+      // When sending displayFeature, we cannot use the optimization below due to backend restrictions.
+      if (scale === 1 && this.#availableSize.width >= screenSize.width &&
+          this.#availableSize.height >= screenSize.height) {
+        // When we have enough space, no page size override is required. This will speed things up and remove lag.
+        pageWidth = 0;
+        pageHeight = 0;
+      }
+      if (this.#visiblePageRect.width === pageWidth * scale && this.#visiblePageRect.height === pageHeight * scale &&
+          Number.isInteger(pageWidth * scale) && Number.isInteger(pageHeight * scale)) {
+        // When we only have to apply scale, do not resize the page. This will speed things up and remove lag.
+        pageWidth = 0;
+        pageHeight = 0;
+      }
+    }
+
+    if (!this.#emulationModel) {
+      return;
+    }
+
+    if (resetPageScaleFactor) {
+      void this.#emulationModel.resetPageScaleFactor();
+    }
+    if (pageWidth || pageHeight || mobile || deviceScaleFactor || scale !== 1 || screenOrientation || displayFeature) {
+      const metrics: Protocol.Emulation.SetDeviceMetricsOverrideRequest = {
+        width: pageWidth,
+        height: pageHeight,
+        deviceScaleFactor,
+        mobile,
+        scale,
+        screenWidth: screenSize.width,
+        screenHeight: screenSize.height,
+        positionX,
+        positionY,
+        dontSetVisibleSize: true,
+      };
+      if (displayFeature) {
+        metrics.displayFeature = displayFeature;
+        metrics.devicePosture = {type: Protocol.Emulation.DevicePostureType.Folded};
+      } else {
+        metrics.devicePosture = {type: Protocol.Emulation.DevicePostureType.Continuous};
+      }
+      if (screenOrientation) {
+        metrics.screenOrientation = {type: screenOrientation, angle: screenOrientationAngle};
+      }
+      void this.#emulationModel.emulateDevice(metrics);
+    } else {
+      void this.#emulationModel.emulateDevice(null);
+    }
+  }
+
+  exitHingeMode(): void {
+    const overlayModel = this.#emulationModel ? this.#emulationModel.overlayModel() : null;
+    if (overlayModel) {
+      overlayModel.showHingeForDualScreen(null);
+    }
+  }
+
+  async #captureScreenshot(fullSize: boolean, clip?: Protocol.Page.Viewport): Promise<string|null> {
+    const screenCaptureModel =
+        this.#emulationModel ? this.#emulationModel.target().model(SDK.ScreenCaptureModel.ScreenCaptureModel) : null;
+    if (!screenCaptureModel) {
+      return null;
+    }
+
+    let screenshotMode;
+    if (clip) {
+      screenshotMode = SDK.ScreenCaptureModel.ScreenshotMode.FROM_CLIP;
+    } else if (fullSize) {
+      screenshotMode = SDK.ScreenCaptureModel.ScreenshotMode.FULLPAGE;
+    } else {
+      screenshotMode = SDK.ScreenCaptureModel.ScreenshotMode.FROM_VIEWPORT;
+    }
+
+    const overlayModel = this.#emulationModel ? this.#emulationModel.overlayModel() : null;
+    if (overlayModel) {
+      overlayModel.setShowViewportSizeOnResize(false);
+    }
+
+    if (this.#emulationModel && this.#device && this.#mode) {
+      const orientation = this.#device.orientationByName(this.#mode.orientation);
+      const deviceMetrics: Protocol.Emulation.SetDeviceMetricsOverrideRequest = {
+        width: orientation.width,
+        height: orientation.height,
+        deviceScaleFactor: this.#device.deviceScaleFactor,
+        mobile: this.isMobile(),
+      };
+      const dispFeature = this.getDisplayFeature();
+      if (dispFeature) {
+        deviceMetrics.displayFeature = dispFeature;
+      }
+      await this.#emulationModel.emulateDevice(deviceMetrics);
+    }
+
+    try {
+      const screenshot = await screenCaptureModel.captureScreenshot(
+          Protocol.Page.CaptureScreenshotRequestFormat.Png, 100, screenshotMode, clip);
+      return screenshot;
+    } finally {
+      await this.#emulationModel?.emulateDevice(null);
+      overlayModel?.setShowViewportSizeOnResize(this.#type === Type.None);
+      this.calculateAndEmulate(false);
+    }
+  }
+
+  private getScreenshotFileName(): string {
+    const url = this.inspectedURL();
+    let fileName = '';
+    if (url) {
+      const withoutFragment = Platform.StringUtilities.removeURLFragment(url);
+      fileName = Platform.StringUtilities.trimURL(withoutFragment);
+    }
+
+    const device = this.device();
+    if (device && this.type() === Type.Device) {
+      fileName += `(${device.title})`;
+    }
+    return fileName;
+  }
+
+  async captureScreenshot(): Promise<void> {
+    const screenshot = await this.#captureScreenshot(false);
+    if (screenshot === null) {
+      return;
+    }
+
+    await Platform.HostRuntime.HOST_RUNTIME.saveScreenshot({
+      base64Png: screenshot,
+      fileName: this.getScreenshotFileName(),
+      clip: {
+        screenRectWidth: this.screenRect().width,
+        screenRectHeight: this.screenRect().height,
+        visiblePageRectLeft: this.visiblePageRect().left,
+        visiblePageRectTop: this.visiblePageRect().top,
+      },
+    });
+  }
+
+  async captureFullSizeScreenshot(): Promise<void> {
+    const screenshot = await this.#captureScreenshot(true);
+    if (screenshot === null) {
+      return;
+    }
+    await this.saveScreenshot(screenshot);
+  }
+
+  async captureAreaScreenshot(clip?: Protocol.Page.Viewport): Promise<void> {
+    const screenshot = await this.#captureScreenshot(false, clip);
+    if (screenshot === null) {
+      return;
+    }
+    await this.saveScreenshot(screenshot);
+  }
+
+  async saveScreenshot(screenshot: string): Promise<void> {
+    await Platform.HostRuntime.HOST_RUNTIME.saveScreenshot({
+      base64Png: screenshot,
+      fileName: this.getScreenshotFileName(),
+    });
+  }
+
+  #revokeLastScreenshotBlobUrl(): void {
+    Platform.HostRuntime.HOST_RUNTIME.revokeLastScreenshotUrl();
+  }
+
+  private applyTouch(touchEnabled: boolean, mobile: boolean): void {
+    this.#touchEnabled = touchEnabled;
+    this.#touchMobile = mobile;
+    for (const emulationModel of this.#targetManager.models(SDK.EmulationModel.EmulationModel)) {
+      void emulationModel.emulateTouch(touchEnabled, mobile);
+    }
+  }
+
+  private showDeviceOverlaysIfApplicable(overlayModel: SDK.OverlayModel.OverlayModel): void {
+    const orientation = (this.#device && this.#mode) ? this.#device.orientationByName(this.#mode.orientation) : null;
+    if (orientation?.hinge) {
+      overlayModel.showHingeForDualScreen(orientation.hinge);
+    } else {
+      overlayModel.showHingeForDualScreen(null);
+    }
+
+    overlayModel.showDisplayCutout(
+        Root.Runtime.hostConfig.devToolsMobileSafeAreaEmulation?.enabled ? this.currentDisplayCutout() : null);
+  }
+
+  private currentDisplayCutout(): SDK.OverlayModel.DisplayCutout|null {
+    if (!Root.Runtime.hostConfig.devToolsMobileSafeAreaEmulation?.enabled) {
+      return null;
+    }
+    const device = this.#device;
+    const mode = this.#mode;
+    if (!device || !mode || !device.modes.includes(mode)) {
+      return null;
+    }
+
+    const cutout = mode.cutout;
+    if (cutout) {
+      return this.toDisplayCutout(cutout);
+    }
+
+    if (mode.orientation !== Horizontal) {
+      return null;
+    }
+
+    const rotationPartner = device.getRotationPartner(mode);
+    const rotatedCutout = rotationPartner?.cutout;
+    if (rotationPartner?.orientation !== Vertical || !rotatedCutout) {
+      return null;
+    }
+
+    const orientation = device.orientationByName(mode.orientation);
+    if (rotatedCutout.shape === CutoutShape.CIRCLE) {
+      return this.toDisplayCutout({
+        ...rotatedCutout,
+        x: orientation.width - rotatedCutout.y - rotatedCutout.height,
+        y: rotatedCutout.x,
+        width: rotatedCutout.height,
+        height: rotatedCutout.width,
+        cx: orientation.width - rotatedCutout.cy,
+        cy: rotatedCutout.cx,
+      });
+    }
+    return this.toDisplayCutout({
+      ...rotatedCutout,
+      x: orientation.width - rotatedCutout.y - rotatedCutout.height,
+      y: rotatedCutout.x,
+      width: rotatedCutout.height,
+      height: rotatedCutout.width,
+    });
+  }
+
+  private toDisplayCutout(cutout: Cutout): SDK.OverlayModel.DisplayCutout {
+    const {shape, ...rest} = cutout;
+    return {
+      ...rest,
+      shape: CUTOUT_SHAPE_TO_PROTOCOL[shape],
+      contentColor: {r: 0, g: 0, b: 0, a: 1},
+    } as SDK.OverlayModel.DisplayCutout;
+  }
+
+  private getDisplayFeatureOrientation(): Protocol.Emulation.DisplayFeatureOrientation {
+    if (!this.#mode) {
+      throw new Error('Mode required to get display feature orientation.');
+    }
+    switch (this.#mode.orientation) {
+      case VerticalSpanned:
+      case Vertical:
+        return Protocol.Emulation.DisplayFeatureOrientation.Vertical;
+      case HorizontalSpanned:
+      case Horizontal:
+      default:
+        return Protocol.Emulation.DisplayFeatureOrientation.Horizontal;
+    }
+  }
+
+  private getDisplayFeature(): Protocol.Emulation.DisplayFeature|null {
+    if (!this.#device || !this.#mode ||
+        (this.#mode.orientation !== VerticalSpanned && this.#mode.orientation !== HorizontalSpanned)) {
+      return null;
+    }
+
+    const orientation = this.#device.orientationByName(this.#mode.orientation);
+    if (!orientation?.hinge) {
+      return null;
+    }
+
+    const hinge = orientation.hinge;
+    return {
+      orientation: this.getDisplayFeatureOrientation(),
+      offset: (this.#mode.orientation === VerticalSpanned) ? hinge.x : hinge.y,
+      maskLength: (this.#mode.orientation === VerticalSpanned) ? hinge.width : hinge.height,
+    };
+  }
+
+  /**
+   * Heuristic to keep the default mobile User Agent fresh and aligned with the adoption bell curve.
+   * Android: We target N-1 versions (where N is the latest) to represent the plurality of global users.
+   * iOS: We follow the calendar year (starting from the 2025 shift to year-based versioning).
+   * Data sources:
+   * - StatCounter Global Stats: https://gs.statcounter.com/os-version-market-share/android
+   * - Android adoption typically lags by ~12-18 months for plurality.
+   * - iOS adoption typically reaches majority within ~3-6 months.
+   */
+  static getDynamicMobileUA(): {userAgent: string, metadata: Protocol.Emulation.UserAgentMetadata} {
+    const androidVersion = DeviceModeModel.getDynamicAndroidVersion();
+    const pixelModel = androidVersion - 6;
+
+    const ua = `Mozilla/5.0 (Linux; Android ${androidVersion}; Pixel ${
+        pixelModel}) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/%s Mobile Safari/537.36`;
+    const metadata = {
+      platform: 'Android',
+      platformVersion: androidVersion.toString(),
+      architecture: '',
+      model: `Pixel ${pixelModel}`,
+      mobile: true,
+    };
+    return {userAgent: ua, metadata};
+  }
+
+  static getDynamicAndroidVersion(): number {
+    const now = new Date();
+    const year = now.getFullYear();
+    const isLateInYear = now.getMonth() >= 9;  // Oct, Nov, Dec
+
+    // Android: Released in late summer/fall. plurality is usually Year - 2011 (e.g. Android 15 in early 2026).
+    return isLateInYear ? (year - 2010) : (year - 2011);
+  }
+
+  static defaultMobileUserAgent(): string {
+    return SDK.NetworkManager.MultitargetNetworkManager.patchUserAgentWithChromeVersion(
+        DeviceModeModel.getDynamicMobileUA().userAgent);
+  }
+
+  static defaultMobileUserAgentMetadata(): Protocol.Emulation.UserAgentMetadata {
+    return DeviceModeModel.getDynamicMobileUA().metadata;
+  }
+}
+
+export class Insets {
+  constructor(public left: number, public top: number, public right: number, public bottom: number) {
+  }
+
+  isEqual(insets: Insets|null): boolean {
+    return insets !== null && this.left === insets.left && this.top === insets.top && this.right === insets.right &&
+        this.bottom === insets.bottom;
+  }
+}
+
+export class Rect {
+  constructor(public left: number, public top: number, public width: number, public height: number) {
+  }
+
+  isEqual(rect: Rect|null): boolean {
+    return rect !== null && this.left === rect.left && this.top === rect.top && this.width === rect.width &&
+        this.height === rect.height;
+  }
+
+  scale(scale: number): Rect {
+    return new Rect(this.left * scale, this.top * scale, this.width * scale, this.height * scale);
+  }
+
+  relativeTo(origin: Rect): Rect {
+    return new Rect(this.left - origin.left, this.top - origin.top, this.width, this.height);
+  }
+
+  rebaseTo(origin: Rect): Rect {
+    return new Rect(this.left + origin.left, this.top + origin.top, this.width, this.height);
+  }
+}
+
+export const enum Events {
+  UPDATED = 'Updated',
+}
+
+export interface EventTypes {
+  [Events.UPDATED]: void;
+}
+
+export enum Type {
+  /* eslint-disable @typescript-eslint/naming-convention -- Used by web_tests. */
+  None = 'None',
+  Responsive = 'Responsive',
+  Device = 'Device',
+  /* eslint-enable @typescript-eslint/naming-convention */
+}
+
+export const enum UA {
+  // TODO(crbug.com/1136655): This enum is used for both display and code functionality.
+  // we should refactor this so localization of these strings only happens for user display.
+  MOBILE = 'Mobile',
+  MOBILE_NO_TOUCH = 'Mobile (no touch)',
+  DESKTOP = 'Desktop',
+  DESKTOP_TOUCH = 'Desktop (touch)',
+}
+
+export const MinDeviceSize = 50;
+export const MaxDeviceSize = 9999;
+export const MinDeviceScaleFactor = 0;
+export const MaxDeviceScaleFactor = 10;
+export const MaxDeviceNameLength = 50;
+
+export const defaultMobileScaleFactor = 2;

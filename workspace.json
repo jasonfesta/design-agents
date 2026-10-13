@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "purpose": "Personal portable design instructions, taste records, research and local skills",
+  "portable_roots": [
+    "README.md",
+    "AGENTS.md",
+    ".gitignore",
+    "workspace.json",
+    "agents",
+    "resources",
+    ".agents/skills",
+    "tools/README.md",
+    "tools/workspace.py",
+    "tools/benchmark/README.md",
+    "tools/benchmark/AGENTS.md",
+    "tools/benchmark/package.json",
+    "tools/benchmark/package-lock.json",
+    "tools/benchmark/.gitignore",
+    "tools/benchmark/config.example.txt",
+    "tools/benchmark/server.mjs",
+    "tools/benchmark/src",
+    "tools/benchmark/scripts",
+    "tools/benchmark/test"
+  ],
+  "maintained_markdown_roots": [
+    "README.md",
+    "AGENTS.md",
+    "agents",
+    "resources/README.md",
+    "resources/structure.md",
+    "resources/sites.md",
+    "resources/skills.md",
+    "resources/apps",
+    "resources/games",
+    "resources/websites",
+    "resources/devices",
+    "resources/viewports",
+    "resources/styles",
+    "resources/motion",
+    "resources/mcps",
+    "resources/tools",
+    "resources/agents",
+    "resources/jigs",
+    "resources/sources",
+    "resources/guides",
+    "resources/history/README.md",
+    "resources/history/category-menus",
+    "tools/README.md",
+    "tools/benchmark/README.md",
+    "tools/benchmark/AGENTS.md"
+  ],
+  "git_bundles": [
+    {
+      "repository": "tools/dialkit",
+      "bundle": "tools/dialkit/.history/repository.bundle",
+      "snapshot": "resources/history/sources/dialkit-source.zip"
+    }
+  ],
+  "optional_local_prefixes": [
+    ".tools/",
+    "tools/screenshot-to-code/",
+    "tools/open-ai-design-agent/",
+    "tools/superdesign-skill/",
+    ".exports/",
+    "tools/dialkit/"
+  ],
+  "excluded_components": [
+    "Experimental app checkouts, dependencies and generated build output",
+    "Local runtimes and MCP helper installations",
+    "Live Git metadata; preserved history is included only inside the explicit source archive",
+    "Environment files and account configuration",
+    "Global skills and plugins",
+    "Chat transcripts and external attachments",
+    "Automations and authenticated sessions"
+  ],
+  "craft_source_manifest": "resources/history/sources/emilkowalski-skills.source.json"
+}

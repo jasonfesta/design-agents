@@ -1,0 +1,56 @@
+{
+  "id": "381",
+  "app": "Blackbird",
+  "slug": "blackbird",
+  "title": "Snappy onboarding",
+  "source": "https://www.spottedinprod.com/tags/flow/onboarding/381",
+  "app_source": "https://www.spottedinprod.com/apps/blackbird/381",
+  "captured": "2026-10-12",
+  "timezone": "America/New_York",
+  "tags": [
+    "team_type/startup",
+    "category/crypto",
+    "category/food__dining",
+    "flow/onboarding",
+    "flow/keyboard",
+    "flow/input",
+    "visual/animated_text"
+  ],
+  "assets": [
+    {
+      "kind": "video",
+      "path": "blackbird/381.mp4",
+      "url": "https://cdn.spottedinprod.com/clips/492f6dea-8e75-4124-9b03-dbe5b78bd17e.mp4",
+      "bytes": 3913266,
+      "sha256": "f7e851ae90861387417391e1ad7cbf83ae3dd69fa7ab4f4b4b262e17329cacc2"
+    },
+    {
+      "kind": "poster",
+      "path": "blackbird/381-poster.webp",
+      "url": "https://cdn.spottedinprod.com/clips/492f6dea-8e75-4124-9b03-dbe5b78bd17e-poster.webp",
+      "bytes": 105262,
+      "sha256": "0340f6fb5227fc6b8c67ec866244fa8835eb331913d81ea2b726a1f621877650"
+    }
+  ],
+  "media": {
+    "duration": 14.966667,
+    "width": 1180,
+    "height": 2556,
+    "fps": "30/1"
+  },
+  "inspection": "six evenly spaced frames visually reviewed",
+  "sample_times_seconds": [
+    0.0,
+    2.973,
+    5.947,
+    8.92,
+    11.893,
+    14.867
+  ],
+  "contact_sheet": "blackbird/381-contact.jpg",
+  "design_type": "apps",
+  "viewport": "mobile portrait; encoded pixel dimensions are not device-point dimensions",
+  "observations": "A dining photograph and pill action lead into white, lightly bordered forms for phone number, verification, birthday, and postal code. Numeric keyboards appear where relevant, and headings change position or scale between steps.",
+  "learning_candidate": "An evocative first screen can lead into deliberately familiar, compact input steps.",
+  "preference_state": "unspecified; source retained for study"
+}

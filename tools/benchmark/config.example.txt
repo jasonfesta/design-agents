@@ -1,0 +1,3 @@
+# Copy this file to .env in the benchmark folder.
+PORTKEY_API_KEY=
+BENCHMARK_PORT=4317

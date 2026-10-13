@@ -1,0 +1,54 @@
+{
+  "id": "782",
+  "app": "Acme Weather",
+  "slug": "acmeweather",
+  "title": "Onboarding",
+  "source": "https://www.spottedinprod.com/tags/flow/onboarding/782",
+  "app_source": "https://www.spottedinprod.com/apps/acmeweather/782",
+  "captured": "2026-10-12",
+  "timezone": "America/New_York",
+  "tags": [
+    "flow/paywall",
+    "flow/onboarding",
+    "pattern/carousel",
+    "gesture/swipe",
+    "design_language/warm"
+  ],
+  "assets": [
+    {
+      "kind": "video",
+      "path": "acmeweather/782.mp4",
+      "url": "https://cdn.spottedinprod.com/clips/a198a757-31b7-4726-b4c4-33ccc7aa2dd5.mp4",
+      "bytes": 1878058,
+      "sha256": "235fc6cae5deddc20f4425af5eeaed9e8b0257c4ea4d05e0e9ac61f5548f3145"
+    },
+    {
+      "kind": "poster",
+      "path": "acmeweather/782-poster.webp",
+      "url": "https://cdn.spottedinprod.com/clips/a198a757-31b7-4726-b4c4-33ccc7aa2dd5-poster.webp",
+      "bytes": 32156,
+      "sha256": "f8f6d7c200642a2f5cc85fd47f3a633db9102bf5612b76a6a609d8c7b8c344bc"
+    }
+  ],
+  "media": {
+    "duration": 8.133333,
+    "width": 1180,
+    "height": 2556,
+    "fps": "30/1"
+  },
+  "inspection": "six evenly spaced frames visually reviewed",
+  "sample_times_seconds": [
+    0.0,
+    1.607,
+    3.213,
+    4.82,
+    6.427,
+    8.033
+  ],
+  "contact_sheet": "acmeweather/782-contact.jpg",
+  "design_type": "apps",
+  "viewport": "mobile portrait; encoded pixel dimensions are not device-point dimensions",
+  "observations": "Warm off-white slides introduce the umbrella logo, precipitation charts, notification examples, a colorful radar map, and community reports. Small coral progress dots advance while a cream trial-offer panel and coral button remain at the bottom.",
+  "learning_candidate": "Keep the offer in one place while the changing upper area demonstrates specific benefits.",
+  "preference_state": "unspecified; source retained for study"
+}

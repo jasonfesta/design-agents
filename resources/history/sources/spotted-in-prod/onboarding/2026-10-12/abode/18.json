@@ -1,0 +1,54 @@
+{
+  "id": "18",
+  "app": "Abode",
+  "slug": "abode",
+  "title": "Knock knock",
+  "source": "https://www.spottedinprod.com/tags/flow/onboarding/18",
+  "app_source": "https://www.spottedinprod.com/apps/abode/18",
+  "captured": "2026-10-12",
+  "timezone": "America/New_York",
+  "tags": [
+    "flow/onboarding",
+    "flow/gated_entry",
+    "flow/easter_egg",
+    "gesture/tap",
+    "visual/motion_graphics"
+  ],
+  "assets": [
+    {
+      "kind": "video",
+      "path": "abode/18.mp4",
+      "url": "https://cdn.spottedinprod.com/clips/abode-3.mp4",
+      "bytes": 4588293,
+      "sha256": "47fda6d4f6ca2cc12a4ec895ab622677fdcc7853174a35f04760da739106ca16"
+    },
+    {
+      "kind": "poster",
+      "path": "abode/18-poster.webp",
+      "url": "https://cdn.spottedinprod.com/clips/abode-3-poster.webp",
+      "bytes": 33626,
+      "sha256": "3f18e679231674b01c780084a41db9290aa7796d8894107a0767388cdb0c1dda"
+    }
+  ],
+  "media": {
+    "duration": 14.933333,
+    "width": 1180,
+    "height": 2556,
+    "fps": "60/1"
+  },
+  "inspection": "six evenly spaced frames visually reviewed",
+  "sample_times_seconds": [
+    0.0,
+    2.967,
+    5.933,
+    8.9,
+    11.867,
+    14.833
+  ],
+  "contact_sheet": "abode/18-contact.jpg",
+  "design_type": "apps",
+  "viewport": "mobile portrait; encoded pixel dimensions are not device-point dimensions",
+  "observations": "Pastel, eyed blobs occupy a white screen above a bold full-capacity message and a blue Knock Knock button. An explanatory bottom sheet appears, followed by floating knock badges and an avatar among the creatures.",
+  "learning_candidate": "Pair a playful entry ritual with a separate, understandable explanation of the interaction.",
+  "preference_state": "unspecified; source retained for study"
+}

@@ -1,0 +1,18 @@
+.tools/
+**/.venv/
+**/node_modules/
+**/.env
+**/.env.local
+.exports/
+**/__pycache__/
+**/*.pyc
+.DS_Store
+
+# Optional local installations; reusable source is preserved under shared/sources.
+/tools/*
+!/tools/README.md
+**/.env.*
+!**/.env.example
+!**/.env.sample
+**/dist/
+**/.svelte-kit/

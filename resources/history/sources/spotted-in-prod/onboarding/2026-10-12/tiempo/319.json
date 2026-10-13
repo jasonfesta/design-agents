@@ -1,0 +1,52 @@
+{
+  "id": "319",
+  "app": "Tiempo",
+  "slug": "tiempo",
+  "title": "Onboarding",
+  "source": "https://www.spottedinprod.com/tags/flow/onboarding/319",
+  "app_source": "https://www.spottedinprod.com/apps/tiempo/319",
+  "captured": "2026-10-12",
+  "timezone": "America/New_York",
+  "tags": [
+    "flow/onboarding",
+    "flow/paywall",
+    "pattern/carousel"
+  ],
+  "assets": [
+    {
+      "kind": "video",
+      "path": "tiempo/319.mp4",
+      "url": "https://cdn.spottedinprod.com/clips/37dcd5ed-7fa4-4062-95ec-34de3c002f76.mp4",
+      "bytes": 2408017,
+      "sha256": "dd572d9292f6de2d2b72a811ebbde5276a485ab08aef6645e6b0b829fe426697"
+    },
+    {
+      "kind": "poster",
+      "path": "tiempo/319-poster.webp",
+      "url": "https://cdn.spottedinprod.com/clips/37dcd5ed-7fa4-4062-95ec-34de3c002f76-poster.webp",
+      "bytes": 38272,
+      "sha256": "de05208782e3edcd588442cf155cb9aadbb647323f73524468eb927335ba0c9e"
+    }
+  ],
+  "media": {
+    "duration": 11.433333,
+    "width": 1180,
+    "height": 2556,
+    "fps": "30/1"
+  },
+  "inspection": "six evenly spaced frames visually reviewed",
+  "sample_times_seconds": [
+    0.0,
+    2.267,
+    4.533,
+    6.8,
+    9.067,
+    11.333
+  ],
+  "contact_sheet": "tiempo/319-contact.jpg",
+  "design_type": "apps",
+  "viewport": "mobile portrait; encoded pixel dimensions are not device-point dimensions",
+  "observations": "A dark carousel uses warm white text and consistent navigation. The examples show Watch workout rings, an activity selector, a dense metrics summary, phone-to-watch connection, and finally trial pricing.",
+  "learning_candidate": "Keep the walkthrough frame consistent while each slide provides concrete product evidence.",
+  "preference_state": "unspecified; source retained for study"
+}

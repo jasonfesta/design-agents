@@ -1,0 +1,57 @@
+{
+  "id": "858",
+  "app": "Introspect",
+  "slug": "introspect",
+  "title": "Onboarding",
+  "source": "https://www.spottedinprod.com/tags/flow/onboarding/858",
+  "app_source": "https://www.spottedinprod.com/apps/introspect/858",
+  "captured": "2026-10-12",
+  "timezone": "America/New_York",
+  "tags": [
+    "flow/onboarding",
+    "flow/permissions",
+    "pattern/carousel",
+    "gesture/tap",
+    "visual/emoji",
+    "visual/motion_graphics",
+    "visual/sticker",
+    "design_language/friendly"
+  ],
+  "assets": [
+    {
+      "kind": "video",
+      "path": "introspect/858.mp4",
+      "url": "https://cdn.spottedinprod.com/clips/1fff12bd-404b-4012-b412-cfc946c4f768.mp4",
+      "bytes": 5411241,
+      "sha256": "a2403f3e3a45196091a3816876dd3fc957f119cce878157c6dcfe76727200c77"
+    },
+    {
+      "kind": "poster",
+      "path": "introspect/858-poster.webp",
+      "url": "https://cdn.spottedinprod.com/clips/1fff12bd-404b-4012-b412-cfc946c4f768-poster.webp",
+      "bytes": 41160,
+      "sha256": "418e0e4ab492f6da68a296049f07933ea9531a5382e052f24bdb67ac256a5a84"
+    }
+  ],
+  "media": {
+    "duration": 27.366667,
+    "width": 996,
+    "height": 2160,
+    "fps": "30/1"
+  },
+  "inspection": "six evenly spaced frames visually reviewed",
+  "sample_times_seconds": [
+    0.0,
+    5.453,
+    10.907,
+    16.36,
+    21.813,
+    27.267
+  ],
+  "contact_sheet": "introspect/858-contact.jpg",
+  "design_type": "apps",
+  "viewport": "mobile portrait; encoded pixel dimensions are not device-point dimensions",
+  "observations": "A pale introduction displays product-price stickers, then a sequence of colorful motivation pills, a rendered brain, and floating delay timers. A decision comparison uses green feedback, and the final sample shows a personalized green card with a name field. Blue Continue buttons and a top progress bar anchor the flow.",
+  "learning_candidate": "Explain the behavior change with concrete visual examples and preview personalization on the final object.",
+  "preference_state": "unspecified; source retained for study"
+}

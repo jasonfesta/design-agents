@@ -1,0 +1,55 @@
+{
+  "id": "835",
+  "app": "Pool",
+  "slug": "pool",
+  "title": "Importing",
+  "source": "https://www.spottedinprod.com/tags/flow/onboarding/835",
+  "app_source": "https://www.spottedinprod.com/apps/pool/835",
+  "captured": "2026-10-12",
+  "timezone": "America/New_York",
+  "tags": [
+    "flow/import",
+    "flow/onboarding",
+    "flow/loading",
+    "pattern/list",
+    "visual/shader",
+    "design_language/skeuomorphism"
+  ],
+  "assets": [
+    {
+      "kind": "video",
+      "path": "pool/835.mp4",
+      "url": "https://cdn.spottedinprod.com/clips/a8cd393b-05cb-4c1f-a747-ce7ddc3634a1.mp4",
+      "bytes": 6946757,
+      "sha256": "7214a97a0100aa094b9d6b45281df13d47796bcb7733afb7da77659ccc5675c2"
+    },
+    {
+      "kind": "poster",
+      "path": "pool/835-poster.webp",
+      "url": "https://cdn.spottedinprod.com/clips/a8cd393b-05cb-4c1f-a747-ce7ddc3634a1-poster.webp",
+      "bytes": 91068,
+      "sha256": "10fe0c00ff876dcfffcf9c3ac3167110a0739f55f21f05ffc1f7ea7b29b7950c"
+    }
+  ],
+  "media": {
+    "duration": 8.166667,
+    "width": 1180,
+    "height": 2556,
+    "fps": "30/1"
+  },
+  "inspection": "six evenly spaced frames visually reviewed",
+  "sample_times_seconds": [
+    0.0,
+    1.613,
+    3.227,
+    4.84,
+    6.453,
+    8.067
+  ],
+  "contact_sheet": "pool/835-contact.jpg",
+  "design_type": "apps",
+  "viewport": "mobile portrait; encoded pixel dimensions are not device-point dimensions",
+  "observations": "Screenshot cards drift vertically through a saturated blue, pool-like scene with rippled light. The cards visibly bend and distort as their positions change. An importing message stays high while a Dive in button appears near the bottom.",
+  "learning_candidate": "Use the actual imported content as loading imagery; the visual distortion is observable, but the shader implementation is only a source tag.",
+  "preference_state": "unspecified; source retained for study"
+}

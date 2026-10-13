@@ -1,0 +1,54 @@
+{
+  "id": "457",
+  "app": "Ivy",
+  "slug": "ivy",
+  "title": "Onboarding",
+  "source": "https://www.spottedinprod.com/tags/flow/onboarding/457",
+  "app_source": "https://www.spottedinprod.com/apps/ivy/457",
+  "captured": "2026-10-12",
+  "timezone": "America/New_York",
+  "tags": [
+    "flow/onboarding",
+    "pattern/carousel",
+    "gesture/swipe",
+    "visual/blur",
+    "design_language/system"
+  ],
+  "assets": [
+    {
+      "kind": "video",
+      "path": "ivy/457.mp4",
+      "url": "https://cdn.spottedinprod.com/clips/245a7c62-8e44-4325-a9ca-ed51d4878363.mp4",
+      "bytes": 3362997,
+      "sha256": "9ad4ad33eacaca781b9ac3048d52ba7b765c7fa5eb0791fb4d87eaf8ac1713ab"
+    },
+    {
+      "kind": "poster",
+      "path": "ivy/457-poster.webp",
+      "url": "https://cdn.spottedinprod.com/clips/245a7c62-8e44-4325-a9ca-ed51d4878363-poster.webp",
+      "bytes": 6188,
+      "sha256": "6758759083e6f198c25516bfd402cee08f5d3abefa683230189be9c79c6667c6"
+    }
+  ],
+  "media": {
+    "duration": 15.5,
+    "width": 1180,
+    "height": 2556,
+    "fps": "30/1"
+  },
+  "inspection": "six evenly spaced frames visually reviewed",
+  "sample_times_seconds": [
+    0.0,
+    3.08,
+    6.16,
+    9.24,
+    12.32,
+    15.4
+  ],
+  "contact_sheet": "ivy/457-contact.jpg",
+  "design_type": "apps",
+  "viewport": "mobile portrait; encoded pixel dimensions are not device-point dimensions",
+  "observations": "A blurred orange launch icon resolves into a planning proposition. Phone previews then appear against pink morning, blue daytime, and orange evening environments, with supporting copy and progress dots. The previews cover creating tasks, completion, and reflection.",
+  "learning_candidate": "Tell a daily-use story through time-of-day color changes around a repeated composition.",
+  "preference_state": "unspecified; source retained for study"
+}

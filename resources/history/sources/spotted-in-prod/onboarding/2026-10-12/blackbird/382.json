@@ -1,0 +1,51 @@
+{
+  "id": "382",
+  "app": "Blackbird",
+  "slug": "blackbird",
+  "title": "Sign up rewards",
+  "source": "https://www.spottedinprod.com/tags/flow/onboarding/382",
+  "app_source": "https://www.spottedinprod.com/apps/blackbird/382",
+  "captured": "2026-10-12",
+  "timezone": "America/New_York",
+  "tags": [
+    "flow/onboarding",
+    "visual/animated_text"
+  ],
+  "assets": [
+    {
+      "kind": "video",
+      "path": "blackbird/382.mp4",
+      "url": "https://cdn.spottedinprod.com/clips/69b3ff98-ad38-42a0-adeb-2d6f30dba423.mp4",
+      "bytes": 869570,
+      "sha256": "d056e5f832282bc17251dba31f958d07960e5d1c90fd2b475158674fc26cd9a1"
+    },
+    {
+      "kind": "poster",
+      "path": "blackbird/382-poster.webp",
+      "url": "https://cdn.spottedinprod.com/clips/69b3ff98-ad38-42a0-adeb-2d6f30dba423-poster.webp",
+      "bytes": 30880,
+      "sha256": "f8317b22f40795a6b9869739718e9330f001807d686e94a2057cc1c1501e2f6c"
+    }
+  ],
+  "media": {
+    "duration": 3.566667,
+    "width": 1180,
+    "height": 2556,
+    "fps": "30/1"
+  },
+  "inspection": "six evenly spaced frames visually reviewed",
+  "sample_times_seconds": [
+    0.0,
+    0.693,
+    1.387,
+    2.08,
+    2.773,
+    3.467
+  ],
+  "contact_sheet": "blackbird/382-contact.jpg",
+  "design_type": "apps",
+  "viewport": "mobile portrait; encoded pixel dimensions are not device-point dimensions",
+  "observations": "Postal-code entry and a loading button transition to a white reward screen. Changing or rolling numerals settle on 2,000 $FLY while a coin-like object passes through the composition. Confirmation copy and a completion button establish the final state.",
+  "learning_candidate": "A short quantity reveal can mark completion, provided the landed value is readable.",
+  "preference_state": "unspecified; source retained for study"
+}

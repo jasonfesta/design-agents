@@ -1,0 +1,191 @@
+{
+  "date": "2026-10-13",
+  "reason": "TR-037 product category and interface subcategory split",
+  "preserved_originals": [
+    {
+      "path": "resources/apps/categories.md",
+      "sha256": "e02ffdd4d73998988362c535dbaf718680962c2e6d25bbe95cc68a66cb9f04d8"
+    },
+    {
+      "path": "resources/websites/categories.md",
+      "sha256": "582681073264d2852a4d176c7d39f0c716dd2b5283a525fc8250dd1c75f38396"
+    },
+    {
+      "path": "resources/games/categories.md",
+      "sha256": "19b3d1db739ba537b0141d004598845b707e06c89d8744fb6ea2bad717983352"
+    },
+    {
+      "path": "AGENTS.md",
+      "sha256": "15019803e015d787f2e5a0058921001b329cca593ee38852e1fd854de91c9069"
+    },
+    {
+      "path": "agents/TASTE.md",
+      "sha256": "350a7f9a0e74ca425b99ef2ad9c1ecb62dc72bf1ec1c3ade76c11dde95aaf158"
+    },
+    {
+      "path": "agents/SETUP.md",
+      "sha256": "c8be5961ff6554328a979984b1b8ee53ba4791efeb36c14daab06f55f11c8efa"
+    },
+    {
+      "path": "agents/ATLAS.md",
+      "sha256": "2fc72b8b44ba99fe260d55f718ab04bfc548bdf4af5eb6435bf63ca7405c70d5"
+    },
+    {
+      "path": "agents/DIAL.md",
+      "sha256": "f9ee85af8a2ecb9c6c526e09a8f9814de498b1564332fda67e6d707ff9b24b09"
+    },
+    {
+      "path": "agents/README.md",
+      "sha256": "49fdc53f4919a83b27f166cab7c52f60bc877c63e8336580dc7fde078a4651a8"
+    },
+    {
+      "path": "resources/README.md",
+      "sha256": "e8d9388f2dbef1558f49d8db2a59329280112863c8b28632bdb25bc50bd55099"
+    },
+    {
+      "path": "resources/viewports/README.md",
+      "sha256": "835b295ec358674c05df3931ca7873ef9a7a0e7f396bb768c4e205522b661901"
+    },
+    {
+      "path": "resources/motion/techniques.md",
+      "sha256": "89dcf8851ce2029e2120f5227e8e2b87d0345444383fbb1906400f12200c65e3"
+    },
+    {
+      "path": "resources/styles/template.md",
+      "sha256": "d94b94d6b79299d9afd138eab247222d0ce3b4b9a148b40c09beac54ee39cf80"
+    },
+    {
+      "path": "resources/styles/matching.md",
+      "sha256": "5f24aff8a7555cf89b16408e27a81a1db8fa722e01da82426e7efa550648f1b1"
+    },
+    {
+      "path": "resources/styles/README.md",
+      "sha256": "f27d9ac20b87b6d4156908df1ec2a4712d550d1e36a6de676ff967188d597968"
+    },
+    {
+      "path": "resources/guides/README.md",
+      "sha256": "4b5b4f6d945ed152a32a110262a6fa3a3209d7f72d91bf20393940352b30ddd5"
+    },
+    {
+      "path": "resources/guides/workflows/taste.md",
+      "sha256": "2fd4066cc4f92d353f6fc8197e1124288d54a826c173c3159aa1218b48b89d53"
+    },
+    {
+      "path": "resources/guides/workflows/sources.md",
+      "sha256": "48c3837cea682572f44c5731bed8dae92d811178597f7085d308cc298961f280"
+    },
+    {
+      "path": "resources/guides/workflows/components.md",
+      "sha256": "eaf085f5cae8f5000f2df044439c75c58016a301cd419014140604be0c32e137"
+    },
+    {
+      "path": "resources/guides/workflows/README.md",
+      "sha256": "06c74e25dce4a1036d1f564f5d8e45c13405085dde544949860b75005fc352de"
+    },
+    {
+      "path": "resources/games/styles.md",
+      "sha256": "7cf042b0c78dd4991be289d117333f0b92c7b93c2270065f4949a363b33ba05f"
+    },
+    {
+      "path": "agents/memory/CATEGORIES.md",
+      "sha256": "685bb7ac03d88bef34bf494716d0c3893bce590067aea50114633743d148db54"
+    },
+    {
+      "path": "agents/memory/COVERAGE.md",
+      "sha256": "bf7097bc3de9729370c3081f88eeae5465eda246dd97eb6971d0cca008409281"
+    },
+    {
+      "path": "README.md",
+      "sha256": "bf6aa0344148c6175b3950d960b9019d9fc59f76943a13c15662b7e2f00989e5"
+    },
+    {
+      "path": "resources/guides/page-types.md",
+      "sha256": "18cddfb7e10f43fea4b1833c07b3727c38dda875a45f20ae04679e418f6d4e6f"
+    },
+    {
+      "path": "resources/apps/README.md",
+      "sha256": "959cfd68703d09410886369b526b51274bccb53ac841c6af578c0d66b335fa29"
+    },
+    {
+      "path": "resources/games/README.md",
+      "sha256": "feb111533b6d42f6956333d59c6a07c93122dc59111f72cc3851d4a946f1bfe6"
+    },
+    {
+      "path": "resources/websites/README.md",
+      "sha256": "23fc38367892577330a3aa4158400121dad328fbdcbb4bafd8300c6aebe9b19e"
+    },
+    {
+      "path": "resources/structure.md",
+      "sha256": "051cc4c36a2392c2c8b2e4b87ea33551af3b7194a79d620e273343562b149083"
+    },
+    {
+      "path": "resources/guides/category-and-style-research.md",
+      "sha256": "ff7d326d8978af1506255b8a5dd3d55b1036f4541d200e38544db4d3b982e634"
+    },
+    {
+      "path": "resources/guides/template-market-research.md",
+      "sha256": "8a96b80aced482725c051c567c38d5d293a4e78833d5cc35b65c0ff162aa04fe"
+    },
+    {
+      "path": "agents/memory/MEMORY.md",
+      "sha256": "d7e67c6ba702bb09ef4b17229b89fd974483f242cff90972d8a8ad31901888ef"
+    },
+    {
+      "path": "agents/memory/research.md",
+      "sha256": "7a52f6f1cc718feb7dc5ed4131e2a01a146cc326966bc0c9c48d4e8d613d870f"
+    },
+    {
+      "path": "resources/guides/workflows/dream.md",
+      "sha256": "da77cce72dd71731d7ce5f9ee278818b825c0dbafd25a6736693cb9b3d1b5d0f"
+    },
+    {
+      "path": "resources/guides/workflows/apply.md",
+      "sha256": "b0106bb1e3e0546ca2c014fffaca2cdea740df59273d57b7ee65dae06f5a0c98"
+    },
+    {
+      "path": "resources/guides/workflows/research.md",
+      "sha256": "fd45e1d215740e75aebdf82563f0885b87928d96a83d0531e755c76b44e73e01"
+    }
+  ],
+  "changed_or_added": [
+    "resources/apps/subcategories.md",
+    "resources/apps/categories.md",
+    "resources/websites/subcategories.md",
+    "resources/games/subcategories.md",
+    "resources/websites/categories.md",
+    "resources/games/categories.md",
+    "AGENTS.md",
+    "agents/TASTE.md",
+    "agents/SETUP.md",
+    "agents/ATLAS.md",
+    "agents/DIAL.md",
+    "agents/README.md",
+    "resources/README.md",
+    "resources/viewports/README.md",
+    "resources/motion/techniques.md",
+    "resources/styles/template.md",
+    "resources/styles/matching.md",
+    "resources/styles/README.md",
+    "resources/guides/README.md",
+    "resources/guides/workflows/taste.md",
+    "resources/guides/workflows/sources.md",
+    "resources/guides/workflows/components.md",
+    "resources/guides/workflows/README.md",
+    "resources/games/styles.md",
+    "agents/memory/CATEGORIES.md",
+    "agents/memory/COVERAGE.md",
+    "README.md",
+    "resources/guides/page-types.md",
+    "resources/apps/README.md",
+    "resources/games/README.md",
+    "resources/websites/README.md",
+    "resources/structure.md",
+    "resources/guides/category-and-style-research.md",
+    "resources/guides/template-market-research.md",
+    "agents/memory/MEMORY.md",
+    "agents/memory/research.md",
+    "resources/guides/workflows/dream.md",
+    "resources/guides/workflows/apply.md",
+    "resources/guides/workflows/research.md"
+  ]
+}

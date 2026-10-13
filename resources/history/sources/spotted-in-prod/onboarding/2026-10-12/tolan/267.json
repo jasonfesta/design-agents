@@ -1,0 +1,51 @@
+{
+  "id": "267",
+  "app": "Tolan",
+  "slug": "tolan",
+  "title": "Video intro",
+  "source": "https://www.spottedinprod.com/tags/flow/onboarding/267",
+  "app_source": "https://www.spottedinprod.com/apps/tolan/267",
+  "captured": "2026-10-12",
+  "timezone": "America/New_York",
+  "tags": [
+    "flow/onboarding",
+    "visual/video_intro"
+  ],
+  "assets": [
+    {
+      "kind": "video",
+      "path": "tolan/267.mp4",
+      "url": "https://cdn.spottedinprod.com/clips/tolan-1.mp4",
+      "bytes": 8969793,
+      "sha256": "d23e410d668d359125e7341064b864bb95b9981b7b8543917f13715b85654f7d"
+    },
+    {
+      "kind": "poster",
+      "path": "tolan/267-poster.webp",
+      "url": "https://cdn.spottedinprod.com/clips/tolan-1-poster.webp",
+      "bytes": 46314,
+      "sha256": "17f09213eea887af7d3aaf8c6d9793cc0c91eea72f5fdf3171e96f49dcffdfbf"
+    }
+  ],
+  "media": {
+    "duration": 15.65,
+    "width": 1180,
+    "height": 2556,
+    "fps": "9500/313"
+  },
+  "inspection": "six evenly spaced frames visually reviewed",
+  "sample_times_seconds": [
+    0.0,
+    3.11,
+    6.22,
+    9.33,
+    12.44,
+    15.55
+  ],
+  "contact_sheet": "tolan/267-contact.jpg",
+  "design_type": "apps",
+  "viewport": "mobile portrait; encoded pixel dimensions are not device-point dimensions",
+  "observations": "A full-screen rendered story cuts between an arena, a glowing crystal and beam, a match announcement, a character emerging through a pink portal, an orange guitar-playing character, and a crowd. Subtitles sit low in the frame.",
+  "learning_candidate": "World-building can establish a companion relationship; this example teaches narrative staging more than form design.",
+  "preference_state": "unspecified; source retained for study"
+}

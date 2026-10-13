@@ -1,0 +1,51 @@
+{
+  "id": "934",
+  "app": "Revolut",
+  "slug": "revolut",
+  "title": "Launch video",
+  "source": "https://www.spottedinprod.com/tags/flow/onboarding/934",
+  "app_source": "https://www.spottedinprod.com/apps/revolut/934",
+  "captured": "2026-10-12",
+  "timezone": "America/New_York",
+  "tags": [
+    "flow/onboarding",
+    "visual/video_intro"
+  ],
+  "assets": [
+    {
+      "kind": "video",
+      "path": "revolut/934.mp4",
+      "url": "https://cdn.spottedinprod.com/clips/1d3a7c78-6ba1-4c44-a748-3607709e26be.mp4",
+      "bytes": 3963514,
+      "sha256": "0b4899e6ba15b12b3e26f13e07c9fa062cb63ea5123749ef79a0cf3f7eddcd04"
+    },
+    {
+      "kind": "poster",
+      "path": "revolut/934-poster.webp",
+      "url": "https://cdn.spottedinprod.com/clips/1d3a7c78-6ba1-4c44-a748-3607709e26be-poster.webp",
+      "bytes": 48994,
+      "sha256": "f98d434882c6bbb382fdc70c80d411d4580c0d38f71d83cb8489b7ad8e66ccd6"
+    }
+  ],
+  "media": {
+    "duration": 11.4,
+    "width": 996,
+    "height": 2160,
+    "fps": "30/1"
+  },
+  "inspection": "six evenly spaced frames visually reviewed",
+  "sample_times_seconds": [
+    0.0,
+    2.26,
+    4.52,
+    6.78,
+    9.04,
+    11.3
+  ],
+  "contact_sheet": "revolut/934-contact.jpg",
+  "design_type": "apps",
+  "viewport": "mobile portrait; encoded pixel dimensions are not device-point dimensions",
+  "observations": "A full-screen film alternates between a purple-blue payment card on sculptural pale steps, a person outdoors, and a close card view. The Revolut wordmark and lower account/login buttons stay consistently positioned over the changing footage.",
+  "learning_candidate": "A stable interaction layer can sit over cinematic brand imagery without requiring moving controls.",
+  "preference_state": "unspecified; source retained for study"
+}

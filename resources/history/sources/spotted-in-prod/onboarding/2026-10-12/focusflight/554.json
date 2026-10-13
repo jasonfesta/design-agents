@@ -1,0 +1,55 @@
+{
+  "id": "554",
+  "app": "Focus Flight",
+  "slug": "focusflight",
+  "title": "Choose your focus",
+  "source": "https://www.spottedinprod.com/tags/flow/onboarding/554",
+  "app_source": "https://www.spottedinprod.com/apps/focusflight/554",
+  "captured": "2026-10-12",
+  "timezone": "America/New_York",
+  "tags": [
+    "flow/onboarding",
+    "pattern/pills",
+    "gesture/gyroscope",
+    "visual/menu_icons",
+    "visual/sticker",
+    "design_language/system"
+  ],
+  "assets": [
+    {
+      "kind": "video",
+      "path": "focusflight/554.mp4",
+      "url": "https://cdn.spottedinprod.com/clips/8a047bb2-d30c-454d-beb2-f7f128c6701d.mp4",
+      "bytes": 2436104,
+      "sha256": "31b7a2075aac2aa4b60b3c2739abe7c9659ae7f799d5b9657b8246bb4766188d"
+    },
+    {
+      "kind": "poster",
+      "path": "focusflight/554-poster.webp",
+      "url": "https://cdn.spottedinprod.com/clips/8a047bb2-d30c-454d-beb2-f7f128c6701d-poster.webp",
+      "bytes": 29518,
+      "sha256": "fe0c789df6798c225c3f4bf917367fef088bf48af2f0d3524fcadb9bf26693c0"
+    }
+  ],
+  "media": {
+    "duration": 9.5,
+    "width": 1180,
+    "height": 2556,
+    "fps": "30/1"
+  },
+  "inspection": "six evenly spaced frames visually reviewed",
+  "sample_times_seconds": [
+    0.0,
+    1.88,
+    3.76,
+    5.64,
+    7.52,
+    9.4
+  ],
+  "contact_sheet": "focusflight/554-contact.jpg",
+  "design_type": "apps",
+  "viewport": "mobile portrait; encoded pixel dimensions are not device-point dimensions",
+  "observations": "Tilted statistics stickers give way to a focus-selection screen. Pastel pills for activities such as writing, cooking, reading, and exercise change positions and collect into a layered pile with shadows. A segmented progress indicator and black Continue button frame the activity.",
+  "learning_candidate": "Physical-looking choices can add personality; the sampled frames do not establish whether movement is touch- or motion-sensor-driven.",
+  "preference_state": "unspecified; source retained for study"
+}

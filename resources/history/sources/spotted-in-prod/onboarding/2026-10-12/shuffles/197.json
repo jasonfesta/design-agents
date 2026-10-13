@@ -1,0 +1,53 @@
+{
+  "id": "197",
+  "app": "Shuffles",
+  "slug": "shuffles",
+  "title": "Gesture tutorials",
+  "source": "https://www.spottedinprod.com/tags/flow/onboarding/197",
+  "app_source": "https://www.spottedinprod.com/apps/shuffles/197",
+  "captured": "2026-10-12",
+  "timezone": "America/New_York",
+  "tags": [
+    "flow/onboarding",
+    "flow/tutorial",
+    "pattern/tray",
+    "visual/motion_graphics"
+  ],
+  "assets": [
+    {
+      "kind": "video",
+      "path": "shuffles/197.mp4",
+      "url": "https://cdn.spottedinprod.com/clips/shuffles-2.mp4",
+      "bytes": 1487178,
+      "sha256": "608c16160659e1b1320bee89c66f5f0cff4c162315fcc6e8f4fcb32cd67a5cc5"
+    },
+    {
+      "kind": "poster",
+      "path": "shuffles/197-poster.webp",
+      "url": "https://cdn.spottedinprod.com/clips/shuffles-2-poster.webp",
+      "bytes": 72976,
+      "sha256": "d40e21442edb59970a59148161bf7c9f7ed92529f817f9c36d9303b0a2d10a09"
+    }
+  ],
+  "media": {
+    "duration": 7.283333,
+    "width": 1180,
+    "height": 2556,
+    "fps": "60/1"
+  },
+  "inspection": "six evenly spaced frames visually reviewed",
+  "sample_times_seconds": [
+    0.0,
+    1.437,
+    2.873,
+    4.31,
+    5.747,
+    7.183
+  ],
+  "contact_sheet": "shuffles/197-contact.jpg",
+  "design_type": "apps",
+  "viewport": "mobile portrait; encoded pixel dimensions are not device-point dimensions",
+  "observations": "A mint and purple tutorial panel overlays a darkened collage. A compact card stack expands into a larger card, a cartoon hand illustrates the gesture, and rejection or heart feedback appears before the stack returns. The trial action stays at the bottom.",
+  "learning_candidate": "Demonstrate the gesture and its consequence together, then let the user try it.",
+  "preference_state": "unspecified; source retained for study"
+}

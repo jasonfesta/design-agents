@@ -1,0 +1,52 @@
+{
+  "id": "245",
+  "app": "Roze",
+  "slug": "roze",
+  "title": "Invite friends",
+  "source": "https://www.spottedinprod.com/tags/flow/onboarding/245",
+  "app_source": "https://www.spottedinprod.com/apps/roze/245",
+  "captured": "2026-10-12",
+  "timezone": "America/New_York",
+  "tags": [
+    "flow/onboarding",
+    "visual/memoji",
+    "visual/gradient"
+  ],
+  "assets": [
+    {
+      "kind": "video",
+      "path": "roze/245.mp4",
+      "url": "https://cdn.spottedinprod.com/clips/roze-2.mp4",
+      "bytes": 5345364,
+      "sha256": "c9fe99b8f6c241d034ccce82af52605fc3a7a76a4e4dd8d8c2cfd9635013d6d9"
+    },
+    {
+      "kind": "poster",
+      "path": "roze/245-poster.webp",
+      "url": "https://cdn.spottedinprod.com/clips/roze-2-poster.webp",
+      "bytes": 4462,
+      "sha256": "6a7dab41ab5165805a12607a74df0b0a78f1b348914a290b9d32ba1b0fc16055"
+    }
+  ],
+  "media": {
+    "duration": 8.366667,
+    "width": 1180,
+    "height": 2556,
+    "fps": "60/1"
+  },
+  "inspection": "six evenly spaced frames visually reviewed",
+  "sample_times_seconds": [
+    0.0,
+    1.653,
+    3.307,
+    4.96,
+    6.613,
+    8.267
+  ],
+  "contact_sheet": "roze/245-contact.jpg",
+  "design_type": "apps",
+  "viewport": "mobile portrait; encoded pixel dimensions are not device-point dimensions",
+  "observations": "A luminous blue, purple, and cyan area rises through a white composition. Circular avatar badges change positions around a central star-like symbol. The friendship invitation and blue action button stay comparatively stable.",
+  "learning_candidate": "Use people as visual context for an invitation, with a stable action underneath.",
+  "preference_state": "unspecified; source retained for study"
+}

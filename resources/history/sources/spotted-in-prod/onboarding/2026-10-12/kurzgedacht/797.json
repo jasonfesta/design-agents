@@ -1,0 +1,55 @@
+{
+  "id": "797",
+  "app": "Kurzgedacht",
+  "slug": "kurzgedacht",
+  "title": "Onboarding",
+  "source": "https://www.spottedinprod.com/tags/flow/onboarding/797",
+  "app_source": "https://www.spottedinprod.com/apps/kurzgedacht/797",
+  "captured": "2026-10-12",
+  "timezone": "America/New_York",
+  "tags": [
+    "team_type/indie",
+    "category/utility",
+    "flow/onboarding",
+    "pattern/carousel",
+    "visual/illustration",
+    "design_language/minimal"
+  ],
+  "assets": [
+    {
+      "kind": "video",
+      "path": "kurzgedacht/797.mp4",
+      "url": "https://cdn.spottedinprod.com/clips/980f6095-f3da-426e-bbf4-0975d2c5e0a4.mp4",
+      "bytes": 1993188,
+      "sha256": "bbb9a5213bd4ff332c62f88ce750ba3103ea6c90b0bc77c9a313605f76ccbd52"
+    },
+    {
+      "kind": "poster",
+      "path": "kurzgedacht/797-poster.webp",
+      "url": "https://cdn.spottedinprod.com/clips/980f6095-f3da-426e-bbf4-0975d2c5e0a4-poster.webp",
+      "bytes": 25096,
+      "sha256": "65c39b5949bf4b556a7bc26a27687c23e4df75119fda16ba9cc06ee713d22ad6"
+    }
+  ],
+  "media": {
+    "duration": 12.533333,
+    "width": 1180,
+    "height": 2556,
+    "fps": "30/1"
+  },
+  "inspection": "six evenly spaced frames visually reviewed",
+  "sample_times_seconds": [
+    0.0,
+    2.487,
+    4.973,
+    7.46,
+    9.947,
+    12.433
+  ],
+  "contact_sheet": "kurzgedacht/797-contact.jpg",
+  "design_type": "apps",
+  "viewport": "mobile portrait; encoded pixel dimensions are not device-point dimensions",
+  "observations": "Small, lightly drawn character icons accompany pale note-like cards on white. A horizontal sequence covers quick notes, organization, attachments, clipboard import, and settings. Get Started and backup import remain low on the screen, with dot progress beneath.",
+  "learning_candidate": "Maintain an accessible entry point while the walkthrough explains several capabilities; the low-contrast treatment would need separate readability testing.",
+  "preference_state": "unspecified; source retained for study"
+}

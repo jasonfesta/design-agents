@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "purpose": "Personal portable design instructions, taste records, research and local skills",
+  "portable_roots": [
+    "README.md",
+    "AGENTS.md",
+    ".gitignore",
+    "workspace.json",
+    "apps",
+    "websites",
+    "games",
+    "shared",
+    "scripts",
+    ".agents/skills",
+    "tools/README.md",
+    "instructions",
+    "resources"
+  ],
+  "maintained_markdown_roots": [
+    "README.md",
+    "AGENTS.md",
+    "apps",
+    "websites",
+    "games",
+    "instructions",
+    "resources/README.md",
+    "resources/catalogue.md",
+    "resources/collections",
+    "resources/research",
+    "resources/history/README.md",
+    "shared/README.md",
+    "shared/agents",
+    "shared/taste",
+    "shared/workflow",
+    "shared/styles",
+    "shared/viewports",
+    "shared/docs",
+    "tools/README.md"
+  ],
+  "git_bundles": [
+    {
+      "repository": "tools/dialkit",
+      "bundle": "tools/dialkit/.history/repository.bundle",
+      "snapshot": "shared/sources/dialkit-source.zip"
+    }
+  ],
+  "optional_local_prefixes": [
+    ".tools/",
+    "tools/screenshot-to-code/",
+    "tools/Open-AI-Design-Agent/",
+    "tools/superdesign-skill/",
+    ".exports/",
+    "tools/dialkit/"
+  ],
+  "excluded_components": [
+    "Experimental app checkouts, dependencies and generated build output",
+    "Local runtimes and MCP helper installations",
+    "Live Git metadata; preserved history is included only inside the explicit source archive",
+    "Environment files and account configuration",
+    "Global skills and plugins",
+    "Chat transcripts and external attachments",
+    "Automations and authenticated sessions"
+  ]
+}

@@ -1,0 +1,276 @@
+{
+  "repository": "https://github.com/emilkowalski/skills",
+  "commit": "2d228630ba1446365f614a108cb8252f1feda202",
+  "commit_url": "https://github.com/emilkowalski/skills/tree/2d228630ba1446365f614a108cb8252f1feda202",
+  "retrieved_on": "2026-10-12",
+  "snapshot_directory": "shared/sources/emilkowalski-skills",
+  "snapshot_kind": "Complete tracked-file snapshot; no Git history",
+  "license": "MIT",
+  "copyright": "Copyright (c) 2026 Emil Kowalski",
+  "total_files": 29,
+  "total_bytes": 299324,
+  "upstream_files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 68,
+      "git_blob_sha1": "a0652a605e6b418261a2b4fb1ad82576be0c3b53"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 10,
+      "git_blob_sha1": "e43b0f988953ae3a84b00331d0ccf5f7d51cb3cf"
+    },
+    {
+      "path": ".pl",
+      "bytes": 0,
+      "git_blob_sha1": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1070,
+      "git_blob_sha1": "57b46f1fd11dc62351ea548104a88aa3f659c11b"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4590,
+      "git_blob_sha1": "3cc865e4f4d678c29dd938d11f96342942b7b52c"
+    },
+    {
+      "path": "performance-cheatsheet.md",
+      "bytes": 932,
+      "git_blob_sha1": "5b279577685cebabbfbb0197bd6b3a74591b3392"
+    },
+    {
+      "path": "skills/animate-expo/RECIPES.md",
+      "bytes": 16808,
+      "git_blob_sha1": "a02e6b80f9dec86f196590f2f7a4fe3310ea1cb4"
+    },
+    {
+      "path": "skills/animate-expo/SKILL.md",
+      "bytes": 17891,
+      "git_blob_sha1": "78b39e1d22e8c3c15be96ccebe04bf39792f3455"
+    },
+    {
+      "path": "skills/animate/RECIPES.md",
+      "bytes": 7957,
+      "git_blob_sha1": "6744891261bdf0bb0473d77f2cc706f2d78b574e"
+    },
+    {
+      "path": "skills/animate/SKILL.md",
+      "bytes": 11860,
+      "git_blob_sha1": "7c3b20c6ed681b2d47c9ca9e3ee0e659ed47d032"
+    },
+    {
+      "path": "skills/animation-performance/SKILL.md",
+      "bytes": 13966,
+      "git_blob_sha1": "d688dd7c3ba143c6ae17efd2bc665380d5252c5a"
+    },
+    {
+      "path": "skills/animation-vocabulary/SKILL.md",
+      "bytes": 13425,
+      "git_blob_sha1": "5ab2976514c74a194ebf069506d95ff3a5a0084f"
+    },
+    {
+      "path": "skills/apple-design/SKILL.md",
+      "bytes": 23036,
+      "git_blob_sha1": "adf68c517f2d7d2781587d619de07f4de286da57"
+    },
+    {
+      "path": "skills/ask-sonner/API.md",
+      "bytes": 4545,
+      "git_blob_sha1": "d2b0f3cf93d9495a8496275dc6e70199302df0f1"
+    },
+    {
+      "path": "skills/ask-sonner/SKILL.md",
+      "bytes": 7233,
+      "git_blob_sha1": "6cf9217f409315466ecfd7796de4591879983637"
+    },
+    {
+      "path": "skills/break-ui/CATALOG.md",
+      "bytes": 8268,
+      "git_blob_sha1": "46962bb89445b8526ea94994a79b49508573b5fd"
+    },
+    {
+      "path": "skills/break-ui/SKILL.md",
+      "bytes": 14380,
+      "git_blob_sha1": "091a28d488662d2451131f1aaa60a6dcd2391932"
+    },
+    {
+      "path": "skills/emil-design-eng/SKILL.md",
+      "bytes": 27123,
+      "git_blob_sha1": "62ce902af8dd32c590ea7203e9ab2edb1d6ef81a"
+    },
+    {
+      "path": "skills/find-animation-opportunities/SKILL.md",
+      "bytes": 9808,
+      "git_blob_sha1": "d3b030fbca9abad9220a032f72d425c6b7fa2de8"
+    },
+    {
+      "path": "skills/improve-animations/AUDIT.md",
+      "bytes": 7387,
+      "git_blob_sha1": "94056154e532d695b8792ea67d701625b4f43b6e"
+    },
+    {
+      "path": "skills/improve-animations/PLAN-TEMPLATE.md",
+      "bytes": 3100,
+      "git_blob_sha1": "239026b91f8032df191dde2085fd796b8c116d91"
+    },
+    {
+      "path": "skills/improve-animations/SKILL.md",
+      "bytes": 8208,
+      "git_blob_sha1": "d6e77f37272329af0cc36f9eeedbe5226e86ce63"
+    },
+    {
+      "path": "skills/mobile-native/SKILL.md",
+      "bytes": 16838,
+      "git_blob_sha1": "94bba21fcb990b850e06effbf5709c96a07446ad"
+    },
+    {
+      "path": "skills/pick-ui-library/SKILL.md",
+      "bytes": 4790,
+      "git_blob_sha1": "5e0028e988b88d2a88a019fdc978b4732243e467"
+    },
+    {
+      "path": "skills/prototype/PICKER.md",
+      "bytes": 7548,
+      "git_blob_sha1": "aaa88c0eba38eb01c00d4eb2b144e39f808fc26a"
+    },
+    {
+      "path": "skills/prototype/SKILL.md",
+      "bytes": 7830,
+      "git_blob_sha1": "dbcc1a23c66933f7372c0aacbce2b0d7cc6100b6"
+    },
+    {
+      "path": "skills/review-animations/SKILL.md",
+      "bytes": 8407,
+      "git_blob_sha1": "577a64397267ce20960de2202950594d5bd6f9b6"
+    },
+    {
+      "path": "skills/review-animations/STANDARDS.md",
+      "bytes": 9801,
+      "git_blob_sha1": "863ea12ea94c1f7a47b5f7e1019e976aa82bd4cd"
+    },
+    {
+      "path": "skills/write-swift/SKILL.md",
+      "bytes": 42445,
+      "git_blob_sha1": "a09a8f693304fe1c04ed56d61dde9833a516849e"
+    }
+  ],
+  "installed_skills": [
+    {
+      "name": "animate-expo",
+      "source_directory": "skills/animate-expo",
+      "installed_directory": ".agents/skills/animate-expo"
+    },
+    {
+      "name": "animate",
+      "source_directory": "skills/animate",
+      "installed_directory": ".agents/skills/animate"
+    },
+    {
+      "name": "animation-performance",
+      "source_directory": "skills/animation-performance",
+      "installed_directory": ".agents/skills/animation-performance"
+    },
+    {
+      "name": "animation-vocabulary",
+      "source_directory": "skills/animation-vocabulary",
+      "installed_directory": ".agents/skills/animation-vocabulary"
+    },
+    {
+      "name": "apple-design",
+      "source_directory": "skills/apple-design",
+      "installed_directory": ".agents/skills/apple-design"
+    },
+    {
+      "name": "ask-sonner",
+      "source_directory": "skills/ask-sonner",
+      "installed_directory": ".agents/skills/ask-sonner"
+    },
+    {
+      "name": "break-ui",
+      "source_directory": "skills/break-ui",
+      "installed_directory": ".agents/skills/break-ui"
+    },
+    {
+      "name": "emil-design-eng",
+      "source_directory": "skills/emil-design-eng",
+      "installed_directory": ".agents/skills/emil-design-eng"
+    },
+    {
+      "name": "find-animation-opportunities",
+      "source_directory": "skills/find-animation-opportunities",
+      "installed_directory": ".agents/skills/find-animation-opportunities"
+    },
+    {
+      "name": "improve-animations",
+      "source_directory": "skills/improve-animations",
+      "installed_directory": ".agents/skills/improve-animations"
+    },
+    {
+      "name": "mobile-native",
+      "source_directory": "skills/mobile-native",
+      "installed_directory": ".agents/skills/mobile-native"
+    },
+    {
+      "name": "pick-ui-library",
+      "source_directory": "skills/pick-ui-library",
+      "installed_directory": ".agents/skills/pick-ui-library"
+    },
+    {
+      "name": "prototype",
+      "source_directory": "skills/prototype",
+      "installed_directory": ".agents/skills/prototype"
+    },
+    {
+      "name": "review-animations",
+      "source_directory": "skills/review-animations",
+      "installed_directory": ".agents/skills/review-animations"
+    },
+    {
+      "name": "write-swift",
+      "source_directory": "skills/write-swift",
+      "installed_directory": ".agents/skills/write-swift"
+    }
+  ],
+  "adaptations": [
+    {
+      "scope": "All 15 installed skills",
+      "change": "Copy the upstream MIT LICENSE into each skill folder; preserve all source instruction bodies and supporting guides."
+    },
+    {
+      "scope": [
+        "pick-ui-library",
+        "prototype",
+        "review-animations"
+      ],
+      "change": "Remove the upstream disable-model-invocation: true frontmatter field from installed SKILL.md files and preserve explicit invocation via agents/openai.yaml policy.allow_implicit_invocation: false."
+    },
+    {
+      "scope": "Local emilkowalski-skill router and project catalogues",
+      "change": "Replace the obsolete install-only pointer with installed-skill routing and connect the full suite to AGENTS.md and design-agent.md. Keep personal guidance outside the unchanged source snapshot."
+    },
+    {
+      "scope": "Local routing links",
+      "change": "Folder cleanup moved the agent brief and source manifest under shared/. Updated links in the two local skill routers; upstream skill bodies and snapshot hashes remain unchanged."
+    }
+  ],
+  "verification": {
+    "status": "passed",
+    "verified_on": "2026-10-12",
+    "source_file_count": 29,
+    "source_byte_count": 299324,
+    "installed_skill_count": 15,
+    "supporting_guide_count": 8,
+    "validated_skill_count_including_router": 16,
+    "checked_local_links": 131,
+    "checks": [
+      "Complete source file list, byte sizes, and Git blob SHA-1 hashes",
+      "Installed skills and all eight supporting guides match the snapshot except declared frontmatter translations",
+      "MIT licenses present in all installed skill folders",
+      "Skill validation and Codex policy YAML",
+      "All new local integration links resolve"
+    ],
+    "limits": "Installation and documentation validation only; upstream implementation recipes have not been run against a live UI."
+  }
+}

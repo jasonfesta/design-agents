@@ -1,0 +1,52 @@
+{
+  "id": "276",
+  "app": "DS Clock",
+  "slug": "dsclock",
+  "title": "Widget tutorial",
+  "source": "https://www.spottedinprod.com/tags/flow/onboarding/276",
+  "app_source": "https://www.spottedinprod.com/apps/dsclock/276",
+  "captured": "2026-10-12",
+  "timezone": "America/New_York",
+  "tags": [
+    "flow/onboarding",
+    "flow/tutorial",
+    "visual/video"
+  ],
+  "assets": [
+    {
+      "kind": "video",
+      "path": "dsclock/276.mp4",
+      "url": "https://cdn.spottedinprod.com/clips/fc6825bd-f16d-42e8-815c-a8e643e88a07.mp4",
+      "bytes": 1205012,
+      "sha256": "d9616791c426d85f8b22d6fe28f1e6e047f476a531b64319283f14693f0d354c"
+    },
+    {
+      "kind": "poster",
+      "path": "dsclock/276-poster.webp",
+      "url": "https://cdn.spottedinprod.com/clips/fc6825bd-f16d-42e8-815c-a8e643e88a07-poster.webp",
+      "bytes": 26628,
+      "sha256": "6462b4b1c8f6fe5ef29aa0766984db1736e3b40e3e9fc9312b3da9a1019646bf"
+    }
+  ],
+  "media": {
+    "duration": 11.266667,
+    "width": 1180,
+    "height": 2556,
+    "fps": "30/1"
+  },
+  "inspection": "six evenly spaced frames visually reviewed",
+  "sample_times_seconds": [
+    0.0,
+    2.233,
+    4.467,
+    6.7,
+    8.933,
+    11.167
+  ],
+  "contact_sheet": "dsclock/276-contact.jpg",
+  "design_type": "apps",
+  "viewport": "mobile portrait; encoded pixel dimensions are not device-point dimensions",
+  "observations": "A minimal black DS logo on white introduces a widget walkthrough. A blue illustrated phone rises into view; close-ups then show editing the home screen and searching for the DS Clock widget.",
+  "learning_candidate": "Demonstrate operating-system setup with recognizable screens and changes in framing.",
+  "preference_state": "unspecified; source retained for study"
+}

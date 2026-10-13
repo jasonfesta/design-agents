@@ -1,0 +1,57 @@
+{
+  "id": "312",
+  "app": "BlueNote",
+  "slug": "bluenote",
+  "title": "Split stems",
+  "source": "https://www.spottedinprod.com/tags/flow/onboarding/312",
+  "app_source": "https://www.spottedinprod.com/apps/bluenote/312",
+  "captured": "2026-10-12",
+  "timezone": "America/New_York",
+  "tags": [
+    "team_type/indie",
+    "category/music",
+    "category/utility",
+    "flow/onboarding",
+    "flow/paywall",
+    "pattern/tray",
+    "visual/motion_graphics",
+    "visual/menu_icons"
+  ],
+  "assets": [
+    {
+      "kind": "video",
+      "path": "bluenote/312.mp4",
+      "url": "https://cdn.spottedinprod.com/clips/55464b08-af3b-457e-8349-1029e6c05112.mp4",
+      "bytes": 2028164,
+      "sha256": "225ea50ec48f0c1bed0548da355069873f8f0cdd1a603a6e8f2e5c426fa51f59"
+    },
+    {
+      "kind": "poster",
+      "path": "bluenote/312-poster.webp",
+      "url": "https://cdn.spottedinprod.com/clips/55464b08-af3b-457e-8349-1029e6c05112-poster.webp",
+      "bytes": 32086,
+      "sha256": "42b6d0a4ade39b1c48b765eb9f13dcc5827b7aaad3a3b3d2b2a8fc6fb711427a"
+    }
+  ],
+  "media": {
+    "duration": 9.766667,
+    "width": 1180,
+    "height": 2556,
+    "fps": "30/1"
+  },
+  "inspection": "six evenly spaced frames visually reviewed",
+  "sample_times_seconds": [
+    0.0,
+    1.933,
+    3.867,
+    5.8,
+    7.733,
+    9.667
+  ],
+  "contact_sheet": "bluenote/312-contact.jpg",
+  "design_type": "apps",
+  "viewport": "mobile portrait; encoded pixel dimensions are not device-point dimensions",
+  "observations": "The dark waveform editor is covered by a rounded upgrade tray. Instrument and voice symbols change position and angle along elliptical-looking arrangements above cyan-accented copy and a white Continue button. The sequence returns to the editor.",
+  "learning_candidate": "Use the feature objects themselves to explain an upgrade in the context where it matters.",
+  "preference_state": "unspecified; source retained for study"
+}

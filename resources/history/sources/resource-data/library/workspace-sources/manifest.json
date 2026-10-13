@@ -1,0 +1,338 @@
+[
+  {
+    "workspace": "dxa",
+    "original_path": "/Users/jasonfesta/Documents/ChatGPT/DxA/CONTRIBUTING.md",
+    "snapshot_path": "resources/research/library/workspace-sources/dxa/CONTRIBUTING.md",
+    "sha256": "4eb333bbb0c30be75fcc89b71d18424e632ebb3351b124c514a81e071516760a",
+    "bytes": 2226
+  },
+  {
+    "workspace": "dxa",
+    "original_path": "/Users/jasonfesta/Documents/ChatGPT/DxA/PLAN.md",
+    "snapshot_path": "resources/research/library/workspace-sources/dxa/PLAN.md",
+    "sha256": "3eaa5e5e112afab5a7d3a52b6f3841d87292711aaed94ac922da3547aeadc745",
+    "bytes": 14051
+  },
+  {
+    "workspace": "dxa",
+    "original_path": "/Users/jasonfesta/Documents/ChatGPT/DxA/README.md",
+    "snapshot_path": "resources/research/library/workspace-sources/dxa/README.md",
+    "sha256": "dfe21fe6851cdb1aef3edb3835936249e7484813faeb318fb67f3f5f93324261",
+    "bytes": 12295
+  },
+  {
+    "workspace": "dxa",
+    "original_path": "/Users/jasonfesta/Documents/ChatGPT/DxA/agent.md",
+    "snapshot_path": "resources/research/library/workspace-sources/dxa/agent.md",
+    "sha256": "b109253263ccd53588be896df435663357857676e0733aadcabf55f815fa6518",
+    "bytes": 649
+  },
+  {
+    "workspace": "dxa",
+    "original_path": "/Users/jasonfesta/Documents/ChatGPT/DxA/agents/README.md",
+    "snapshot_path": "resources/research/library/workspace-sources/dxa/agents/README.md",
+    "sha256": "1ba42b2d1817682663107cd83f2b2b20a09b01a62c6047a80d709d5666285c84",
+    "bytes": 1777
+  },
+  {
+    "workspace": "dxa",
+    "original_path": "/Users/jasonfesta/Documents/ChatGPT/DxA/assets/README.md",
+    "snapshot_path": "resources/research/library/workspace-sources/dxa/assets/README.md",
+    "sha256": "a8c35e8895ee22ba7fa1d2537d34b0c1c91d8e3a598df016e977aec06d547659",
+    "bytes": 322
+  },
+  {
+    "workspace": "dxa",
+    "original_path": "/Users/jasonfesta/Documents/ChatGPT/DxA/events/2026-09-29-san-francisco.md",
+    "snapshot_path": "resources/research/library/workspace-sources/dxa/events/2026-09-29-san-francisco.md",
+    "sha256": "0fa088434a15165213b107c8b2860d578c9e7d2019b8e36a5909237fc548dfa8",
+    "bytes": 1863
+  },
+  {
+    "workspace": "dxa",
+    "original_path": "/Users/jasonfesta/Documents/ChatGPT/DxA/events/README.md",
+    "snapshot_path": "resources/research/library/workspace-sources/dxa/events/README.md",
+    "sha256": "2ca9b9b10e1cc5c02f09235c86c8aed3004c9b018e922b6a551d85517335d7d3",
+    "bytes": 468
+  },
+  {
+    "workspace": "dxa",
+    "original_path": "/Users/jasonfesta/Documents/ChatGPT/DxA/resources/README.md",
+    "snapshot_path": "resources/research/library/workspace-sources/dxa/resources/README.md",
+    "sha256": "f7c133483bce7202ca9f61dff65f8fd1c2b0700d413f7f9c6a5c7b9d6c0285b7",
+    "bytes": 3441
+  },
+  {
+    "workspace": "dxa",
+    "original_path": "/Users/jasonfesta/Documents/ChatGPT/DxA/resources/agents.md",
+    "snapshot_path": "resources/research/library/workspace-sources/dxa/resources/agents.md",
+    "sha256": "438898a423c3ce1e2b7e00f7667585bb58e021eff7b7bfd18b73999b10d1f7c8",
+    "bytes": 7555
+  },
+  {
+    "workspace": "dxa",
+    "original_path": "/Users/jasonfesta/Documents/ChatGPT/DxA/resources/catalogue-audit.md",
+    "snapshot_path": "resources/research/library/workspace-sources/dxa/resources/catalogue-audit.md",
+    "sha256": "a43bddc5b479b5a0e0b1fc15bc37a8cb3d0bae67bf8c893b52a3ae1619ea04aa",
+    "bytes": 5586
+  },
+  {
+    "workspace": "dxa",
+    "original_path": "/Users/jasonfesta/Documents/ChatGPT/DxA/resources/creative-tools.md",
+    "snapshot_path": "resources/research/library/workspace-sources/dxa/resources/creative-tools.md",
+    "sha256": "fafa385b0d497f5b92a8e0b7a9f0718807598c3ea44a3a157c9ab4ea87f35682",
+    "bytes": 3088
+  },
+  {
+    "workspace": "dxa",
+    "original_path": "/Users/jasonfesta/Documents/ChatGPT/DxA/resources/credits.md",
+    "snapshot_path": "resources/research/library/workspace-sources/dxa/resources/credits.md",
+    "sha256": "99d6eb4921b1cda4d34404a485584c099881b59265f37629c91172314545e622",
+    "bytes": 2266
+  },
+  {
+    "workspace": "dxa",
+    "original_path": "/Users/jasonfesta/Documents/ChatGPT/DxA/resources/designjigs.md",
+    "snapshot_path": "resources/research/library/workspace-sources/dxa/resources/designjigs.md",
+    "sha256": "cb593bc77d1f4c2ed1ab39cb69ba1131a1ac880bea38af4230758dbb1406ebee",
+    "bytes": 8344
+  },
+  {
+    "workspace": "dxa",
+    "original_path": "/Users/jasonfesta/Documents/ChatGPT/DxA/resources/local-studies.md",
+    "snapshot_path": "resources/research/library/workspace-sources/dxa/resources/local-studies.md",
+    "sha256": "d4886fd0064ce8183de399e64c188324867c9a37a3c1b642c5226856452fc56e",
+    "bytes": 4129
+  },
+  {
+    "workspace": "dxa",
+    "original_path": "/Users/jasonfesta/Documents/ChatGPT/DxA/resources/mcps.md",
+    "snapshot_path": "resources/research/library/workspace-sources/dxa/resources/mcps.md",
+    "sha256": "52933270c57964bc7c0efd63352d5f626d032c252051e581abc36f71524d6c57",
+    "bytes": 7895
+  },
+  {
+    "workspace": "dxa",
+    "original_path": "/Users/jasonfesta/Documents/ChatGPT/DxA/resources/papers.md",
+    "snapshot_path": "resources/research/library/workspace-sources/dxa/resources/papers.md",
+    "sha256": "4e3486b3b624f1213768676f5f06554c8b2329b38f9d50a980b4e9b85c873883",
+    "bytes": 1373
+  },
+  {
+    "workspace": "dxa",
+    "original_path": "/Users/jasonfesta/Documents/ChatGPT/DxA/resources/shaders.md",
+    "snapshot_path": "resources/research/library/workspace-sources/dxa/resources/shaders.md",
+    "sha256": "a364168ea268d060021380b0e1c26571fb076c58866a04a529c4079bcfe69551",
+    "bytes": 9110
+  },
+  {
+    "workspace": "dxa",
+    "original_path": "/Users/jasonfesta/Documents/ChatGPT/DxA/resources/skills.md",
+    "snapshot_path": "resources/research/library/workspace-sources/dxa/resources/skills.md",
+    "sha256": "b3210c9f98ce2488070edcf9119fb2a782b71462038e6e49be5c3cfd29364b2a",
+    "bytes": 26144
+  },
+  {
+    "workspace": "dxa",
+    "original_path": "/Users/jasonfesta/Documents/ChatGPT/DxA/resources/typography.md",
+    "snapshot_path": "resources/research/library/workspace-sources/dxa/resources/typography.md",
+    "sha256": "b13f0883af5c609ada41466032eb01b6961bdacaf814e1d37548b423c877a724",
+    "bytes": 5874
+  },
+  {
+    "workspace": "dxa",
+    "original_path": "/Users/jasonfesta/Documents/ChatGPT/DxA/resources/updates.md",
+    "snapshot_path": "resources/research/library/workspace-sources/dxa/resources/updates.md",
+    "sha256": "be98d1e6e3943010d1885a1d0c00f38d70f7e9dcd678114270b7277e2c6b18ca",
+    "bytes": 3319
+  },
+  {
+    "workspace": "dxa",
+    "original_path": "/Users/jasonfesta/Documents/ChatGPT/DxA/resources/upstream-license.md",
+    "snapshot_path": "resources/research/library/workspace-sources/dxa/resources/upstream-license.md",
+    "sha256": "3a4b024ee8d0e7965c0784b677aed77b45e2feb89af9c98036c8e1b97d4268f5",
+    "bytes": 1405
+  },
+  {
+    "workspace": "dxa",
+    "original_path": "/Users/jasonfesta/Documents/ChatGPT/DxA/skills/README.md",
+    "snapshot_path": "resources/research/library/workspace-sources/dxa/skills/README.md",
+    "sha256": "a797a9273af8d15be5a458cbf0919537078093e3902ddb27d5e5359970f0943c",
+    "bytes": 1066
+  },
+  {
+    "workspace": "dxa",
+    "original_path": "/Users/jasonfesta/Documents/ChatGPT/DxA/skills/design-mcps/SKILL.md",
+    "snapshot_path": "resources/research/library/workspace-sources/dxa/skills/design-mcps/SKILL.md",
+    "sha256": "ac60e2a03cfdec576b87aefebf0825bfd92babf8334c1b945e2ebc2cadb2b0fa",
+    "bytes": 1243
+  },
+  {
+    "workspace": "dxa",
+    "original_path": "/Users/jasonfesta/Documents/ChatGPT/DxA/skills/design-review/SKILL.md",
+    "snapshot_path": "resources/research/library/workspace-sources/dxa/skills/design-review/SKILL.md",
+    "sha256": "0b330b5ccc5f24a5c5558ecc03c314dcee7dd9498bd3cbffe1e6e25ce4be4bd2",
+    "bytes": 1142
+  },
+  {
+    "workspace": "dxa",
+    "original_path": "/Users/jasonfesta/Documents/ChatGPT/DxA/skills/dxa-catalogue/SKILL.md",
+    "snapshot_path": "resources/research/library/workspace-sources/dxa/skills/dxa-catalogue/SKILL.md",
+    "sha256": "d78c25ca622abeb72cffa6bcb3141cd0e268e9f7485944f063cf3d75b5afcc82",
+    "bytes": 2473
+  },
+  {
+    "workspace": "dxa",
+    "original_path": "/Users/jasonfesta/Documents/ChatGPT/DxA/skills/figma-code/SKILL.md",
+    "snapshot_path": "resources/research/library/workspace-sources/dxa/skills/figma-code/SKILL.md",
+    "sha256": "db67989b49b4171c8cb9fdeb09386c285699aee0a17285a77a756c8acc3e905e",
+    "bytes": 1196
+  },
+  {
+    "workspace": "dxa",
+    "original_path": "/Users/jasonfesta/Documents/ChatGPT/DxA/skills/generative-media/SKILL.md",
+    "snapshot_path": "resources/research/library/workspace-sources/dxa/skills/generative-media/SKILL.md",
+    "sha256": "5fb54a9685553de8641632cdd62ca22630815f0cf1a76cd611259a2458e343ac",
+    "bytes": 1202
+  },
+  {
+    "workspace": "dxa",
+    "original_path": "/Users/jasonfesta/Documents/ChatGPT/DxA/skills/product-craft/SKILL.md",
+    "snapshot_path": "resources/research/library/workspace-sources/dxa/skills/product-craft/SKILL.md",
+    "sha256": "8a5f6ba1ec01ae755ac7802c574f63f04ae3930f016c5db9c2a3b45734a904ed",
+    "bytes": 1207
+  },
+  {
+    "workspace": "dxa",
+    "original_path": "/Users/jasonfesta/Documents/ChatGPT/DxA/skills/research-papers/SKILL.md",
+    "snapshot_path": "resources/research/library/workspace-sources/dxa/skills/research-papers/SKILL.md",
+    "sha256": "f3aae07fbd0a9fdaa2246a4cedec0810da73ed21af5724c0895bc1ce6919469a",
+    "bytes": 1261
+  },
+  {
+    "workspace": "dxa",
+    "original_path": "/Users/jasonfesta/Documents/ChatGPT/DxA/website/README.md",
+    "snapshot_path": "resources/research/library/workspace-sources/dxa/website/README.md",
+    "sha256": "2f45d7d08bc826682cfa2272ef3d4ccce7187890dc6ef486edd649d0df31bfa1",
+    "bytes": 1502
+  },
+  {
+    "workspace": "dxa",
+    "original_path": "/Users/jasonfesta/Documents/ChatGPT/DxA/workflows/README.md",
+    "snapshot_path": "resources/research/library/workspace-sources/dxa/workflows/README.md",
+    "sha256": "df3a45b1f09fcfb2f0662da4ac618314210b1dca3767e74998e0d93aef57a3f2",
+    "bytes": 3928
+  },
+  {
+    "workspace": "research",
+    "original_path": "/Users/jasonfesta/Documents/ChatGPT/Research/ai-labs-and-rl-company-landscape.md",
+    "snapshot_path": "resources/research/library/workspace-sources/research/ai-labs-and-rl-company-landscape.md",
+    "sha256": "488e4b34c7af9bb3438954100b2c56d63badf3ec61b6208b7fd2bec4521b1513",
+    "bytes": 25640
+  },
+  {
+    "workspace": "research",
+    "original_path": "/Users/jasonfesta/Documents/ChatGPT/Research/cybersecurity-ai-company-landscape.md",
+    "snapshot_path": "resources/research/library/workspace-sources/research/cybersecurity-ai-company-landscape.md",
+    "sha256": "e2e2455a0377088d4053aa9a94c1ba7a333b099bab10bbe224850981360b264e",
+    "bytes": 10294
+  },
+  {
+    "workspace": "research",
+    "original_path": "/Users/jasonfesta/Documents/ChatGPT/Research/design-creative-ai-company-landscape.md",
+    "snapshot_path": "resources/research/library/workspace-sources/research/design-creative-ai-company-landscape.md",
+    "sha256": "fd1ce8b46d69e9e0bdd68ae733de95b400c857324c9389b0e5721fd562a32dc9",
+    "bytes": 12053
+  },
+  {
+    "workspace": "research",
+    "original_path": "/Users/jasonfesta/Documents/ChatGPT/Research/harvey-like-legal-ai-company-landscape.md",
+    "snapshot_path": "resources/research/library/workspace-sources/research/harvey-like-legal-ai-company-landscape.md",
+    "sha256": "f7296ef6ba036bd4a47b1ddabb1604c924a933e569a369c049ec3769b28d2028",
+    "bytes": 41660
+  },
+  {
+    "workspace": "research",
+    "original_path": "/Users/jasonfesta/Documents/ChatGPT/Research/harvey-tenet-vertical-model-lookalikes.md",
+    "snapshot_path": "resources/research/library/workspace-sources/research/harvey-tenet-vertical-model-lookalikes.md",
+    "sha256": "31d19c79d01e50525c318ffb318e2cb001f254c06885be96ddd2b0b929e243b3",
+    "bytes": 27544
+  },
+  {
+    "workspace": "research",
+    "original_path": "/Users/jasonfesta/Documents/ChatGPT/Research/medicine-healthcare-ai-company-landscape.md",
+    "snapshot_path": "resources/research/library/workspace-sources/research/medicine-healthcare-ai-company-landscape.md",
+    "sha256": "53d6de6847737834aecc885f0af8622203fa54aa76fdfbfdc3a85cb2a442f12e",
+    "bytes": 10180
+  },
+  {
+    "workspace": "research",
+    "original_path": "/Users/jasonfesta/Documents/ChatGPT/Research/neolabs-rl-environments-and-mercor-customer-map.md",
+    "snapshot_path": "resources/research/library/workspace-sources/research/neolabs-rl-environments-and-mercor-customer-map.md",
+    "sha256": "f0d289dfd27fcee4982449a1377a71b7a2c7ebaa262f2b13669b09af89466d24",
+    "bytes": 25348
+  },
+  {
+    "workspace": "design-agents",
+    "original_path": "/Users/jasonfesta/Documents/ChatGPT/design agents/AGENTS.md",
+    "snapshot_path": "resources/research/library/workspace-sources/design-agents/AGENTS.md",
+    "sha256": "587b97766b33041bb5141e6a6efdd4016e03831033a4fa4fe9b18386311b3245",
+    "bytes": 616
+  },
+  {
+    "workspace": "design-agents",
+    "original_path": "/Users/jasonfesta/Documents/ChatGPT/design agents/LOCAL-INSTALLATIONS.md",
+    "snapshot_path": "resources/research/library/workspace-sources/design-agents/LOCAL-INSTALLATIONS.md",
+    "sha256": "0387fc37c5686737ced1d1f1d09fd04fda45c11a774484c262a3846ffb9c477c",
+    "bytes": 2123
+  },
+  {
+    "workspace": "design-agents",
+    "original_path": "/Users/jasonfesta/Documents/ChatGPT/design agents/design-signal-agent-brief.md",
+    "snapshot_path": "resources/research/library/workspace-sources/design-agents/design-signal-agent-brief.md",
+    "sha256": "eef3eaab127c49ea745984237bb751d632f05c1879f4ef99f988ea54d3120b92",
+    "bytes": 6598
+  },
+  {
+    "workspace": "design-agents",
+    "original_path": "/Users/jasonfesta/Documents/ChatGPT/design agents/design-team-watch/README.md",
+    "snapshot_path": "resources/research/library/workspace-sources/design-agents/design-team-watch/README.md",
+    "sha256": "7cef3f3accec0f505f45f8e5728b40cfe6c67c4e1e775166645a377c976b3d87",
+    "bytes": 6961
+  },
+  {
+    "workspace": "design-agents",
+    "original_path": "/Users/jasonfesta/Documents/ChatGPT/design agents/design-team-watch/digest.md",
+    "snapshot_path": "resources/research/library/workspace-sources/design-agents/design-team-watch/digest.md",
+    "sha256": "0047eac0b26489570bce05fe078fdd7b8137f5917fab60c66d782ed12933803d",
+    "bytes": 1759
+  },
+  {
+    "workspace": "design-agents",
+    "original_path": "/Users/jasonfesta/Documents/ChatGPT/design agents/design-mcp-landscape.md",
+    "snapshot_path": "resources/research/library/workspace-sources/design-agents/design-mcp-landscape.md",
+    "sha256": "40de38df9e9711474c5eef233de74a00c26f8e6df031e1a61223a315c48baa28",
+    "bytes": 9232
+  },
+  {
+    "workspace": "design-agents",
+    "original_path": "/Users/jasonfesta/Documents/ChatGPT/design agents/design-team-watch/instances.json",
+    "snapshot_path": "shared/sources/resource-data/library/workspace-sources/design-agents/design-team-watch/instances.json",
+    "sha256": "2e4148f85b5b4e1ca0932871e066799b1875740cd631faf837c14de48f33f734",
+    "bytes": 3365
+  },
+  {
+    "workspace": "design-agents",
+    "original_path": "/Users/jasonfesta/Documents/ChatGPT/design agents/design-team-watch/coverage.json",
+    "snapshot_path": "shared/sources/resource-data/library/workspace-sources/design-agents/design-team-watch/coverage.json",
+    "sha256": "d4f24043fdf7abc69741ffc37b4cb847fcd9b9c3858c0f2f8b0595b7c6e07da2",
+    "bytes": 854
+  },
+  {
+    "workspace": "design-agents",
+    "original_path": "/Users/jasonfesta/Documents/ChatGPT/design agents/local-installations.json",
+    "snapshot_path": "shared/sources/resource-data/library/workspace-sources/design-agents/local-installations.json",
+    "sha256": "cf7223a81a67bafe5073a2400e5cc831b3310e934d1a8bdcb6d26daf24de55a1",
+    "bytes": 893
+  }
+]

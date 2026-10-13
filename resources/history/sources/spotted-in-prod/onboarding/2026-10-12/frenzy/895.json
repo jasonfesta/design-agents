@@ -1,0 +1,55 @@
+{
+  "id": "895",
+  "app": "Frenzy",
+  "slug": "frenzy",
+  "title": "Permissions capture",
+  "source": "https://www.spottedinprod.com/tags/flow/onboarding/895",
+  "app_source": "https://www.spottedinprod.com/apps/frenzy/895",
+  "captured": "2026-10-12",
+  "timezone": "America/New_York",
+  "tags": [
+    "team_type/startup",
+    "category/crypto",
+    "category/social",
+    "flow/permissions",
+    "flow/onboarding",
+    "design_language/loud"
+  ],
+  "assets": [
+    {
+      "kind": "video",
+      "path": "frenzy/895.mp4",
+      "url": "https://cdn.spottedinprod.com/clips/1c2de762-d3da-4796-b9c2-ce066db8f986.mp4",
+      "bytes": 1941437,
+      "sha256": "4429245ed6629b85cf3ae5eb3b9573a571cea84185319481c1eabe6eba951068"
+    },
+    {
+      "kind": "poster",
+      "path": "frenzy/895-poster.webp",
+      "url": "https://cdn.spottedinprod.com/clips/1c2de762-d3da-4796-b9c2-ce066db8f986-poster.webp",
+      "bytes": 7686,
+      "sha256": "590884558c3b6c30ab44e112fdbe82f3c43aab552cc51d63b2c4c63fb9e25cb7"
+    }
+  ],
+  "media": {
+    "duration": 9.0,
+    "width": 1180,
+    "height": 2556,
+    "fps": "30/1"
+  },
+  "inspection": "six evenly spaced frames visually reviewed",
+  "sample_times_seconds": [
+    0.0,
+    1.78,
+    3.56,
+    5.34,
+    7.12,
+    8.9
+  ],
+  "contact_sheet": "frenzy/895-contact.jpg",
+  "design_type": "apps",
+  "viewport": "mobile portrait; encoded pixel dimensions are not device-point dimensions",
+  "observations": "A blue-purple gradient supports a notification pre-prompt, followed by the system notification alert. A luminous arrow points toward the prompt area. Large white username text and a keyboard follow, then a glowing circular profile-photo control with a skip option.",
+  "learning_candidate": "Use one visual language across permissions and profile setup; an attention cue toward consent is a pattern to evaluate, not automatically copy.",
+  "preference_state": "unspecified; source retained for study"
+}

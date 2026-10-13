@@ -1,0 +1,59 @@
+{
+  "id": "847",
+  "app": "Spark",
+  "slug": "spark",
+  "title": "Onboarding",
+  "source": "https://www.spottedinprod.com/tags/flow/onboarding/847",
+  "app_source": "https://www.spottedinprod.com/apps/spark/847",
+  "captured": "2026-10-12",
+  "timezone": "America/New_York",
+  "tags": [
+    "flow/splash_screen",
+    "flow/onboarding",
+    "pattern/carousel",
+    "pattern/card_stack",
+    "pattern/rail",
+    "gesture/tap",
+    "visual/cards",
+    "design_language/friendly",
+    "design_language/colorful",
+    "design_language/warm"
+  ],
+  "assets": [
+    {
+      "kind": "video",
+      "path": "spark/847.mp4",
+      "url": "https://cdn.spottedinprod.com/clips/0971d43b-88b3-46d7-b4d6-8c7d3b6f8136.mp4",
+      "bytes": 4096167,
+      "sha256": "13dcaf0fc85436024f04646bcb191e52dadd167b2b27d888e1d25bdc772bd248"
+    },
+    {
+      "kind": "poster",
+      "path": "spark/847-poster.webp",
+      "url": "https://cdn.spottedinprod.com/clips/0971d43b-88b3-46d7-b4d6-8c7d3b6f8136-poster.webp",
+      "bytes": 6832,
+      "sha256": "55c222ee44bb81b2ab5af5dbdd1c473522ac85ea94889537e6e6bd4f0e77c4fe"
+    }
+  ],
+  "media": {
+    "duration": 14.9,
+    "width": 1180,
+    "height": 2556,
+    "fps": "30/1"
+  },
+  "inspection": "six evenly spaced frames visually reviewed",
+  "sample_times_seconds": [
+    0.0,
+    2.96,
+    5.92,
+    8.88,
+    11.84,
+    14.8
+  ],
+  "contact_sheet": "spark/847-contact.jpg",
+  "design_type": "apps",
+  "viewport": "mobile portrait; encoded pixel dimensions are not device-point dimensions",
+  "observations": "A cream rounded screen is followed by a colorful, large-shape splash. Fanned phone previews introduce puzzles, then a referral-source questionnaire leads to a daily-theme screen. Two rows of photographic cards change their horizontal positions above an invitation control.",
+  "learning_candidate": "Move from brand expression to a concrete activity; source-acquisition questions add an extra step worth evaluating separately.",
+  "preference_state": "unspecified; source retained for study"
+}

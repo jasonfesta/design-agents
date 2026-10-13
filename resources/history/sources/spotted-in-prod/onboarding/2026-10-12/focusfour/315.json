@@ -1,0 +1,52 @@
+{
+  "id": "315",
+  "app": "Focus Four",
+  "slug": "focusfour",
+  "title": "Onboarding",
+  "source": "https://www.spottedinprod.com/tags/flow/onboarding/315",
+  "app_source": "https://www.spottedinprod.com/apps/focusfour/315",
+  "captured": "2026-10-12",
+  "timezone": "America/New_York",
+  "tags": [
+    "flow/onboarding",
+    "flow/launch_screen",
+    "flow/paywall"
+  ],
+  "assets": [
+    {
+      "kind": "video",
+      "path": "focusfour/315.mp4",
+      "url": "https://cdn.spottedinprod.com/clips/5fa9ea7c-770a-4ce0-a295-db286b7dec3c.mp4",
+      "bytes": 4616663,
+      "sha256": "0a4b56342d24979191990a334eb34f77049842646f72c2c17b5a3df6e1d3e1b4"
+    },
+    {
+      "kind": "poster",
+      "path": "focusfour/315-poster.webp",
+      "url": "https://cdn.spottedinprod.com/clips/5fa9ea7c-770a-4ce0-a295-db286b7dec3c-poster.webp",
+      "bytes": 3232,
+      "sha256": "fdd40a7621298ee5f739446c9067bc86e20e00f22e78ca6affd47e329ebdab2f"
+    }
+  ],
+  "media": {
+    "duration": 28.233333,
+    "width": 1180,
+    "height": 2556,
+    "fps": "30/1"
+  },
+  "inspection": "six evenly spaced frames visually reviewed",
+  "sample_times_seconds": [
+    0.0,
+    5.627,
+    11.253,
+    16.88,
+    22.507,
+    28.133
+  ],
+  "contact_sheet": "focusfour/315-contact.jpg",
+  "design_type": "apps",
+  "viewport": "mobile portrait; encoded pixel dimensions are not device-point dimensions",
+  "observations": "Black and orange onboarding moves from a task illustration to a Reminders permission explanation, then yellow-accented subscription choices and a sparse four-quadrant task board.",
+  "learning_candidate": "Explain the benefit of a requested connection and preserve visual continuity through setup and the working screen.",
+  "preference_state": "unspecified; source retained for study"
+}

@@ -1,0 +1,54 @@
+{
+  "id": "75",
+  "app": "corner",
+  "slug": "corner",
+  "title": "Launch screen",
+  "source": "https://www.spottedinprod.com/tags/flow/onboarding/75",
+  "app_source": "https://www.spottedinprod.com/apps/corner/75",
+  "captured": "2026-10-12",
+  "timezone": "America/New_York",
+  "tags": [
+    "flow/launch_screen",
+    "flow/onboarding",
+    "visual/3d",
+    "visual/cutouts",
+    "visual/video_intro"
+  ],
+  "assets": [
+    {
+      "kind": "video",
+      "path": "corner/75.mp4",
+      "url": "https://cdn.spottedinprod.com/clips/corner-1.mp4",
+      "bytes": 5115659,
+      "sha256": "af5c7be2c6e5b31c5c4a90901abc4e37a3ad558ca20de560a33df53d03cc136c"
+    },
+    {
+      "kind": "poster",
+      "path": "corner/75-poster.webp",
+      "url": "https://cdn.spottedinprod.com/clips/corner-1-poster.webp",
+      "bytes": 48622,
+      "sha256": "c38363a6b79cc0367f14835e0c42dd3697ca3c35f8b2a448161852833669860b"
+    }
+  ],
+  "media": {
+    "duration": 10.733333,
+    "width": 1180,
+    "height": 2556,
+    "fps": "60/1"
+  },
+  "inspection": "six evenly spaced frames visually reviewed",
+  "sample_times_seconds": [
+    0.0,
+    2.127,
+    4.253,
+    6.38,
+    8.507,
+    10.633
+  ],
+  "contact_sheet": "corner/75-contact.jpg",
+  "design_type": "apps",
+  "viewport": "mobile portrait; encoded pixel dimensions are not device-point dimensions",
+  "observations": "Reflective balloon-like CORNER letters float in a cloud-blue sky among a croissant, bag, tennis ball, coffee, art, and disco-ball cutouts. Their positions change before the scene clears toward a pale editorial collage and an invitation to describe interests.",
+  "learning_candidate": "Carry a distinctive brand world into the first personalization task.",
+  "preference_state": "unspecified; source retained for study"
+}

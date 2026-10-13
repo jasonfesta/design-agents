@@ -1,0 +1,57 @@
+{
+  "id": "206",
+  "app": "Scoop",
+  "slug": "scoop",
+  "title": "Landing screen",
+  "source": "https://www.spottedinprod.com/tags/flow/onboarding/206",
+  "app_source": "https://www.spottedinprod.com/apps/scoop/206",
+  "captured": "2026-10-12",
+  "timezone": "America/New_York",
+  "tags": [
+    "team_type/startup",
+    "category/crypto",
+    "category/social",
+    "flow/launch_screen",
+    "flow/onboarding",
+    "visual/video_intro",
+    "visual/gradient",
+    "visual/blur"
+  ],
+  "assets": [
+    {
+      "kind": "video",
+      "path": "scoop/206.mp4",
+      "url": "https://cdn.spottedinprod.com/clips/scoop-1.mp4",
+      "bytes": 1035123,
+      "sha256": "020776947eaaa9e6c56543e562ec14127f1be8a15a81baa7da89a10ceeacc097"
+    },
+    {
+      "kind": "poster",
+      "path": "scoop/206-poster.webp",
+      "url": "https://cdn.spottedinprod.com/clips/scoop-1-poster.webp",
+      "bytes": 26712,
+      "sha256": "a4be1cbc2ecc67fe3f64e251c6e95b805e8f25d1dbddbea58327ce6f5604ce67"
+    }
+  ],
+  "media": {
+    "duration": 4.766667,
+    "width": 1180,
+    "height": 2556,
+    "fps": "60/1"
+  },
+  "inspection": "six evenly spaced frames visually reviewed",
+  "sample_times_seconds": [
+    0.0,
+    0.933,
+    1.867,
+    2.8,
+    3.733,
+    4.667
+  ],
+  "contact_sheet": "scoop/206-contact.jpg",
+  "design_type": "apps",
+  "viewport": "mobile portrait; encoded pixel dimensions are not device-point dimensions",
+  "observations": "A small rounded, CRT-like display floats against a pastel sky. Its logo changes from distorted to clearer imagery while the large lower Get Started pill carries a shifting multicolored glow.",
+  "learning_candidate": "Concentrate ambient motion in the brand object while keeping the entry action easy to locate.",
+  "preference_state": "unspecified; source retained for study"
+}

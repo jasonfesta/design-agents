@@ -1,0 +1,56 @@
+{
+  "id": "808",
+  "app": "Art of Flora",
+  "slug": "artofflora",
+  "title": "Onboarding",
+  "source": "https://www.spottedinprod.com/tags/flow/onboarding/808",
+  "app_source": "https://www.spottedinprod.com/apps/artofflora/808",
+  "captured": "2026-10-12",
+  "timezone": "America/New_York",
+  "tags": [
+    "flow/onboarding",
+    "flow/gameplay",
+    "flow/confirmation",
+    "gesture/tap",
+    "gesture/drag",
+    "visual/artwork",
+    "design_language/skeuomorphism"
+  ],
+  "assets": [
+    {
+      "kind": "video",
+      "path": "artofflora/808.mp4",
+      "url": "https://cdn.spottedinprod.com/clips/e98d02de-9212-4043-a330-8c3d29f215e3.mp4",
+      "bytes": 7416007,
+      "sha256": "0452358aecea934186c148c64d9e8a5bad59834ced2b85bbfcbe62a43d904f17"
+    },
+    {
+      "kind": "poster",
+      "path": "artofflora/808-poster.webp",
+      "url": "https://cdn.spottedinprod.com/clips/e98d02de-9212-4043-a330-8c3d29f215e3-poster.webp",
+      "bytes": 236480,
+      "sha256": "b234e3c21839b3494cf09d1eec7d43832dc838e75f0a9319a7b909d0c83fd2a6"
+    }
+  ],
+  "media": {
+    "duration": 14.566667,
+    "width": 996,
+    "height": 2160,
+    "fps": "30/1"
+  },
+  "inspection": "six evenly spaced frames visually reviewed",
+  "sample_times_seconds": [
+    0.0,
+    2.893,
+    5.787,
+    8.68,
+    11.573,
+    14.467
+  ],
+  "contact_sheet": "artofflora/808-contact.jpg",
+  "design_type": "apps",
+  "viewport": "mobile portrait; encoded pixel dimensions are not device-point dimensions",
+  "observations": "A marbled book-like cover opens into a typographic title page on warm paper. A botanical image appears as misaligned horizontal strips, then aligns into a completed flower illustration. The result becomes a labeled specimen card with description and next actions.",
+  "learning_candidate": "Turn an introductory interaction into a meaningful first result, using a consistent book-and-paper visual language.",
+  "preference_state": "unspecified; source retained for study"
+}

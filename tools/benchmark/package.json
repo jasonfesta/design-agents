@@ -1,0 +1,21 @@
+{
+  "name": "jason-benchmark",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "start": "node --env-file-if-exists=.env server.mjs",
+    "dev": "npm run build && npm start",
+    "test": "node --test test/*.test.mjs"
+  },
+  "dependencies": {
+    "@paper-design/shaders-react": "0.0.81",
+    "esbuild": "0.25.12",
+    "react": "19.2.0",
+    "react-dom": "19.2.0"
+  }
+}

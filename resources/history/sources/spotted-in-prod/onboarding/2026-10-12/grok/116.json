@@ -1,0 +1,55 @@
+{
+  "id": "116",
+  "app": "Grok",
+  "slug": "grok",
+  "title": "Sign in",
+  "source": "https://www.spottedinprod.com/tags/flow/onboarding/116",
+  "app_source": "https://www.spottedinprod.com/apps/grok/116",
+  "captured": "2026-10-12",
+  "timezone": "America/New_York",
+  "tags": [
+    "team_type/big_co",
+    "category/ai",
+    "category/utilities",
+    "flow/onboarding",
+    "flow/launch_screen",
+    "visual/animated_text"
+  ],
+  "assets": [
+    {
+      "kind": "video",
+      "path": "grok/116.mp4",
+      "url": "https://cdn.spottedinprod.com/clips/grok-1.mp4",
+      "bytes": 1208336,
+      "sha256": "aa3efdf90a486beaf6944ac0655c9ae715346a706533aa1119d96345dbda01a4"
+    },
+    {
+      "kind": "poster",
+      "path": "grok/116-poster.webp",
+      "url": "https://cdn.spottedinprod.com/clips/grok-1-poster.webp",
+      "bytes": 7370,
+      "sha256": "165f353878653461d3a9ddb784de39aab2194ea8c113ed87e793ec0f64bde11d"
+    }
+  ],
+  "media": {
+    "duration": 5.416667,
+    "width": 1180,
+    "height": 2556,
+    "fps": "60/1"
+  },
+  "inspection": "six evenly spaced frames visually reviewed",
+  "sample_times_seconds": [
+    0.0,
+    1.063,
+    2.127,
+    3.19,
+    4.253,
+    5.317
+  ],
+  "contact_sheet": "grok/116-contact.jpg",
+  "design_type": "apps",
+  "viewport": "mobile portrait; encoded pixel dimensions are not device-point dimensions",
+  "observations": "A white launch mark leads into chat with prompt suggestions and a keyboard, then a black sign-in screen. A perspective grid sits beneath the Grok wordmark while a small monospaced tagline is revealed; authentication buttons stay near the bottom.",
+  "learning_candidate": "Keep key actions spatially consistent while the branding area changes.",
+  "preference_state": "unspecified; source retained for study"
+}

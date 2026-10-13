@@ -1,0 +1,28 @@
+{
+  "captured": "2026-10-13",
+  "css_url": "https://fonts.googleapis.com/css2?family=Google+Sans+Flex:wght@400;500;600&display=swap",
+  "font_url": "https://fonts.gstatic.com/s/googlesansflex/v23/t5sJIQcYNIWbFgDgAAzZ34auoVyXkJCOvp3SFWJbN5hF8Ju1x6sKCyp0l9sI40swNJwInycYAJzz0m7kJ4qFQOJBOjLvDSndo0SKMpKSTzwliVdHAy4bxTDHg_ugnAakpxWcycs.ttf",
+  "sha256": "0416f38926b1d36df65c54f8794bb4cb2d1ff104de13268cc8af17040461e54e",
+  "license_source": "https://github.com/googlefonts/googlesans-flex/tree/v4.007",
+  "note": "Unmodified Google Fonts static weights 400, 500, 600, captured for offline use.",
+  "files": [
+    {
+      "weight": "400",
+      "file": "google-sans-flex-400.ttf",
+      "source": "https://fonts.gstatic.com/s/googlesansflex/v23/t5sJIQcYNIWbFgDgAAzZ34auoVyXkJCOvp3SFWJbN5hF8Ju1x6sKCyp0l9sI40swNJwInycYAJzz0m7kJ4qFQOJBOjLvDSndo0SKMpKSTzwliVdHAy4bxTDHg_ugnAakp8ubycs.ttf",
+      "sha256": "1a5608fc557dca87bbe97ccba8974a5ac99fc87346a8745fc83d5ea06486f99b"
+    },
+    {
+      "weight": "500",
+      "file": "google-sans-flex-500.ttf",
+      "source": "https://fonts.gstatic.com/s/googlesansflex/v23/t5sJIQcYNIWbFgDgAAzZ34auoVyXkJCOvp3SFWJbN5hF8Ju1x6sKCyp0l9sI40swNJwInycYAJzz0m7kJ4qFQOJBOjLvDSndo0SKMpKSTzwliVdHAy4bxTDHg_ugnAakp_mbycs.ttf",
+      "sha256": "57d61bba609846324d21608a356efe817b02cfaf724dd6b1c42d35f6169f9e6a"
+    },
+    {
+      "weight": "600",
+      "file": "google-sans-flex-600.ttf",
+      "source": "https://fonts.gstatic.com/s/googlesansflex/v23/t5sJIQcYNIWbFgDgAAzZ34auoVyXkJCOvp3SFWJbN5hF8Ju1x6sKCyp0l9sI40swNJwInycYAJzz0m7kJ4qFQOJBOjLvDSndo0SKMpKSTzwliVdHAy4bxTDHg_ugnAakpxWcycs.ttf",
+      "sha256": "0416f38926b1d36df65c54f8794bb4cb2d1ff104de13268cc8af17040461e54e"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+node_modules/
+dist/
+runs/
+notes/
+.env
+.env.*
+!.env.example

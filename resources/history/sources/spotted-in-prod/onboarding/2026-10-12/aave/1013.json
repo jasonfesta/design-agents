@@ -1,0 +1,56 @@
+{
+  "id": "1013",
+  "app": "Aave",
+  "slug": "aave",
+  "title": "Set up",
+  "source": "https://www.spottedinprod.com/tags/flow/onboarding/1013",
+  "app_source": "https://www.spottedinprod.com/apps/aave/1013",
+  "captured": "2026-10-12",
+  "timezone": "America/New_York",
+  "tags": [
+    "team_type/startup",
+    "category/crypto",
+    "flow/onboarding",
+    "flow/input",
+    "pattern/tray",
+    "gesture/tap",
+    "visual/chart"
+  ],
+  "assets": [
+    {
+      "kind": "video",
+      "path": "aave/1013.mp4",
+      "url": "https://cdn.spottedinprod.com/clips/curation-42.mp4",
+      "bytes": 1676417,
+      "sha256": "9d4604abd4963403526a651d623e57720199be71282f60be27734e8655a38867"
+    },
+    {
+      "kind": "poster",
+      "path": "aave/1013-poster.jpg",
+      "url": "https://cdn.spottedinprod.com/clips/curation-42-poster.jpg",
+      "bytes": 68078,
+      "sha256": "0deb62740694f6cb8e7f259a8e19c0374719ec670c6f24fbd32a59a5d51eb362"
+    }
+  ],
+  "media": {
+    "duration": 14.8,
+    "width": 886,
+    "height": 1920,
+    "fps": "30/1"
+  },
+  "inspection": "six evenly spaced frames visually reviewed",
+  "sample_times_seconds": [
+    0.0,
+    2.94,
+    5.88,
+    8.82,
+    11.76,
+    14.7
+  ],
+  "contact_sheet": "aave/1013-contact.jpg",
+  "design_type": "apps",
+  "viewport": "mobile portrait; encoded pixel dimensions are not device-point dimensions",
+  "observations": "A dark projection chart and deposit slider lead to a money-source tray, a taller bank-account explanation, an account-purpose selection, and an annual-volume picker. Purple actions and accents repeat as the flow changes from simulation to setup.",
+  "learning_candidate": "Use progressively disclosed forms and repeated visual cues to connect a preview with the required setup steps.",
+  "preference_state": "unspecified; source retained for study"
+}

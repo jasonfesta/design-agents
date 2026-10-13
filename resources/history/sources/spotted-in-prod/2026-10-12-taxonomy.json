@@ -1,0 +1,4355 @@
+{
+  "source": "https://www.spottedinprod.com/",
+  "observed_at": "2026-10-12",
+  "timezone": "America/New_York",
+  "method": "Rendered public command-menu labels, option data-value IDs and counts; public homepage serialized metadata. No account data included.",
+  "scope": "Complete seven menu groups observed, 100 homepage app records; not the complete clip or app library.",
+  "counts": {
+    "design_language": 20,
+    "visual": 52,
+    "gesture": 18,
+    "flow": 59,
+    "pattern": 54,
+    "category": 39,
+    "team_type": 4
+  },
+  "tags": {
+    "category": [
+      {
+        "group": "category",
+        "slug": "social",
+        "label": "Social",
+        "source_id": 3,
+        "menu_clip_count": 165,
+        "home_clip_count": 166,
+        "url": "https://www.spottedinprod.com/tags/category/social",
+        "representative_clip": {
+          "key": "editorial:16",
+          "sourceType": "editorial",
+          "id": 16,
+          "title": "Onboarding carousel",
+          "appName": "abode",
+          "appDisplayName": "Abode"
+        }
+      },
+      {
+        "group": "category",
+        "slug": "utilities",
+        "label": "Utilities",
+        "source_id": 6,
+        "menu_clip_count": 132,
+        "home_clip_count": 134,
+        "url": "https://www.spottedinprod.com/tags/category/utilities",
+        "representative_clip": {
+          "key": "editorial:411",
+          "sourceType": "editorial",
+          "id": 411,
+          "title": "Voice settings",
+          "appName": "grok",
+          "appDisplayName": "Grok"
+        }
+      },
+      {
+        "group": "category",
+        "slug": "productivity",
+        "label": "Productivity",
+        "source_id": 10,
+        "menu_clip_count": 123,
+        "home_clip_count": 123,
+        "url": "https://www.spottedinprod.com/tags/category/productivity",
+        "representative_clip": {
+          "key": "editorial:663",
+          "sourceType": "editorial",
+          "id": 663,
+          "title": "Welcome",
+          "appName": "alyx",
+          "appDisplayName": "Alyx"
+        }
+      },
+      {
+        "group": "category",
+        "slug": "finance",
+        "label": "Finance",
+        "source_id": 15,
+        "menu_clip_count": 85,
+        "home_clip_count": 85,
+        "url": "https://www.spottedinprod.com/tags/category/finance",
+        "representative_clip": {
+          "key": "editorial:858",
+          "sourceType": "editorial",
+          "id": 858,
+          "title": "Onboarding",
+          "appName": "introspect",
+          "appDisplayName": "Introspect"
+        }
+      },
+      {
+        "group": "category",
+        "slug": "crypto",
+        "label": "Crypto",
+        "source_id": 24,
+        "menu_clip_count": 84,
+        "home_clip_count": 84,
+        "url": "https://www.spottedinprod.com/tags/category/crypto",
+        "representative_clip": {
+          "key": "editorial:388",
+          "sourceType": "editorial",
+          "id": 388,
+          "title": "Map markers",
+          "appName": "blackbird",
+          "appDisplayName": "Blackbird"
+        }
+      },
+      {
+        "group": "category",
+        "slug": "health__fitness",
+        "label": "Health & Fitness",
+        "source_id": 16,
+        "menu_clip_count": 74,
+        "home_clip_count": 75,
+        "url": "https://www.spottedinprod.com/tags/category/health__fitness",
+        "representative_clip": {
+          "key": "editorial:27",
+          "sourceType": "editorial",
+          "id": 27,
+          "title": "Action button",
+          "appName": "alma",
+          "appDisplayName": "Alma"
+        }
+      },
+      {
+        "group": "category",
+        "slug": "utility",
+        "label": "Utility",
+        "source_id": 38,
+        "menu_clip_count": 70,
+        "home_clip_count": 70,
+        "url": "https://www.spottedinprod.com/tags/category/utility",
+        "representative_clip": {
+          "key": "editorial:739",
+          "sourceType": "editorial",
+          "id": 739,
+          "title": "Meet Wabi",
+          "appName": "wabi",
+          "appDisplayName": "Wabi"
+        }
+      },
+      {
+        "group": "category",
+        "slug": "lifestyle",
+        "label": "Lifestyle",
+        "source_id": 17,
+        "menu_clip_count": 62,
+        "home_clip_count": 62,
+        "url": "https://www.spottedinprod.com/tags/category/lifestyle",
+        "representative_clip": {
+          "key": "editorial:865",
+          "sourceType": "editorial",
+          "id": 865,
+          "title": "Onboarding",
+          "appName": "ben",
+          "appDisplayName": "Ben"
+        }
+      },
+      {
+        "group": "category",
+        "slug": "ai",
+        "label": "AI",
+        "source_id": 26,
+        "menu_clip_count": 59,
+        "home_clip_count": 60,
+        "url": "https://www.spottedinprod.com/tags/category/ai",
+        "representative_clip": {
+          "key": "editorial:656",
+          "sourceType": "editorial",
+          "id": 656,
+          "title": "Add workflow",
+          "appName": "cobot",
+          "appDisplayName": "Cobot"
+        }
+      },
+      {
+        "group": "category",
+        "slug": "photos",
+        "label": "Photos",
+        "source_id": 4,
+        "menu_clip_count": 57,
+        "home_clip_count": 58,
+        "url": "https://www.spottedinprod.com/tags/category/photos",
+        "representative_clip": {
+          "key": "editorial:446",
+          "sourceType": "editorial",
+          "id": 446,
+          "title": "Create memory",
+          "appName": "photorestore",
+          "appDisplayName": "Photo Restore"
+        }
+      },
+      {
+        "group": "category",
+        "slug": "travel",
+        "label": "Travel",
+        "source_id": 34,
+        "menu_clip_count": 57,
+        "home_clip_count": 57,
+        "url": "https://www.spottedinprod.com/tags/category/travel",
+        "representative_clip": {
+          "key": "editorial:322",
+          "sourceType": "editorial",
+          "id": 322,
+          "title": "Onboarding",
+          "appName": "tripsy",
+          "appDisplayName": "Tripsy"
+        }
+      },
+      {
+        "group": "category",
+        "slug": "games",
+        "label": "Games",
+        "source_id": 23,
+        "menu_clip_count": 50,
+        "home_clip_count": 50,
+        "url": "https://www.spottedinprod.com/tags/category/games",
+        "representative_clip": {
+          "key": "editorial:365",
+          "sourceType": "editorial",
+          "id": 365,
+          "title": "Appearance",
+          "appName": "sudoku",
+          "appDisplayName": "Sudoku"
+        }
+      },
+      {
+        "group": "category",
+        "slug": "music",
+        "label": "Music",
+        "source_id": 29,
+        "menu_clip_count": 47,
+        "home_clip_count": 47,
+        "url": "https://www.spottedinprod.com/tags/category/music",
+        "representative_clip": {
+          "key": "editorial:30",
+          "sourceType": "editorial",
+          "id": 30,
+          "title": "Practice session",
+          "appName": "andante",
+          "appDisplayName": "Andante"
+        }
+      },
+      {
+        "group": "category",
+        "slug": "design",
+        "label": "Design",
+        "source_id": 27,
+        "menu_clip_count": 44,
+        "home_clip_count": 44,
+        "url": "https://www.spottedinprod.com/tags/category/design",
+        "representative_clip": {
+          "key": "editorial:474",
+          "sourceType": "editorial",
+          "id": 474,
+          "title": "History",
+          "appName": "arenatf",
+          "appDisplayName": "Are:na"
+        }
+      },
+      {
+        "group": "category",
+        "slug": "shopping",
+        "label": "Shopping",
+        "source_id": 33,
+        "menu_clip_count": 42,
+        "home_clip_count": 42,
+        "url": "https://www.spottedinprod.com/tags/category/shopping",
+        "representative_clip": {
+          "key": "editorial:303",
+          "sourceType": "editorial",
+          "id": 303,
+          "title": "My likeness",
+          "appName": "doji",
+          "appDisplayName": "Doji"
+        }
+      },
+      {
+        "group": "category",
+        "slug": "maps",
+        "label": "Maps",
+        "source_id": 28,
+        "menu_clip_count": 30,
+        "home_clip_count": 30,
+        "url": "https://www.spottedinprod.com/tags/category/maps",
+        "representative_clip": {
+          "key": "editorial:391",
+          "sourceType": "editorial",
+          "id": 391,
+          "title": "Check in",
+          "appName": "bump",
+          "appDisplayName": "Bump"
+        }
+      },
+      {
+        "group": "category",
+        "slug": "camera",
+        "label": "Camera",
+        "source_id": 1,
+        "menu_clip_count": 29,
+        "home_clip_count": 29,
+        "url": "https://www.spottedinprod.com/tags/category/camera",
+        "representative_clip": {
+          "key": "editorial:10",
+          "sourceType": "editorial",
+          "id": 10,
+          "title": "Permissions capture",
+          "appName": "2006cam",
+          "appDisplayName": "2006"
+        }
+      },
+      {
+        "group": "category",
+        "slug": "fashion",
+        "label": "Fashion",
+        "source_id": 35,
+        "menu_clip_count": 28,
+        "home_clip_count": 28,
+        "url": "https://www.spottedinprod.com/tags/category/fashion",
+        "representative_clip": {
+          "key": "editorial:713",
+          "sourceType": "editorial",
+          "id": 713,
+          "title": "Rabbit holes",
+          "appName": "arena",
+          "appDisplayName": "Are.na"
+        }
+      },
+      {
+        "group": "category",
+        "slug": "food__dining",
+        "label": "Food & Dining",
+        "source_id": 31,
+        "menu_clip_count": 25,
+        "home_clip_count": 25,
+        "url": "https://www.spottedinprod.com/tags/category/food__dining",
+        "representative_clip": {
+          "key": "editorial:404",
+          "sourceType": "editorial",
+          "id": 404,
+          "title": "Recipe walkthrough",
+          "appName": "creme",
+          "appDisplayName": "Creme"
+        }
+      },
+      {
+        "group": "category",
+        "slug": "news",
+        "label": "News",
+        "source_id": 25,
+        "menu_clip_count": 25,
+        "home_clip_count": 25,
+        "url": "https://www.spottedinprod.com/tags/category/news",
+        "representative_clip": {
+          "key": "editorial:532",
+          "sourceType": "editorial",
+          "id": 532,
+          "title": "Welcome",
+          "appName": "particle",
+          "appDisplayName": "Particle"
+        }
+      },
+      {
+        "group": "category",
+        "slug": "education",
+        "label": "Education",
+        "source_id": 9,
+        "menu_clip_count": 24,
+        "home_clip_count": 24,
+        "url": "https://www.spottedinprod.com/tags/category/education",
+        "representative_clip": {
+          "key": "editorial:330",
+          "sourceType": "editorial",
+          "id": 330,
+          "title": "Capture",
+          "appName": "capwords",
+          "appDisplayName": "Capwords"
+        }
+      },
+      {
+        "group": "category",
+        "slug": "entertainment",
+        "label": "Entertainment",
+        "source_id": 19,
+        "menu_clip_count": 24,
+        "home_clip_count": 24,
+        "url": "https://www.spottedinprod.com/tags/category/entertainment",
+        "representative_clip": {
+          "key": "editorial:646",
+          "sourceType": "editorial",
+          "id": 646,
+          "title": "Morphing menu",
+          "appName": "showcase",
+          "appDisplayName": "Showcase"
+        }
+      },
+      {
+        "group": "category",
+        "slug": "messaging",
+        "label": "Messaging",
+        "source_id": 37,
+        "menu_clip_count": 22,
+        "home_clip_count": 22,
+        "url": "https://www.spottedinprod.com/tags/category/messaging",
+        "representative_clip": {
+          "key": "editorial:448",
+          "sourceType": "editorial",
+          "id": 448,
+          "title": "Voice message",
+          "appName": "abode",
+          "appDisplayName": "Abode"
+        }
+      },
+      {
+        "group": "category",
+        "slug": "dev_tools",
+        "label": "Dev Tools",
+        "source_id": 11,
+        "menu_clip_count": 19,
+        "home_clip_count": 19,
+        "url": "https://www.spottedinprod.com/tags/category/dev_tools",
+        "representative_clip": {
+          "key": "editorial:350",
+          "sourceType": "editorial",
+          "id": 350,
+          "title": "Welcome",
+          "appName": "schema",
+          "appDisplayName": "Schema"
+        }
+      },
+      {
+        "group": "category",
+        "slug": "calendar",
+        "label": "Calendar",
+        "source_id": 7,
+        "menu_clip_count": 18,
+        "home_clip_count": 18,
+        "url": "https://www.spottedinprod.com/tags/category/calendar",
+        "representative_clip": {
+          "key": "editorial:503",
+          "sourceType": "editorial",
+          "id": 503,
+          "title": "Drawers",
+          "appName": "timepage",
+          "appDisplayName": "Timepage"
+        }
+      },
+      {
+        "group": "category",
+        "slug": "sports",
+        "label": "Sports",
+        "source_id": 43,
+        "menu_clip_count": 16,
+        "home_clip_count": 16,
+        "url": "https://www.spottedinprod.com/tags/category/sports",
+        "representative_clip": {
+          "key": "editorial:883",
+          "sourceType": "editorial",
+          "id": 883,
+          "title": "Players",
+          "appName": "fotmob",
+          "appDisplayName": "FotMob"
+        }
+      },
+      {
+        "group": "category",
+        "slug": "planner",
+        "label": "Planner",
+        "source_id": 8,
+        "menu_clip_count": 12,
+        "home_clip_count": 12,
+        "url": "https://www.spottedinprod.com/tags/category/planner",
+        "representative_clip": {
+          "key": "editorial:505",
+          "sourceType": "editorial",
+          "id": 505,
+          "title": "Drag and flick",
+          "appName": "luma",
+          "appDisplayName": "Luma"
+        }
+      },
+      {
+        "group": "category",
+        "slug": "email",
+        "label": "Email",
+        "source_id": 36,
+        "menu_clip_count": 11,
+        "home_clip_count": 11,
+        "url": "https://www.spottedinprod.com/tags/category/email",
+        "representative_clip": {
+          "key": "editorial:748",
+          "sourceType": "editorial",
+          "id": 748,
+          "title": "Inbox",
+          "appName": "avec",
+          "appDisplayName": "Avec"
+        }
+      },
+      {
+        "group": "category",
+        "slug": "transportation",
+        "label": "Transportation",
+        "source_id": 40,
+        "menu_clip_count": 11,
+        "home_clip_count": 11,
+        "url": "https://www.spottedinprod.com/tags/category/transportation",
+        "representative_clip": {
+          "key": "editorial:843",
+          "sourceType": "editorial",
+          "id": 843,
+          "title": "Almost there",
+          "appName": "waymo",
+          "appDisplayName": "Waymo"
+        }
+      },
+      {
+        "group": "category",
+        "slug": "astrology",
+        "label": "Astrology",
+        "source_id": 42,
+        "menu_clip_count": 10,
+        "home_clip_count": 10,
+        "url": "https://www.spottedinprod.com/tags/category/astrology",
+        "representative_clip": {
+          "key": "editorial:492",
+          "sourceType": "editorial",
+          "id": 492,
+          "title": "Crush report",
+          "appName": "costar",
+          "appDisplayName": "Co–Star"
+        }
+      },
+      {
+        "group": "category",
+        "slug": "weather",
+        "label": "Weather",
+        "source_id": null,
+        "menu_clip_count": 10,
+        "home_clip_count": null,
+        "url": "https://www.spottedinprod.com/tags/category/weather",
+        "representative_clip": null
+      },
+      {
+        "group": "category",
+        "slug": "tv",
+        "label": "TV",
+        "source_id": null,
+        "menu_clip_count": 10,
+        "home_clip_count": null,
+        "url": "https://www.spottedinprod.com/tags/category/tv",
+        "representative_clip": null
+      },
+      {
+        "group": "category",
+        "slug": "beauty",
+        "label": "Beauty",
+        "source_id": null,
+        "menu_clip_count": 8,
+        "home_clip_count": null,
+        "url": "https://www.spottedinprod.com/tags/category/beauty",
+        "representative_clip": null
+      },
+      {
+        "group": "category",
+        "slug": "podcasts",
+        "label": "Podcasts",
+        "source_id": null,
+        "menu_clip_count": 8,
+        "home_clip_count": null,
+        "url": "https://www.spottedinprod.com/tags/category/podcasts",
+        "representative_clip": null
+      },
+      {
+        "group": "category",
+        "slug": "browser",
+        "label": "Browser",
+        "source_id": null,
+        "menu_clip_count": 7,
+        "home_clip_count": null,
+        "url": "https://www.spottedinprod.com/tags/category/browser",
+        "representative_clip": null
+      },
+      {
+        "group": "category",
+        "slug": "business",
+        "label": "Business",
+        "source_id": null,
+        "menu_clip_count": 6,
+        "home_clip_count": null,
+        "url": "https://www.spottedinprod.com/tags/category/business",
+        "representative_clip": null
+      },
+      {
+        "group": "category",
+        "slug": "simulation",
+        "label": "Simulation",
+        "source_id": null,
+        "menu_clip_count": 4,
+        "home_clip_count": null,
+        "url": "https://www.spottedinprod.com/tags/category/simulation",
+        "representative_clip": null
+      },
+      {
+        "group": "category",
+        "slug": "movies",
+        "label": "Movies",
+        "source_id": null,
+        "menu_clip_count": 3,
+        "home_clip_count": null,
+        "url": "https://www.spottedinprod.com/tags/category/movies",
+        "representative_clip": null
+      },
+      {
+        "group": "category",
+        "slug": "video_editing",
+        "label": "Video Editing",
+        "source_id": null,
+        "menu_clip_count": 3,
+        "home_clip_count": null,
+        "url": "https://www.spottedinprod.com/tags/category/video_editing",
+        "representative_clip": null
+      }
+    ],
+    "flow": [
+      {
+        "group": "flow",
+        "slug": "navigation",
+        "label": "Navigation",
+        "source_id": 51,
+        "menu_clip_count": 134,
+        "home_clip_count": 134,
+        "url": "https://www.spottedinprod.com/tags/flow/navigation",
+        "representative_clip": {
+          "key": "editorial:558",
+          "sourceType": "editorial",
+          "id": 558,
+          "title": "Yesterday",
+          "appName": "ivy",
+          "appDisplayName": "Ivy"
+        }
+      },
+      {
+        "group": "flow",
+        "slug": "input",
+        "label": "Input",
+        "source_id": 46,
+        "menu_clip_count": 106,
+        "home_clip_count": 106,
+        "url": "https://www.spottedinprod.com/tags/flow/input",
+        "representative_clip": {
+          "key": "editorial:660",
+          "sourceType": "editorial",
+          "id": 660,
+          "title": "Hydrate",
+          "appName": "goclub",
+          "appDisplayName": "GO Club"
+        }
+      },
+      {
+        "group": "flow",
+        "slug": "onboarding",
+        "label": "Onboarding",
+        "source_id": 60,
+        "menu_clip_count": 93,
+        "home_clip_count": 95,
+        "url": "https://www.spottedinprod.com/tags/flow/onboarding",
+        "representative_clip": {
+          "key": "editorial:458",
+          "sourceType": "editorial",
+          "id": 458,
+          "title": "Onboarding",
+          "appName": "stupido",
+          "appDisplayName": "Stupido"
+        }
+      },
+      {
+        "group": "flow",
+        "slug": "discovery",
+        "label": "Discovery",
+        "source_id": 85,
+        "menu_clip_count": 71,
+        "home_clip_count": 71,
+        "url": "https://www.spottedinprod.com/tags/flow/discovery",
+        "representative_clip": {
+          "key": "editorial:753",
+          "sourceType": "editorial",
+          "id": 753,
+          "title": "Mix it",
+          "appName": "bop",
+          "appDisplayName": "Bop"
+        }
+      },
+      {
+        "group": "flow",
+        "slug": "settings",
+        "label": "Settings",
+        "source_id": 120,
+        "menu_clip_count": 63,
+        "home_clip_count": 63,
+        "url": "https://www.spottedinprod.com/tags/flow/settings",
+        "representative_clip": {
+          "key": "editorial:345",
+          "sourceType": "editorial",
+          "id": 345,
+          "title": "Gestural nav",
+          "appName": "miles",
+          "appDisplayName": "Miles"
+        }
+      },
+      {
+        "group": "flow",
+        "slug": "data_viz",
+        "label": "Data Viz",
+        "source_id": 56,
+        "menu_clip_count": 60,
+        "home_clip_count": 60,
+        "url": "https://www.spottedinprod.com/tags/flow/data_viz",
+        "representative_clip": {
+          "key": "editorial:866",
+          "sourceType": "editorial",
+          "id": 866,
+          "title": "Onboarding",
+          "appName": "runreceipt",
+          "appDisplayName": "Run Receipt"
+        }
+      },
+      {
+        "group": "flow",
+        "slug": "launch_screen",
+        "label": "Launch Screen",
+        "source_id": 76,
+        "menu_clip_count": 56,
+        "home_clip_count": 57,
+        "url": "https://www.spottedinprod.com/tags/flow/launch_screen",
+        "representative_clip": {
+          "key": "editorial:437",
+          "sourceType": "editorial",
+          "id": 437,
+          "title": "Perspective touch",
+          "appName": "lumy",
+          "appDisplayName": "Lumy"
+        }
+      },
+      {
+        "group": "flow",
+        "slug": "keyboard",
+        "label": "Keyboard",
+        "source_id": 102,
+        "menu_clip_count": 55,
+        "home_clip_count": 55,
+        "url": "https://www.spottedinprod.com/tags/flow/keyboard",
+        "representative_clip": {
+          "key": "editorial:348",
+          "sourceType": "editorial",
+          "id": 348,
+          "title": "Pull to search",
+          "appName": "raycast",
+          "appDisplayName": "Raycast"
+        }
+      },
+      {
+        "group": "flow",
+        "slug": "customize",
+        "label": "Customize",
+        "source_id": 208,
+        "menu_clip_count": 50,
+        "home_clip_count": 50,
+        "url": "https://www.spottedinprod.com/tags/flow/customize",
+        "representative_clip": {
+          "key": "editorial:802",
+          "sourceType": "editorial",
+          "id": 802,
+          "title": "Customize postcard",
+          "appName": "lostpost",
+          "appDisplayName": "Lost Post"
+        }
+      },
+      {
+        "group": "flow",
+        "slug": "feed",
+        "label": "Feed",
+        "source_id": 84,
+        "menu_clip_count": 47,
+        "home_clip_count": 47,
+        "url": "https://www.spottedinprod.com/tags/flow/feed",
+        "representative_clip": {
+          "key": "editorial:771",
+          "sourceType": "editorial",
+          "id": 771,
+          "title": "Screenshot intelligence",
+          "appName": "pool",
+          "appDisplayName": "Pool"
+        }
+      },
+      {
+        "group": "flow",
+        "slug": "loading",
+        "label": "Loading",
+        "source_id": 132,
+        "menu_clip_count": 41,
+        "home_clip_count": 42,
+        "url": "https://www.spottedinprod.com/tags/flow/loading",
+        "representative_clip": {
+          "key": "editorial:842",
+          "sourceType": "editorial",
+          "id": 842,
+          "title": "Create profile",
+          "appName": "sonder",
+          "appDisplayName": "Sonder"
+        }
+      },
+      {
+        "group": "flow",
+        "slug": "profile",
+        "label": "Profile",
+        "source_id": 111,
+        "menu_clip_count": 40,
+        "home_clip_count": 40,
+        "url": "https://www.spottedinprod.com/tags/flow/profile",
+        "representative_clip": {
+          "key": "editorial:731",
+          "sourceType": "editorial",
+          "id": 731,
+          "title": "Set PFP",
+          "appName": "ditto",
+          "appDisplayName": "Ditto"
+        }
+      },
+      {
+        "group": "flow",
+        "slug": "detail_view",
+        "label": "Detail View",
+        "source_id": 97,
+        "menu_clip_count": 36,
+        "home_clip_count": 36,
+        "url": "https://www.spottedinprod.com/tags/flow/detail_view",
+        "representative_clip": {
+          "key": "editorial:405",
+          "sourceType": "editorial",
+          "id": 405,
+          "title": "Ingredients",
+          "appName": "creme",
+          "appDisplayName": "Creme"
+        }
+      },
+      {
+        "group": "flow",
+        "slug": "confirmation",
+        "label": "Confirmation",
+        "source_id": 109,
+        "menu_clip_count": 34,
+        "home_clip_count": 34,
+        "url": "https://www.spottedinprod.com/tags/flow/confirmation",
+        "representative_clip": {
+          "key": "editorial:603",
+          "sourceType": "editorial",
+          "id": 603,
+          "title": "Start exploring",
+          "appName": "ivy",
+          "appDisplayName": "Ivy"
+        }
+      },
+      {
+        "group": "flow",
+        "slug": "messaging",
+        "label": "Messaging",
+        "source_id": 61,
+        "menu_clip_count": 33,
+        "home_clip_count": 33,
+        "url": "https://www.spottedinprod.com/tags/flow/messaging",
+        "representative_clip": {
+          "key": "editorial:793",
+          "sourceType": "editorial",
+          "id": 793,
+          "title": "Drag to reveal camera",
+          "appName": "genie",
+          "appDisplayName": "Genie"
+        }
+      },
+      {
+        "group": "flow",
+        "slug": "theming",
+        "label": "Theming",
+        "source_id": 81,
+        "menu_clip_count": 30,
+        "home_clip_count": 30,
+        "url": "https://www.spottedinprod.com/tags/flow/theming",
+        "representative_clip": {
+          "key": "editorial:331",
+          "sourceType": "editorial",
+          "id": 331,
+          "title": "New board",
+          "appName": "checker",
+          "appDisplayName": "Checker"
+        }
+      },
+      {
+        "group": "flow",
+        "slug": "paywall",
+        "label": "Paywall",
+        "source_id": 66,
+        "menu_clip_count": 29,
+        "home_clip_count": 29,
+        "url": "https://www.spottedinprod.com/tags/flow/paywall",
+        "representative_clip": {
+          "key": "editorial:312",
+          "sourceType": "editorial",
+          "id": 312,
+          "title": "Split stems",
+          "appName": "bluenote",
+          "appDisplayName": "BlueNote"
+        }
+      },
+      {
+        "group": "flow",
+        "slug": "search",
+        "label": "Search",
+        "source_id": 101,
+        "menu_clip_count": 28,
+        "home_clip_count": 28,
+        "url": "https://www.spottedinprod.com/tags/flow/search",
+        "representative_clip": {
+          "key": "editorial:66",
+          "sourceType": "editorial",
+          "id": 66,
+          "title": "Vibe search",
+          "appName": "corner",
+          "appDisplayName": "corner"
+        }
+      },
+      {
+        "group": "flow",
+        "slug": "live_session",
+        "label": "Live Session",
+        "source_id": 44,
+        "menu_clip_count": 27,
+        "home_clip_count": 27,
+        "url": "https://www.spottedinprod.com/tags/flow/live_session",
+        "representative_clip": {
+          "key": "editorial:329",
+          "sourceType": "editorial",
+          "id": 329,
+          "title": "Flashcard session",
+          "appName": "capwords",
+          "appDisplayName": "Capwords"
+        }
+      },
+      {
+        "group": "flow",
+        "slug": "edit",
+        "label": "Edit",
+        "source_id": 166,
+        "menu_clip_count": 25,
+        "home_clip_count": 25,
+        "url": "https://www.spottedinprod.com/tags/flow/edit",
+        "representative_clip": {
+          "key": "editorial:534",
+          "sourceType": "editorial",
+          "id": 534,
+          "title": "Pick album cover",
+          "appName": "untitled",
+          "appDisplayName": "[untitled]"
+        }
+      },
+      {
+        "group": "flow",
+        "slug": "camera",
+        "label": "Camera",
+        "source_id": 59,
+        "menu_clip_count": 24,
+        "home_clip_count": 24,
+        "url": "https://www.spottedinprod.com/tags/flow/camera",
+        "representative_clip": {
+          "key": "editorial:536",
+          "sourceType": "editorial",
+          "id": 536,
+          "title": "Skeumorphic cam",
+          "appName": "2006cam",
+          "appDisplayName": "2006"
+        }
+      },
+      {
+        "group": "flow",
+        "slug": "easter_egg",
+        "label": "Easter Egg",
+        "source_id": 92,
+        "menu_clip_count": 24,
+        "home_clip_count": 24,
+        "url": "https://www.spottedinprod.com/tags/flow/easter_egg",
+        "representative_clip": {
+          "key": "editorial:168",
+          "sourceType": "editorial",
+          "id": 168,
+          "title": "Reveal gem",
+          "appName": "opal",
+          "appDisplayName": "Opal"
+        }
+      },
+      {
+        "group": "flow",
+        "slug": "tutorial",
+        "label": "Tutorial",
+        "source_id": 167,
+        "menu_clip_count": 21,
+        "home_clip_count": 22,
+        "url": "https://www.spottedinprod.com/tags/flow/tutorial",
+        "representative_clip": {
+          "key": "editorial:276",
+          "sourceType": "editorial",
+          "id": 276,
+          "title": "Widget tutorial",
+          "appName": "dsclock",
+          "appDisplayName": "DS Clock"
+        }
+      },
+      {
+        "group": "flow",
+        "slug": "create",
+        "label": "Create",
+        "source_id": 212,
+        "menu_clip_count": 20,
+        "home_clip_count": 20,
+        "url": "https://www.spottedinprod.com/tags/flow/create",
+        "representative_clip": {
+          "key": "editorial:647",
+          "sourceType": "editorial",
+          "id": 647,
+          "title": "Draggable FAB",
+          "appName": "things",
+          "appDisplayName": "Things"
+        }
+      },
+      {
+        "group": "flow",
+        "slug": "streaming",
+        "label": "Streaming",
+        "source_id": 129,
+        "menu_clip_count": 20,
+        "home_clip_count": 20,
+        "url": "https://www.spottedinprod.com/tags/flow/streaming",
+        "representative_clip": {
+          "key": "editorial:567",
+          "sourceType": "editorial",
+          "id": 567,
+          "title": "Run the tape",
+          "appName": "cassette",
+          "appDisplayName": "Cassette"
+        }
+      },
+      {
+        "group": "flow",
+        "slug": "reaction",
+        "label": "Reaction",
+        "source_id": 100,
+        "menu_clip_count": 15,
+        "home_clip_count": 15,
+        "url": "https://www.spottedinprod.com/tags/flow/reaction",
+        "representative_clip": {
+          "key": "editorial:637",
+          "sourceType": "editorial",
+          "id": 637,
+          "title": "Native chat",
+          "appName": "luma",
+          "appDisplayName": "Luma"
+        }
+      },
+      {
+        "group": "flow",
+        "slug": "shareable_asset",
+        "label": "Share",
+        "source_id": 69,
+        "menu_clip_count": 15,
+        "home_clip_count": 15,
+        "url": "https://www.spottedinprod.com/tags/flow/shareable_asset",
+        "representative_clip": {
+          "key": "editorial:431",
+          "sourceType": "editorial",
+          "id": 431,
+          "title": "Invite friends",
+          "appName": "yapster",
+          "appDisplayName": "Yapster"
+        }
+      },
+      {
+        "group": "flow",
+        "slug": "empty_state",
+        "label": "Empty State",
+        "source_id": 64,
+        "menu_clip_count": 14,
+        "home_clip_count": 13,
+        "url": "https://www.spottedinprod.com/tags/flow/empty_state",
+        "representative_clip": {
+          "key": "editorial:42",
+          "sourceType": "editorial",
+          "id": 42,
+          "title": "Plan trip",
+          "appName": "canopi",
+          "appDisplayName": "Canopi"
+        }
+      },
+      {
+        "group": "flow",
+        "slug": "permissions",
+        "label": "Permissions",
+        "source_id": 222,
+        "menu_clip_count": 13,
+        "home_clip_count": 13,
+        "url": "https://www.spottedinprod.com/tags/flow/permissions",
+        "representative_clip": {
+          "key": "editorial:664",
+          "sourceType": "editorial",
+          "id": 664,
+          "title": "Onboarding",
+          "appName": "alyx",
+          "appDisplayName": "Alyx"
+        }
+      },
+      {
+        "group": "flow",
+        "slug": "recap",
+        "label": "Recap",
+        "source_id": 157,
+        "menu_clip_count": 13,
+        "home_clip_count": 13,
+        "url": "https://www.spottedinprod.com/tags/flow/recap",
+        "representative_clip": {
+          "key": "editorial:814",
+          "sourceType": "editorial",
+          "id": 814,
+          "title": "Sticker recaps",
+          "appName": "retro",
+          "appDisplayName": "Retro"
+        }
+      },
+      {
+        "group": "flow",
+        "slug": "voice_input",
+        "label": "Voice Input",
+        "source_id": null,
+        "menu_clip_count": 11,
+        "home_clip_count": null,
+        "url": "https://www.spottedinprod.com/tags/flow/voice_input",
+        "representative_clip": null
+      },
+      {
+        "group": "flow",
+        "slug": "gameplay",
+        "label": "Gameplay",
+        "source_id": null,
+        "menu_clip_count": 11,
+        "home_clip_count": null,
+        "url": "https://www.spottedinprod.com/tags/flow/gameplay",
+        "representative_clip": null
+      },
+      {
+        "group": "flow",
+        "slug": "unlock",
+        "label": "Unlock",
+        "source_id": null,
+        "menu_clip_count": 10,
+        "home_clip_count": null,
+        "url": "https://www.spottedinprod.com/tags/flow/unlock",
+        "representative_clip": null
+      },
+      {
+        "group": "flow",
+        "slug": "filters",
+        "label": "Filters",
+        "source_id": null,
+        "menu_clip_count": 9,
+        "home_clip_count": null,
+        "url": "https://www.spottedinprod.com/tags/flow/filters",
+        "representative_clip": null
+      },
+      {
+        "group": "flow",
+        "slug": "delete",
+        "label": "Delete",
+        "source_id": null,
+        "menu_clip_count": 9,
+        "home_clip_count": null,
+        "url": "https://www.spottedinprod.com/tags/flow/delete",
+        "representative_clip": null
+      },
+      {
+        "group": "flow",
+        "slug": "multiplayer",
+        "label": "Multiplayer",
+        "source_id": null,
+        "menu_clip_count": 7,
+        "home_clip_count": null,
+        "url": "https://www.spottedinprod.com/tags/flow/multiplayer",
+        "representative_clip": null
+      },
+      {
+        "group": "flow",
+        "slug": "splash_screen",
+        "label": "Splash Screen",
+        "source_id": null,
+        "menu_clip_count": 7,
+        "home_clip_count": null,
+        "url": "https://www.spottedinprod.com/tags/flow/splash_screen",
+        "representative_clip": null
+      },
+      {
+        "group": "flow",
+        "slug": "smart_recommendations",
+        "label": "Smart Recs",
+        "source_id": null,
+        "menu_clip_count": 6,
+        "home_clip_count": null,
+        "url": "https://www.spottedinprod.com/tags/flow/smart_recommendations",
+        "representative_clip": null
+      },
+      {
+        "group": "flow",
+        "slug": "reel",
+        "label": "Reel",
+        "source_id": null,
+        "menu_clip_count": 4,
+        "home_clip_count": null,
+        "url": "https://www.spottedinprod.com/tags/flow/reel",
+        "representative_clip": null
+      },
+      {
+        "group": "flow",
+        "slug": "qr_code",
+        "label": "QR Code",
+        "source_id": null,
+        "menu_clip_count": 4,
+        "home_clip_count": null,
+        "url": "https://www.spottedinprod.com/tags/flow/qr_code",
+        "representative_clip": null
+      },
+      {
+        "group": "flow",
+        "slug": "check_in",
+        "label": "Check In",
+        "source_id": null,
+        "menu_clip_count": 4,
+        "home_clip_count": null,
+        "url": "https://www.spottedinprod.com/tags/flow/check_in",
+        "representative_clip": null
+      },
+      {
+        "group": "flow",
+        "slug": "summary",
+        "label": "Summary",
+        "source_id": null,
+        "menu_clip_count": 3,
+        "home_clip_count": null,
+        "url": "https://www.spottedinprod.com/tags/flow/summary",
+        "representative_clip": null
+      },
+      {
+        "group": "flow",
+        "slug": "alert",
+        "label": "Alert",
+        "source_id": null,
+        "menu_clip_count": 3,
+        "home_clip_count": null,
+        "url": "https://www.spottedinprod.com/tags/flow/alert",
+        "representative_clip": null
+      },
+      {
+        "group": "flow",
+        "slug": "app_update",
+        "label": "App Update",
+        "source_id": null,
+        "menu_clip_count": 3,
+        "home_clip_count": null,
+        "url": "https://www.spottedinprod.com/tags/flow/app_update",
+        "representative_clip": null
+      },
+      {
+        "group": "flow",
+        "slug": "home_screen",
+        "label": "Home Screen",
+        "source_id": null,
+        "menu_clip_count": 3,
+        "home_clip_count": null,
+        "url": "https://www.spottedinprod.com/tags/flow/home_screen",
+        "representative_clip": null
+      },
+      {
+        "group": "flow",
+        "slug": "inbox",
+        "label": "Inbox",
+        "source_id": null,
+        "menu_clip_count": 3,
+        "home_clip_count": null,
+        "url": "https://www.spottedinprod.com/tags/flow/inbox",
+        "representative_clip": null
+      },
+      {
+        "group": "flow",
+        "slug": "gated_entry",
+        "label": "Gated Entry",
+        "source_id": null,
+        "menu_clip_count": 2,
+        "home_clip_count": null,
+        "url": "https://www.spottedinprod.com/tags/flow/gated_entry",
+        "representative_clip": null
+      },
+      {
+        "group": "flow",
+        "slug": "iaps",
+        "label": "IAP",
+        "source_id": null,
+        "menu_clip_count": 2,
+        "home_clip_count": null,
+        "url": "https://www.spottedinprod.com/tags/flow/iaps",
+        "representative_clip": null
+      },
+      {
+        "group": "flow",
+        "slug": "countdown",
+        "label": "Countdown",
+        "source_id": null,
+        "menu_clip_count": 2,
+        "home_clip_count": null,
+        "url": "https://www.spottedinprod.com/tags/flow/countdown",
+        "representative_clip": null
+      },
+      {
+        "group": "flow",
+        "slug": "promotion",
+        "label": "Promotion",
+        "source_id": null,
+        "menu_clip_count": 2,
+        "home_clip_count": null,
+        "url": "https://www.spottedinprod.com/tags/flow/promotion",
+        "representative_clip": null
+      },
+      {
+        "group": "flow",
+        "slug": "ratings_capture",
+        "label": "Ratings Capture",
+        "source_id": null,
+        "menu_clip_count": 2,
+        "home_clip_count": null,
+        "url": "https://www.spottedinprod.com/tags/flow/ratings_capture",
+        "representative_clip": null
+      },
+      {
+        "group": "flow",
+        "slug": "leaderboard",
+        "label": "Leaderboard",
+        "source_id": null,
+        "menu_clip_count": 1,
+        "home_clip_count": null,
+        "url": "https://www.spottedinprod.com/tags/flow/leaderboard",
+        "representative_clip": null
+      },
+      {
+        "group": "flow",
+        "slug": "invite",
+        "label": "Invite",
+        "source_id": null,
+        "menu_clip_count": 1,
+        "home_clip_count": null,
+        "url": "https://www.spottedinprod.com/tags/flow/invite",
+        "representative_clip": null
+      },
+      {
+        "group": "flow",
+        "slug": "error_state",
+        "label": "Error State",
+        "source_id": null,
+        "menu_clip_count": 1,
+        "home_clip_count": null,
+        "url": "https://www.spottedinprod.com/tags/flow/error_state",
+        "representative_clip": null
+      },
+      {
+        "group": "flow",
+        "slug": "follow",
+        "label": "Follow",
+        "source_id": null,
+        "menu_clip_count": 1,
+        "home_clip_count": null,
+        "url": "https://www.spottedinprod.com/tags/flow/follow",
+        "representative_clip": null
+      },
+      {
+        "group": "flow",
+        "slug": "screenshot",
+        "label": "Screenshot",
+        "source_id": null,
+        "menu_clip_count": 1,
+        "home_clip_count": null,
+        "url": "https://www.spottedinprod.com/tags/flow/screenshot",
+        "representative_clip": null
+      },
+      {
+        "group": "flow",
+        "slug": "tips",
+        "label": "Tips",
+        "source_id": null,
+        "menu_clip_count": 1,
+        "home_clip_count": null,
+        "url": "https://www.spottedinprod.com/tags/flow/tips",
+        "representative_clip": null
+      },
+      {
+        "group": "flow",
+        "slug": "import",
+        "label": "Import",
+        "source_id": null,
+        "menu_clip_count": 1,
+        "home_clip_count": null,
+        "url": "https://www.spottedinprod.com/tags/flow/import",
+        "representative_clip": null
+      },
+      {
+        "group": "flow",
+        "slug": "education",
+        "label": "Education",
+        "source_id": null,
+        "menu_clip_count": 1,
+        "home_clip_count": null,
+        "url": "https://www.spottedinprod.com/tags/flow/education",
+        "representative_clip": null
+      }
+    ],
+    "pattern": [
+      {
+        "group": "pattern",
+        "slug": "modal",
+        "label": "Modal",
+        "source_id": 55,
+        "menu_clip_count": 95,
+        "home_clip_count": 95,
+        "url": "https://www.spottedinprod.com/tags/pattern/modal",
+        "representative_clip": {
+          "key": "editorial:899",
+          "sourceType": "editorial",
+          "id": 899,
+          "title": "Shared spaces",
+          "appName": "interlude",
+          "appDisplayName": "Interlude"
+        }
+      },
+      {
+        "group": "pattern",
+        "slug": "list",
+        "label": "List",
+        "source_id": 86,
+        "menu_clip_count": 78,
+        "home_clip_count": 78,
+        "url": "https://www.spottedinprod.com/tags/pattern/list",
+        "representative_clip": {
+          "key": "editorial:332",
+          "sourceType": "editorial",
+          "id": 332,
+          "title": "Shaders",
+          "appName": "clocks",
+          "appDisplayName": "Clocks"
+        }
+      },
+      {
+        "group": "pattern",
+        "slug": "carousel",
+        "label": "Carousel",
+        "source_id": 70,
+        "menu_clip_count": 75,
+        "home_clip_count": 75,
+        "url": "https://www.spottedinprod.com/tags/pattern/carousel",
+        "representative_clip": {
+          "key": "editorial:333",
+          "sourceType": "editorial",
+          "id": 333,
+          "title": "Picker tray",
+          "appName": "clocks",
+          "appDisplayName": "Clocks"
+        }
+      },
+      {
+        "group": "pattern",
+        "slug": "morph",
+        "label": "Morph",
+        "source_id": 103,
+        "menu_clip_count": 75,
+        "home_clip_count": 75,
+        "url": "https://www.spottedinprod.com/tags/pattern/morph",
+        "representative_clip": {
+          "key": "editorial:325",
+          "sourceType": "editorial",
+          "id": 325,
+          "title": "Widgets",
+          "appName": "abode",
+          "appDisplayName": "Abode"
+        }
+      },
+      {
+        "group": "pattern",
+        "slug": "bottom_sheet",
+        "label": "Bottom Sheet",
+        "source_id": 96,
+        "menu_clip_count": 72,
+        "home_clip_count": 72,
+        "url": "https://www.spottedinprod.com/tags/pattern/bottom_sheet",
+        "representative_clip": {
+          "key": "editorial:565",
+          "sourceType": "editorial",
+          "id": 565,
+          "title": "Theme picker",
+          "appName": "cobot",
+          "appDisplayName": "Cobot"
+        }
+      },
+      {
+        "group": "pattern",
+        "slug": "expandcollapse",
+        "label": "Expand/Collapse",
+        "source_id": 93,
+        "menu_clip_count": 65,
+        "home_clip_count": 65,
+        "url": "https://www.spottedinprod.com/tags/pattern/expandcollapse",
+        "representative_clip": {
+          "key": "editorial:302",
+          "sourceType": "editorial",
+          "id": 302,
+          "title": "Handlebar",
+          "appName": "amie",
+          "appDisplayName": "Amie"
+        }
+      },
+      {
+        "group": "pattern",
+        "slug": "tray",
+        "label": "Tray",
+        "source_id": 80,
+        "menu_clip_count": 62,
+        "home_clip_count": 62,
+        "url": "https://www.spottedinprod.com/tags/pattern/tray",
+        "representative_clip": {
+          "key": "editorial:672",
+          "sourceType": "editorial",
+          "id": 672,
+          "title": "Day of month",
+          "appName": "aave",
+          "appDisplayName": "Aave"
+        }
+      },
+      {
+        "group": "pattern",
+        "slug": "header",
+        "label": "Header",
+        "source_id": 137,
+        "menu_clip_count": 40,
+        "home_clip_count": 40,
+        "url": "https://www.spottedinprod.com/tags/pattern/header",
+        "representative_clip": {
+          "key": "editorial:483",
+          "sourceType": "editorial",
+          "id": 483,
+          "title": "Package details",
+          "appName": "binsoo",
+          "appDisplayName": "Binsoo"
+        }
+      },
+      {
+        "group": "pattern",
+        "slug": "shared_element",
+        "label": "Shared Element",
+        "source_id": 98,
+        "menu_clip_count": 38,
+        "home_clip_count": 38,
+        "url": "https://www.spottedinprod.com/tags/pattern/shared_element",
+        "representative_clip": {
+          "key": "editorial:880",
+          "sourceType": "editorial",
+          "id": 880,
+          "title": "Health indicators",
+          "appName": "trackables",
+          "appDisplayName": "Trackables"
+        }
+      },
+      {
+        "group": "pattern",
+        "slug": "context_menu",
+        "label": "Context Menu",
+        "source_id": 54,
+        "menu_clip_count": 32,
+        "home_clip_count": 32,
+        "url": "https://www.spottedinprod.com/tags/pattern/context_menu",
+        "representative_clip": {
+          "key": "editorial:644",
+          "sourceType": "editorial",
+          "id": 644,
+          "title": "Set reminder",
+          "appName": "remindmefaster",
+          "appDisplayName": "Remind Me Faster"
+        }
+      },
+      {
+        "group": "pattern",
+        "slug": "rail",
+        "label": "Rail",
+        "source_id": 169,
+        "menu_clip_count": 28,
+        "home_clip_count": 28,
+        "url": "https://www.spottedinprod.com/tags/pattern/rail",
+        "representative_clip": {
+          "key": "editorial:425",
+          "sourceType": "editorial",
+          "id": 425,
+          "title": "Achievements",
+          "appName": "supersonic",
+          "appDisplayName": "Supersonic Run"
+        }
+      },
+      {
+        "group": "pattern",
+        "slug": "slider",
+        "label": "Slider",
+        "source_id": 172,
+        "menu_clip_count": 25,
+        "home_clip_count": 25,
+        "url": "https://www.spottedinprod.com/tags/pattern/slider",
+        "representative_clip": {
+          "key": "editorial:605",
+          "sourceType": "editorial",
+          "id": 605,
+          "title": "Clock",
+          "appName": "ora",
+          "appDisplayName": "Ora"
+        }
+      },
+      {
+        "group": "pattern",
+        "slug": "radial_ui",
+        "label": "Radial UI",
+        "source_id": 83,
+        "menu_clip_count": 24,
+        "home_clip_count": 24,
+        "url": "https://www.spottedinprod.com/tags/pattern/radial_ui",
+        "representative_clip": {
+          "key": "editorial:888",
+          "sourceType": "editorial",
+          "id": 888,
+          "title": "Fund breakdown",
+          "appName": "robinhood",
+          "appDisplayName": "Robinhood"
+        }
+      },
+      {
+        "group": "pattern",
+        "slug": "grid",
+        "label": "Grid",
+        "source_id": 215,
+        "menu_clip_count": 23,
+        "home_clip_count": 23,
+        "url": "https://www.spottedinprod.com/tags/pattern/grid",
+        "representative_clip": {
+          "key": "editorial:735",
+          "sourceType": "editorial",
+          "id": 735,
+          "title": "Recaps",
+          "appName": "retro",
+          "appDisplayName": "Retro"
+        }
+      },
+      {
+        "group": "pattern",
+        "slug": "toast",
+        "label": "Toast",
+        "source_id": 148,
+        "menu_clip_count": 22,
+        "home_clip_count": 22,
+        "url": "https://www.spottedinprod.com/tags/pattern/toast",
+        "representative_clip": {
+          "key": "editorial:638",
+          "sourceType": "editorial",
+          "id": 638,
+          "title": "Subscribe",
+          "appName": "luma",
+          "appDisplayName": "Luma"
+        }
+      },
+      {
+        "group": "pattern",
+        "slug": "showhide",
+        "label": "Show/Hide",
+        "source_id": 134,
+        "menu_clip_count": 20,
+        "home_clip_count": 20,
+        "url": "https://www.spottedinprod.com/tags/pattern/showhide",
+        "representative_clip": {
+          "key": "editorial:636",
+          "sourceType": "editorial",
+          "id": 636,
+          "title": "Copilot settings",
+          "appName": "github",
+          "appDisplayName": "GitHub"
+        }
+      },
+      {
+        "group": "pattern",
+        "slug": "pills",
+        "label": "Pills",
+        "source_id": 135,
+        "menu_clip_count": 19,
+        "home_clip_count": 19,
+        "url": "https://www.spottedinprod.com/tags/pattern/pills",
+        "representative_clip": {
+          "key": "editorial:857",
+          "sourceType": "editorial",
+          "id": 857,
+          "title": "Add context",
+          "appName": "moodsfaster",
+          "appDisplayName": "Moods Faster"
+        }
+      },
+      {
+        "group": "pattern",
+        "slug": "card_stack",
+        "label": "Card Stack",
+        "source_id": 195,
+        "menu_clip_count": 18,
+        "home_clip_count": 18,
+        "url": "https://www.spottedinprod.com/tags/pattern/card_stack",
+        "representative_clip": {
+          "key": "editorial:847",
+          "sourceType": "editorial",
+          "id": 847,
+          "title": "Onboarding",
+          "appName": "spark",
+          "appDisplayName": "Spark"
+        }
+      },
+      {
+        "group": "pattern",
+        "slug": "zoom",
+        "label": "Zoom",
+        "source_id": 62,
+        "menu_clip_count": 17,
+        "home_clip_count": 17,
+        "url": "https://www.spottedinprod.com/tags/pattern/zoom",
+        "representative_clip": {
+          "key": "editorial:159",
+          "sourceType": "editorial",
+          "id": 159,
+          "title": "Stories",
+          "appName": "dot",
+          "appDisplayName": "Dot"
+        }
+      },
+      {
+        "group": "pattern",
+        "slug": "keypad",
+        "label": "Keypad",
+        "source_id": 47,
+        "menu_clip_count": 16,
+        "home_clip_count": 16,
+        "url": "https://www.spottedinprod.com/tags/pattern/keypad",
+        "representative_clip": {
+          "key": "editorial:744",
+          "sourceType": "editorial",
+          "id": 744,
+          "title": "Swipe the duck",
+          "appName": "pool",
+          "appDisplayName": "Pool"
+        }
+      },
+      {
+        "group": "pattern",
+        "slug": "picker",
+        "label": "Picker",
+        "source_id": 121,
+        "menu_clip_count": 14,
+        "home_clip_count": 15,
+        "url": "https://www.spottedinprod.com/tags/pattern/picker",
+        "representative_clip": {
+          "key": "editorial:57",
+          "sourceType": "editorial",
+          "id": 57,
+          "title": "Create workout",
+          "appName": "dropset",
+          "appDisplayName": "Dropset"
+        }
+      },
+      {
+        "group": "pattern",
+        "slug": "segmented_control",
+        "label": "Segmented Control",
+        "source_id": 112,
+        "menu_clip_count": 15,
+        "home_clip_count": 15,
+        "url": "https://www.spottedinprod.com/tags/pattern/segmented_control",
+        "representative_clip": {
+          "key": "editorial:160",
+          "sourceType": "editorial",
+          "id": 160,
+          "title": "QR code",
+          "appName": "family",
+          "appDisplayName": "Family"
+        }
+      },
+      {
+        "group": "pattern",
+        "slug": "tab_navigation",
+        "label": "Tab Navigation",
+        "source_id": 52,
+        "menu_clip_count": 15,
+        "home_clip_count": 15,
+        "url": "https://www.spottedinprod.com/tags/pattern/tab_navigation",
+        "representative_clip": {
+          "key": "editorial:945",
+          "sourceType": "editorial",
+          "id": 945,
+          "title": "Blanc Interactions",
+          "appName": "blanc_note",
+          "appDisplayName": "Blanc Note"
+        }
+      },
+      {
+        "group": "pattern",
+        "slug": "snap_scrolling",
+        "label": "Snap Scrolling",
+        "source_id": 179,
+        "menu_clip_count": 12,
+        "home_clip_count": 12,
+        "url": "https://www.spottedinprod.com/tags/pattern/snap_scrolling",
+        "representative_clip": {
+          "key": "editorial:884",
+          "sourceType": "editorial",
+          "id": 884,
+          "title": "AI avatar",
+          "appName": "genie",
+          "appDisplayName": "Genie"
+        }
+      },
+      {
+        "group": "pattern",
+        "slug": "bottom_tabs",
+        "label": "Bottom Tabs",
+        "source_id": 192,
+        "menu_clip_count": 11,
+        "home_clip_count": 11,
+        "url": "https://www.spottedinprod.com/tags/pattern/bottom_tabs",
+        "representative_clip": {
+          "key": "editorial:694",
+          "sourceType": "editorial",
+          "id": 694,
+          "title": "Tabs",
+          "appName": "bevel",
+          "appDisplayName": "Bevel"
+        }
+      },
+      {
+        "group": "pattern",
+        "slug": "flip",
+        "label": "Flip",
+        "source_id": 178,
+        "menu_clip_count": 10,
+        "home_clip_count": 10,
+        "url": "https://www.spottedinprod.com/tags/pattern/flip",
+        "representative_clip": {
+          "key": "editorial:397",
+          "sourceType": "editorial",
+          "id": 397,
+          "title": "Next puzzle",
+          "appName": "artoffauna",
+          "appDisplayName": "Art of Fauna"
+        }
+      },
+      {
+        "group": "pattern",
+        "slug": "map_pins",
+        "label": "Map Pins",
+        "source_id": 142,
+        "menu_clip_count": 10,
+        "home_clip_count": 10,
+        "url": "https://www.spottedinprod.com/tags/pattern/map_pins",
+        "representative_clip": {
+          "key": "editorial:275",
+          "sourceType": "editorial",
+          "id": 275,
+          "title": "Were you here?",
+          "appName": "bump",
+          "appDisplayName": "Bump"
+        }
+      },
+      {
+        "group": "pattern",
+        "slug": "footer",
+        "label": "Footer",
+        "source_id": 123,
+        "menu_clip_count": 9,
+        "home_clip_count": 9,
+        "url": "https://www.spottedinprod.com/tags/pattern/footer",
+        "representative_clip": {
+          "key": "editorial:385",
+          "sourceType": "editorial",
+          "id": 385,
+          "title": "Reward tiers",
+          "appName": "blackbird",
+          "appDisplayName": "Blackbird"
+        }
+      },
+      {
+        "group": "pattern",
+        "slug": "top_tabs",
+        "label": "Top Tabs",
+        "source_id": 144,
+        "menu_clip_count": 9,
+        "home_clip_count": 9,
+        "url": "https://www.spottedinprod.com/tags/pattern/top_tabs",
+        "representative_clip": {
+          "key": "editorial:609",
+          "sourceType": "editorial",
+          "id": 609,
+          "title": "Profiles",
+          "appName": "posts",
+          "appDisplayName": "Posts"
+        }
+      },
+      {
+        "group": "pattern",
+        "slug": "waterfall",
+        "label": "Waterfall",
+        "source_id": 146,
+        "menu_clip_count": 9,
+        "home_clip_count": 9,
+        "url": "https://www.spottedinprod.com/tags/pattern/waterfall",
+        "representative_clip": {
+          "key": "editorial:709",
+          "sourceType": "editorial",
+          "id": 709,
+          "title": "Dinner recs",
+          "appName": "genie",
+          "appDisplayName": "Genie"
+        }
+      },
+      {
+        "group": "pattern",
+        "slug": "parallax",
+        "label": "Parallax",
+        "source_id": null,
+        "menu_clip_count": 8,
+        "home_clip_count": null,
+        "url": "https://www.spottedinprod.com/tags/pattern/parallax",
+        "representative_clip": null
+      },
+      {
+        "group": "pattern",
+        "slug": "fab",
+        "label": "FAB",
+        "source_id": null,
+        "menu_clip_count": 7,
+        "home_clip_count": null,
+        "url": "https://www.spottedinprod.com/tags/pattern/fab",
+        "representative_clip": null
+      },
+      {
+        "group": "pattern",
+        "slug": "map_markers",
+        "label": "Map Markers",
+        "source_id": null,
+        "menu_clip_count": 7,
+        "home_clip_count": null,
+        "url": "https://www.spottedinprod.com/tags/pattern/map_markers",
+        "representative_clip": null
+      },
+      {
+        "group": "pattern",
+        "slug": "playpause",
+        "label": "Play/Pause",
+        "source_id": null,
+        "menu_clip_count": 7,
+        "home_clip_count": null,
+        "url": "https://www.spottedinprod.com/tags/pattern/playpause",
+        "representative_clip": null
+      },
+      {
+        "group": "pattern",
+        "slug": "drawer",
+        "label": "Drawer",
+        "source_id": null,
+        "menu_clip_count": 6,
+        "home_clip_count": null,
+        "url": "https://www.spottedinprod.com/tags/pattern/drawer",
+        "representative_clip": null
+      },
+      {
+        "group": "pattern",
+        "slug": "canvas",
+        "label": "Canvas",
+        "source_id": null,
+        "menu_clip_count": 5,
+        "home_clip_count": null,
+        "url": "https://www.spottedinprod.com/tags/pattern/canvas",
+        "representative_clip": null
+      },
+      {
+        "group": "pattern",
+        "slug": "dynamic_island",
+        "label": "Dynamic Island",
+        "source_id": null,
+        "menu_clip_count": 5,
+        "home_clip_count": null,
+        "url": "https://www.spottedinprod.com/tags/pattern/dynamic_island",
+        "representative_clip": null
+      },
+      {
+        "group": "pattern",
+        "slug": "toggle",
+        "label": "Toggle",
+        "source_id": null,
+        "menu_clip_count": 5,
+        "home_clip_count": null,
+        "url": "https://www.spottedinprod.com/tags/pattern/toggle",
+        "representative_clip": null
+      },
+      {
+        "group": "pattern",
+        "slug": "shutter",
+        "label": "Shutter",
+        "source_id": null,
+        "menu_clip_count": 4,
+        "home_clip_count": null,
+        "url": "https://www.spottedinprod.com/tags/pattern/shutter",
+        "representative_clip": null
+      },
+      {
+        "group": "pattern",
+        "slug": "top_tray",
+        "label": "Top Tray",
+        "source_id": null,
+        "menu_clip_count": 4,
+        "home_clip_count": null,
+        "url": "https://www.spottedinprod.com/tags/pattern/top_tray",
+        "representative_clip": null
+      },
+      {
+        "group": "pattern",
+        "slug": "page_flip",
+        "label": "Page Flip",
+        "source_id": null,
+        "menu_clip_count": 4,
+        "home_clip_count": null,
+        "url": "https://www.spottedinprod.com/tags/pattern/page_flip",
+        "representative_clip": null
+      },
+      {
+        "group": "pattern",
+        "slug": "increment",
+        "label": "Increment",
+        "source_id": null,
+        "menu_clip_count": 3,
+        "home_clip_count": null,
+        "url": "https://www.spottedinprod.com/tags/pattern/increment",
+        "representative_clip": null
+      },
+      {
+        "group": "pattern",
+        "slug": "pulse",
+        "label": "Pulse",
+        "source_id": null,
+        "menu_clip_count": 3,
+        "home_clip_count": null,
+        "url": "https://www.spottedinprod.com/tags/pattern/pulse",
+        "representative_clip": null
+      },
+      {
+        "group": "pattern",
+        "slug": "hud",
+        "label": "HUD",
+        "source_id": null,
+        "menu_clip_count": 3,
+        "home_clip_count": null,
+        "url": "https://www.spottedinprod.com/tags/pattern/hud",
+        "representative_clip": null
+      },
+      {
+        "group": "pattern",
+        "slug": "checkbox",
+        "label": "Checkbox",
+        "source_id": null,
+        "menu_clip_count": 2,
+        "home_clip_count": null,
+        "url": "https://www.spottedinprod.com/tags/pattern/checkbox",
+        "representative_clip": null
+      },
+      {
+        "group": "pattern",
+        "slug": "switcher",
+        "label": "Switcher",
+        "source_id": null,
+        "menu_clip_count": 2,
+        "home_clip_count": null,
+        "url": "https://www.spottedinprod.com/tags/pattern/switcher",
+        "representative_clip": null
+      },
+      {
+        "group": "pattern",
+        "slug": "pull_to_refresh",
+        "label": "Pull to Refresh",
+        "source_id": null,
+        "menu_clip_count": 2,
+        "home_clip_count": null,
+        "url": "https://www.spottedinprod.com/tags/pattern/pull_to_refresh",
+        "representative_clip": null
+      },
+      {
+        "group": "pattern",
+        "slug": "pip",
+        "label": "PiP",
+        "source_id": null,
+        "menu_clip_count": 1,
+        "home_clip_count": null,
+        "url": "https://www.spottedinprod.com/tags/pattern/pip",
+        "representative_clip": null
+      },
+      {
+        "group": "pattern",
+        "slug": "takeover",
+        "label": "Takeover",
+        "source_id": null,
+        "menu_clip_count": 1,
+        "home_clip_count": null,
+        "url": "https://www.spottedinprod.com/tags/pattern/takeover",
+        "representative_clip": null
+      },
+      {
+        "group": "pattern",
+        "slug": "split_view",
+        "label": "Split View",
+        "source_id": null,
+        "menu_clip_count": 1,
+        "home_clip_count": null,
+        "url": "https://www.spottedinprod.com/tags/pattern/split_view",
+        "representative_clip": null
+      },
+      {
+        "group": "pattern",
+        "slug": "refresh",
+        "label": "Refresh",
+        "source_id": null,
+        "menu_clip_count": 1,
+        "home_clip_count": null,
+        "url": "https://www.spottedinprod.com/tags/pattern/refresh",
+        "representative_clip": null
+      },
+      {
+        "group": "pattern",
+        "slug": "rubber_band",
+        "label": "Rubber Band",
+        "source_id": null,
+        "menu_clip_count": 1,
+        "home_clip_count": null,
+        "url": "https://www.spottedinprod.com/tags/pattern/rubber_band",
+        "representative_clip": null
+      },
+      {
+        "group": "pattern",
+        "slug": "wiggle",
+        "label": "Wiggle",
+        "source_id": null,
+        "menu_clip_count": 1,
+        "home_clip_count": null,
+        "url": "https://www.spottedinprod.com/tags/pattern/wiggle",
+        "representative_clip": null
+      },
+      {
+        "group": "pattern",
+        "slug": "underlay",
+        "label": "Underlay",
+        "source_id": null,
+        "menu_clip_count": 1,
+        "home_clip_count": null,
+        "url": "https://www.spottedinprod.com/tags/pattern/underlay",
+        "representative_clip": null
+      }
+    ],
+    "gesture": [
+      {
+        "group": "gesture",
+        "slug": "tap",
+        "label": "Tap",
+        "source_id": 48,
+        "menu_clip_count": 223,
+        "home_clip_count": 225,
+        "url": "https://www.spottedinprod.com/tags/gesture/tap",
+        "representative_clip": {
+          "key": "editorial:640",
+          "sourceType": "editorial",
+          "id": 640,
+          "title": "Glass menus",
+          "appName": "lumy",
+          "appDisplayName": "Lumy"
+        }
+      },
+      {
+        "group": "gesture",
+        "slug": "scroll",
+        "label": "Scroll",
+        "source_id": 67,
+        "menu_clip_count": 177,
+        "home_clip_count": 177,
+        "url": "https://www.spottedinprod.com/tags/gesture/scroll",
+        "representative_clip": {
+          "key": "editorial:763",
+          "sourceType": "editorial",
+          "id": 763,
+          "title": "Personal MCPs",
+          "appName": "craft",
+          "appDisplayName": "Craft"
+        }
+      },
+      {
+        "group": "gesture",
+        "slug": "swipe",
+        "label": "Swipe",
+        "source_id": 71,
+        "menu_clip_count": 135,
+        "home_clip_count": 135,
+        "url": "https://www.spottedinprod.com/tags/gesture/swipe",
+        "representative_clip": {
+          "key": "editorial:455",
+          "sourceType": "editorial",
+          "id": 455,
+          "title": "Overdue emails",
+          "appName": "avec",
+          "appDisplayName": "Avec"
+        }
+      },
+      {
+        "group": "gesture",
+        "slug": "drag",
+        "label": "Drag",
+        "source_id": 75,
+        "menu_clip_count": 57,
+        "home_clip_count": 57,
+        "url": "https://www.spottedinprod.com/tags/gesture/drag",
+        "representative_clip": {
+          "key": "editorial:695",
+          "sourceType": "editorial",
+          "id": 695,
+          "title": "Sort bin",
+          "appName": "bins",
+          "appDisplayName": "Bins"
+        }
+      },
+      {
+        "group": "gesture",
+        "slug": "scrub",
+        "label": "Scrub",
+        "source_id": 57,
+        "menu_clip_count": 27,
+        "home_clip_count": 27,
+        "url": "https://www.spottedinprod.com/tags/gesture/scrub",
+        "representative_clip": {
+          "key": "editorial:5",
+          "sourceType": "editorial",
+          "id": 5,
+          "title": "Conversational onboarding",
+          "appName": "okvideo",
+          "appDisplayName": "OK Video"
+        }
+      },
+      {
+        "group": "gesture",
+        "slug": "pull",
+        "label": "Pull",
+        "source_id": 163,
+        "menu_clip_count": 25,
+        "home_clip_count": 25,
+        "url": "https://www.spottedinprod.com/tags/gesture/pull",
+        "representative_clip": {
+          "key": "editorial:97",
+          "sourceType": "editorial",
+          "id": 97,
+          "title": "Persistent note",
+          "appName": "persist",
+          "appDisplayName": "Persist"
+        }
+      },
+      {
+        "group": "gesture",
+        "slug": "slide",
+        "label": "Slide",
+        "source_id": 63,
+        "menu_clip_count": 20,
+        "home_clip_count": 20,
+        "url": "https://www.spottedinprod.com/tags/gesture/slide",
+        "representative_clip": {
+          "key": "editorial:531",
+          "sourceType": "editorial",
+          "id": 531,
+          "title": "Weekly goal",
+          "appName": "miles",
+          "appDisplayName": "Miles"
+        }
+      },
+      {
+        "group": "gesture",
+        "slug": "pan",
+        "label": "Pan",
+        "source_id": 72,
+        "menu_clip_count": 16,
+        "home_clip_count": 16,
+        "url": "https://www.spottedinprod.com/tags/gesture/pan",
+        "representative_clip": {
+          "key": "editorial:611",
+          "sourceType": "editorial",
+          "id": 611,
+          "title": "Tickle tickle",
+          "appName": "mist",
+          "appDisplayName": "MIST"
+        }
+      },
+      {
+        "group": "gesture",
+        "slug": "gyroscope",
+        "label": "Gyroscope",
+        "source_id": 161,
+        "menu_clip_count": 14,
+        "home_clip_count": 14,
+        "url": "https://www.spottedinprod.com/tags/gesture/gyroscope",
+        "representative_clip": {
+          "key": "editorial:544",
+          "sourceType": "editorial",
+          "id": 544,
+          "title": "Call Arc",
+          "appName": "arcsearch",
+          "appDisplayName": "Arc Search"
+        }
+      },
+      {
+        "group": "gesture",
+        "slug": "long_press",
+        "label": "Long Press",
+        "source_id": 153,
+        "menu_clip_count": 13,
+        "home_clip_count": 13,
+        "url": "https://www.spottedinprod.com/tags/gesture/long_press",
+        "representative_clip": {
+          "key": "editorial:215",
+          "sourceType": "editorial",
+          "id": 215,
+          "title": "Drag n drop",
+          "appName": "untitled",
+          "appDisplayName": "[untitled]"
+        }
+      },
+      {
+        "group": "gesture",
+        "slug": "flick",
+        "label": "Flick",
+        "source_id": 174,
+        "menu_clip_count": 10,
+        "home_clip_count": 10,
+        "url": "https://www.spottedinprod.com/tags/gesture/flick",
+        "representative_clip": {
+          "key": "editorial:289",
+          "sourceType": "editorial",
+          "id": 289,
+          "title": "Choose color",
+          "appName": "actions",
+          "appDisplayName": "Actions"
+        }
+      },
+      {
+        "group": "gesture",
+        "slug": "typing",
+        "label": "Typing",
+        "source_id": 130,
+        "menu_clip_count": 10,
+        "home_clip_count": 10,
+        "url": "https://www.spottedinprod.com/tags/gesture/typing",
+        "representative_clip": {
+          "key": "editorial:48",
+          "sourceType": "editorial",
+          "id": 48,
+          "title": "Dynamic input",
+          "appName": "chatgpt",
+          "appDisplayName": "ChatGPT"
+        }
+      },
+      {
+        "group": "gesture",
+        "slug": "hold",
+        "label": "Hold",
+        "source_id": 127,
+        "menu_clip_count": 8,
+        "home_clip_count": 8,
+        "url": "https://www.spottedinprod.com/tags/gesture/hold",
+        "representative_clip": {
+          "key": "editorial:641",
+          "sourceType": "editorial",
+          "id": 641,
+          "title": "Voice input",
+          "appName": "raycast",
+          "appDisplayName": "Raycast"
+        }
+      },
+      {
+        "group": "gesture",
+        "slug": "pinch",
+        "label": "Pinch",
+        "source_id": 73,
+        "menu_clip_count": 8,
+        "home_clip_count": 8,
+        "url": "https://www.spottedinprod.com/tags/gesture/pinch",
+        "representative_clip": {
+          "key": "editorial:543",
+          "sourceType": "editorial",
+          "id": 543,
+          "title": "Pinch to summarize",
+          "appName": "arcsearch",
+          "appDisplayName": "Arc Search"
+        }
+      },
+      {
+        "group": "gesture",
+        "slug": "spin",
+        "label": "Spin",
+        "source_id": 181,
+        "menu_clip_count": 8,
+        "home_clip_count": 8,
+        "url": "https://www.spottedinprod.com/tags/gesture/spin",
+        "representative_clip": {
+          "key": "editorial:467",
+          "sourceType": "editorial",
+          "id": 467,
+          "title": "F me up fam",
+          "appName": "mist",
+          "appDisplayName": "MIST"
+        }
+      },
+      {
+        "group": "gesture",
+        "slug": "draw",
+        "label": "Draw",
+        "source_id": 219,
+        "menu_clip_count": 3,
+        "home_clip_count": 3,
+        "url": "https://www.spottedinprod.com/tags/gesture/draw",
+        "representative_clip": {
+          "key": "editorial:569",
+          "sourceType": "editorial",
+          "id": 569,
+          "title": "Customize chat",
+          "appName": "bump",
+          "appDisplayName": "Bump"
+        }
+      },
+      {
+        "group": "gesture",
+        "slug": "throw",
+        "label": "Throw",
+        "source_id": 282,
+        "menu_clip_count": 2,
+        "home_clip_count": 2,
+        "url": "https://www.spottedinprod.com/tags/gesture/throw",
+        "representative_clip": {
+          "key": "editorial:775",
+          "sourceType": "editorial",
+          "id": 775,
+          "title": "Tactile blob",
+          "appName": "chatgpt",
+          "appDisplayName": "ChatGPT"
+        }
+      },
+      {
+        "group": "gesture",
+        "slug": "shake",
+        "label": "Shake",
+        "source_id": 210,
+        "menu_clip_count": 1,
+        "home_clip_count": 1,
+        "url": "https://www.spottedinprod.com/tags/gesture/shake",
+        "representative_clip": {
+          "key": "editorial:438",
+          "sourceType": "editorial",
+          "id": 438,
+          "title": "Shake to shuffle",
+          "appName": "nouns",
+          "appDisplayName": "Nouns"
+        }
+      }
+    ],
+    "visual": [
+      {
+        "group": "visual",
+        "slug": "animated_text",
+        "label": "Animated Text",
+        "source_id": 49,
+        "menu_clip_count": 76,
+        "home_clip_count": 76,
+        "url": "https://www.spottedinprod.com/tags/visual/animated_text",
+        "representative_clip": {
+          "key": "editorial:730",
+          "sourceType": "editorial",
+          "id": 730,
+          "title": "Onboarding",
+          "appName": "ditto",
+          "appDisplayName": "Ditto"
+        }
+      },
+      {
+        "group": "visual",
+        "slug": "blur",
+        "label": "Blur",
+        "source_id": 108,
+        "menu_clip_count": 60,
+        "home_clip_count": 62,
+        "url": "https://www.spottedinprod.com/tags/visual/blur",
+        "representative_clip": {
+          "key": "editorial:602",
+          "sourceType": "editorial",
+          "id": 602,
+          "title": "Commit",
+          "appName": "ivy",
+          "appDisplayName": "Ivy"
+        }
+      },
+      {
+        "group": "visual",
+        "slug": "photos",
+        "label": "Photos",
+        "source_id": 68,
+        "menu_clip_count": 58,
+        "home_clip_count": 58,
+        "url": "https://www.spottedinprod.com/tags/visual/photos",
+        "representative_clip": {
+          "key": "editorial:540",
+          "sourceType": "editorial",
+          "id": 540,
+          "title": "Park details",
+          "appName": "alltrails",
+          "appDisplayName": "AllTrails"
+        }
+      },
+      {
+        "group": "visual",
+        "slug": "map",
+        "label": "Map",
+        "source_id": 74,
+        "menu_clip_count": 52,
+        "home_clip_count": 52,
+        "url": "https://www.spottedinprod.com/tags/visual/map",
+        "representative_clip": {
+          "key": "editorial:582",
+          "sourceType": "editorial",
+          "id": 582,
+          "title": "Trails",
+          "appName": "walktheworld",
+          "appDisplayName": "Walk the World"
+        }
+      },
+      {
+        "group": "visual",
+        "slug": "motion_graphics",
+        "label": "Motion Graphics",
+        "source_id": 89,
+        "menu_clip_count": 46,
+        "home_clip_count": 46,
+        "url": "https://www.spottedinprod.com/tags/visual/motion_graphics",
+        "representative_clip": {
+          "key": "editorial:871",
+          "sourceType": "editorial",
+          "id": 871,
+          "title": "Share sheet",
+          "appName": "cosmos",
+          "appDisplayName": "Cosmos"
+        }
+      },
+      {
+        "group": "visual",
+        "slug": "3d",
+        "label": "3D",
+        "source_id": 77,
+        "menu_clip_count": 44,
+        "home_clip_count": 44,
+        "url": "https://www.spottedinprod.com/tags/visual/3d",
+        "representative_clip": {
+          "key": "editorial:573",
+          "sourceType": "editorial",
+          "id": 573,
+          "title": "Notification settings",
+          "appName": "fyf",
+          "appDisplayName": "Find your Faith"
+        }
+      },
+      {
+        "group": "visual",
+        "slug": "gradient",
+        "label": "Gradient",
+        "source_id": 125,
+        "menu_clip_count": 42,
+        "home_clip_count": 44,
+        "url": "https://www.spottedinprod.com/tags/visual/gradient",
+        "representative_clip": {
+          "key": "editorial:230",
+          "sourceType": "editorial",
+          "id": 230,
+          "title": "Onboarding",
+          "appName": "roze",
+          "appDisplayName": "Roze"
+        }
+      },
+      {
+        "group": "visual",
+        "slug": "video",
+        "label": "Video",
+        "source_id": 65,
+        "menu_clip_count": 39,
+        "home_clip_count": 40,
+        "url": "https://www.spottedinprod.com/tags/visual/video",
+        "representative_clip": {
+          "key": "editorial:708",
+          "sourceType": "editorial",
+          "id": 708,
+          "title": "Intro",
+          "appName": "genie",
+          "appDisplayName": "Genie"
+        }
+      },
+      {
+        "group": "visual",
+        "slug": "liquid_glass",
+        "label": "Liquid Glass",
+        "source_id": 225,
+        "menu_clip_count": 38,
+        "home_clip_count": 38,
+        "url": "https://www.spottedinprod.com/tags/visual/liquid_glass",
+        "representative_clip": {
+          "key": "editorial:623",
+          "sourceType": "editorial",
+          "id": 623,
+          "title": "Bottom controls",
+          "appName": "craft",
+          "appDisplayName": "Craft"
+        }
+      },
+      {
+        "group": "visual",
+        "slug": "artwork",
+        "label": "Art",
+        "source_id": 87,
+        "menu_clip_count": 36,
+        "home_clip_count": 36,
+        "url": "https://www.spottedinprod.com/tags/visual/artwork",
+        "representative_clip": {
+          "key": "editorial:294",
+          "sourceType": "editorial",
+          "id": 294,
+          "title": "Mixtapes",
+          "appName": "poolsuite",
+          "appDisplayName": "Poolsuite FM"
+        }
+      },
+      {
+        "group": "visual",
+        "slug": "media_imagery",
+        "label": "Cover Art",
+        "source_id": 113,
+        "menu_clip_count": 36,
+        "home_clip_count": 36,
+        "url": "https://www.spottedinprod.com/tags/visual/media_imagery",
+        "representative_clip": {
+          "key": "editorial:461",
+          "sourceType": "editorial",
+          "id": 461,
+          "title": "Album",
+          "appName": "vinyls",
+          "appDisplayName": "Vinyls"
+        }
+      },
+      {
+        "group": "visual",
+        "slug": "emoji",
+        "label": "Emoji",
+        "source_id": 50,
+        "menu_clip_count": 34,
+        "home_clip_count": 34,
+        "url": "https://www.spottedinprod.com/tags/visual/emoji",
+        "representative_clip": {
+          "key": "editorial:29",
+          "sourceType": "editorial",
+          "id": 29,
+          "title": "Edit profile",
+          "appName": "airbuds",
+          "appDisplayName": "Airbuds"
+        }
+      },
+      {
+        "group": "visual",
+        "slug": "avatars",
+        "label": "Avatars",
+        "source_id": 124,
+        "menu_clip_count": 33,
+        "home_clip_count": 33,
+        "url": "https://www.spottedinprod.com/tags/visual/avatars",
+        "representative_clip": {
+          "key": "editorial:535",
+          "sourceType": "editorial",
+          "id": 535,
+          "title": "Chart morph",
+          "appName": "believe",
+          "appDisplayName": "Believe"
+        }
+      },
+      {
+        "group": "visual",
+        "slug": "cards",
+        "label": "Cards",
+        "source_id": 79,
+        "menu_clip_count": 33,
+        "home_clip_count": 33,
+        "url": "https://www.spottedinprod.com/tags/visual/cards",
+        "representative_clip": {
+          "key": "editorial:740",
+          "sourceType": "editorial",
+          "id": 740,
+          "title": "Shoptok",
+          "appName": "shop",
+          "appDisplayName": "Shop"
+        }
+      },
+      {
+        "group": "visual",
+        "slug": "product_imagery",
+        "label": "Product Imagery",
+        "source_id": 99,
+        "menu_clip_count": 32,
+        "home_clip_count": 32,
+        "url": "https://www.spottedinprod.com/tags/visual/product_imagery",
+        "representative_clip": {
+          "key": "editorial:22",
+          "sourceType": "editorial",
+          "id": 22,
+          "title": "View property",
+          "appName": "airbnb",
+          "appDisplayName": "Airbnb"
+        }
+      },
+      {
+        "group": "visual",
+        "slug": "shader",
+        "label": "Shader",
+        "source_id": 133,
+        "menu_clip_count": 31,
+        "home_clip_count": 31,
+        "url": "https://www.spottedinprod.com/tags/visual/shader",
+        "representative_clip": {
+          "key": "editorial:835",
+          "sourceType": "editorial",
+          "id": 835,
+          "title": "Importing",
+          "appName": "pool",
+          "appDisplayName": "Pool"
+        }
+      },
+      {
+        "group": "visual",
+        "slug": "gen_ai",
+        "label": "Gen AI",
+        "source_id": 177,
+        "menu_clip_count": 28,
+        "home_clip_count": 28,
+        "url": "https://www.spottedinprod.com/tags/visual/gen_ai",
+        "representative_clip": {
+          "key": "editorial:296",
+          "sourceType": "editorial",
+          "id": 296,
+          "title": "Mash it up",
+          "appName": "mixy",
+          "appDisplayName": "Mixy"
+        }
+      },
+      {
+        "group": "visual",
+        "slug": "menu_icons",
+        "label": "Menu Icons",
+        "source_id": 105,
+        "menu_clip_count": 29,
+        "home_clip_count": 28,
+        "url": "https://www.spottedinprod.com/tags/visual/menu_icons",
+        "representative_clip": {
+          "key": "editorial:25",
+          "sourceType": "editorial",
+          "id": 25,
+          "title": "Animated pills",
+          "appName": "alltrails",
+          "appDisplayName": "AllTrails"
+        }
+      },
+      {
+        "group": "visual",
+        "slug": "chart",
+        "label": "Chart",
+        "source_id": 58,
+        "menu_clip_count": 26,
+        "home_clip_count": 26,
+        "url": "https://www.spottedinprod.com/tags/visual/chart",
+        "representative_clip": {
+          "key": "editorial:68",
+          "sourceType": "editorial",
+          "id": 68,
+          "title": "Add expense",
+          "appName": "fivecents",
+          "appDisplayName": "FiveCents"
+        }
+      },
+      {
+        "group": "visual",
+        "slug": "color_picker",
+        "label": "Color Picker",
+        "source_id": 122,
+        "menu_clip_count": 21,
+        "home_clip_count": 21,
+        "url": "https://www.spottedinprod.com/tags/visual/color_picker",
+        "representative_clip": {
+          "key": "editorial:557",
+          "sourceType": "editorial",
+          "id": 557,
+          "title": "Pick a color",
+          "appName": "ivy",
+          "appDisplayName": "Ivy"
+        }
+      },
+      {
+        "group": "visual",
+        "slug": "calendar",
+        "label": "Calendar",
+        "source_id": 118,
+        "menu_clip_count": 20,
+        "home_clip_count": 20,
+        "url": "https://www.spottedinprod.com/tags/visual/calendar",
+        "representative_clip": {
+          "key": "editorial:549",
+          "sourceType": "editorial",
+          "id": 549,
+          "title": "Default duration",
+          "appName": "amie",
+          "appDisplayName": "Amie"
+        }
+      },
+      {
+        "group": "visual",
+        "slug": "animated_path",
+        "label": "Animated Path",
+        "source_id": 119,
+        "menu_clip_count": 19,
+        "home_clip_count": 19,
+        "url": "https://www.spottedinprod.com/tags/visual/animated_path",
+        "representative_clip": {
+          "key": "editorial:747",
+          "sourceType": "editorial",
+          "id": 747,
+          "title": "Places & friends",
+          "appName": "bump",
+          "appDisplayName": "Bump"
+        }
+      },
+      {
+        "group": "visual",
+        "slug": "art",
+        "label": "Art",
+        "source_id": 138,
+        "menu_clip_count": 19,
+        "home_clip_count": 19,
+        "url": "https://www.spottedinprod.com/tags/visual/art",
+        "representative_clip": {
+          "key": "editorial:346",
+          "sourceType": "editorial",
+          "id": 346,
+          "title": "New skin",
+          "appName": "notboringweather",
+          "appDisplayName": "!Weather"
+        }
+      },
+      {
+        "group": "visual",
+        "slug": "cutouts",
+        "label": "Cutouts",
+        "source_id": 90,
+        "menu_clip_count": 15,
+        "home_clip_count": 15,
+        "url": "https://www.spottedinprod.com/tags/visual/cutouts",
+        "representative_clip": {
+          "key": "editorial:710",
+          "sourceType": "editorial",
+          "id": 710,
+          "title": "Onboarding",
+          "appName": "biscuitcamera",
+          "appDisplayName": "Biscuit Camera"
+        }
+      },
+      {
+        "group": "visual",
+        "slug": "masonry",
+        "label": "Masonry",
+        "source_id": 145,
+        "menu_clip_count": 15,
+        "home_clip_count": 15,
+        "url": "https://www.spottedinprod.com/tags/visual/masonry",
+        "representative_clip": {
+          "key": "editorial:878",
+          "sourceType": "editorial",
+          "id": 878,
+          "title": "Browse share save",
+          "appName": "cosmos",
+          "appDisplayName": "Cosmos"
+        }
+      },
+      {
+        "group": "visual",
+        "slug": "sticker",
+        "label": "Sticker",
+        "source_id": 95,
+        "menu_clip_count": 15,
+        "home_clip_count": 15,
+        "url": "https://www.spottedinprod.com/tags/visual/sticker",
+        "representative_clip": {
+          "key": "editorial:456",
+          "sourceType": "editorial",
+          "id": 456,
+          "title": "Screenshot chat",
+          "appName": "bump",
+          "appDisplayName": "Bump"
+        }
+      },
+      {
+        "group": "visual",
+        "slug": "video_intro",
+        "label": "Video Intro",
+        "source_id": 150,
+        "menu_clip_count": 14,
+        "home_clip_count": 14,
+        "url": "https://www.spottedinprod.com/tags/visual/video_intro",
+        "representative_clip": {
+          "key": "editorial:759",
+          "sourceType": "editorial",
+          "id": 759,
+          "title": "Launch video",
+          "appName": "polymarket",
+          "appDisplayName": "Polymarket"
+        }
+      },
+      {
+        "group": "visual",
+        "slug": "waveform",
+        "label": "Waveform",
+        "source_id": 196,
+        "menu_clip_count": 14,
+        "home_clip_count": 14,
+        "url": "https://www.spottedinprod.com/tags/visual/waveform",
+        "representative_clip": {
+          "key": "editorial:545",
+          "sourceType": "editorial",
+          "id": 545,
+          "title": "Voice input",
+          "appName": "arcsearch",
+          "appDisplayName": "Arc Search"
+        }
+      },
+      {
+        "group": "visual",
+        "slug": "glow",
+        "label": "Glow",
+        "source_id": 186,
+        "menu_clip_count": 13,
+        "home_clip_count": 13,
+        "url": "https://www.spottedinprod.com/tags/visual/glow",
+        "representative_clip": {
+          "key": "editorial:836",
+          "sourceType": "editorial",
+          "id": 836,
+          "title": "App tour",
+          "appName": "nightknight",
+          "appDisplayName": "Night Knight"
+        }
+      },
+      {
+        "group": "visual",
+        "slug": "app_icons",
+        "label": "App Icons",
+        "source_id": 197,
+        "menu_clip_count": 12,
+        "home_clip_count": 12,
+        "url": "https://www.spottedinprod.com/tags/visual/app_icons",
+        "representative_clip": {
+          "key": "editorial:727",
+          "sourceType": "editorial",
+          "id": 727,
+          "title": "Change app icon",
+          "appName": "deco",
+          "appDisplayName": "Deco"
+        }
+      },
+      {
+        "group": "visual",
+        "slug": "timer",
+        "label": "Timer",
+        "source_id": null,
+        "menu_clip_count": 12,
+        "home_clip_count": null,
+        "url": "https://www.spottedinprod.com/tags/visual/timer",
+        "representative_clip": null
+      },
+      {
+        "group": "visual",
+        "slug": "mascot",
+        "label": "Mascot",
+        "source_id": null,
+        "menu_clip_count": 12,
+        "home_clip_count": null,
+        "url": "https://www.spottedinprod.com/tags/visual/mascot",
+        "representative_clip": null
+      },
+      {
+        "group": "visual",
+        "slug": "memoji",
+        "label": "Memoji",
+        "source_id": null,
+        "menu_clip_count": 10,
+        "home_clip_count": null,
+        "url": "https://www.spottedinprod.com/tags/visual/memoji",
+        "representative_clip": null
+      },
+      {
+        "group": "visual",
+        "slug": "hand_drawings",
+        "label": "Hand Drawings",
+        "source_id": null,
+        "menu_clip_count": 9,
+        "home_clip_count": null,
+        "url": "https://www.spottedinprod.com/tags/visual/hand_drawings",
+        "representative_clip": null
+      },
+      {
+        "group": "visual",
+        "slug": "confetti",
+        "label": "Confetti",
+        "source_id": null,
+        "menu_clip_count": 9,
+        "home_clip_count": null,
+        "url": "https://www.spottedinprod.com/tags/visual/confetti",
+        "representative_clip": null
+      },
+      {
+        "group": "visual",
+        "slug": "illustration",
+        "label": "Illustration",
+        "source_id": null,
+        "menu_clip_count": 9,
+        "home_clip_count": null,
+        "url": "https://www.spottedinprod.com/tags/visual/illustration",
+        "representative_clip": null
+      },
+      {
+        "group": "visual",
+        "slug": "widgets",
+        "label": "Widgets",
+        "source_id": null,
+        "menu_clip_count": 7,
+        "home_clip_count": null,
+        "url": "https://www.spottedinprod.com/tags/visual/widgets",
+        "representative_clip": null
+      },
+      {
+        "group": "visual",
+        "slug": "badges",
+        "label": "Badges",
+        "source_id": null,
+        "menu_clip_count": 7,
+        "home_clip_count": null,
+        "url": "https://www.spottedinprod.com/tags/visual/badges",
+        "representative_clip": null
+      },
+      {
+        "group": "visual",
+        "slug": "particle_emitter",
+        "label": "Particle Emitter",
+        "source_id": null,
+        "menu_clip_count": 5,
+        "home_clip_count": null,
+        "url": "https://www.spottedinprod.com/tags/visual/particle_emitter",
+        "representative_clip": null
+      },
+      {
+        "group": "visual",
+        "slug": "qr_code",
+        "label": "QR Code",
+        "source_id": null,
+        "menu_clip_count": 3,
+        "home_clip_count": null,
+        "url": "https://www.spottedinprod.com/tags/visual/qr_code",
+        "representative_clip": null
+      },
+      {
+        "group": "visual",
+        "slug": "stack",
+        "label": "Stack",
+        "source_id": null,
+        "menu_clip_count": 3,
+        "home_clip_count": null,
+        "url": "https://www.spottedinprod.com/tags/visual/stack",
+        "representative_clip": null
+      },
+      {
+        "group": "visual",
+        "slug": "wireframe",
+        "label": "Wireframe",
+        "source_id": null,
+        "menu_clip_count": 2,
+        "home_clip_count": null,
+        "url": "https://www.spottedinprod.com/tags/visual/wireframe",
+        "representative_clip": null
+      },
+      {
+        "group": "visual",
+        "slug": "spinner",
+        "label": "Spinner",
+        "source_id": null,
+        "menu_clip_count": 2,
+        "home_clip_count": null,
+        "url": "https://www.spottedinprod.com/tags/visual/spinner",
+        "representative_clip": null
+      },
+      {
+        "group": "visual",
+        "slug": "tooltip",
+        "label": "Tooltip",
+        "source_id": null,
+        "menu_clip_count": 2,
+        "home_clip_count": null,
+        "url": "https://www.spottedinprod.com/tags/visual/tooltip",
+        "representative_clip": null
+      },
+      {
+        "group": "visual",
+        "slug": "logos",
+        "label": "Logos",
+        "source_id": null,
+        "menu_clip_count": 1,
+        "home_clip_count": null,
+        "url": "https://www.spottedinprod.com/tags/visual/logos",
+        "representative_clip": null
+      },
+      {
+        "group": "visual",
+        "slug": "scale_effect",
+        "label": "Scale Effect",
+        "source_id": null,
+        "menu_clip_count": 1,
+        "home_clip_count": null,
+        "url": "https://www.spottedinprod.com/tags/visual/scale_effect",
+        "representative_clip": null
+      },
+      {
+        "group": "visual",
+        "slug": "noise",
+        "label": "Noise",
+        "source_id": null,
+        "menu_clip_count": 1,
+        "home_clip_count": null,
+        "url": "https://www.spottedinprod.com/tags/visual/noise",
+        "representative_clip": null
+      },
+      {
+        "group": "visual",
+        "slug": "genie_effect",
+        "label": "Genie Effect",
+        "source_id": null,
+        "menu_clip_count": 1,
+        "home_clip_count": null,
+        "url": "https://www.spottedinprod.com/tags/visual/genie_effect",
+        "representative_clip": null
+      },
+      {
+        "group": "visual",
+        "slug": "shareable_asset",
+        "label": "Shareable Asset",
+        "source_id": null,
+        "menu_clip_count": 0,
+        "home_clip_count": null,
+        "url": "https://www.spottedinprod.com/tags/visual/shareable_asset",
+        "representative_clip": null
+      },
+      {
+        "group": "visual",
+        "slug": "meme",
+        "label": "Meme",
+        "source_id": null,
+        "menu_clip_count": 0,
+        "home_clip_count": null,
+        "url": "https://www.spottedinprod.com/tags/visual/meme",
+        "representative_clip": null
+      },
+      {
+        "group": "visual",
+        "slug": "sprites",
+        "label": "Sprite",
+        "source_id": null,
+        "menu_clip_count": 0,
+        "home_clip_count": null,
+        "url": "https://www.spottedinprod.com/tags/visual/sprites",
+        "representative_clip": null
+      },
+      {
+        "group": "visual",
+        "slug": "takeover",
+        "label": "Takeover",
+        "source_id": null,
+        "menu_clip_count": 0,
+        "home_clip_count": null,
+        "url": "https://www.spottedinprod.com/tags/visual/takeover",
+        "representative_clip": null
+      }
+    ],
+    "design_language": [
+      {
+        "group": "design_language",
+        "slug": "system",
+        "label": "System",
+        "source_id": 53,
+        "menu_clip_count": 98,
+        "home_clip_count": 98,
+        "url": "https://www.spottedinprod.com/tags/design_language/system",
+        "representative_clip": {
+          "key": "editorial:746",
+          "sourceType": "editorial",
+          "id": 746,
+          "title": "App tour",
+          "appName": "bevel",
+          "appDisplayName": "Bevel"
+        }
+      },
+      {
+        "group": "design_language",
+        "slug": "minimal",
+        "label": "Minimal",
+        "source_id": 116,
+        "menu_clip_count": 79,
+        "home_clip_count": 79,
+        "url": "https://www.spottedinprod.com/tags/design_language/minimal",
+        "representative_clip": {
+          "key": "editorial:797",
+          "sourceType": "editorial",
+          "id": 797,
+          "title": "Onboarding",
+          "appName": "kurzgedacht",
+          "appDisplayName": "Kurzgedacht"
+        }
+      },
+      {
+        "group": "design_language",
+        "slug": "skeuomorphism",
+        "label": "Skeuomorphism",
+        "source_id": 78,
+        "menu_clip_count": 72,
+        "home_clip_count": 72,
+        "url": "https://www.spottedinprod.com/tags/design_language/skeuomorphism",
+        "representative_clip": {
+          "key": "editorial:561",
+          "sourceType": "editorial",
+          "id": 561,
+          "title": "Book your flight",
+          "appName": "focusflight",
+          "appDisplayName": "Focus Flight"
+        }
+      },
+      {
+        "group": "design_language",
+        "slug": "colorful",
+        "label": "Colorful",
+        "source_id": 117,
+        "menu_clip_count": 71,
+        "home_clip_count": 71,
+        "url": "https://www.spottedinprod.com/tags/design_language/colorful",
+        "representative_clip": {
+          "key": "editorial:769",
+          "sourceType": "editorial",
+          "id": 769,
+          "title": "Phantom cash",
+          "appName": "phantom",
+          "appDisplayName": "Phantom"
+        }
+      },
+      {
+        "group": "design_language",
+        "slug": "monochrome",
+        "label": "Monochrome",
+        "source_id": 128,
+        "menu_clip_count": 21,
+        "home_clip_count": 21,
+        "url": "https://www.spottedinprod.com/tags/design_language/monochrome",
+        "representative_clip": {
+          "key": "editorial:743",
+          "sourceType": "editorial",
+          "id": 743,
+          "title": "Curate my night",
+          "appName": "twotwotwo",
+          "appDisplayName": "222"
+        }
+      },
+      {
+        "group": "design_language",
+        "slug": "collage",
+        "label": "Collage",
+        "source_id": 151,
+        "menu_clip_count": 16,
+        "home_clip_count": 16,
+        "url": "https://www.spottedinprod.com/tags/design_language/collage",
+        "representative_clip": {
+          "key": "editorial:421",
+          "sourceType": "editorial",
+          "id": 421,
+          "title": "Tabs",
+          "appName": "selleb",
+          "appDisplayName": "Selleb"
+        }
+      },
+      {
+        "group": "design_language",
+        "slug": "loud",
+        "label": "Loud",
+        "source_id": 114,
+        "menu_clip_count": 14,
+        "home_clip_count": 14,
+        "url": "https://www.spottedinprod.com/tags/design_language/loud",
+        "representative_clip": {
+          "key": "editorial:430",
+          "sourceType": "editorial",
+          "id": 430,
+          "title": "Round results",
+          "appName": "yapster",
+          "appDisplayName": "Yapster"
+        }
+      },
+      {
+        "group": "design_language",
+        "slug": "friendly",
+        "label": "Friendly",
+        "source_id": 279,
+        "menu_clip_count": 13,
+        "home_clip_count": 13,
+        "url": "https://www.spottedinprod.com/tags/design_language/friendly",
+        "representative_clip": {
+          "key": "editorial:723",
+          "sourceType": "editorial",
+          "id": 723,
+          "title": "Constellation swipe",
+          "appName": "cusp",
+          "appDisplayName": "Cusp"
+        }
+      },
+      {
+        "group": "design_language",
+        "slug": "silly",
+        "label": "Silly",
+        "source_id": 205,
+        "menu_clip_count": 10,
+        "home_clip_count": 10,
+        "url": "https://www.spottedinprod.com/tags/design_language/silly",
+        "representative_clip": {
+          "key": "editorial:528",
+          "sourceType": "editorial",
+          "id": 528,
+          "title": "Onboarding",
+          "appName": "grug",
+          "appDisplayName": "grug"
+        }
+      },
+      {
+        "group": "design_language",
+        "slug": "retro",
+        "label": "Retro",
+        "source_id": 188,
+        "menu_clip_count": 7,
+        "home_clip_count": 7,
+        "url": "https://www.spottedinprod.com/tags/design_language/retro",
+        "representative_clip": {
+          "key": "editorial:823",
+          "sourceType": "editorial",
+          "id": 823,
+          "title": "Cover flow",
+          "appName": "retrompthree",
+          "appDisplayName": "Retro MP3"
+        }
+      },
+      {
+        "group": "design_language",
+        "slug": "grayscale",
+        "label": "Grayscale",
+        "source_id": 141,
+        "menu_clip_count": 6,
+        "home_clip_count": 6,
+        "url": "https://www.spottedinprod.com/tags/design_language/grayscale",
+        "representative_clip": {
+          "key": "editorial:62",
+          "sourceType": "editorial",
+          "id": 62,
+          "title": "RPE",
+          "appName": "dropset",
+          "appDisplayName": "Dropset"
+        }
+      },
+      {
+        "group": "design_language",
+        "slug": "flat",
+        "label": "Flat",
+        "source_id": 211,
+        "menu_clip_count": 5,
+        "home_clip_count": 5,
+        "url": "https://www.spottedinprod.com/tags/design_language/flat",
+        "representative_clip": {
+          "key": "editorial:50",
+          "sourceType": "editorial",
+          "id": 50,
+          "title": "Bottom pills",
+          "appName": "coinbase",
+          "appDisplayName": "Coinbase"
+        }
+      },
+      {
+        "group": "design_language",
+        "slug": "typographic",
+        "label": "Typographic",
+        "source_id": 140,
+        "menu_clip_count": 5,
+        "home_clip_count": 5,
+        "url": "https://www.spottedinprod.com/tags/design_language/typographic",
+        "representative_clip": {
+          "key": "editorial:618",
+          "sourceType": "editorial",
+          "id": 618,
+          "title": "Swipe",
+          "appName": "sunflower",
+          "appDisplayName": "Sunflower"
+        }
+      },
+      {
+        "group": "design_language",
+        "slug": "cryptopunk",
+        "label": "Cyberpunk",
+        "source_id": 126,
+        "menu_clip_count": 4,
+        "home_clip_count": 4,
+        "url": "https://www.spottedinprod.com/tags/design_language/cryptopunk",
+        "representative_clip": {
+          "key": "editorial:39",
+          "sourceType": "editorial",
+          "id": 39,
+          "title": "Launch screen",
+          "appName": "carbon",
+          "appDisplayName": "Carbon"
+        }
+      },
+      {
+        "group": "design_language",
+        "slug": "dense_ui",
+        "label": "Dense UI",
+        "source_id": 139,
+        "menu_clip_count": 4,
+        "home_clip_count": 4,
+        "url": "https://www.spottedinprod.com/tags/design_language/dense_ui",
+        "representative_clip": {
+          "key": "editorial:494",
+          "sourceType": "editorial",
+          "id": 494,
+          "title": "Chart",
+          "appName": "costar",
+          "appDisplayName": "Co–Star"
+        }
+      },
+      {
+        "group": "design_language",
+        "slug": "pixel_art",
+        "label": "Pixel Art",
+        "source_id": 206,
+        "menu_clip_count": 4,
+        "home_clip_count": 4,
+        "url": "https://www.spottedinprod.com/tags/design_language/pixel_art",
+        "representative_clip": {
+          "key": "editorial:9",
+          "sourceType": "editorial",
+          "id": 9,
+          "title": "Happy 4/20",
+          "appName": "stash",
+          "appDisplayName": "Stash"
+        }
+      },
+      {
+        "group": "design_language",
+        "slug": "warm",
+        "label": "Warm",
+        "source_id": 292,
+        "menu_clip_count": 4,
+        "home_clip_count": 4,
+        "url": "https://www.spottedinprod.com/tags/design_language/warm",
+        "representative_clip": {
+          "key": "editorial:782",
+          "sourceType": "editorial",
+          "id": 782,
+          "title": "Onboarding",
+          "appName": "acmeweather",
+          "appDisplayName": "Acme Weather"
+        }
+      },
+      {
+        "group": "design_language",
+        "slug": "brutalist",
+        "label": "Brutalist",
+        "source_id": 300,
+        "menu_clip_count": 3,
+        "home_clip_count": 3,
+        "url": "https://www.spottedinprod.com/tags/design_language/brutalist",
+        "representative_clip": {
+          "key": "editorial:855",
+          "sourceType": "editorial",
+          "id": 855,
+          "title": "Know the signs",
+          "appName": "costar",
+          "appDisplayName": "Co–Star"
+        }
+      },
+      {
+        "group": "design_language",
+        "slug": "geometric",
+        "label": "Geometric",
+        "source_id": 155,
+        "menu_clip_count": 1,
+        "home_clip_count": 1,
+        "url": "https://www.spottedinprod.com/tags/design_language/geometric",
+        "representative_clip": {
+          "key": "editorial:79",
+          "sourceType": "editorial",
+          "id": 79,
+          "title": "Soundpad",
+          "appName": "endel",
+          "appDisplayName": "Endel"
+        }
+      },
+      {
+        "group": "design_language",
+        "slug": "technical",
+        "label": "Technical",
+        "source_id": 278,
+        "menu_clip_count": 1,
+        "home_clip_count": 1,
+        "url": "https://www.spottedinprod.com/tags/design_language/technical",
+        "representative_clip": {
+          "key": "editorial:713",
+          "sourceType": "editorial",
+          "id": 713,
+          "title": "Rabbit holes",
+          "appName": "arena",
+          "appDisplayName": "Are.na"
+        }
+      }
+    ],
+    "team_type": [
+      {
+        "group": "team_type",
+        "slug": "startup",
+        "label": "Startup",
+        "source_id": 12,
+        "menu_clip_count": 375,
+        "home_clip_count": 375,
+        "url": "https://www.spottedinprod.com/tags/team_type/startup",
+        "representative_clip": {
+          "key": "editorial:175",
+          "sourceType": "editorial",
+          "id": 175,
+          "title": "Emotions",
+          "appName": "howwefeel",
+          "appDisplayName": "How We Feel"
+        }
+      },
+      {
+        "group": "team_type",
+        "slug": "indie",
+        "label": "Indie",
+        "source_id": 2,
+        "menu_clip_count": 330,
+        "home_clip_count": 332,
+        "url": "https://www.spottedinprod.com/tags/team_type/indie",
+        "representative_clip": {
+          "key": "editorial:773",
+          "sourceType": "editorial",
+          "id": 773,
+          "title": "Puzzle complete",
+          "appName": "sudoku",
+          "appDisplayName": "Sudoku"
+        }
+      },
+      {
+        "group": "team_type",
+        "slug": "big_co",
+        "label": "Big Co",
+        "source_id": 5,
+        "menu_clip_count": 155,
+        "home_clip_count": 156,
+        "url": "https://www.spottedinprod.com/tags/team_type/big_co",
+        "representative_clip": {
+          "key": "editorial:707",
+          "sourceType": "editorial",
+          "id": 707,
+          "title": "Themes",
+          "appName": "cashapp",
+          "appDisplayName": "Cash App"
+        }
+      },
+      {
+        "group": "team_type",
+        "slug": "small_co",
+        "label": "Small Co",
+        "source_id": 18,
+        "menu_clip_count": 66,
+        "home_clip_count": 66,
+        "url": "https://www.spottedinprod.com/tags/team_type/small_co",
+        "representative_clip": {
+          "key": "editorial:632",
+          "sourceType": "editorial",
+          "id": 632,
+          "title": "Notifications",
+          "appName": "craft",
+          "appDisplayName": "Craft"
+        }
+      }
+    ]
+  },
+  "homepage_apps": [
+    {
+      "appId": 154,
+      "appName": "abode",
+      "displayName": "Abode",
+      "clipCount": 10,
+      "url": "https://www.spottedinprod.com/apps/abode"
+    },
+    {
+      "appId": 223,
+      "appName": "ivy",
+      "displayName": "Ivy",
+      "clipCount": 6,
+      "url": "https://www.spottedinprod.com/apps/ivy"
+    },
+    {
+      "appId": 108,
+      "appName": "bump",
+      "displayName": "Bump",
+      "clipCount": 21,
+      "url": "https://www.spottedinprod.com/apps/bump"
+    },
+    {
+      "appId": 275,
+      "appName": "genie",
+      "displayName": "Genie",
+      "clipCount": 5,
+      "url": "https://www.spottedinprod.com/apps/genie"
+    },
+    {
+      "appId": 47,
+      "appName": "retro",
+      "displayName": "Retro",
+      "clipCount": 16,
+      "url": "https://www.spottedinprod.com/apps/retro"
+    },
+    {
+      "appId": 69,
+      "appName": "sudoku",
+      "displayName": "Sudoku",
+      "clipCount": 10,
+      "url": "https://www.spottedinprod.com/apps/sudoku"
+    },
+    {
+      "appId": 7,
+      "appName": "luma",
+      "displayName": "Luma",
+      "clipCount": 7,
+      "url": "https://www.spottedinprod.com/apps/luma"
+    },
+    {
+      "appId": 135,
+      "appName": "family",
+      "displayName": "Family",
+      "clipCount": 13,
+      "url": "https://www.spottedinprod.com/apps/family"
+    },
+    {
+      "appId": 199,
+      "appName": "capwords",
+      "displayName": "Capwords",
+      "clipCount": 4,
+      "url": "https://www.spottedinprod.com/apps/capwords"
+    },
+    {
+      "appId": 262,
+      "appName": "alyx",
+      "displayName": "Alyx",
+      "clipCount": 5,
+      "url": "https://www.spottedinprod.com/apps/alyx"
+    },
+    {
+      "appId": 243,
+      "appName": "cobot",
+      "displayName": "Cobot",
+      "clipCount": 4,
+      "url": "https://www.spottedinprod.com/apps/cobot"
+    },
+    {
+      "appId": 120,
+      "appName": "craft",
+      "displayName": "Craft",
+      "clipCount": 12,
+      "url": "https://www.spottedinprod.com/apps/craft"
+    },
+    {
+      "appId": 216,
+      "appName": "creme",
+      "displayName": "Creme",
+      "clipCount": 4,
+      "url": "https://www.spottedinprod.com/apps/creme"
+    },
+    {
+      "appId": 117,
+      "appName": "cosmos",
+      "displayName": "Cosmos",
+      "clipCount": 15,
+      "url": "https://www.spottedinprod.com/apps/cosmos"
+    },
+    {
+      "appId": 50,
+      "appName": "robinhood",
+      "displayName": "Robinhood",
+      "clipCount": 13,
+      "url": "https://www.spottedinprod.com/apps/robinhood"
+    },
+    {
+      "appId": 101,
+      "appName": "alma",
+      "displayName": "Alma",
+      "clipCount": 4,
+      "url": "https://www.spottedinprod.com/apps/alma"
+    },
+    {
+      "appId": 189,
+      "appName": "avec",
+      "displayName": "Avec",
+      "clipCount": 8,
+      "url": "https://www.spottedinprod.com/apps/avec"
+    },
+    {
+      "appId": 244,
+      "appName": "focusflight",
+      "displayName": "Focus Flight",
+      "clipCount": 9,
+      "url": "https://www.spottedinprod.com/apps/focusflight"
+    },
+    {
+      "appId": 192,
+      "appName": "lumy",
+      "displayName": "Lumy",
+      "clipCount": 8,
+      "url": "https://www.spottedinprod.com/apps/lumy"
+    },
+    {
+      "appId": 201,
+      "appName": "clocks",
+      "displayName": "Clocks",
+      "clipCount": 3,
+      "url": "https://www.spottedinprod.com/apps/clocks"
+    },
+    {
+      "appId": 204,
+      "appName": "raycast",
+      "displayName": "Raycast",
+      "clipCount": 4,
+      "url": "https://www.spottedinprod.com/apps/raycast"
+    },
+    {
+      "appId": 222,
+      "appName": "photorestore",
+      "displayName": "Photo Restore",
+      "clipCount": 5,
+      "url": "https://www.spottedinprod.com/apps/photorestore"
+    },
+    {
+      "appId": 1,
+      "appName": "2006cam",
+      "displayName": "2006",
+      "clipCount": 4,
+      "url": "https://www.spottedinprod.com/apps/2006cam"
+    },
+    {
+      "appId": 281,
+      "appName": "bevel",
+      "displayName": "Bevel",
+      "clipCount": 5,
+      "url": "https://www.spottedinprod.com/apps/bevel"
+    },
+    {
+      "appId": 107,
+      "appName": "blackbird",
+      "displayName": "Blackbird",
+      "clipCount": 10,
+      "url": "https://www.spottedinprod.com/apps/blackbird"
+    },
+    {
+      "appId": 94,
+      "appName": "yapster",
+      "displayName": "Yapster",
+      "clipCount": 7,
+      "url": "https://www.spottedinprod.com/apps/yapster"
+    },
+    {
+      "appId": 147,
+      "appName": "grok",
+      "displayName": "Grok",
+      "clipCount": 3,
+      "url": "https://www.spottedinprod.com/apps/grok"
+    },
+    {
+      "appId": 155,
+      "appName": "arenatf",
+      "displayName": "Are:na",
+      "clipCount": 7,
+      "url": "https://www.spottedinprod.com/apps/arenatf"
+    },
+    {
+      "appId": 290,
+      "appName": "pool",
+      "displayName": "Pool",
+      "clipCount": 3,
+      "url": "https://www.spottedinprod.com/apps/pool"
+    },
+    {
+      "appId": 97,
+      "appName": "airbnb",
+      "displayName": "Airbnb",
+      "clipCount": 12,
+      "url": "https://www.spottedinprod.com/apps/airbnb"
+    },
+    {
+      "appId": 105,
+      "appName": "arcsearch",
+      "displayName": "Arc Search",
+      "clipCount": 6,
+      "url": "https://www.spottedinprod.com/apps/arcsearch"
+    },
+    {
+      "appId": 116,
+      "appName": "corner",
+      "displayName": "corner",
+      "clipCount": 4,
+      "url": "https://www.spottedinprod.com/apps/corner"
+    },
+    {
+      "appId": 103,
+      "appName": "andante",
+      "displayName": "Andante",
+      "clipCount": 4,
+      "url": "https://www.spottedinprod.com/apps/andante"
+    },
+    {
+      "appId": 143,
+      "appName": "goclub",
+      "displayName": "GO Club",
+      "clipCount": 3,
+      "url": "https://www.spottedinprod.com/apps/goclub"
+    },
+    {
+      "appId": 171,
+      "appName": "doji",
+      "displayName": "Doji",
+      "clipCount": 6,
+      "url": "https://www.spottedinprod.com/apps/doji"
+    },
+    {
+      "appId": 221,
+      "appName": "showcase",
+      "displayName": "Showcase",
+      "clipCount": 4,
+      "url": "https://www.spottedinprod.com/apps/showcase"
+    },
+    {
+      "appId": 226,
+      "appName": "stupido",
+      "displayName": "Stupido",
+      "clipCount": 2,
+      "url": "https://www.spottedinprod.com/apps/stupido"
+    },
+    {
+      "appId": 102,
+      "appName": "amie",
+      "displayName": "Amie",
+      "clipCount": 5,
+      "url": "https://www.spottedinprod.com/apps/amie"
+    },
+    {
+      "appId": 218,
+      "appName": "supersonic",
+      "displayName": "Supersonic Run",
+      "clipCount": 4,
+      "url": "https://www.spottedinprod.com/apps/supersonic"
+    },
+    {
+      "appId": 265,
+      "appName": "aave",
+      "displayName": "Aave",
+      "clipCount": 8,
+      "url": "https://www.spottedinprod.com/apps/aave"
+    },
+    {
+      "appId": 75,
+      "appName": "things",
+      "displayName": "Things",
+      "clipCount": 9,
+      "url": "https://www.spottedinprod.com/apps/things"
+    },
+    {
+      "appId": 82,
+      "appName": "untitled",
+      "displayName": "[untitled]",
+      "clipCount": 5,
+      "url": "https://www.spottedinprod.com/apps/untitled"
+    },
+    {
+      "appId": 57,
+      "appName": "shop",
+      "displayName": "Shop",
+      "clipCount": 5,
+      "url": "https://www.spottedinprod.com/apps/shop"
+    },
+    {
+      "appId": 77,
+      "appName": "timepage",
+      "displayName": "Timepage",
+      "clipCount": 2,
+      "url": "https://www.spottedinprod.com/apps/timepage"
+    },
+    {
+      "appId": 114,
+      "appName": "chatgpt",
+      "displayName": "ChatGPT",
+      "clipCount": 10,
+      "url": "https://www.spottedinprod.com/apps/chatgpt"
+    },
+    {
+      "appId": 162,
+      "appName": "actions",
+      "displayName": "Actions",
+      "clipCount": 7,
+      "url": "https://www.spottedinprod.com/apps/actions"
+    },
+    {
+      "appId": 11,
+      "appName": "mist",
+      "displayName": "MIST",
+      "clipCount": 5,
+      "url": "https://www.spottedinprod.com/apps/mist"
+    },
+    {
+      "appId": 287,
+      "appName": "wabi",
+      "displayName": "Wabi",
+      "clipCount": 1,
+      "url": "https://www.spottedinprod.com/apps/wabi"
+    },
+    {
+      "appId": 269,
+      "appName": "bop",
+      "displayName": "Bop",
+      "clipCount": 3,
+      "url": "https://www.spottedinprod.com/apps/bop"
+    },
+    {
+      "appId": 10,
+      "appName": "miles",
+      "displayName": "Miles",
+      "clipCount": 3,
+      "url": "https://www.spottedinprod.com/apps/miles"
+    },
+    {
+      "appId": 112,
+      "appName": "cashapp",
+      "displayName": "Cash App",
+      "clipCount": 6,
+      "url": "https://www.spottedinprod.com/apps/cashapp"
+    },
+    {
+      "appId": 206,
+      "appName": "schema",
+      "displayName": "Schema",
+      "clipCount": 2,
+      "url": "https://www.spottedinprod.com/apps/schema"
+    },
+    {
+      "appId": 118,
+      "appName": "costar",
+      "displayName": "Co–Star",
+      "clipCount": 10,
+      "url": "https://www.spottedinprod.com/apps/costar"
+    },
+    {
+      "appId": 325,
+      "appName": "runreceipt",
+      "displayName": "Run Receipt",
+      "clipCount": 1,
+      "url": "https://www.spottedinprod.com/apps/runreceipt"
+    },
+    {
+      "appId": 323,
+      "appName": "introspect",
+      "displayName": "Introspect",
+      "clipCount": 5,
+      "url": "https://www.spottedinprod.com/apps/introspect"
+    },
+    {
+      "appId": 100,
+      "appName": "alltrails",
+      "displayName": "AllTrails",
+      "clipCount": 5,
+      "url": "https://www.spottedinprod.com/apps/alltrails"
+    },
+    {
+      "appId": 200,
+      "appName": "checker",
+      "displayName": "Checker",
+      "clipCount": 4,
+      "url": "https://www.spottedinprod.com/apps/checker"
+    },
+    {
+      "appId": 164,
+      "appName": "believe",
+      "displayName": "Believe",
+      "clipCount": 7,
+      "url": "https://www.spottedinprod.com/apps/believe"
+    },
+    {
+      "appId": 122,
+      "appName": "deco",
+      "displayName": "Deco",
+      "clipCount": 6,
+      "url": "https://www.spottedinprod.com/apps/deco"
+    },
+    {
+      "appId": 106,
+      "appName": "binsoo",
+      "displayName": "Binsoo",
+      "clipCount": 5,
+      "url": "https://www.spottedinprod.com/apps/binsoo"
+    },
+    {
+      "appId": 327,
+      "appName": "ben",
+      "displayName": "Ben",
+      "clipCount": 1,
+      "url": "https://www.spottedinprod.com/apps/ben"
+    },
+    {
+      "appId": 28,
+      "appName": "particle",
+      "displayName": "Particle",
+      "clipCount": 7,
+      "url": "https://www.spottedinprod.com/apps/particle"
+    },
+    {
+      "appId": 30,
+      "appName": "perplexity",
+      "displayName": "Perplexity",
+      "clipCount": 6,
+      "url": "https://www.spottedinprod.com/apps/perplexity"
+    },
+    {
+      "appId": 194,
+      "appName": "remindmefaster",
+      "displayName": "Remind Me Faster",
+      "clipCount": 3,
+      "url": "https://www.spottedinprod.com/apps/remindmefaster"
+    },
+    {
+      "appId": 198,
+      "appName": "tripsy",
+      "displayName": "Tripsy",
+      "clipCount": 1,
+      "url": "https://www.spottedinprod.com/apps/tripsy"
+    },
+    {
+      "appId": 233,
+      "appName": "fyf",
+      "displayName": "Find your Faith",
+      "clipCount": 4,
+      "url": "https://www.spottedinprod.com/apps/fyf"
+    },
+    {
+      "appId": 286,
+      "appName": "ditto",
+      "displayName": "Ditto",
+      "clipCount": 5,
+      "url": "https://www.spottedinprod.com/apps/ditto"
+    },
+    {
+      "appId": 127,
+      "appName": "dot",
+      "displayName": "Dot",
+      "clipCount": 4,
+      "url": "https://www.spottedinprod.com/apps/dot"
+    },
+    {
+      "appId": 129,
+      "appName": "dropset",
+      "displayName": "Dropset",
+      "clipCount": 3,
+      "url": "https://www.spottedinprod.com/apps/dropset"
+    },
+    {
+      "appId": 195,
+      "appName": "bluenote",
+      "displayName": "BlueNote",
+      "clipCount": 4,
+      "url": "https://www.spottedinprod.com/apps/bluenote"
+    },
+    {
+      "appId": 331,
+      "appName": "interlude",
+      "displayName": "Interlude",
+      "clipCount": 1,
+      "url": "https://www.spottedinprod.com/apps/interlude"
+    },
+    {
+      "appId": 260,
+      "appName": "bins",
+      "displayName": "Bins",
+      "clipCount": 7,
+      "url": "https://www.spottedinprod.com/apps/bins"
+    },
+    {
+      "appId": 23,
+      "appName": "opal",
+      "displayName": "Opal",
+      "clipCount": 2,
+      "url": "https://www.spottedinprod.com/apps/opal"
+    },
+    {
+      "appId": 315,
+      "appName": "sonder",
+      "displayName": "Sonder",
+      "clipCount": 1,
+      "url": "https://www.spottedinprod.com/apps/sonder"
+    },
+    {
+      "appId": 324,
+      "appName": "moodsfaster",
+      "displayName": "Moods Faster",
+      "clipCount": 2,
+      "url": "https://www.spottedinprod.com/apps/moodsfaster"
+    },
+    {
+      "appId": 9,
+      "appName": "mercury",
+      "displayName": "Mercury",
+      "clipCount": 11,
+      "url": "https://www.spottedinprod.com/apps/mercury"
+    },
+    {
+      "appId": 288,
+      "appName": "polymarket",
+      "displayName": "Polymarket",
+      "clipCount": 2,
+      "url": "https://www.spottedinprod.com/apps/polymarket"
+    },
+    {
+      "appId": 304,
+      "appName": "lostpost",
+      "displayName": "Lost Post",
+      "clipCount": 1,
+      "url": "https://www.spottedinprod.com/apps/lostpost"
+    },
+    {
+      "appId": 39,
+      "appName": "poolsuite",
+      "displayName": "Poolsuite FM",
+      "clipCount": 4,
+      "url": "https://www.spottedinprod.com/apps/poolsuite"
+    },
+    {
+      "appId": 242,
+      "appName": "grug",
+      "displayName": "grug",
+      "clipCount": 4,
+      "url": "https://www.spottedinprod.com/apps/grug"
+    },
+    {
+      "appId": 263,
+      "appName": "twotwotwo",
+      "displayName": "222",
+      "clipCount": 10,
+      "url": "https://www.spottedinprod.com/apps/twotwotwo"
+    },
+    {
+      "appId": 141,
+      "appName": "fotmob",
+      "displayName": "FotMob",
+      "clipCount": 10,
+      "url": "https://www.spottedinprod.com/apps/fotmob"
+    },
+    {
+      "appId": 19,
+      "appName": "numbies",
+      "displayName": "Numbies",
+      "clipCount": 4,
+      "url": "https://www.spottedinprod.com/apps/numbies"
+    },
+    {
+      "appId": 173,
+      "appName": "github",
+      "displayName": "GitHub",
+      "clipCount": 5,
+      "url": "https://www.spottedinprod.com/apps/github"
+    },
+    {
+      "appId": 26,
+      "appName": "ora",
+      "displayName": "Ora",
+      "clipCount": 3,
+      "url": "https://www.spottedinprod.com/apps/ora"
+    },
+    {
+      "appId": 238,
+      "appName": "cassette",
+      "displayName": "Cassette",
+      "clipCount": 1,
+      "url": "https://www.spottedinprod.com/apps/cassette"
+    },
+    {
+      "appId": 328,
+      "appName": "trackables",
+      "displayName": "Trackables",
+      "clipCount": 1,
+      "url": "https://www.spottedinprod.com/apps/trackables"
+    },
+    {
+      "appId": 32,
+      "appName": "phantom",
+      "displayName": "Phantom",
+      "clipCount": 4,
+      "url": "https://www.spottedinprod.com/apps/phantom"
+    },
+    {
+      "appId": 292,
+      "appName": "spark",
+      "displayName": "Spark",
+      "clipCount": 2,
+      "url": "https://www.spottedinprod.com/apps/spark"
+    },
+    {
+      "appId": 258,
+      "appName": "gentlerstreak",
+      "displayName": "Gentler Streak",
+      "clipCount": 2,
+      "url": "https://www.spottedinprod.com/apps/gentlerstreak"
+    },
+    {
+      "appId": 35,
+      "appName": "placify",
+      "displayName": "Placify",
+      "clipCount": 2,
+      "url": "https://www.spottedinprod.com/apps/placify"
+    },
+    {
+      "appId": 40,
+      "appName": "posts",
+      "displayName": "Posts",
+      "clipCount": 5,
+      "url": "https://www.spottedinprod.com/apps/posts"
+    },
+    {
+      "appId": 251,
+      "appName": "claude",
+      "displayName": "Claude",
+      "clipCount": 4,
+      "url": "https://www.spottedinprod.com/apps/claude"
+    },
+    {
+      "appId": 111,
+      "appName": "carbon",
+      "displayName": "Carbon",
+      "clipCount": 3,
+      "url": "https://www.spottedinprod.com/apps/carbon"
+    },
+    {
+      "appId": 151,
+      "appName": "howwefeel",
+      "displayName": "How We Feel",
+      "clipCount": 1,
+      "url": "https://www.spottedinprod.com/apps/howwefeel"
+    },
+    {
+      "appId": 89,
+      "appName": "waymo",
+      "displayName": "Waymo",
+      "clipCount": 2,
+      "url": "https://www.spottedinprod.com/apps/waymo"
+    },
+    {
+      "appId": 144,
+      "appName": "goat",
+      "displayName": "GOAT",
+      "clipCount": 11,
+      "url": "https://www.spottedinprod.com/apps/goat"
+    },
+    {
+      "appId": 225,
+      "appName": "vinyls",
+      "displayName": "Vinyls",
+      "clipCount": 3,
+      "url": "https://www.spottedinprod.com/apps/vinyls"
+    },
+    {
+      "appId": 53,
+      "appName": "roze",
+      "displayName": "Roze",
+      "clipCount": 2,
+      "url": "https://www.spottedinprod.com/apps/roze"
+    },
+    {
+      "appId": 157,
+      "appName": "dsclock",
+      "displayName": "DS Clock",
+      "clipCount": 1,
+      "url": "https://www.spottedinprod.com/apps/dsclock"
+    }
+  ],
+  "response_receipts": [
+    {
+      "url": "https://www.spottedinprod.com/",
+      "bytes": 320568,
+      "sha256": "448245d2d3fd5c1434a2efc03ba67b1ff0ba4fd2e81115b41e8a9e90b890e241"
+    },
+    {
+      "url": "https://www.spottedinprod.com/apps/focusflight",
+      "bytes": 57032,
+      "sha256": "d398438401f2a52a90110b3c95481131882db37a416f175805453c3a5e4f3f8e"
+    },
+    {
+      "url": "https://www.spottedinprod.com/clips",
+      "bytes": 100418,
+      "sha256": "cf007d32c1f8bc5a8b40eea5dd2255c13c55c5816c1d4de64a37e5c53907553a"
+    }
+  ],
+  "unavailable_routes": [
+    {
+      "url": "https://www.spottedinprod.com/robots.txt",
+      "status": 404
+    },
+    {
+      "url": "https://www.spottedinprod.com/sitemap.xml",
+      "status": 404
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": "350",
+  "app": "Schema",
+  "slug": "schema",
+  "title": "Welcome",
+  "source": "https://www.spottedinprod.com/tags/flow/onboarding/350",
+  "app_source": "https://www.spottedinprod.com/apps/schema/350",
+  "captured": "2026-10-12",
+  "timezone": "America/New_York",
+  "tags": [
+    "flow/launch_screen",
+    "flow/onboarding",
+    "visual/menu_icons",
+    "visual/motion_graphics",
+    "design_language/collage"
+  ],
+  "assets": [
+    {
+      "kind": "video",
+      "path": "schema/350.mp4",
+      "url": "https://cdn.spottedinprod.com/clips/b8609cca-480f-4dc6-adcf-716b8996cb7c.mp4",
+      "bytes": 1686208,
+      "sha256": "d236caa725ebf13a2cd0b98ea9cadfbeaff9daae60407cdb754e10974685e766"
+    },
+    {
+      "kind": "poster",
+      "path": "schema/350-poster.webp",
+      "url": "https://cdn.spottedinprod.com/clips/b8609cca-480f-4dc6-adcf-716b8996cb7c-poster.webp",
+      "bytes": 4706,
+      "sha256": "4919b0f1468df6acd2e9d7e0739824b1b8df63d54ceea765ca97badea91f772d"
+    }
+  ],
+  "media": {
+    "duration": 7.6,
+    "width": 1180,
+    "height": 2556,
+    "fps": "30/1"
+  },
+  "inspection": "six evenly spaced frames visually reviewed",
+  "sample_times_seconds": [
+    0.0,
+    1.5,
+    3.0,
+    4.5,
+    6.0,
+    7.5
+  ],
+  "contact_sheet": "schema/350-contact.jpg",
+  "design_type": "apps",
+  "viewport": "mobile portrait; encoded pixel dimensions are not device-point dimensions",
+  "observations": "Large blue and yellow key/account graphics, small colored circles, and table-like snippets appear above centered copy and a blue Continue button. The graphic composition changes scale and arrangement, then becomes blurred behind a security explanation.",
+  "learning_candidate": "Use graphics to introduce a concept, then reduce their visual competition when the explanation needs attention.",
+  "preference_state": "unspecified; source retained for study"
+}

@@ -1,0 +1,2318 @@
+[
+  {
+    "order": 10,
+    "show-by-default": true,
+    "title": "iPhone SE",
+    "screen": {
+      "horizontal": {
+        "width": 667,
+        "height": 375
+      },
+      "device-pixel-ratio": 2,
+      "vertical": {
+        "width": 375,
+        "height": 667
+      }
+    },
+    "capabilities": [
+      "touch",
+      "mobile"
+    ],
+    "user-agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1",
+    "user-agent-metadata": {
+      "platform": "iOS",
+      "platformVersion": "18.5",
+      "architecture": "",
+      "model": "iPhone",
+      "mobile": true
+    },
+    "type": "phone"
+  },
+  {
+    "order": 12,
+    "show-by-default": false,
+    "title": "iPhone XR",
+    "screen": {
+      "horizontal": {
+        "width": 896,
+        "height": 414
+      },
+      "device-pixel-ratio": 2,
+      "vertical": {
+        "width": 414,
+        "height": 896
+      }
+    },
+    "capabilities": [
+      "touch",
+      "mobile"
+    ],
+    "user-agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1",
+    "user-agent-metadata": {
+      "platform": "iOS",
+      "platformVersion": "18.5",
+      "architecture": "",
+      "model": "iPhone",
+      "mobile": true
+    },
+    "type": "phone",
+    "modes": [
+      {
+        "title": "default",
+        "orientation": "vertical",
+        "safe-area-insets": {
+          "left": 0,
+          "top": 44,
+          "right": 0,
+          "bottom": 34
+        },
+        "cutout": {
+          "shape": "notch",
+          "x": 92,
+          "y": 0,
+          "width": 231,
+          "height": 33,
+          "upper-radius": 6,
+          "lower-radius": 25
+        }
+      },
+      {
+        "title": "default",
+        "orientation": "horizontal",
+        "safe-area-insets": {
+          "left": 44,
+          "top": 0,
+          "right": 44,
+          "bottom": 21
+        }
+      }
+    ]
+  },
+  {
+    "order": 14,
+    "show-by-default": false,
+    "title": "iPhone 12 Pro",
+    "screen": {
+      "horizontal": {
+        "width": 844,
+        "height": 390
+      },
+      "device-pixel-ratio": 3,
+      "vertical": {
+        "width": 390,
+        "height": 844
+      }
+    },
+    "capabilities": [
+      "touch",
+      "mobile"
+    ],
+    "user-agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1",
+    "user-agent-metadata": {
+      "platform": "iOS",
+      "platformVersion": "18.5",
+      "architecture": "",
+      "model": "iPhone",
+      "mobile": true
+    },
+    "type": "phone",
+    "modes": [
+      {
+        "title": "default",
+        "orientation": "vertical",
+        "safe-area-insets": {
+          "left": 0,
+          "top": 47,
+          "right": 0,
+          "bottom": 34
+        },
+        "cutout": {
+          "shape": "notch",
+          "x": 90,
+          "y": 0,
+          "width": 210,
+          "height": 32,
+          "upper-radius": 6,
+          "lower-radius": 23
+        }
+      },
+      {
+        "title": "default",
+        "orientation": "horizontal",
+        "safe-area-insets": {
+          "left": 47,
+          "top": 0,
+          "right": 47,
+          "bottom": 21
+        }
+      }
+    ]
+  },
+  {
+    "order": 15,
+    "show-by-default": false,
+    "title": "iPhone 14",
+    "screen": {
+      "horizontal": {
+        "width": 844,
+        "height": 390
+      },
+      "device-pixel-ratio": 3,
+      "vertical": {
+        "width": 390,
+        "height": 844
+      }
+    },
+    "capabilities": [
+      "touch",
+      "mobile"
+    ],
+    "user-agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1",
+    "user-agent-metadata": {
+      "platform": "iOS",
+      "platformVersion": "18.5",
+      "architecture": "",
+      "model": "iPhone",
+      "mobile": true
+    },
+    "type": "phone",
+    "modes": [
+      {
+        "title": "default",
+        "orientation": "vertical",
+        "safe-area-insets": {
+          "left": 0,
+          "top": 47,
+          "right": 0,
+          "bottom": 34
+        },
+        "cutout": {
+          "shape": "notch",
+          "x": 114,
+          "y": 0,
+          "width": 162,
+          "height": 34,
+          "upper-radius": 5,
+          "lower-radius": 22
+        }
+      },
+      {
+        "title": "default",
+        "orientation": "horizontal",
+        "safe-area-insets": {
+          "left": 47,
+          "top": 0,
+          "right": 47,
+          "bottom": 21
+        }
+      }
+    ]
+  },
+  {
+    "order": 16,
+    "show-by-default": false,
+    "title": "iPhone 14 Plus",
+    "screen": {
+      "horizontal": {
+        "width": 926,
+        "height": 428
+      },
+      "device-pixel-ratio": 3,
+      "vertical": {
+        "width": 428,
+        "height": 926
+      }
+    },
+    "capabilities": [
+      "touch",
+      "mobile"
+    ],
+    "user-agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1",
+    "user-agent-metadata": {
+      "platform": "iOS",
+      "platformVersion": "18.5",
+      "architecture": "",
+      "model": "iPhone",
+      "mobile": true
+    },
+    "type": "phone",
+    "modes": [
+      {
+        "title": "default",
+        "orientation": "vertical",
+        "safe-area-insets": {
+          "left": 0,
+          "top": 47,
+          "right": 0,
+          "bottom": 34
+        },
+        "cutout": {
+          "shape": "notch",
+          "x": 133,
+          "y": 0,
+          "width": 161,
+          "height": 34,
+          "upper-radius": 5,
+          "lower-radius": 22
+        }
+      },
+      {
+        "title": "default",
+        "orientation": "horizontal",
+        "safe-area-insets": {
+          "left": 47,
+          "top": 0,
+          "right": 47,
+          "bottom": 21
+        }
+      }
+    ]
+  },
+  {
+    "order": 17,
+    "show-by-default": false,
+    "title": "iPhone 14 Pro",
+    "screen": {
+      "horizontal": {
+        "width": 852,
+        "height": 393
+      },
+      "device-pixel-ratio": 3,
+      "vertical": {
+        "width": 393,
+        "height": 852
+      }
+    },
+    "capabilities": [
+      "touch",
+      "mobile"
+    ],
+    "user-agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1",
+    "user-agent-metadata": {
+      "platform": "iOS",
+      "platformVersion": "18.5",
+      "architecture": "",
+      "model": "iPhone",
+      "mobile": true
+    },
+    "type": "phone",
+    "modes": [
+      {
+        "title": "default",
+        "orientation": "vertical",
+        "safe-area-insets": {
+          "left": 0,
+          "top": 59,
+          "right": 0,
+          "bottom": 34
+        },
+        "cutout": {
+          "shape": "pill",
+          "x": 134,
+          "y": 11,
+          "width": 125,
+          "height": 37,
+          "border-radius": 19
+        }
+      },
+      {
+        "title": "default",
+        "orientation": "horizontal",
+        "safe-area-insets": {
+          "left": 59,
+          "top": 0,
+          "right": 59,
+          "bottom": 21
+        }
+      }
+    ]
+  },
+  {
+    "order": 18,
+    "show-by-default": false,
+    "title": "iPhone 14 Pro Max",
+    "screen": {
+      "horizontal": {
+        "width": 932,
+        "height": 430
+      },
+      "device-pixel-ratio": 3,
+      "vertical": {
+        "width": 430,
+        "height": 932
+      }
+    },
+    "capabilities": [
+      "touch",
+      "mobile"
+    ],
+    "user-agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1",
+    "user-agent-metadata": {
+      "platform": "iOS",
+      "platformVersion": "18.5",
+      "architecture": "",
+      "model": "iPhone",
+      "mobile": true
+    },
+    "type": "phone",
+    "modes": [
+      {
+        "title": "default",
+        "orientation": "vertical",
+        "safe-area-insets": {
+          "left": 0,
+          "top": 59,
+          "right": 0,
+          "bottom": 34
+        },
+        "cutout": {
+          "shape": "pill",
+          "x": 153,
+          "y": 11,
+          "width": 125,
+          "height": 37,
+          "border-radius": 19
+        }
+      },
+      {
+        "title": "default",
+        "orientation": "horizontal",
+        "safe-area-insets": {
+          "left": 59,
+          "top": 0,
+          "right": 59,
+          "bottom": 21
+        }
+      }
+    ]
+  },
+  {
+    "order": 19,
+    "show-by-default": false,
+    "title": "iPhone 15",
+    "screen": {
+      "horizontal": {
+        "width": 852,
+        "height": 393
+      },
+      "device-pixel-ratio": 3,
+      "vertical": {
+        "width": 393,
+        "height": 852
+      }
+    },
+    "capabilities": [
+      "touch",
+      "mobile"
+    ],
+    "user-agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1",
+    "user-agent-metadata": {
+      "platform": "iOS",
+      "platformVersion": "18.5",
+      "architecture": "",
+      "model": "iPhone",
+      "mobile": true
+    },
+    "type": "phone",
+    "modes": [
+      {
+        "title": "default",
+        "orientation": "vertical",
+        "safe-area-insets": {
+          "left": 0,
+          "top": 59,
+          "right": 0,
+          "bottom": 34
+        },
+        "cutout": {
+          "shape": "pill",
+          "x": 134,
+          "y": 11,
+          "width": 125,
+          "height": 37,
+          "border-radius": 19
+        }
+      },
+      {
+        "title": "default",
+        "orientation": "horizontal",
+        "safe-area-insets": {
+          "left": 59,
+          "top": 0,
+          "right": 59,
+          "bottom": 21
+        }
+      }
+    ]
+  },
+  {
+    "order": 20,
+    "show-by-default": false,
+    "title": "iPhone 15 Plus",
+    "screen": {
+      "horizontal": {
+        "width": 932,
+        "height": 430
+      },
+      "device-pixel-ratio": 3,
+      "vertical": {
+        "width": 430,
+        "height": 932
+      }
+    },
+    "capabilities": [
+      "touch",
+      "mobile"
+    ],
+    "user-agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1",
+    "user-agent-metadata": {
+      "platform": "iOS",
+      "platformVersion": "18.5",
+      "architecture": "",
+      "model": "iPhone",
+      "mobile": true
+    },
+    "type": "phone",
+    "modes": [
+      {
+        "title": "default",
+        "orientation": "vertical",
+        "safe-area-insets": {
+          "left": 0,
+          "top": 59,
+          "right": 0,
+          "bottom": 34
+        },
+        "cutout": {
+          "shape": "pill",
+          "x": 153,
+          "y": 11,
+          "width": 125,
+          "height": 37,
+          "border-radius": 19
+        }
+      },
+      {
+        "title": "default",
+        "orientation": "horizontal",
+        "safe-area-insets": {
+          "left": 59,
+          "top": 0,
+          "right": 59,
+          "bottom": 21
+        }
+      }
+    ]
+  },
+  {
+    "order": 21,
+    "show-by-default": false,
+    "title": "iPhone 15 Pro",
+    "screen": {
+      "horizontal": {
+        "width": 852,
+        "height": 393
+      },
+      "device-pixel-ratio": 3,
+      "vertical": {
+        "width": 393,
+        "height": 852
+      }
+    },
+    "capabilities": [
+      "touch",
+      "mobile"
+    ],
+    "user-agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1",
+    "user-agent-metadata": {
+      "platform": "iOS",
+      "platformVersion": "18.5",
+      "architecture": "",
+      "model": "iPhone",
+      "mobile": true
+    },
+    "type": "phone",
+    "modes": [
+      {
+        "title": "default",
+        "orientation": "vertical",
+        "safe-area-insets": {
+          "left": 0,
+          "top": 59,
+          "right": 0,
+          "bottom": 34
+        },
+        "cutout": {
+          "shape": "pill",
+          "x": 134,
+          "y": 11,
+          "width": 125,
+          "height": 37,
+          "border-radius": 19
+        }
+      },
+      {
+        "title": "default",
+        "orientation": "horizontal",
+        "safe-area-insets": {
+          "left": 59,
+          "top": 0,
+          "right": 59,
+          "bottom": 21
+        }
+      }
+    ]
+  },
+  {
+    "order": 22,
+    "show-by-default": false,
+    "title": "iPhone 15 Pro Max",
+    "screen": {
+      "horizontal": {
+        "width": 932,
+        "height": 430
+      },
+      "device-pixel-ratio": 3,
+      "vertical": {
+        "width": 430,
+        "height": 932
+      }
+    },
+    "capabilities": [
+      "touch",
+      "mobile"
+    ],
+    "user-agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1",
+    "user-agent-metadata": {
+      "platform": "iOS",
+      "platformVersion": "18.5",
+      "architecture": "",
+      "model": "iPhone",
+      "mobile": true
+    },
+    "type": "phone",
+    "modes": [
+      {
+        "title": "default",
+        "orientation": "vertical",
+        "safe-area-insets": {
+          "left": 0,
+          "top": 59,
+          "right": 0,
+          "bottom": 34
+        },
+        "cutout": {
+          "shape": "pill",
+          "x": 153,
+          "y": 11,
+          "width": 125,
+          "height": 37,
+          "border-radius": 19
+        }
+      },
+      {
+        "title": "default",
+        "orientation": "horizontal",
+        "safe-area-insets": {
+          "left": 59,
+          "top": 0,
+          "right": 59,
+          "bottom": 21
+        }
+      }
+    ]
+  },
+  {
+    "order": 23,
+    "show-by-default": false,
+    "title": "iPhone 16e",
+    "screen": {
+      "horizontal": {
+        "width": 844,
+        "height": 390
+      },
+      "device-pixel-ratio": 3,
+      "vertical": {
+        "width": 390,
+        "height": 844
+      }
+    },
+    "capabilities": [
+      "touch",
+      "mobile"
+    ],
+    "user-agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1",
+    "user-agent-metadata": {
+      "platform": "iOS",
+      "platformVersion": "18.5",
+      "architecture": "",
+      "model": "iPhone",
+      "mobile": true
+    },
+    "type": "phone",
+    "modes": [
+      {
+        "title": "default",
+        "orientation": "vertical",
+        "safe-area-insets": {
+          "left": 0,
+          "top": 47,
+          "right": 0,
+          "bottom": 34
+        },
+        "cutout": {
+          "shape": "notch",
+          "x": 114,
+          "y": 0,
+          "width": 162,
+          "height": 34,
+          "upper-radius": 5,
+          "lower-radius": 22
+        }
+      },
+      {
+        "title": "default",
+        "orientation": "horizontal",
+        "safe-area-insets": {
+          "left": 47,
+          "top": 0,
+          "right": 47,
+          "bottom": 21
+        }
+      }
+    ]
+  },
+  {
+    "order": 24,
+    "show-by-default": true,
+    "title": "iPhone 16",
+    "screen": {
+      "horizontal": {
+        "width": 852,
+        "height": 393
+      },
+      "device-pixel-ratio": 3,
+      "vertical": {
+        "width": 393,
+        "height": 852
+      }
+    },
+    "capabilities": [
+      "touch",
+      "mobile"
+    ],
+    "user-agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1",
+    "user-agent-metadata": {
+      "platform": "iOS",
+      "platformVersion": "18.5",
+      "architecture": "",
+      "model": "iPhone",
+      "mobile": true
+    },
+    "type": "phone",
+    "modes": [
+      {
+        "title": "default",
+        "orientation": "vertical",
+        "safe-area-insets": {
+          "left": 0,
+          "top": 59,
+          "right": 0,
+          "bottom": 34
+        },
+        "cutout": {
+          "shape": "pill",
+          "x": 134,
+          "y": 11,
+          "width": 125,
+          "height": 37,
+          "border-radius": 19
+        }
+      },
+      {
+        "title": "default",
+        "orientation": "horizontal",
+        "safe-area-insets": {
+          "left": 59,
+          "top": 0,
+          "right": 59,
+          "bottom": 21
+        }
+      }
+    ]
+  },
+  {
+    "order": 25,
+    "show-by-default": false,
+    "title": "iPhone 16 Plus",
+    "screen": {
+      "horizontal": {
+        "width": 932,
+        "height": 430
+      },
+      "device-pixel-ratio": 3,
+      "vertical": {
+        "width": 430,
+        "height": 932
+      }
+    },
+    "capabilities": [
+      "touch",
+      "mobile"
+    ],
+    "user-agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1",
+    "user-agent-metadata": {
+      "platform": "iOS",
+      "platformVersion": "18.5",
+      "architecture": "",
+      "model": "iPhone",
+      "mobile": true
+    },
+    "type": "phone",
+    "modes": [
+      {
+        "title": "default",
+        "orientation": "vertical",
+        "safe-area-insets": {
+          "left": 0,
+          "top": 59,
+          "right": 0,
+          "bottom": 34
+        },
+        "cutout": {
+          "shape": "pill",
+          "x": 153,
+          "y": 11,
+          "width": 125,
+          "height": 37,
+          "border-radius": 19
+        }
+      },
+      {
+        "title": "default",
+        "orientation": "horizontal",
+        "safe-area-insets": {
+          "left": 59,
+          "top": 0,
+          "right": 59,
+          "bottom": 21
+        }
+      }
+    ]
+  },
+  {
+    "order": 26,
+    "show-by-default": false,
+    "title": "iPhone 16 Pro",
+    "screen": {
+      "horizontal": {
+        "width": 874,
+        "height": 402
+      },
+      "device-pixel-ratio": 3,
+      "vertical": {
+        "width": 402,
+        "height": 874
+      }
+    },
+    "capabilities": [
+      "touch",
+      "mobile"
+    ],
+    "user-agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1",
+    "user-agent-metadata": {
+      "platform": "iOS",
+      "platformVersion": "18.5",
+      "architecture": "",
+      "model": "iPhone",
+      "mobile": true
+    },
+    "type": "phone",
+    "modes": [
+      {
+        "title": "default",
+        "orientation": "vertical",
+        "safe-area-insets": {
+          "left": 0,
+          "top": 62,
+          "right": 0,
+          "bottom": 34
+        },
+        "cutout": {
+          "shape": "pill",
+          "x": 139,
+          "y": 14,
+          "width": 125,
+          "height": 37,
+          "border-radius": 19
+        }
+      },
+      {
+        "title": "default",
+        "orientation": "horizontal",
+        "safe-area-insets": {
+          "left": 62,
+          "top": 0,
+          "right": 62,
+          "bottom": 21
+        }
+      }
+    ]
+  },
+  {
+    "order": 27,
+    "show-by-default": true,
+    "title": "iPhone 16 Pro Max",
+    "screen": {
+      "horizontal": {
+        "width": 956,
+        "height": 440
+      },
+      "device-pixel-ratio": 3,
+      "vertical": {
+        "width": 440,
+        "height": 956
+      }
+    },
+    "capabilities": [
+      "touch",
+      "mobile"
+    ],
+    "user-agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1",
+    "user-agent-metadata": {
+      "platform": "iOS",
+      "platformVersion": "18.5",
+      "architecture": "",
+      "model": "iPhone",
+      "mobile": true
+    },
+    "type": "phone",
+    "modes": [
+      {
+        "title": "default",
+        "orientation": "vertical",
+        "safe-area-insets": {
+          "left": 0,
+          "top": 62,
+          "right": 0,
+          "bottom": 34
+        },
+        "cutout": {
+          "shape": "pill",
+          "x": 158,
+          "y": 14,
+          "width": 125,
+          "height": 37,
+          "border-radius": 19
+        }
+      },
+      {
+        "title": "default",
+        "orientation": "horizontal",
+        "safe-area-insets": {
+          "left": 62,
+          "top": 0,
+          "right": 62,
+          "bottom": 21
+        }
+      }
+    ]
+  },
+  {
+    "order": 30,
+    "show-by-default": false,
+    "title": "Pixel 7",
+    "screen": {
+      "horizontal": {
+        "width": 915,
+        "height": 412
+      },
+      "device-pixel-ratio": 2.625,
+      "vertical": {
+        "width": 412,
+        "height": 915
+      }
+    },
+    "capabilities": [
+      "touch",
+      "mobile"
+    ],
+    "user-agent": "Mozilla/5.0 (Linux; Android 13; Pixel 7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/%s Mobile Safari/537.36",
+    "user-agent-metadata": {
+      "platform": "Android",
+      "platformVersion": "13",
+      "architecture": "",
+      "model": "Pixel 7",
+      "mobile": true
+    },
+    "type": "phone",
+    "modes": [
+      {
+        "title": "default",
+        "orientation": "vertical",
+        "safe-area-insets": {
+          "left": 0,
+          "top": 52,
+          "right": 0,
+          "bottom": 0
+        },
+        "cutout": {
+          "shape": "circle",
+          "x": 183,
+          "y": 0,
+          "width": 55,
+          "height": 52,
+          "cx": 206,
+          "cy": 26,
+          "radius": 13
+        }
+      },
+      {
+        "title": "default",
+        "orientation": "horizontal",
+        "safe-area-insets": {
+          "left": 0,
+          "top": 0,
+          "right": 52,
+          "bottom": 0
+        }
+      }
+    ]
+  },
+  {
+    "order": 31,
+    "show-by-default": false,
+    "title": "Pixel 8",
+    "screen": {
+      "horizontal": {
+        "width": 915,
+        "height": 412
+      },
+      "device-pixel-ratio": 2.625,
+      "vertical": {
+        "width": 412,
+        "height": 915
+      }
+    },
+    "capabilities": [
+      "touch",
+      "mobile"
+    ],
+    "user-agent": "Mozilla/5.0 (Linux; Android 14; Pixel 8) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/%s Mobile Safari/537.36",
+    "user-agent-metadata": {
+      "platform": "Android",
+      "platformVersion": "14",
+      "architecture": "",
+      "model": "Pixel 8",
+      "mobile": true
+    },
+    "type": "phone",
+    "modes": [
+      {
+        "title": "default",
+        "orientation": "vertical",
+        "safe-area-insets": {
+          "left": 0,
+          "top": 50,
+          "right": 0,
+          "bottom": 0
+        },
+        "cutout": {
+          "shape": "circle",
+          "x": 182,
+          "y": 0,
+          "width": 46,
+          "height": 50,
+          "cx": 206,
+          "cy": 25,
+          "radius": 14
+        }
+      },
+      {
+        "title": "default",
+        "orientation": "horizontal",
+        "safe-area-insets": {
+          "left": 0,
+          "top": 0,
+          "right": 50,
+          "bottom": 0
+        }
+      }
+    ]
+  },
+  {
+    "order": 32,
+    "show-by-default": false,
+    "title": "Pixel 8 Pro",
+    "screen": {
+      "horizontal": {
+        "width": 997,
+        "height": 448
+      },
+      "device-pixel-ratio": 3,
+      "vertical": {
+        "width": 448,
+        "height": 997
+      }
+    },
+    "capabilities": [
+      "touch",
+      "mobile"
+    ],
+    "user-agent": "Mozilla/5.0 (Linux; Android 14; Pixel 8 Pro) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/%s Mobile Safari/537.36",
+    "user-agent-metadata": {
+      "platform": "Android",
+      "platformVersion": "14",
+      "architecture": "",
+      "model": "Pixel 8 Pro",
+      "mobile": true
+    },
+    "type": "phone",
+    "modes": [
+      {
+        "title": "default",
+        "orientation": "vertical",
+        "safe-area-insets": {
+          "left": 0,
+          "top": 50,
+          "right": 0,
+          "bottom": 0
+        },
+        "cutout": {
+          "shape": "circle",
+          "x": 205,
+          "y": 0,
+          "width": 37,
+          "height": 50,
+          "cx": 224,
+          "cy": 25,
+          "radius": 14
+        }
+      },
+      {
+        "title": "default",
+        "orientation": "horizontal",
+        "safe-area-insets": {
+          "left": 0,
+          "top": 0,
+          "right": 50,
+          "bottom": 0
+        }
+      }
+    ]
+  },
+  {
+    "order": 33,
+    "show-by-default": false,
+    "title": "Pixel 8a",
+    "screen": {
+      "horizontal": {
+        "width": 915,
+        "height": 412
+      },
+      "device-pixel-ratio": 2.625,
+      "vertical": {
+        "width": 412,
+        "height": 915
+      }
+    },
+    "capabilities": [
+      "touch",
+      "mobile"
+    ],
+    "user-agent": "Mozilla/5.0 (Linux; Android 14; Pixel 8a) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/%s Mobile Safari/537.36",
+    "user-agent-metadata": {
+      "platform": "Android",
+      "platformVersion": "14",
+      "architecture": "",
+      "model": "Pixel 8a",
+      "mobile": true
+    },
+    "type": "phone",
+    "modes": [
+      {
+        "title": "default",
+        "orientation": "vertical",
+        "safe-area-insets": {
+          "left": 0,
+          "top": 46,
+          "right": 0,
+          "bottom": 0
+        },
+        "cutout": {
+          "shape": "circle",
+          "x": 185,
+          "y": 0,
+          "width": 42,
+          "height": 46,
+          "cx": 206,
+          "cy": 26,
+          "radius": 13
+        }
+      },
+      {
+        "title": "default",
+        "orientation": "horizontal",
+        "safe-area-insets": {
+          "left": 0,
+          "top": 0,
+          "right": 46,
+          "bottom": 0
+        }
+      }
+    ]
+  },
+  {
+    "order": 34,
+    "show-by-default": true,
+    "title": "Pixel 9",
+    "screen": {
+      "horizontal": {
+        "width": 924,
+        "height": 412
+      },
+      "device-pixel-ratio": 2.625,
+      "vertical": {
+        "width": 412,
+        "height": 924
+      }
+    },
+    "capabilities": [
+      "touch",
+      "mobile"
+    ],
+    "user-agent": "Mozilla/5.0 (Linux; Android 14; Pixel 9) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/%s Mobile Safari/537.36",
+    "user-agent-metadata": {
+      "platform": "Android",
+      "platformVersion": "14",
+      "architecture": "",
+      "model": "Pixel 9",
+      "mobile": true
+    },
+    "type": "phone",
+    "modes": [
+      {
+        "title": "default",
+        "orientation": "vertical",
+        "safe-area-insets": {
+          "left": 0,
+          "top": 58,
+          "right": 0,
+          "bottom": 0
+        },
+        "cutout": {
+          "shape": "circle",
+          "x": 188,
+          "y": 0,
+          "width": 37,
+          "height": 58,
+          "cx": 206,
+          "cy": 29,
+          "radius": 14
+        }
+      },
+      {
+        "title": "default",
+        "orientation": "horizontal",
+        "safe-area-insets": {
+          "left": 0,
+          "top": 0,
+          "right": 58,
+          "bottom": 0
+        }
+      }
+    ]
+  },
+  {
+    "order": 35,
+    "show-by-default": true,
+    "title": "Pixel 9 Pro",
+    "screen": {
+      "horizontal": {
+        "width": 952,
+        "height": 427
+      },
+      "device-pixel-ratio": 3,
+      "vertical": {
+        "width": 427,
+        "height": 952
+      }
+    },
+    "capabilities": [
+      "touch",
+      "mobile"
+    ],
+    "user-agent": "Mozilla/5.0 (Linux; Android 14; Pixel 9 Pro) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/%s Mobile Safari/537.36",
+    "user-agent-metadata": {
+      "platform": "Android",
+      "platformVersion": "14",
+      "architecture": "",
+      "model": "Pixel 9 Pro",
+      "mobile": true
+    },
+    "type": "phone",
+    "modes": [
+      {
+        "title": "default",
+        "orientation": "vertical",
+        "safe-area-insets": {
+          "left": 0,
+          "top": 68,
+          "right": 0,
+          "bottom": 0
+        },
+        "cutout": {
+          "shape": "circle",
+          "x": 195,
+          "y": 0,
+          "width": 36,
+          "height": 68,
+          "cx": 213,
+          "cy": 34,
+          "radius": 16
+        }
+      },
+      {
+        "title": "default",
+        "orientation": "horizontal",
+        "safe-area-insets": {
+          "left": 0,
+          "top": 0,
+          "right": 68,
+          "bottom": 0
+        }
+      }
+    ]
+  },
+  {
+    "order": 36,
+    "show-by-default": false,
+    "title": "Pixel 9 Pro XL",
+    "screen": {
+      "horizontal": {
+        "width": 997,
+        "height": 448
+      },
+      "device-pixel-ratio": 3,
+      "vertical": {
+        "width": 448,
+        "height": 997
+      }
+    },
+    "capabilities": [
+      "touch",
+      "mobile"
+    ],
+    "user-agent": "Mozilla/5.0 (Linux; Android 14; Pixel 9 Pro XL) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/%s Mobile Safari/537.36",
+    "user-agent-metadata": {
+      "platform": "Android",
+      "platformVersion": "14",
+      "architecture": "",
+      "model": "Pixel 9 Pro XL",
+      "mobile": true
+    },
+    "type": "phone",
+    "modes": [
+      {
+        "title": "default",
+        "orientation": "vertical",
+        "safe-area-insets": {
+          "left": 0,
+          "top": 66,
+          "right": 0,
+          "bottom": 0
+        },
+        "cutout": {
+          "shape": "circle",
+          "x": 205,
+          "y": 0,
+          "width": 38,
+          "height": 66,
+          "cx": 224,
+          "cy": 33,
+          "radius": 16
+        }
+      },
+      {
+        "title": "default",
+        "orientation": "horizontal",
+        "safe-area-insets": {
+          "left": 0,
+          "top": 0,
+          "right": 66,
+          "bottom": 0
+        }
+      }
+    ]
+  },
+  {
+    "order": 37,
+    "show-by-default": true,
+    "title": "Pixel 10",
+    "screen": {
+      "horizontal": {
+        "width": 924,
+        "height": 412
+      },
+      "device-pixel-ratio": 2.625,
+      "vertical": {
+        "width": 412,
+        "height": 924
+      }
+    },
+    "capabilities": [
+      "touch",
+      "mobile"
+    ],
+    "user-agent": "Mozilla/5.0 (Linux; Android 16; Pixel 10) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/%s Mobile Safari/537.36",
+    "user-agent-metadata": {
+      "platform": "Android",
+      "platformVersion": "16",
+      "architecture": "",
+      "model": "Pixel 10",
+      "mobile": true
+    },
+    "type": "phone",
+    "modes": [
+      {
+        "title": "default",
+        "orientation": "vertical",
+        "safe-area-insets": {
+          "left": 0,
+          "top": 58,
+          "right": 0,
+          "bottom": 0
+        },
+        "cutout": {
+          "shape": "circle",
+          "x": 188,
+          "y": 0,
+          "width": 37,
+          "height": 58,
+          "cx": 206,
+          "cy": 29,
+          "radius": 14
+        }
+      },
+      {
+        "title": "default",
+        "orientation": "horizontal",
+        "safe-area-insets": {
+          "left": 0,
+          "top": 0,
+          "right": 58,
+          "bottom": 0
+        }
+      }
+    ]
+  },
+  {
+    "order": 38,
+    "show-by-default": false,
+    "title": "Samsung Galaxy S8+",
+    "screen": {
+      "horizontal": {
+        "width": 740,
+        "height": 360
+      },
+      "device-pixel-ratio": 4,
+      "vertical": {
+        "width": 360,
+        "height": 740
+      }
+    },
+    "capabilities": [
+      "touch",
+      "mobile"
+    ],
+    "user-agent": "Mozilla/5.0 (Linux; Android 8.0.0; SM-G955U Build/R16NW) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/%s Mobile Safari/537.36",
+    "user-agent-metadata": {
+      "platform": "Android",
+      "platformVersion": "8.0.0",
+      "architecture": "",
+      "model": "SM-G955U",
+      "mobile": true
+    },
+    "type": "phone"
+  },
+  {
+    "order": 39,
+    "show-by-default": false,
+    "title": "Samsung Galaxy S20 Ultra",
+    "screen": {
+      "horizontal": {
+        "width": 915,
+        "height": 412
+      },
+      "device-pixel-ratio": 3.5,
+      "vertical": {
+        "width": 412,
+        "height": 915
+      }
+    },
+    "capabilities": [
+      "touch",
+      "mobile"
+    ],
+    "user-agent": "Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/%s Mobile Safari/537.36",
+    "user-agent-metadata": {
+      "platform": "Android",
+      "platformVersion": "13",
+      "architecture": "",
+      "model": "SM-G981B",
+      "mobile": true
+    },
+    "type": "phone"
+  },
+  {
+    "order": 43,
+    "show-by-default": false,
+    "title": "Surface Pro 7",
+    "screen": {
+      "horizontal": {
+        "width": 1368,
+        "height": 912
+      },
+      "device-pixel-ratio": 2,
+      "vertical": {
+        "width": 912,
+        "height": 1368
+      }
+    },
+    "capabilities": [
+      "touch",
+      "mobile"
+    ],
+    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/%s Safari/537.36",
+    "type": "tablet"
+  },
+  {
+    "order": 40,
+    "show-by-default": true,
+    "title": "iPad Mini",
+    "screen": {
+      "horizontal": {
+        "width": 1024,
+        "height": 768
+      },
+      "device-pixel-ratio": 2,
+      "vertical": {
+        "width": 768,
+        "height": 1024
+      }
+    },
+    "capabilities": [
+      "touch",
+      "mobile"
+    ],
+    "user-agent": "Mozilla/5.0 (iPad; CPU OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1",
+    "user-agent-metadata": {
+      "platform": "iOS",
+      "platformVersion": "18.5",
+      "architecture": "",
+      "model": "iPad",
+      "mobile": true
+    },
+    "type": "tablet"
+  },
+  {
+    "order": 42,
+    "show-by-default": true,
+    "title": "iPad Pro 13",
+    "screen": {
+      "horizontal": {
+        "width": 1376,
+        "height": 1032
+      },
+      "device-pixel-ratio": 2,
+      "vertical": {
+        "width": 1032,
+        "height": 1376
+      }
+    },
+    "capabilities": [
+      "touch",
+      "mobile"
+    ],
+    "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15",
+    "user-agent-metadata": {
+      "platform": "iOS",
+      "platformVersion": "18.5",
+      "architecture": "",
+      "model": "iPad",
+      "mobile": true
+    },
+    "type": "tablet"
+  },
+  {
+    "order": 43,
+    "show-by-default": true,
+    "title": "Surface Pro 10",
+    "screen": {
+      "horizontal": {
+        "width": 1440,
+        "height": 960
+      },
+      "device-pixel-ratio": 2,
+      "vertical": {
+        "width": 960,
+        "height": 1440
+      }
+    },
+    "capabilities": [
+      "touch",
+      "mobile"
+    ],
+    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/%s Safari/537.36",
+    "type": "tablet"
+  },
+  {
+    "order": 44,
+    "show-by-default": false,
+    "dual-screen": true,
+    "title": "Surface Duo",
+    "screen": {
+      "horizontal": {
+        "width": 720,
+        "height": 540
+      },
+      "device-pixel-ratio": 2.5,
+      "vertical": {
+        "width": 540,
+        "height": 720
+      },
+      "vertical-spanned": {
+        "width": 1114,
+        "height": 720,
+        "hinge": {
+          "width": 34,
+          "height": 720,
+          "x": 540,
+          "y": 0,
+          "contentColor": {
+            "r": 38,
+            "g": 38,
+            "b": 38,
+            "a": 1
+          }
+        }
+      },
+      "horizontal-spanned": {
+        "width": 720,
+        "height": 1114,
+        "hinge": {
+          "width": 720,
+          "height": 34,
+          "x": 0,
+          "y": 540,
+          "contentColor": {
+            "r": 38,
+            "g": 38,
+            "b": 38,
+            "a": 1
+          }
+        }
+      }
+    },
+    "capabilities": [
+      "touch",
+      "mobile"
+    ],
+    "user-agent": "Mozilla/5.0 (Linux; Android 11.0; Surface Duo) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/%s Mobile Safari/537.36",
+    "user-agent-metadata": {
+      "platform": "Android",
+      "platformVersion": "11.0",
+      "architecture": "",
+      "model": "Surface Duo",
+      "mobile": true
+    },
+    "type": "phone",
+    "modes": [
+      {
+        "title": "default",
+        "orientation": "vertical"
+      },
+      {
+        "title": "default",
+        "orientation": "horizontal"
+      },
+      {
+        "title": "spanned",
+        "orientation": "vertical-spanned"
+      },
+      {
+        "title": "spanned",
+        "orientation": "horizontal-spanned"
+      }
+    ]
+  },
+  {
+    "order": 38,
+    "show-by-default": true,
+    "title": "Samsung Galaxy A55",
+    "screen": {
+      "horizontal": {
+        "width": 800,
+        "height": 360
+      },
+      "device-pixel-ratio": 2.25,
+      "vertical": {
+        "width": 360,
+        "height": 800
+      }
+    },
+    "capabilities": [
+      "touch",
+      "mobile"
+    ],
+    "user-agent": "Mozilla/5.0 (Linux; Android 14; SM-A556B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/%s Mobile Safari/537.36",
+    "user-agent-metadata": {
+      "platform": "Android",
+      "platformVersion": "14",
+      "architecture": "",
+      "model": "SM-A556B",
+      "mobile": true
+    },
+    "type": "phone"
+  },
+  {
+    "order": 45,
+    "show-by-default": true,
+    "foldable-screen": true,
+    "title": "Pixel 9 Pro Fold",
+    "screen": {
+      "horizontal": {
+        "width": 922,
+        "height": 412
+      },
+      "device-pixel-ratio": 2.625,
+      "vertical": {
+        "width": 412,
+        "height": 922
+      },
+      "vertical-spanned": {
+        "width": 836,
+        "height": 842,
+        "hinge": {
+          "width": 0,
+          "height": 842,
+          "x": 418,
+          "y": 0,
+          "contentColor": {
+            "r": 38,
+            "g": 38,
+            "b": 38,
+            "a": 0.2
+          },
+          "outlineColor": {
+            "r": 38,
+            "g": 38,
+            "b": 38,
+            "a": 0.7
+          }
+        }
+      },
+      "horizontal-spanned": {
+        "width": 842,
+        "height": 836,
+        "hinge": {
+          "width": 842,
+          "height": 0,
+          "x": 0,
+          "y": 418,
+          "contentColor": {
+            "r": 38,
+            "g": 38,
+            "b": 38,
+            "a": 0.2
+          },
+          "outlineColor": {
+            "r": 38,
+            "g": 38,
+            "b": 38,
+            "a": 0.7
+          }
+        }
+      }
+    },
+    "capabilities": [
+      "touch",
+      "mobile"
+    ],
+    "user-agent": "Mozilla/5.0 (Linux; Android 14; Pixel 9 Pro Fold) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/%s Mobile Safari/537.36",
+    "user-agent-metadata": {
+      "platform": "Android",
+      "platformVersion": "14",
+      "architecture": "",
+      "model": "Pixel 9 Pro Fold",
+      "mobile": true
+    },
+    "type": "phone",
+    "modes": [
+      {
+        "title": "default",
+        "orientation": "vertical"
+      },
+      {
+        "title": "default",
+        "orientation": "horizontal"
+      },
+      {
+        "title": "spanned",
+        "orientation": "vertical-spanned"
+      },
+      {
+        "title": "spanned",
+        "orientation": "horizontal-spanned"
+      }
+    ]
+  },
+  {
+    "order": 46,
+    "show-by-default": true,
+    "foldable-screen": true,
+    "title": "Galaxy Z Fold 6",
+    "screen": {
+      "horizontal": {
+        "width": 968,
+        "height": 412
+      },
+      "device-pixel-ratio": 2.625,
+      "vertical": {
+        "width": 412,
+        "height": 968
+      },
+      "vertical-spanned": {
+        "width": 744,
+        "height": 860,
+        "hinge": {
+          "width": 0,
+          "height": 860,
+          "x": 372,
+          "y": 0,
+          "contentColor": {
+            "r": 38,
+            "g": 38,
+            "b": 38,
+            "a": 0.2
+          },
+          "outlineColor": {
+            "r": 38,
+            "g": 38,
+            "b": 38,
+            "a": 0.7
+          }
+        }
+      },
+      "horizontal-spanned": {
+        "width": 860,
+        "height": 744,
+        "hinge": {
+          "width": 860,
+          "height": 0,
+          "x": 0,
+          "y": 372,
+          "contentColor": {
+            "r": 38,
+            "g": 38,
+            "b": 38,
+            "a": 0.2
+          },
+          "outlineColor": {
+            "r": 38,
+            "g": 38,
+            "b": 38,
+            "a": 0.7
+          }
+        }
+      }
+    },
+    "capabilities": [
+      "touch",
+      "mobile"
+    ],
+    "user-agent": "Mozilla/5.0 (Linux; Android 14; SM-F956U) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/%s Mobile Safari/537.36",
+    "user-agent-metadata": {
+      "platform": "Android",
+      "platformVersion": "14",
+      "architecture": "",
+      "model": "SM-F956U",
+      "mobile": true
+    },
+    "type": "phone",
+    "modes": [
+      {
+        "title": "default",
+        "orientation": "vertical"
+      },
+      {
+        "title": "default",
+        "orientation": "horizontal"
+      },
+      {
+        "title": "spanned",
+        "orientation": "vertical-spanned"
+      },
+      {
+        "title": "spanned",
+        "orientation": "horizontal-spanned"
+      }
+    ]
+  },
+  {
+    "order": 46,
+    "show-by-default": false,
+    "foldable-screen": true,
+    "title": "Galaxy Z Fold 5",
+    "screen": {
+      "horizontal": {
+        "width": 882,
+        "height": 344
+      },
+      "device-pixel-ratio": 2.625,
+      "vertical": {
+        "width": 344,
+        "height": 882
+      },
+      "vertical-spanned": {
+        "width": 690,
+        "height": 829,
+        "hinge": {
+          "width": 0,
+          "height": 829,
+          "x": 345,
+          "y": 0,
+          "contentColor": {
+            "r": 38,
+            "g": 38,
+            "b": 38,
+            "a": 0.2
+          },
+          "outlineColor": {
+            "r": 38,
+            "g": 38,
+            "b": 38,
+            "a": 0.7
+          }
+        }
+      },
+      "horizontal-spanned": {
+        "width": 829,
+        "height": 690,
+        "hinge": {
+          "width": 829,
+          "height": 0,
+          "x": 0,
+          "y": 345,
+          "contentColor": {
+            "r": 38,
+            "g": 38,
+            "b": 38,
+            "a": 0.2
+          },
+          "outlineColor": {
+            "r": 38,
+            "g": 38,
+            "b": 38,
+            "a": 0.7
+          }
+        }
+      }
+    },
+    "capabilities": [
+      "touch",
+      "mobile"
+    ],
+    "user-agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/%s Mobile Safari/537.36",
+    "user-agent-metadata": {
+      "platform": "Android",
+      "platformVersion": "10.0",
+      "architecture": "",
+      "model": "SM-F946U",
+      "mobile": true
+    },
+    "type": "phone",
+    "modes": [
+      {
+        "title": "default",
+        "orientation": "vertical"
+      },
+      {
+        "title": "default",
+        "orientation": "horizontal"
+      },
+      {
+        "title": "spanned",
+        "orientation": "vertical-spanned"
+      },
+      {
+        "title": "spanned",
+        "orientation": "horizontal-spanned"
+      }
+    ]
+  },
+  {
+    "order": 47,
+    "show-by-default": false,
+    "foldable-screen": true,
+    "title": "Asus Zenbook Fold",
+    "screen": {
+      "horizontal": {
+        "width": 1280,
+        "height": 853
+      },
+      "device-pixel-ratio": 1.5,
+      "vertical": {
+        "width": 853,
+        "height": 1280
+      },
+      "vertical-spanned": {
+        "width": 1706,
+        "height": 1280,
+        "hinge": {
+          "width": 107,
+          "height": 1280,
+          "x": 800,
+          "y": 0,
+          "contentColor": {
+            "r": 38,
+            "g": 38,
+            "b": 38,
+            "a": 0.2
+          },
+          "outlineColor": {
+            "r": 38,
+            "g": 38,
+            "b": 38,
+            "a": 0.7
+          }
+        }
+      },
+      "horizontal-spanned": {
+        "width": 1280,
+        "height": 1706,
+        "hinge": {
+          "width": 1706,
+          "height": 107,
+          "x": 0,
+          "y": 800,
+          "contentColor": {
+            "r": 38,
+            "g": 38,
+            "b": 38,
+            "a": 0.2
+          },
+          "outlineColor": {
+            "r": 38,
+            "g": 38,
+            "b": 38,
+            "a": 0.7
+          }
+        }
+      }
+    },
+    "capabilities": [
+      "touch"
+    ],
+    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/%s Safari/537.36",
+    "user-agent-metadata": {
+      "platform": "Windows",
+      "platformVersion": "11.0",
+      "architecture": "",
+      "model": "UX9702AA",
+      "mobile": false
+    },
+    "type": "tablet",
+    "modes": [
+      {
+        "title": "default",
+        "orientation": "vertical"
+      },
+      {
+        "title": "default",
+        "orientation": "horizontal"
+      },
+      {
+        "title": "spanned",
+        "orientation": "vertical-spanned"
+      },
+      {
+        "title": "spanned",
+        "orientation": "horizontal-spanned"
+      }
+    ]
+  },
+  {
+    "order": 48,
+    "show-by-default": false,
+    "title": "Samsung Galaxy A51/71",
+    "screen": {
+      "horizontal": {
+        "width": 914,
+        "height": 412
+      },
+      "device-pixel-ratio": 2.625,
+      "vertical": {
+        "width": 412,
+        "height": 914
+      }
+    },
+    "capabilities": [
+      "touch",
+      "mobile"
+    ],
+    "user-agent": "Mozilla/5.0 (Linux; Android 8.0.0; SM-G955U Build/R16NW) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/%s Mobile Safari/537.36",
+    "user-agent-metadata": {
+      "platform": "Android",
+      "platformVersion": "8.0.0",
+      "architecture": "",
+      "model": "SM-G955U",
+      "mobile": true
+    },
+    "type": "phone"
+  },
+  {
+    "order": 52,
+    "show-by-default": true,
+    "title": "Nest Hub Max",
+    "screen": {
+      "horizontal": {
+        "width": 1280,
+        "height": 800
+      },
+      "device-pixel-ratio": 2,
+      "vertical": {
+        "width": 1280,
+        "height": 800
+      }
+    },
+    "capabilities": [
+      "touch",
+      "mobile"
+    ],
+    "user-agent": "Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/%s Safari/537.36 CrKey/1.54.250320",
+    "type": "smart-display",
+    "modes": [
+      {
+        "title": "default",
+        "orientation": "horizontal"
+      }
+    ]
+  },
+  {
+    "show-by-default": false,
+    "title": "Galaxy Tab S4",
+    "screen": {
+      "horizontal": {
+        "width": 1138,
+        "height": 712
+      },
+      "device-pixel-ratio": 2.25,
+      "vertical": {
+        "width": 712,
+        "height": 1138
+      }
+    },
+    "capabilities": [
+      "touch",
+      "mobile"
+    ],
+    "user-agent": "Mozilla/5.0 (Linux; Android 8.1.0; SM-T837A) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/%s Safari/537.36",
+    "user-agent-metadata": {
+      "platform": "Android",
+      "platformVersion": "8.1.0",
+      "architecture": "",
+      "model": "SM-T837A",
+      "mobile": false
+    },
+    "type": "phone"
+  },
+  {
+    "order": 1,
+    "show-by-default": false,
+    "title": "JioPhone 2",
+    "screen": {
+      "horizontal": {
+        "width": 320,
+        "height": 240
+      },
+      "device-pixel-ratio": 1,
+      "vertical": {
+        "width": 240,
+        "height": 320
+      }
+    },
+    "capabilities": [
+      "touch",
+      "mobile"
+    ],
+    "user-agent": "Mozilla/5.0 (Mobile; LYF/F300B/LYF-F300B-001-01-15-130718-i;Android; rv:48.0) Gecko/48.0 Firefox/48.0 KAIOS/2.5",
+    "user-agent-metadata": {
+      "platform": "Android",
+      "platformVersion": "",
+      "architecture": "",
+      "model": "LYF/F300B/LYF-F300B-001-01-15-130718-i",
+      "mobile": true
+    },
+    "type": "phone"
+  },
+  {
+    "show-by-default": false,
+    "title": "Laptop with touch",
+    "screen": {
+      "horizontal": {
+        "width": 1280,
+        "height": 950
+      },
+      "device-pixel-ratio": 1,
+      "vertical": {
+        "width": 950,
+        "height": 1280
+      }
+    },
+    "capabilities": [
+      "touch"
+    ],
+    "user-agent": "",
+    "type": "notebook",
+    "modes": [
+      {
+        "title": "default",
+        "orientation": "horizontal"
+      }
+    ]
+  },
+  {
+    "show-by-default": false,
+    "title": "Laptop with HiDPI screen",
+    "screen": {
+      "horizontal": {
+        "width": 1440,
+        "height": 900
+      },
+      "device-pixel-ratio": 2,
+      "vertical": {
+        "width": 900,
+        "height": 1440
+      }
+    },
+    "capabilities": [],
+    "user-agent": "",
+    "type": "notebook",
+    "modes": [
+      {
+        "title": "default",
+        "orientation": "horizontal"
+      }
+    ]
+  },
+  {
+    "show-by-default": false,
+    "title": "Laptop with MDPI screen",
+    "screen": {
+      "horizontal": {
+        "width": 1280,
+        "height": 800
+      },
+      "device-pixel-ratio": 1,
+      "vertical": {
+        "width": 800,
+        "height": 1280
+      }
+    },
+    "capabilities": [],
+    "user-agent": "",
+    "type": "notebook",
+    "modes": [
+      {
+        "title": "default",
+        "orientation": "horizontal"
+      }
+    ]
+  },
+  {
+    "show-by-default": false,
+    "title": "Moto G4",
+    "screen": {
+      "horizontal": {
+        "width": 640,
+        "height": 360
+      },
+      "device-pixel-ratio": 3,
+      "vertical": {
+        "width": 360,
+        "height": 640
+      }
+    },
+    "capabilities": [
+      "touch",
+      "mobile"
+    ],
+    "user-agent": "Mozilla/5.0 (Linux; Android 6.0.1; Moto G (4)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/%s Mobile Safari/537.36",
+    "user-agent-metadata": {
+      "platform": "Android",
+      "platformVersion": "6.0.1",
+      "architecture": "",
+      "model": "Moto G (4)",
+      "mobile": true
+    },
+    "type": "phone"
+  },
+  {
+    "show-by-default": false,
+    "title": "Moto G Power",
+    "screen": {
+      "device-pixel-ratio": 1.75,
+      "horizontal": {
+        "width": 823,
+        "height": 412
+      },
+      "vertical": {
+        "width": 412,
+        "height": 823
+      }
+    },
+    "capabilities": [
+      "touch",
+      "mobile"
+    ],
+    "user-agent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/%s Mobile Safari/537.36",
+    "user-agent-metadata": {
+      "platform": "Android",
+      "platformVersion": "11",
+      "architecture": "",
+      "model": "moto g power (2022)",
+      "mobile": true
+    },
+    "type": "phone"
+  },
+  {
+    "order": 200,
+    "show-by-default": false,
+    "title": "Facebook on Android",
+    "screen": {
+      "horizontal": {
+        "width": 892,
+        "height": 412
+      },
+      "device-pixel-ratio": 3.5,
+      "vertical": {
+        "width": 412,
+        "height": 892
+      }
+    },
+    "capabilities": [
+      "touch",
+      "mobile"
+    ],
+    "user-agent": "Mozilla/5.0 (Linux; Android 12; Pixel 6 Build/SQ3A.220705.004; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/%s Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/407.0.0.0.65;]",
+    "user-agent-metadata": {
+      "platform": "Android",
+      "platformVersion": "12",
+      "architecture": "",
+      "model": "Pixel 6",
+      "mobile": true
+    },
+    "type": "phone"
+  }
+]

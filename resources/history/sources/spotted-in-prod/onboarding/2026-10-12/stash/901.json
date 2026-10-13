@@ -1,0 +1,52 @@
+{
+  "id": "901",
+  "app": "Stash",
+  "slug": "stash",
+  "title": "Ratings capture",
+  "source": "https://www.spottedinprod.com/tags/flow/onboarding/901",
+  "app_source": "https://www.spottedinprod.com/apps/stash/901",
+  "captured": "2026-10-12",
+  "timezone": "America/New_York",
+  "tags": [
+    "flow/ratings_capture",
+    "flow/onboarding",
+    "design_language/pixel_art"
+  ],
+  "assets": [
+    {
+      "kind": "video",
+      "path": "stash/901.mp4",
+      "url": "https://cdn.spottedinprod.com/clips/69816424-5807-4759-b79b-11a5e3d5f5e3.mp4",
+      "bytes": 4575800,
+      "sha256": "fd2fe8ede0c5320dff286761afedd9aff0002e0aac9bb89b4a95ab560ee62686"
+    },
+    {
+      "kind": "poster",
+      "path": "stash/901-poster.webp",
+      "url": "https://cdn.spottedinprod.com/clips/69816424-5807-4759-b79b-11a5e3d5f5e3-poster.webp",
+      "bytes": 58338,
+      "sha256": "cbc501625924ec923e644b4d0082485be451976b9e2d56fa1f9199c6b76ac363"
+    }
+  ],
+  "media": {
+    "duration": 16.9,
+    "width": 996,
+    "height": 2160,
+    "fps": "30/1"
+  },
+  "inspection": "six evenly spaced frames visually reviewed",
+  "sample_times_seconds": [
+    0.0,
+    3.36,
+    6.72,
+    10.08,
+    13.44,
+    16.8
+  ],
+  "contact_sheet": "stash/901-contact.jpg",
+  "design_type": "apps",
+  "viewport": "mobile portrait; encoded pixel dimensions are not device-point dimensions",
+  "observations": "Pixel-styled headings, outlined buttons, and cannabis-leaf graphics sit on saturated gradients. A rating prompt and feedback confirmation overlay a notification preview, followed by a subscription carousel with changing artwork and a persistent purchase area.",
+  "learning_candidate": "Strong visual consistency is evident, while stacking rating, notification, and purchase requests creates a separate friction question.",
+  "preference_state": "unspecified; source retained for study"
+}

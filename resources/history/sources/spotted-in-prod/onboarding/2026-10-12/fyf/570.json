@@ -1,0 +1,54 @@
+{
+  "id": "570",
+  "app": "Find your Faith",
+  "slug": "fyf",
+  "title": "Welcome",
+  "source": "https://www.spottedinprod.com/tags/flow/onboarding/570",
+  "app_source": "https://www.spottedinprod.com/apps/fyf/570",
+  "captured": "2026-10-12",
+  "timezone": "America/New_York",
+  "tags": [
+    "flow/launch_screen",
+    "flow/onboarding",
+    "visual/3d",
+    "visual/motion_graphics",
+    "design_language/minimal"
+  ],
+  "assets": [
+    {
+      "kind": "video",
+      "path": "fyf/570.mp4",
+      "url": "https://cdn.spottedinprod.com/clips/081e66fa-bf4c-4c9a-b52c-4dd680ab7ade.mp4",
+      "bytes": 8253867,
+      "sha256": "16ecb83e61aa94f2376bfb5941c4f0ec8d642e78b188e995f2bf53a117be457e"
+    },
+    {
+      "kind": "poster",
+      "path": "fyf/570-poster.webp",
+      "url": "https://cdn.spottedinprod.com/clips/081e66fa-bf4c-4c9a-b52c-4dd680ab7ade-poster.webp",
+      "bytes": 18878,
+      "sha256": "5dc6d6aaff7bddf424bc0f9d0a51fb191f77ae1996f6fdee35a6d1590358fab1"
+    }
+  ],
+  "media": {
+    "duration": 17.233333,
+    "width": 1180,
+    "height": 2556,
+    "fps": "30/1"
+  },
+  "inspection": "six evenly spaced frames visually reviewed",
+  "sample_times_seconds": [
+    0.0,
+    3.427,
+    6.853,
+    10.28,
+    13.707,
+    17.133
+  ],
+  "contact_sheet": "fyf/570-contact.jpg",
+  "design_type": "apps",
+  "viewport": "mobile portrait; encoded pixel dimensions are not device-point dimensions",
+  "observations": "A small shimmering, cloudy orb occupies the center of an otherwise almost black screen. Brief conversational lines change beneath it while the orb appearance subtly varies.",
+  "learning_candidate": "A restrained focal object can support paced introductory copy without adding a dense interface.",
+  "preference_state": "unspecified; source retained for study"
+}

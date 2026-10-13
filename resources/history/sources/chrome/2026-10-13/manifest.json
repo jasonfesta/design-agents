@@ -1,0 +1,11 @@
+{
+  "revision": "f0dde72d3fc69afc608376f45238e23cb0a7c4e0",
+  "files": {
+    "EmulatedDevices.ts": "8b4f3c0040758ef09b419162508e40e0a3af06ca214209ea180ba4cd45c7d41c",
+    "DeviceModeView.ts": "2d0afa54eb18d307cea111c6074b99d435bb068a118df1dd3e195bfbb4d5926e",
+    "DeviceModeModel.ts": "e7fff0e0510ce206ea0c8e55382919e9426e21a58ae9cc1df1a7ebeb802a8995",
+    "LICENSE": "ff11d445fb41a1087c7630e120ab15f1a2cb67c1b707173cb494141805fca35e",
+    "devices.json": "978001054186804f89933a7983f440307c3fcabba83211a888b29b7b83809fd9",
+    "commit.json": "58979f5367cf06ec19de46818d44cd6e9b0cd68331f7da3c83215a288d4a1ad0"
+  }
+}

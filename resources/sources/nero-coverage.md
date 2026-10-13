@@ -1,0 +1,57 @@
+# Crawl coverage — source record
+
+Portable Markdown rendering of the recorded structured source. Its dated contents are evidence, not current instructions or capability claims. The original is preserved in the workspace source archive.
+
+```json
+{
+  "observed_at": "2026-10-12",
+  "timezone": "America/New_York",
+  "profile": "https://x.com/neropursue",
+  "profile_posts_seen": 507,
+  "link_search_posts_seen": 158,
+  "distinct_posts_seen": 525,
+  "oldest_post_seen": "2025-05-06T16:01:19.000Z",
+  "newest_post_seen": "2026-10-12T05:19:23.000Z",
+  "expanded_truncated_posts": 30,
+  "profile_timeline_end_reached": true,
+  "link_search_end_reached": true,
+  "queries": [
+    "from:neropursue filter:links",
+    "from:neropursue filter:links until:2025-05-07"
+  ],
+  "older_query_result": "No results displayed",
+  "exact_displayed_resource_urls": 120,
+  "scope": "Publicly accessible profile posts and Latest link-search results, including self replies; full text of truncated resource lists.",
+  "completeness": "Accessible surfaces exhausted; not a certified account archive. Deleted, private, unindexed, omitted, image-only, and video-only URLs may not be recoverable.",
+  "excluded_from_ui_catalogue": [
+    "Booking links on cal.com",
+    "W3 SVG namespace links",
+    "Social analytics, policy and navigation links",
+    "Raw media URLs",
+    "Unrelated sponsored company promotions"
+  ],
+  "additional_artifact_leads": [
+    {
+      "source": "https://x.com/neropursue/status/1954776795187650974",
+      "description": "Figma six-hero giveaway",
+      "short_url": "https://t.co/uqxEAjpcd4",
+      "status": "post_read_target_not_reviewed"
+    },
+    {
+      "source": "https://x.com/neropursue/status/2089618209280307595",
+      "description": "Google Doc containing a website prompt",
+      "short_url": "https://t.co/R0uLfgmO59",
+      "status": "post_read_target_not_reviewed"
+    },
+    {
+      "source": "https://x.com/neropursue/status/2108280012122300712",
+      "description": "Voyager creative-work harness via a quoted Anvisha post",
+      "status": "adjacent_paid_partnership_lead_not_source_verified"
+    }
+  ],
+  "chrome_history": {
+    "dates": "2026-10-05 through 2026-10-12",
+    "result": "Supported query returned no matches; chrome://history/ was blocked by browser URL policy. No recovered-history completeness claim."
+  }
+}
+```

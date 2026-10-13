@@ -1,0 +1,55 @@
+{
+  "id": "39",
+  "app": "Carbon",
+  "slug": "carbon",
+  "title": "Launch screen",
+  "source": "https://www.spottedinprod.com/tags/flow/onboarding/39",
+  "app_source": "https://www.spottedinprod.com/apps/carbon/39",
+  "captured": "2026-10-12",
+  "timezone": "America/New_York",
+  "tags": [
+    "team_type/startup",
+    "category/music",
+    "flow/launch_screen",
+    "flow/onboarding",
+    "visual/gradient",
+    "design_language/cryptopunk"
+  ],
+  "assets": [
+    {
+      "kind": "video",
+      "path": "carbon/39.mp4",
+      "url": "https://cdn.spottedinprod.com/clips/carbon-1.mp4",
+      "bytes": 1386506,
+      "sha256": "8077fd7863922e98f4238223775e2fe92365bc6a8a863eb1c0806c99fd122782"
+    },
+    {
+      "kind": "poster",
+      "path": "carbon/39-poster.webp",
+      "url": "https://cdn.spottedinprod.com/clips/carbon-1-poster.webp",
+      "bytes": 4804,
+      "sha256": "630a28f2b8cc40289e16998fc02e30de5cb31418de87ba1ac734f45849bf2ebb"
+    }
+  ],
+  "media": {
+    "duration": 10.26025,
+    "width": 1180,
+    "height": 2556,
+    "fps": "60000/1001"
+  },
+  "inspection": "six evenly spaced frames visually reviewed",
+  "sample_times_seconds": [
+    0.0,
+    2.032,
+    4.064,
+    6.096,
+    8.128,
+    10.16
+  ],
+  "contact_sheet": "carbon/39-contact.jpg",
+  "design_type": "apps",
+  "viewport": "mobile portrait; encoded pixel dimensions are not device-point dimensions",
+  "observations": "A small multicolored outlined glyph grows into a white wordmark on near-black. A blurred gradient then supports a progressively revealed, monospaced music-discovery headline. White Apple and Google sign-in pills sit in a rounded dark panel below.",
+  "learning_candidate": "Stage the logo, proposition, and authentication controls so each has a clear visual role.",
+  "preference_state": "unspecified; source retained for study"
+}

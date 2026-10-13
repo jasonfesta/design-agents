@@ -1,0 +1,56 @@
+{
+  "id": "664",
+  "app": "Alyx",
+  "slug": "alyx",
+  "title": "Onboarding",
+  "source": "https://www.spottedinprod.com/tags/flow/onboarding/664",
+  "app_source": "https://www.spottedinprod.com/apps/alyx/664",
+  "captured": "2026-10-12",
+  "timezone": "America/New_York",
+  "tags": [
+    "flow/onboarding",
+    "flow/permissions",
+    "flow/tutorial",
+    "pattern/morph",
+    "visual/animated_text",
+    "visual/blur",
+    "visual/mascot"
+  ],
+  "assets": [
+    {
+      "kind": "video",
+      "path": "alyx/664.mp4",
+      "url": "https://cdn.spottedinprod.com/clips/a7ba6ad0-23bd-4934-8333-29036d8786ef.mp4",
+      "bytes": 7340107,
+      "sha256": "aa27791671b377ebd95fbc6ea7a47fd05f39c40ed71848dd2f0eb6d93e6dee66"
+    },
+    {
+      "kind": "poster",
+      "path": "alyx/664-poster.webp",
+      "url": "https://cdn.spottedinprod.com/clips/a7ba6ad0-23bd-4934-8333-29036d8786ef-poster.webp",
+      "bytes": 30594,
+      "sha256": "8c686d623e5b77c03b0b0eab30f5072f8dcc91771818785d21ee0f35f8307926"
+    }
+  ],
+  "media": {
+    "duration": 29.366667,
+    "width": 1180,
+    "height": 2556,
+    "fps": "30/1"
+  },
+  "inspection": "six evenly spaced frames visually reviewed",
+  "sample_times_seconds": [
+    0.0,
+    5.853,
+    11.707,
+    17.56,
+    23.413,
+    29.267
+  ],
+  "contact_sheet": "alyx/664-contact.jpg",
+  "design_type": "apps",
+  "viewport": "mobile portrait; encoded pixel dimensions are not device-point dimensions",
+  "observations": "Soft pastel glows and a compact step indicator support caffeine-limit choices, a health connection, and a theme preview. The calendar and controls change from purple to orange, followed by a character-led subscription screen.",
+  "learning_candidate": "Show customization affecting real interface elements before asking the user to commit.",
+  "preference_state": "unspecified; source retained for study"
+}

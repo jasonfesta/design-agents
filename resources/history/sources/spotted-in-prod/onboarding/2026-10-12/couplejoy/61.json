@@ -1,0 +1,57 @@
+{
+  "id": "61",
+  "app": "Couple Joy",
+  "slug": "couplejoy",
+  "title": "Onboarding",
+  "source": "https://www.spottedinprod.com/tags/flow/onboarding/61",
+  "app_source": "https://www.spottedinprod.com/apps/couplejoy/61",
+  "captured": "2026-10-12",
+  "timezone": "America/New_York",
+  "tags": [
+    "team_type/indie",
+    "category/social",
+    "category/utilities",
+    "flow/onboarding",
+    "pattern/waterfall",
+    "visual/map",
+    "visual/memoji",
+    "visual/emoji"
+  ],
+  "assets": [
+    {
+      "kind": "video",
+      "path": "couplejoy/61.mp4",
+      "url": "https://cdn.spottedinprod.com/clips/couplejoy-1.mp4",
+      "bytes": 7180609,
+      "sha256": "9f78c01965d779a77d34ca64c8bc1f25d1436e72d04d14e9d105ab0089b55109"
+    },
+    {
+      "kind": "poster",
+      "path": "couplejoy/61-poster.webp",
+      "url": "https://cdn.spottedinprod.com/clips/couplejoy-1-poster.webp",
+      "bytes": 37688,
+      "sha256": "d2f2020199f46a1831eb4434ba13d6069b81eead38dadf59cc59acc2ea3bc8f9"
+    }
+  ],
+  "media": {
+    "duration": 12.833333,
+    "width": 1180,
+    "height": 2556,
+    "fps": "60/1"
+  },
+  "inspection": "six evenly spaced frames visually reviewed",
+  "sample_times_seconds": [
+    0.0,
+    2.547,
+    5.093,
+    7.64,
+    10.187,
+    12.733
+  ],
+  "contact_sheet": "couplejoy/61-contact.jpg",
+  "design_type": "apps",
+  "viewport": "mobile portrait; encoded pixel dimensions are not device-point dimensions",
+  "observations": "Pink and peach gradients support a conversational character introduction and bright pink action button. Subsequent screens demonstrate a photo timeline, a map with avatar location pills, and an anniversary date picker.",
+  "learning_candidate": "Show the relationship-centered value through example content before asking for personal details.",
+  "preference_state": "unspecified; source retained for study"
+}

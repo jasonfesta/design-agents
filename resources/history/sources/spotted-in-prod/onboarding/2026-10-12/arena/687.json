@@ -1,0 +1,52 @@
+{
+  "id": "687",
+  "app": "Are.na",
+  "slug": "arena",
+  "title": "Tutorial",
+  "source": "https://www.spottedinprod.com/tags/flow/onboarding/687",
+  "app_source": "https://www.spottedinprod.com/apps/arena/687",
+  "captured": "2026-10-12",
+  "timezone": "America/New_York",
+  "tags": [
+    "flow/onboarding",
+    "flow/tutorial",
+    "design_language/minimal"
+  ],
+  "assets": [
+    {
+      "kind": "video",
+      "path": "arena/687.mp4",
+      "url": "https://cdn.spottedinprod.com/clips/01b74a56-9219-4d42-92cd-d6d885533387.mp4",
+      "bytes": 4709657,
+      "sha256": "f5cc42fcc33a460f80066475f7687273943eab3f5bad4e9f835ddc6f1fc836c7"
+    },
+    {
+      "kind": "poster",
+      "path": "arena/687-poster.webp",
+      "url": "https://cdn.spottedinprod.com/clips/01b74a56-9219-4d42-92cd-d6d885533387-poster.webp",
+      "bytes": 74130,
+      "sha256": "73f0d84492542b9af9077a27f8a602dd9136c5e5180698e1a90af13d5e7248c6"
+    }
+  ],
+  "media": {
+    "duration": 15.033333,
+    "width": 1180,
+    "height": 2556,
+    "fps": "30/1"
+  },
+  "inspection": "six evenly spaced frames visually reviewed",
+  "sample_times_seconds": [
+    0.0,
+    2.987,
+    5.973,
+    8.96,
+    11.947,
+    14.933
+  ],
+  "contact_sheet": "arena/687-contact.jpg",
+  "design_type": "apps",
+  "viewport": "mobile portrait; encoded pixel dimensions are not device-point dimensions",
+  "observations": "A white tutorial uses blue Back, Next, and Finish controls around miniature interface examples. These introduce content, creating a channel, a keyboard form, and a block/color picker, before a collage of community quotations.",
+  "learning_candidate": "Teach the product vocabulary with actual interface examples and explicit progression.",
+  "preference_state": "unspecified; source retained for study"
+}

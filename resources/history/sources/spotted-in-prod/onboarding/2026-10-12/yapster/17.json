@@ -1,0 +1,53 @@
+{
+  "id": "17",
+  "app": "Yapster",
+  "slug": "yapster",
+  "title": "Capture permissions",
+  "source": "https://www.spottedinprod.com/tags/flow/onboarding/17",
+  "app_source": "https://www.spottedinprod.com/apps/yapster/17",
+  "captured": "2026-10-12",
+  "timezone": "America/New_York",
+  "tags": [
+    "flow/onboarding",
+    "gesture/tap",
+    "visual/artwork",
+    "visual/cutouts"
+  ],
+  "assets": [
+    {
+      "kind": "video",
+      "path": "yapster/17.mp4",
+      "url": "https://cdn.spottedinprod.com/clips/yapster-2.mp4",
+      "bytes": 8621713,
+      "sha256": "26965e3bb05d06498b9bf4769cb64dd9a32607b4681f75ea98a777d0eaff3506"
+    },
+    {
+      "kind": "poster",
+      "path": "yapster/17-poster.webp",
+      "url": "https://cdn.spottedinprod.com/clips/yapster-2-poster.webp",
+      "bytes": 117372,
+      "sha256": "8f1cf92f8760dd13052beaf227623e565e31f258bc246192a3cb71f0927a1365"
+    }
+  ],
+  "media": {
+    "duration": 9.85,
+    "width": 1180,
+    "height": 2556,
+    "fps": "60/1"
+  },
+  "inspection": "six evenly spaced frames visually reviewed",
+  "sample_times_seconds": [
+    0.0,
+    1.95,
+    3.9,
+    5.85,
+    7.8,
+    9.75
+  ],
+  "contact_sheet": "yapster/17-contact.jpg",
+  "design_type": "apps",
+  "viewport": "mobile portrait; encoded pixel dimensions are not device-point dimensions",
+  "observations": "Dense meme and sticker cutouts frame a white central onboarding area. A notification prompt overlays the permission explanation; later frames show a loading state and invite-code entry with the keyboard. The decorative border persists around changing functional content.",
+  "learning_candidate": "A stable illustrated frame can give sequential forms a consistent identity.",
+  "preference_state": "unspecified; source retained for study"
+}

@@ -34,6 +34,23 @@ Activate when the user:
 - Wants component systems or design system foundations
 - Asks for interactive design exploration tools
 
+## Installed Emil Kowalski foundation
+
+Use these installed skills directly for a matching request; no additional package installation is required. The [full suite router](../emilkowalski-skill/SKILL.md) includes all 15 skills and their references.
+
+| Task | Local skill |
+| --- | --- |
+| UI polish and component craft | [emil-design-eng](../emil-design-eng/SKILL.md) |
+| Fluid gestures, springs, and materials | [apple-design](../apple-design/SKILL.md) |
+| Mobile web behavior | [mobile-native](../mobile-native/SKILL.md) |
+| Alternative directions explicitly requested | [prototype](../prototype/SKILL.md) |
+| Realistic content stress test requested | [break-ui](../break-ui/SKILL.md) |
+| Library selection explicitly requested | [pick-ui-library](../pick-ui-library/SKILL.md) |
+| Sonner implementation or debugging | [ask-sonner](../ask-sonner/SKILL.md) |
+| Swift implementation or review | [write-swift](../write-swift/SKILL.md) |
+
+For motion implementation, use [animate](../animate/SKILL.md) on the web or [animate-expo](../animate-expo/SKILL.md) in React Native. Preserve established product tokens, accessibility, and Jason's direction.
+
 ## Design Engineering (opinionated UI taste)
 
 | Skill | Best for |

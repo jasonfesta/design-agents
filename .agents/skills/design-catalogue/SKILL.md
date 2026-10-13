@@ -36,11 +36,23 @@ Do **not** activate if the user already named a specific skill — route directl
 
 1. Present the relevant section of the catalogue index below
 2. Recommend the best match with a one-line reason
-3. Show the stub's install command for the match
-4. Ask if they want to install and invoke it
+3. Check whether the match is already installed locally; use its local `SKILL.md` when it is
+4. For an uninstalled match, inspect the upstream size and dependencies before proposing installation; follow the project's existing authorization and installation preferences
 
 > For `type:package` and `type:platform` stubs: show the `npx skills add` or per-agent
 > install command from the stub. These must not be curl'd directly.
+
+## Installed Emil Kowalski suite
+
+The complete 15-skill suite is installed in this project. Use the [local task router](../emilkowalski-skill/SKILL.md) for the full map and supporting references; no installation step is needed. The source and local adaptations are recorded in [the manifest](../../../resources/history/sources/emilkowalski-skills.source.json).
+
+- UI craft: [emil-design-eng](../emil-design-eng/SKILL.md), [apple-design](../apple-design/SKILL.md), and [mobile-native](../mobile-native/SKILL.md).
+- Motion implementation and diagnosis: [animate](../animate/SKILL.md), [animate-expo](../animate-expo/SKILL.md), [animation-performance](../animation-performance/SKILL.md), and [animation-vocabulary](../animation-vocabulary/SKILL.md).
+- Scoped evaluation: [find-animation-opportunities](../find-animation-opportunities/SKILL.md), [improve-animations](../improve-animations/SKILL.md), and [break-ui](../break-ui/SKILL.md).
+- Requested specialist workflows: [prototype](../prototype/SKILL.md), [review-animations](../review-animations/SKILL.md), and [pick-ui-library](../pick-ui-library/SKILL.md) retain explicit invocation.
+- Library and language work: [ask-sonner](../ask-sonner/SKILL.md) and [write-swift](../write-swift/SKILL.md).
+
+Choose the smallest relevant skill for the user's task; keep the existing Figma, document, presentation, and Remotion routes for those outputs.
 
 ## Domain fast-path
 
@@ -63,7 +75,7 @@ instead of scrolling the full index below:
 |-------|----------|
 | [`taste-skill`](../taste-skill/SKILL.md) | Premium, non-generic UI — variance, motion, density dials |
 | [`impeccable`](../impeccable/SKILL.md) | 23 commands, Chrome extension, Live Mode browser iteration |
-| [`emilkowalski-skill`](../emilkowalski-skill/SKILL.md) | Animation decision framework, easing curves, interaction principles |
+| [`emilkowalski-skill`](../emilkowalski-skill/SKILL.md) | Installed router for all 15 Emil Kowalski skills and supporting guides |
 | [`make-interfaces-better`](../make-interfaces-better/SKILL.md) | Polish: micro-interactions, typography details, visual refinement |
 | [`ui-craft`](../ui-craft/SKILL.md) | 18 slash commands, anti-slop CLI, 3 style variants — deepest design engineering skill |
 | [`frontend-design`](../frontend-design/SKILL.md) | 8 aesthetic anchors (Brutalist, Nordic, Cyberpunk…) with locked CSS tokens per theme |

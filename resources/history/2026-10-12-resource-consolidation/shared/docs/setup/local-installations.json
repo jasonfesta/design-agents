@@ -1,0 +1,67 @@
+[
+  {
+    "directory": "tools/screenshot-to-code",
+    "origin": "https://github.com/abi/screenshot-to-code.git",
+    "commit": "d026163f586dfa8c5c10d28c36edd59a9d3b0e88",
+    "status": "dependencies installed; production build and backend HTTP smoke check passed",
+    "installed_skill": null
+  },
+  {
+    "directory": "tools/Open-AI-Design-Agent",
+    "origin": "https://github.com/Anil-matcha/Open-AI-Design-Agent.git",
+    "commit": "e179fe1a6c47b26ee6afac9128155d9f259a5d14",
+    "status": "dependencies installed; production build and backend HTTP smoke check passed",
+    "installed_skill": null
+  },
+  {
+    "directory": "tools/superdesign-skill",
+    "origin": "https://github.com/superdesigndev/superdesign-skill.git",
+    "commit": "f9f05cd988c247dce6c072eaf9ac6b162f2ffc4b",
+    "status": "source downloaded; project-local skill installed",
+    "installed_skill": ".agents/skills/superdesign"
+  },
+  {
+    "directory": "shared/sources/emilkowalski-skills",
+    "origin": "https://github.com/emilkowalski/skills.git",
+    "commit": "2d228630ba1446365f614a108cb8252f1feda202",
+    "source_kind": "complete source snapshot without Git history",
+    "installed_on": "2026-10-12",
+    "status": "complete pinned source downloaded; all 15 project-local skills installed and integrated; source hashes, skill validation, references, licenses, and invocation policies verified",
+    "installed_skills": [
+      ".agents/skills/animate-expo",
+      ".agents/skills/animate",
+      ".agents/skills/animation-performance",
+      ".agents/skills/animation-vocabulary",
+      ".agents/skills/apple-design",
+      ".agents/skills/ask-sonner",
+      ".agents/skills/break-ui",
+      ".agents/skills/emil-design-eng",
+      ".agents/skills/find-animation-opportunities",
+      ".agents/skills/improve-animations",
+      ".agents/skills/mobile-native",
+      ".agents/skills/pick-ui-library",
+      ".agents/skills/prototype",
+      ".agents/skills/review-animations",
+      ".agents/skills/write-swift"
+    ],
+    "source_manifest": "shared/sources/emilkowalski-skills.source.json",
+    "license": "MIT",
+    "source_files": 29,
+    "source_bytes": 299324,
+    "runtime_dependencies_installed": []
+  },
+  {
+    "directory": "tools/dialkit",
+    "origin": "https://github.com/joshpuckett/dialkit.git",
+    "upstream_commit": "0301abdf0b84fc3d60a4c4fa3a99bfb2044959e3",
+    "personal_tag": "personal/v0.1.1",
+    "installed_on": "2026-10-12",
+    "status": "Locked library and example dependencies installed; builds, 133 tests, and typecheck passed; React live text control verified",
+    "warnings": "57 existing Svelte warnings; upstream build warnings retained",
+    "node_version": "25.5.0",
+    "npm_version": "11.8.0",
+    "preview_url": "http://127.0.0.1:3015/",
+    "start_command": "npm --prefix tools/dialkit/example run dev -- --host 127.0.0.1 --port 3015 --strictPort",
+    "installed_skill": null
+  }
+]
