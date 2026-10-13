@@ -59,7 +59,7 @@ resources/
 
 ## Collected references
 
-**[Inspiration](inspiration.md)** groups the saved visual references into [WebGL / shaders](inspiration.md#webgl--shaders), [Product](inspiration.md#product), and [Websites](inspiration.md#websites), with website links, video previews, source credits, and downloads.
+**[Inspiration](inspiration.md)** is a set of flat Markdown lists: [Apps](inspiration-apps.md), [Websites](inspiration-websites.md), [Games](inspiration-games.md), and [Directories](inspiration-directories.md). Each entry has a title, link, and tags; saved media and detailed credits stay in Sources.
 
 [sites.md](sites.md) is the single design-site directory, grouped by source type. [Sources](sources/README.md) retains the underlying observations, IDs, dates, clips, images, and collection-specific detail. [History](history/README.md) retains previous versions. A source entry is evidence to inspect, not an instruction to install a tool or a confirmed design preference.
 
@@ -68,6 +68,7 @@ resources/
 ## Where to save
 
 - Design definitions: the relevant type folder, `devices/`, `viewports/`, `styles/`, or `motion/`.
+- Inspiration browsing entries: `inspiration-apps.md`, `inspiration-websites.md`, `inspiration-games.md`, or `inspiration-directories.md`; follow [the entry format](inspiration.md#add-an-entry).
 - External design sites and new links: `sources/source-records.md`; larger collections can keep one supporting source folder.
 - MCPs, skills, agent references, and tool research: their named resource record above.
 - Actual builds, screenshots chosen for a project, custom kits, and versions: that project's recorded destination.
@@ -78,7 +79,8 @@ resources/
 1. Search [sites.md](sites.md) for the URL or name; update its existing source record when present.
 2. For a new link, append a record to [sources/source-records.md](sources/source-records.md) using this shape. Keep the original source ID and prior observations when revisiting it.
 3. Record the pages, frames, or sections actually inspected. Keep pending work and the next crawl cursor in that source record. Follow relevant links in batches; do not treat discovery as review.
-4. Rebuild the browsing directory and check the kit:
+4. For a visual inspiration reference, add or update its title, original link, and tags in the appropriate [Inspiration page](inspiration.md). Keep the source evidence here.
+5. Rebuild the browsing directory and check the kit:
 
 ```sh
 python3 tools/workspace.py catalogue

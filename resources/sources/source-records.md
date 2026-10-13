@@ -330,7 +330,7 @@ Entries retain the recorded evidence and review status. Inclusion does not estab
 - **Supplied page:** https://www.beautifului.dev/
 - **Screenshot credit:** Turbo product design studio
 - **Screenshot:** [Desktop capture](ui-references/screenshots/beautiful-ui.jpg) · 2026-10-13 · 1800 × 1004 px
-- **Collection record:** [Inspiration / Product](../inspiration.md#product)
+- **Collection record:** [Inspiration / Product](../inspiration-apps.md#product)
 
 ## bencho.dev
 
@@ -354,7 +354,7 @@ Entries retain the recorded evidence and review status. Inclusion does not estab
 - **Supplied page:** https://bencho.dev/
 - **Screenshot credit:** Lorenzo Cabra
 - **Screenshot:** [Desktop capture](ui-references/screenshots/bencho.jpg) · 2026-10-13 · 1800 × 948 px
-- **Collection record:** [Inspiration / Product](../inspiration.md#product)
+- **Collection record:** [Inspiration / Product](../inspiration-apps.md#product)
 
 ## bestfreefonts.com
 
@@ -1238,7 +1238,7 @@ Entries retain the recorded evidence and review status. Inclusion does not estab
 - **Supplied page:** https://libraries.dev/orbs
 - **Screenshot credit:** Jakub Antalik; Orbs with Alexandr Brinza
 - **Screenshot:** [Desktop capture](ui-references/screenshots/thinking-orbs.jpg) · 2026-10-13 · 1800 × 948 px
-- **Collection record:** [Inspiration / Product](../inspiration.md#product)
+- **Collection record:** [Inspiration / Product](../inspiration-apps.md#product)
 
 ## light-stroke-rail.vercel.app
 
@@ -2916,7 +2916,7 @@ Entries retain the recorded evidence and review status. Inclusion does not estab
 - **Workflow tested:** Tag browsing and source detail navigation; referenced apps not tested.
 - **License:** Original media and site code retain their ownership; metadata capture does not grant asset reuse rights.
 - **Collection record:** [Spotted in Prod tags](spotted-in-prod/README.md)
-- **Placement update:** October 13, 2026 — Jason requested first position in [Inspiration / Product](../inspiration.md#product). Homepage revisited; existing taxonomy and bounded onboarding study retained.
+- **Placement update:** October 13, 2026 — Jason requested first position in [Inspiration / Product](../inspiration-apps.md#product). Homepage revisited; existing taxonomy and bounded onboarding study retained.
 
 ## Fancy Components
 
@@ -3285,7 +3285,7 @@ Entries retain the recorded evidence and review status. Inclusion does not estab
 - **Inspected scope:** Public page text and rendered viewport; no installation or component audit
 - **Screenshot credit:** Sam Limby
 - **Screenshot:** [Desktop capture](ui-references/screenshots/corner-radii.jpg) · 2026-10-13 · 1800 × 1004 px
-- **Collection record:** [Inspiration / Product](../inspiration.md#product)
+- **Collection record:** [Inspiration / Product](../inspiration-apps.md#product)
 
 ## shadowLab
 
@@ -3303,7 +3303,7 @@ Entries retain the recorded evidence and review status. Inclusion does not estab
 - **Inspected scope:** Public page text and rendered viewport; no installation or component audit
 - **Screenshot credit:** Adam Mocarski
 - **Screenshot:** [Desktop capture](ui-references/screenshots/shadowlab.jpg) · 2026-10-13 · 1800 × 1004 px
-- **Collection record:** [Inspiration / Product](../inspiration.md#product)
+- **Collection record:** [Inspiration / Product](../inspiration-apps.md#product)
 
 ## useLayouts · Accessible Action
 
@@ -3321,7 +3321,7 @@ Entries retain the recorded evidence and review status. Inclusion does not estab
 - **Inspected scope:** Public page text and rendered viewport; no installation or component audit
 - **Screenshot credit:** useLayouts / 0xUrvish
 - **Screenshot:** [Desktop capture](ui-references/screenshots/uselayouts-accessible-action.jpg) · 2026-10-13 · 1800 × 1004 px
-- **Collection record:** [Inspiration / Product](../inspiration.md#product)
+- **Collection record:** [Inspiration / Product](../inspiration-apps.md#product)
 
 ## interior.dev
 
@@ -3339,7 +3339,7 @@ Entries retain the recorded evidence and review status. Inclusion does not estab
 - **Inspected scope:** Public page text and rendered viewport; no installation or component audit
 - **Screenshot credit:** Ozzy
 - **Screenshot:** [Desktop capture](ui-references/screenshots/interior.jpg) · 2026-10-13 · 1797 × 946 px
-- **Collection record:** [Inspiration / Product](../inspiration.md#product)
+- **Collection record:** [Inspiration / Product](../inspiration-apps.md#product)
 
 ## useLayouts
 
@@ -3357,7 +3357,7 @@ Entries retain the recorded evidence and review status. Inclusion does not estab
 - **Inspected scope:** Public page text and rendered viewport; no installation or component audit
 - **Screenshot credit:** useLayouts / 0xUrvish
 - **Screenshot:** [Desktop capture](ui-references/screenshots/uselayouts.jpg) · 2026-10-13 · 1800 × 1004 px
-- **Collection record:** [Inspiration / Product](../inspiration.md#product)
+- **Collection record:** [Inspiration / Product](../inspiration-apps.md#product)
 
 ## Images in Motion
 
@@ -3375,7 +3375,7 @@ Entries retain the recorded evidence and review status. Inclusion does not estab
 - **Inspected scope:** Public page text and rendered viewport; no installation or component audit
 - **Screenshot credit:** Smart Squad; Samuel Burlon and Massimo De Luisa
 - **Screenshot:** [Desktop capture](ui-references/screenshots/images-in-motion.jpg) · 2026-10-13 · 1800 × 948 px
-- **Collection record:** [Inspiration / Product](../inspiration.md#product)
+- **Collection record:** [Inspiration / Product](../inspiration-apps.md#product)
 
 ## ui.camera
 
@@ -3393,7 +3393,7 @@ Entries retain the recorded evidence and review status. Inclusion does not estab
 - **Inspected scope:** Public page text and rendered viewport; no installation or component audit
 - **Screenshot credit:** ui.camera
 - **Screenshot:** [Desktop capture](ui-references/screenshots/ui-camera.jpg) · 2026-10-13 · 1800 × 948 px
-- **Collection record:** [Inspiration / Product](../inspiration.md#product)
+- **Collection record:** [Inspiration / Product](../inspiration-apps.md#product)
 
 ## Augen Pro
 
@@ -3409,7 +3409,7 @@ Entries retain the recorded evidence and review status. Inclusion does not estab
 - **Notes:** []
 - **Origin:** ["user_supplied"]
 - **Inspected scope:** Page text and browser viewport; no product installation or account actions
-- **Collection record:** [Inspiration / Websites](../inspiration.md#websites)
+- **Collection record:** [Inspiration / Websites](../inspiration-websites.md#websites)
 
 ## There’s Nothing to Watch
 
@@ -3425,7 +3425,7 @@ Entries retain the recorded evidence and review status. Inclusion does not estab
 - **Notes:** []
 - **Origin:** ["user_supplied"]
 - **Inspected scope:** Page text and browser viewport; no product installation or account actions
-- **Collection record:** [Inspiration / Websites](../inspiration.md#websites)
+- **Collection record:** [Inspiration / Websites](../inspiration-websites.md#websites)
 
 ## Ragged Edge
 
@@ -3441,7 +3441,7 @@ Entries retain the recorded evidence and review status. Inclusion does not estab
 - **Notes:** []
 - **Origin:** ["user_supplied"]
 - **Inspected scope:** Page text and browser viewport; no product installation or account actions
-- **Collection record:** [Inspiration / Websites](../inspiration.md#websites)
+- **Collection record:** [Inspiration / Websites](../inspiration-websites.md#websites)
 
 ## Aave
 
@@ -3457,7 +3457,7 @@ Entries retain the recorded evidence and review status. Inclusion does not estab
 - **Notes:** []
 - **Origin:** ["user_supplied"]
 - **Inspected scope:** Page text and browser viewport; no product installation or account actions
-- **Collection record:** [Inspiration / Websites](../inspiration.md#websites)
+- **Collection record:** [Inspiration / Websites](../inspiration-websites.md#websites)
 
 ## Zikd
 
@@ -3473,7 +3473,7 @@ Entries retain the recorded evidence and review status. Inclusion does not estab
 - **Notes:** []
 - **Origin:** ["user_supplied"]
 - **Inspected scope:** Page text and browser viewport; no product installation or account actions
-- **Collection record:** [Inspiration / Websites](../inspiration.md#websites)
+- **Collection record:** [Inspiration / Websites](../inspiration-websites.md#websites)
 
 ## Aside
 
@@ -3489,7 +3489,7 @@ Entries retain the recorded evidence and review status. Inclusion does not estab
 - **Notes:** []
 - **Origin:** ["user_supplied"]
 - **Inspected scope:** Page text and browser viewport; no product installation or account actions
-- **Collection record:** [Inspiration / Websites](../inspiration.md#websites)
+- **Collection record:** [Inspiration / Websites](../inspiration-websites.md#websites)
 
 ## Catalogue context
 

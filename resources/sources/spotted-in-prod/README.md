@@ -45,4 +45,4 @@ The complete tag capture was available publicly. A free account was established 
 
 ## Inspiration placement · October 13, 2026
 
-Jason requested Spotted in Prod first in [Inspiration / Product](../../inspiration.md#product). The homepage was revisited for this placement, and a [content screenshot](screenshots/homepage-2026-10-13.jpg) was retained as source evidence, cropped below the account toolbar. The Inspiration entry is a link. This refresh does not extend the earlier bounded clip collection or claim a new taxonomy audit.
+Jason requested Spotted in Prod first in [Inspiration / Product](../../inspiration-apps.md#product). The homepage was revisited for this placement, and a [content screenshot](screenshots/homepage-2026-10-13.jpg) was retained as source evidence, cropped below the account toolbar. The Inspiration entry is a link. This refresh does not extend the earlier bounded clip collection or claim a new taxonomy audit.

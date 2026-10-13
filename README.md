@@ -10,7 +10,7 @@ format      portable Markdown + local React tools
 
 Three folders. Start with an agent, browse the resources it needs, and run a local tool when the work calls for it.
 
-**[Inspiration — WebGL / shaders, Product, and Websites](resources/inspiration.md)** · All collected images, videos, websites, and download links.
+**[Inspiration — Apps, Websites, Games, and Directories](resources/inspiration.md)** · Simple Markdown lists: title, link, and tags. Existing media downloads stay linked.
 
 **[Browse Atlas — apps, websites, and games](agents/ATLAS.md#full-atlas)** · Every category, interface subcategory, and style family on one page. [Download the diagrams as PNGs](#diagram-pngs).
 
@@ -189,7 +189,7 @@ Direct screenshots of the existing GitHub Markdown in **GitHub dark mode**, crop
 
 ## Motion and website downloads
 
-**[Browse everything in Inspiration](resources/inspiration.md)** — organized as [WebGL / shaders](resources/inspiration.md#webgl--shaders) [Product](resources/inspiration.md#product), and [Websites](resources/inspiration.md#websites).
+**[Browse Inspiration](resources/inspiration.md)** — [Apps](resources/inspiration-apps.md), [Websites](resources/inspiration-websites.md), [Games](resources/inspiration-games.md), and [Directories](resources/inspiration-directories.md), with tags for motion, 3D, shaders, components, and more.
 
 [Open the single Markdown collection](resources/sources/motion-references/README.md) · [Download / copy the Markdown](https://github.com/jasonfesta/design-agents/raw/refs/heads/main/resources/sources/motion-references/README.md)
 
@@ -281,4 +281,13 @@ Public emails, source credits, file details, and contact verification links are 
 
 ## Inspiration
 
-[WebGL / shaders, Product, and Websites](resources/inspiration.md) brings all 40 supplied references together. Product and website entries are links; video references keep their previews and downloads. Spotted in Prod leads the Product section.
+[Open Inspiration](resources/inspiration.md) for the maintained lists: [Apps](resources/inspiration-apps.md), [Websites](resources/inspiration-websites.md), [Games](resources/inspiration-games.md), and [Directories](resources/inspiration-directories.md). Every entry has a title, link, and tags. The original 40 supplied references remain, alongside the already collected Recent and DesEngs directories. Spotted in Prod leads product discovery; video previews and downloads remain available.
+
+```text
+resources/
+├── inspiration.md               Start here · filing and delivery
+├── inspiration-apps.md          Product, components, interfaces
+├── inspiration-websites.md      Websites, motion, visual studies
+├── inspiration-games.md         Game references
+└── inspiration-directories.md   Places to discover references
+```

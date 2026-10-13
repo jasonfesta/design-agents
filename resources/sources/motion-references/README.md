@@ -1,6 +1,6 @@
 # Motion and website references
 
-[Browse Inspiration — WebGL / shaders, Product, and Websites](../../inspiration.md)
+[Browse Inspiration — Apps, Websites, Games, and Directories](../../inspiration.md)
 
 ```text
 JASON / COLLECTED REFERENCES

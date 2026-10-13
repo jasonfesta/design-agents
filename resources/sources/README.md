@@ -1,6 +1,6 @@
 # Source collections
 
-[Inspiration](../inspiration.md) brings the supplied visual references together as **WebGL / shaders**, **Product**, and **Websites**. The collections below retain their source records and media.
+[Inspiration](../inspiration.md) keeps flat Markdown lists for **Apps**, **Websites**, **Games**, and **Directories**, with a title, link, and tags for each reference. The collections below retain source records, public contacts, previews, and downloadable media.
 
 [The master list](../sites.md) brings collected destinations together. [Detailed source records](source-records.md) hold 180 primary entries with IDs, URLs, dates, observations, and review/license status.
 
