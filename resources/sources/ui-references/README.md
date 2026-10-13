@@ -14,9 +14,9 @@ media        original MP4 + publisher poster
 | --- | --- | --- |
 | [Eirperuier · streaming SwiftUI](https://x.com/eirperuier/status/2109510794828546355) | [MP4](https://github.com/jasonfesta/design-agents/raw/refs/heads/main/resources/sources/ui-references/videos/eirperuier-2109510794828546355.mp4) · 24.53 s · 28.4 MiB | Not publicly found |
 
-| Preview | Preview |
-| --- | --- |
-| [![Eirperuier · streaming SwiftUI](https://github.com/jasonfesta/design-agents/raw/refs/heads/main/resources/sources/ui-references/images/eirperuier-2109510794828546355.jpg)](https://github.com/jasonfesta/design-agents/raw/refs/heads/main/resources/sources/ui-references/videos/eirperuier-2109510794828546355.mp4)<br>Eirperuier · streaming SwiftUI · [MP4](https://github.com/jasonfesta/design-agents/raw/refs/heads/main/resources/sources/ui-references/videos/eirperuier-2109510794828546355.mp4) |  |
+| Preview |
+| --- |
+| [![Eirperuier · streaming SwiftUI](https://github.com/jasonfesta/design-agents/raw/refs/heads/main/resources/sources/ui-references/images/eirperuier-2109510794828546355.jpg)](https://github.com/jasonfesta/design-agents/raw/refs/heads/main/resources/sources/ui-references/videos/eirperuier-2109510794828546355.mp4)<br>Eirperuier · streaming SwiftUI · [MP4](https://github.com/jasonfesta/design-agents/raw/refs/heads/main/resources/sources/ui-references/videos/eirperuier-2109510794828546355.mp4) |
 
 Generative UI rendered as streamed SwiftUI, as described by the publisher. The post and public profile did not expose a professional email.
 

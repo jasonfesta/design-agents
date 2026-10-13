@@ -875,6 +875,6 @@ Product, detail, and lifestyle images in the chair finder’s embedded page data
 | --- | --- | --- |
 | [Eirperuier · streaming SwiftUI](https://x.com/eirperuier/status/2109510794828546355) | [MP4](https://github.com/jasonfesta/design-agents/raw/refs/heads/main/resources/sources/ui-references/videos/eirperuier-2109510794828546355.mp4) | Not publicly found |
 
-| Preview | Preview |
-| --- | --- |
-| [![Eirperuier · streaming SwiftUI](resources/sources/ui-references/images/eirperuier-2109510794828546355.jpg)](https://github.com/jasonfesta/design-agents/raw/refs/heads/main/resources/sources/ui-references/videos/eirperuier-2109510794828546355.mp4)<br>Eirperuier · streaming SwiftUI · [MP4](https://github.com/jasonfesta/design-agents/raw/refs/heads/main/resources/sources/ui-references/videos/eirperuier-2109510794828546355.mp4) |  |
+| Preview |
+| --- |
+| [![Eirperuier · streaming SwiftUI](resources/sources/ui-references/images/eirperuier-2109510794828546355.jpg)](https://github.com/jasonfesta/design-agents/raw/refs/heads/main/resources/sources/ui-references/videos/eirperuier-2109510794828546355.mp4)<br>Eirperuier · streaming SwiftUI · [MP4](https://github.com/jasonfesta/design-agents/raw/refs/heads/main/resources/sources/ui-references/videos/eirperuier-2109510794828546355.mp4) |
