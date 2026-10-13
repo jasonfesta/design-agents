@@ -1,5 +1,7 @@
 # Source collections
 
+[Inspiration](../inspiration.md) brings the supplied visual references together as **WebGL / shaders** and **Product**. The collections below retain their source records and media.
+
 [The master list](../sites.md) brings collected destinations together. [Detailed source records](source-records.md) hold 167 primary entries with IDs, URLs, dates, observations, and review/license status.
 
 | Collection | What lives here |

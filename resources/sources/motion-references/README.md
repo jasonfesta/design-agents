@@ -1,5 +1,7 @@
 # Motion and website references
 
+[Browse Inspiration — WebGL / shaders and Product](../../inspiration.md)
+
 ```text
 JASON / COLLECTED REFERENCES
 ────────────────────────────────────────────

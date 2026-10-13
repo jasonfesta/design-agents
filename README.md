@@ -10,6 +10,8 @@ format      portable Markdown + local React tools
 
 Three folders. Start with an agent, browse the resources it needs, and run a local tool when the work calls for it.
 
+**[Inspiration — WebGL / shaders and Product](resources/inspiration.md)** · All collected images, videos, websites, and download links.
+
 **[Browse Atlas — apps, websites, and games](agents/ATLAS.md#full-atlas)** · Every category, interface subcategory, and style family on one page. [Download the diagrams as PNGs](#diagram-pngs).
 
 ```text
@@ -69,6 +71,7 @@ Already have the kit? Read [agents/README.md](agents/README.md) and load the rol
 | Game genres | [Games](resources/games/README.md) |
 | Website uses | [Websites](resources/websites/README.md) |
 | Resources and filing rules | [Resources](resources/README.md) |
+| Visual references, images, and video downloads | [Inspiration](resources/inspiration.md) |
 | Collected design sites, grouped by type | [Design sites](resources/sites.md) |
 | MCPs, skills, or supporting agent references | [MCPs](resources/mcps/README.md) · [Skills](resources/skills.md) · [Agent resources](resources/agents/README.md) |
 | Local preview or model comparison | [Tools](tools/README.md) |
@@ -185,6 +188,8 @@ Direct screenshots of the existing GitHub Markdown in **GitHub dark mode**, crop
 [Download PNG](resources/diagrams/read-a-path.png?raw=1)
 
 ## Motion and website downloads
+
+**[Browse everything in Inspiration](resources/inspiration.md)** — organized as [WebGL / shaders](resources/inspiration.md#webgl--shaders) and [Product](resources/inspiration.md#product).
 
 [Open the single Markdown collection](resources/sources/motion-references/README.md) · [Download / copy the Markdown](https://github.com/jasonfesta/design-agents/raw/refs/heads/main/resources/sources/motion-references/README.md)
 
