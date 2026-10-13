@@ -6,7 +6,7 @@ index     collected links, grouped by source type
 update    python3 tools/workspace.py catalogue
 ```
 
-**723 distinct destinations** · 157 primary records · 592 DesEngs memberships. One browsing directory; original IDs, labels, dates, and inspection notes stay linked. This is our collection history, not a claim that every destination is current or reviewed.
+**733 distinct destinations** · 167 primary records · 592 DesEngs memberships. One browsing directory; original IDs, labels, dates, and inspection notes stay linked. This is our collection history, not a claim that every destination is current or reviewed.
 
 Add or update a record using [the filing rules](README.md#add-a-reference), then rebuild this file. [Source collections](sources/README.md) retain larger component lists, clips, screenshots, and detailed captures.
 
@@ -25,15 +25,16 @@ Add or update a record using [the filing rules](README.md#add-a-reference), then
 - [Inspiration directories](#inspiration-directories) · 18
 - [Libraries and code](#libraries-and-code) · 25
 - [Minimum](#minimum) · 187
-- [Motion and animation references](#motion-and-animation-references) · 7
+- [Motion and animation references](#motion-and-animation-references) · 13
 - [Motion shaders and 3D](#motion-shaders-and-3d) · 21
 - [Open Graph images](#open-graph-images) · 45
 - [Portfolios](#portfolios) · 55
-- [Product and website inspiration](#product-and-website-inspiration) · 32
+- [Product and website inspiration](#product-and-website-inspiration) · 35
 - [Production interface references](#production-interface-references) · 1
 - [React components](#react-components) · 2
 - [Reading and research](#reading-and-research) · 34
 - [Resource links](#resource-links) · 5
+- [UI and interaction references](#ui-and-interaction-references) · 1
 - [UI components and charts](#ui-components-and-charts) · 24
 - [Video and talks](#video-and-talks) · 2
 - [Website inspiration](#website-inspiration) · 106
@@ -498,13 +499,19 @@ Add or update a record using [the filing rules](README.md#add-a-reference), then
 
 | Reference | Source labels | Observed / captured | Evidence |
 | --- | --- | --- | --- |
+| [Ann Nguyen · holographic CD study](https://x.com/ann_nnng/status/2109853948647711057) | Motion and animation references | 2026-10-13 | [x-2109853948647711057](sources/source-records.md) |
 | [Anton Proshkuratov · endless canvas](https://x.com/prszkrtw/status/2094754060188401708) | Motion and animation references | 2026-10-13 | [x-2094754060188401708](sources/source-records.md) |
 | [Basit A. Khan · design exploration](https://x.com/basit_designs/status/2095435397828628584) | Motion and animation references | 2026-10-13 | [x-2095435397828628584](sources/source-records.md) |
 | [Basit A. Khan · gradient card](https://x.com/basit_designs/status/2099771881159098710) | Motion and animation references | 2026-10-13 | [x-2099771881159098710](sources/source-records.md) |
 | [dnatsu · WebGL / Three.js experiment](https://x.com/dnatsuuu/status/2095073497982935069) | Motion and animation references | 2026-10-13 | [x-2095073497982935069](sources/source-records.md) |
+| [Edgex · kiwi jelly comparison](https://x.com/SahilExec/status/2109949445853110629) | Motion and animation references | 2026-10-13 | [x-2109949445853110629](sources/source-records.md) |
+| [Ian Curtis · WebGPU portal cube](https://x.com/XRarchitect/status/2109828750657654819) | Motion and animation references | 2026-10-13 | [x-2109828750657654819](sources/source-records.md) |
 | [Rashi · cutting and pasting](https://x.com/dezinbyrashi/status/2109607368480920020) | Motion and animation references | 2026-10-13 | [x-2109607368480920020](sources/source-records.md) |
+| [Rico® Supply · Movo motion experiment](https://x.com/RicoSupply/status/2109532017582866591) | Motion and animation references | 2026-10-13 | [x-2109532017582866591](sources/source-records.md) |
 | [Sergei Semenov · money animation](https://x.com/Hollysem/status/2109628383156170792) | Motion and animation references | 2026-10-13 | [x-2109628383156170792](sources/source-records.md) |
 | [Shader Sweden · jelly-glass carousel](https://x.com/shadersweden/status/2095293113086431603) | Motion and animation references | 2026-10-13 | [x-2095293113086431603](sources/source-records.md) |
+| [The Brand Identity · Rico Jitter templates](https://x.com/TweetsByTBI/status/2100751700831453345) | Motion and animation references | 2026-10-13 | [x-2100751700831453345](sources/source-records.md) |
+| [Tiffany Zheng · Ramp design site](https://x.com/tiffzheng/status/2100688715815542984) | Motion and animation references | 2026-10-13 | [x-2100688715815542984](sources/source-records.md) |
 
 ## Motion shaders and 3D
 
@@ -676,8 +683,11 @@ Add or update a record using [the filing rules](README.md#add-a-reference), then
 | [saaslandingpage.com](https://saaslandingpage.com) | Product and website inspiration | 2026-10-12 | [saaslandingpage.com](sources/source-records.md) |
 | [saaspo.com](https://saaspo.com) | Product and website inspiration | 2026-10-12 | [saaspo.com](sources/source-records.md) |
 | [screensdesign.com](https://screensdesign.com) | Product and website inspiration | 2026-10-12 | [screensdesign.com](sources/source-records.md) |
+| [Shopify Design](https://shopify.design/) | Product and website inspiration | 2026-10-13 | [shopify.design](sources/source-records.md) |
+| [Shopify Editions · Winter ’26](https://www.shopify.com/editions/winter2026) | Product and website inspiration | 2026-10-13 | [www.shopify.com-editions-winter2026](sources/source-records.md) |
 | [siteinspire.com](https://siteinspire.com) | Product and website inspiration | 2026-10-12 | [siteinspire.com](sources/source-records.md) |
 | [supahero.io](https://supahero.io) | Product and website inspiration | 2026-10-12 | [supahero.io](sources/source-records.md) |
+| [Vitra · Office Chair Finder](https://findmy.vitra.com/en-en/questionnaire/chairs) | Product and website inspiration | 2026-10-13 | [findmy.vitra.com-en-en-questionnaire-chairs](sources/source-records.md) |
 
 ## Production interface references
 
@@ -740,6 +750,12 @@ Add or update a record using [the filing rules](README.md#add-a-reference), then
 | [Resend](https://resend.com/careers/9b68ba51-3895-4d29-8fd1-364bdf8956e7) | DesEngs: Resource links; apply | 2026-10-12 | [de-ad5689fe0897](sources/desengs/resources.md) |
 | [Rockstar Games](https://www.rockstargames.com/careers/openings/position/7767935003) | DesEngs: Resource links; apply | 2026-10-12 | [de-65959e361c29](sources/desengs/resources.md) |
 | [Zed](https://zed.dev/jobs/product-designer) | DesEngs: Resource links; apply | 2026-10-12 | [de-7df172392c8d](sources/desengs/resources.md) |
+
+## UI and interaction references
+
+| Reference | Source labels | Observed / captured | Evidence |
+| --- | --- | --- | --- |
+| [Eirperuier · streaming SwiftUI](https://x.com/eirperuier/status/2109510794828546355) | UI and interaction references | 2026-10-13 | [x-2109510794828546355](sources/source-records.md) |
 
 ## UI components and charts
 

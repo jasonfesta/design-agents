@@ -1,0 +1,86 @@
+{
+  "collected_date": "2026-10-13",
+  "source": "https://x.com/eirperuier/status/2109510794828546355",
+  "creator": "Eirperuier",
+  "license": "No reuse license recorded",
+  "media": [
+    {
+      "collection": "ui-references",
+      "source": "https://x.com/eirperuier/status/2109510794828546355",
+      "creator": "Eirperuier",
+      "post_id": "2109510794828546355",
+      "video_id": "2109508333392830464",
+      "quoted": false,
+      "file": "images/eirperuier-2109510794828546355.jpg",
+      "url": "https://pbs.twimg.com/amplify_video_thumb/2109508333392830464/img/99Iw4EuN8D6i8QI_.jpg?name=orig",
+      "kind": "image",
+      "role": "source video poster",
+      "bytes": 22626,
+      "sha256": "c83bb8fc2f70b6484d2837f1650169e6b69ac21c1ed89884c93ec7ba697b10be",
+      "validation": {
+        "file": "images/eirperuier-2109510794828546355.jpg",
+        "collection": "ui-references",
+        "kind": "image",
+        "width": 1200,
+        "height": 675,
+        "format": "JPEG"
+      }
+    },
+    {
+      "collection": "ui-references",
+      "source": "https://x.com/eirperuier/status/2109510794828546355",
+      "creator": "Eirperuier",
+      "post_id": "2109510794828546355",
+      "video_id": "2109508333392830464",
+      "quoted": false,
+      "file": "videos/eirperuier-2109510794828546355.mp4",
+      "url": "https://video.twimg.com/amplify_video/2109508333392830464/vid/avc1/3840x2160/I6nimTGjxmWqyPml.mp4?tag=29",
+      "kind": "video",
+      "format_id": "http-25128",
+      "bytes": 29729546,
+      "sha256": "0e1fd874014aece930ddadad7815709b81732b08d0bf987d4d105f6293b0ba48",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 3840,
+            "height": 2160,
+            "r_frame_rate": "60/1"
+          }
+        ],
+        "format": {
+          "duration": "24.533333",
+          "size": "29729546"
+        }
+      },
+      "validation": {
+        "file": "videos/eirperuier-2109510794828546355.mp4",
+        "collection": "ui-references",
+        "kind": "video",
+        "probe": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "h264",
+              "codec_type": "video",
+              "width": 3840,
+              "height": 2160,
+              "r_frame_rate": "60/1"
+            }
+          ],
+          "format": {
+            "duration": "24.533333",
+            "size": "29729546"
+          }
+        },
+        "preview": "previews/x/eirperuier-2109510794828546355.jpg",
+        "full_decode": true,
+        "decode_note": ""
+      }
+    }
+  ]
+}

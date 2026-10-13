@@ -3096,6 +3096,166 @@ Entries retain the recorded evidence and review status. Inclusion does not estab
 - **Inspected scope:** Supplied page inspected for title, source media, and contact links.
 - **Collection record:** [MP4 downloads and public contacts](motion-references/README.md)
 
+## Rico® Supply · Movo motion experiment
+
+- **Id:** x-2109532017582866591
+- **Name:** Rico® Supply · Movo motion experiment
+- **Url:** https://x.com/RicoSupply/status/2109532017582866591
+- **Categories:** ["Motion and animation references"]
+- **Summary:** Published by Rico® Supply; the post links to movo.video.
+- **Source status:** media_and_contact_captured
+- **Observed at:** 2026-10-13
+- **Website reviewed:** Metadata, media, and public-contact scope only
+- **License:** No reuse license recorded
+- **Notes:** []
+- **Origin:** ["user_supplied"]
+- **Inspected scope:** Supplied post/page, directly exposed media, embedded page data, and source contact links. Saved files checked; no implementation or personal taste evaluation.
+- **Collection record:** [Images, videos, and public contacts](motion-references/README.md)
+
+## Edgex · kiwi jelly comparison
+
+- **Id:** x-2109949445853110629
+- **Name:** Edgex · kiwi jelly comparison
+- **Url:** https://x.com/SahilExec/status/2109949445853110629
+- **Categories:** ["Motion and animation references"]
+- **Summary:** Published under @SahilExec, whose display name is Edgex. Model comparisons are the publisher’s claims.
+- **Source status:** media_and_contact_captured
+- **Observed at:** 2026-10-13
+- **Website reviewed:** Metadata, media, and public-contact scope only
+- **License:** No reuse license recorded
+- **Notes:** []
+- **Origin:** ["user_supplied"]
+- **Inspected scope:** Supplied post/page, directly exposed media, embedded page data, and source contact links. Saved files checked; no implementation or personal taste evaluation.
+- **Collection record:** [Images, videos, and public contacts](motion-references/README.md)
+
+## Ann Nguyen · holographic CD study
+
+- **Id:** x-2109853948647711057
+- **Name:** Ann Nguyen · holographic CD study
+- **Url:** https://x.com/ann_nnng/status/2109853948647711057
+- **Categories:** ["Motion and animation references"]
+- **Summary:** Video comparison of a holographic CD effect; the image in the quoted @finkd post is saved separately with its own credit.
+- **Source status:** media_and_contact_captured
+- **Observed at:** 2026-10-13
+- **Website reviewed:** Metadata, media, and public-contact scope only
+- **License:** No reuse license recorded
+- **Notes:** []
+- **Origin:** ["user_supplied"]
+- **Inspected scope:** Supplied post/page, directly exposed media, embedded page data, and source contact links. Saved files checked; no implementation or personal taste evaluation.
+- **Collection record:** [Images, videos, and public contacts](motion-references/README.md)
+
+## Ian Curtis · WebGPU portal cube
+
+- **Id:** x-2109828750657654819
+- **Name:** Ian Curtis · WebGPU portal cube
+- **Url:** https://x.com/XRarchitect/status/2109828750657654819
+- **Categories:** ["Motion and animation references"]
+- **Summary:** Parallax portal cube with Gaussian splats. The quoted Spark demo by @martin_casado is also saved.
+- **Source status:** media_and_contact_captured
+- **Observed at:** 2026-10-13
+- **Website reviewed:** Metadata, media, and public-contact scope only
+- **License:** No reuse license recorded
+- **Notes:** []
+- **Origin:** ["user_supplied"]
+- **Inspected scope:** Supplied post/page, directly exposed media, embedded page data, and source contact links. Saved files checked; no implementation or personal taste evaluation.
+- **Collection record:** [Images, videos, and public contacts](motion-references/README.md)
+
+## The Brand Identity · Rico Jitter templates
+
+- **Id:** x-2100751700831453345
+- **Name:** The Brand Identity · Rico Jitter templates
+- **Url:** https://x.com/TweetsByTBI/status/2100751700831453345
+- **Categories:** ["Motion and animation references"]
+- **Summary:** Published by The Brand Identity; motion templates credited to Rico® Supply.
+- **Source status:** media_and_contact_captured
+- **Observed at:** 2026-10-13
+- **Website reviewed:** Metadata, media, and public-contact scope only
+- **License:** No reuse license recorded
+- **Notes:** []
+- **Origin:** ["user_supplied"]
+- **Inspected scope:** Supplied post/page, directly exposed media, embedded page data, and source contact links. Saved files checked; no implementation or personal taste evaluation.
+- **Collection record:** [Images, videos, and public contacts](motion-references/README.md)
+
+## Tiffany Zheng · Ramp design site
+
+- **Id:** x-2100688715815542984
+- **Name:** Tiffany Zheng · Ramp design site
+- **Url:** https://x.com/tiffzheng/status/2100688715815542984
+- **Categories:** ["Motion and animation references"]
+- **Summary:** Ramp design-team website and animated cards. Email appears in the publicly posted 2022 résumé; current deliverability is not verified.
+- **Source status:** media_and_contact_captured
+- **Observed at:** 2026-10-13
+- **Website reviewed:** Metadata, media, and public-contact scope only
+- **License:** No reuse license recorded
+- **Notes:** []
+- **Origin:** ["user_supplied"]
+- **Inspected scope:** Supplied post/page, directly exposed media, embedded page data, and source contact links. Saved files checked; no implementation or personal taste evaluation.
+- **Collection record:** [Images, videos, and public contacts](motion-references/README.md)
+
+## Eirperuier · streaming SwiftUI
+
+- **Id:** x-2109510794828546355
+- **Name:** Eirperuier · streaming SwiftUI
+- **Url:** https://x.com/eirperuier/status/2109510794828546355
+- **Categories:** ["UI and interaction references"]
+- **Summary:** Generative UI rendered as streamed SwiftUI, as described by the publisher.
+- **Source status:** media_and_contact_captured
+- **Observed at:** 2026-10-13
+- **Website reviewed:** Metadata, media, and public-contact scope only
+- **License:** No reuse license recorded
+- **Notes:** []
+- **Origin:** ["user_supplied"]
+- **Inspected scope:** Supplied post/page, directly exposed media, embedded page data, and source contact links. Saved files checked; no implementation or personal taste evaluation.
+- **Collection record:** [Images, videos, and public contacts](ui-references/README.md)
+
+## Shopify Editions · Winter ’26
+
+- **Id:** www.shopify.com-editions-winter2026
+- **Name:** Shopify Editions · Winter ’26
+- **Url:** https://www.shopify.com/editions/winter2026
+- **Categories:** ["Product and website inspiration"]
+- **Summary:** Images, video posters, product illustrations, UI assets, and direct video files exposed by the supplied edition page. Addresses inside sample product data are not treated as contact emails.
+- **Source status:** media_and_contact_captured
+- **Observed at:** 2026-10-13
+- **Website reviewed:** Metadata, media, and public-contact scope only
+- **License:** No reuse license recorded
+- **Notes:** []
+- **Origin:** ["user_supplied"]
+- **Inspected scope:** Supplied post/page, directly exposed media, embedded page data, and source contact links. Saved files checked; no implementation or personal taste evaluation.
+- **Collection record:** [Images, videos, and public contacts](motion-references/README.md)
+
+## Shopify Design
+
+- **Id:** shopify.design
+- **Name:** Shopify Design
+- **Url:** https://shopify.design/
+- **Categories:** ["Product and website inspiration"]
+- **Summary:** Design-team homepage images, posters, UI assets, and motion studies. Original MP4, WebM, and MOV formats are retained.
+- **Source status:** media_and_contact_captured
+- **Observed at:** 2026-10-13
+- **Website reviewed:** Metadata, media, and public-contact scope only
+- **License:** No reuse license recorded
+- **Notes:** []
+- **Origin:** ["user_supplied"]
+- **Inspected scope:** Supplied post/page, directly exposed media, embedded page data, and source contact links. Saved files checked; no implementation or personal taste evaluation.
+- **Collection record:** [Images, videos, and public contacts](motion-references/README.md)
+
+## Vitra · Office Chair Finder
+
+- **Id:** findmy.vitra.com-en-en-questionnaire-chairs
+- **Name:** Vitra · Office Chair Finder
+- **Url:** https://findmy.vitra.com/en-en/questionnaire/chairs
+- **Categories:** ["Product and website inspiration"]
+- **Summary:** Product, detail, and lifestyle images in the chair finder’s embedded page data, including images reached through questionnaire results. No source video was exposed.
+- **Source status:** media_and_contact_captured
+- **Observed at:** 2026-10-13
+- **Website reviewed:** Metadata, media, and public-contact scope only
+- **License:** No reuse license recorded
+- **Notes:** []
+- **Origin:** ["user_supplied"]
+- **Inspected scope:** Supplied post/page, directly exposed media, embedded page data, and source contact links. Saved files checked; no implementation or personal taste evaluation.
+- **Collection record:** [Images, videos, and public contacts](motion-references/README.md)
+
 ## Catalogue context
 
 ```json

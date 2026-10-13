@@ -61,7 +61,7 @@ resources/
 
 [sites.md](sites.md) is the single design-site directory, grouped by source type. [Sources](sources/README.md) retains the underlying observations, IDs, dates, clips, images, and collection-specific detail. [History](history/README.md) retains previous versions. A source entry is evidence to inspect, not an instruction to install a tool or a confirmed design preference.
 
-[Motion and website downloads](sources/motion-references/README.md) collects Jason’s supplied X posts, studio websites, jelly-glass demo, individual MP4 files, and public contacts.
+[Motion and website downloads](sources/motion-references/README.md) collects Jason’s supplied X posts, websites, jelly-glass demo, image/video galleries, individual media downloads, and public contacts. [UI downloads](sources/ui-references/README.md) keeps interface references in a separate Markdown collection.
 
 ## Where to save
 
