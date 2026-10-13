@@ -36,6 +36,7 @@ resources/
 
 | Resource | What it answers |
 | --- | --- |
+| [Full Atlas](../agents/ATLAS.md#full-atlas) | Every app, website, and game category, subcategory, and style family on one page. |
 | [Structure](structure.md) | How do the six layers fit together? |
 | [Apps](apps/README.md) · [Games](games/README.md) · [Websites](websites/README.md) | What are we designing? Which category, subcategory, and style vocabulary applies? |
 | [Devices](devices/README.md) | What device class and input context are we targeting? |

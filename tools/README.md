@@ -34,7 +34,7 @@ python3 tools/workspace.py check
 python3 tools/workspace.py export
 ```
 
-`catalogue` rebuilds the design-site and skill directories. `check` validates the portable file set and links. `export` creates `.exports/jason.zip`; use `verify` inside the extracted kit to check its manifest.
+`catalogue` rebuilds the design-site and skill directories plus the complete menus in Atlas and each type README. Category, subcategory, and style tables in Resources remain canonical. `check` validates the portable file set, links, and menu freshness. `export` creates `.exports/jason.zip`; use `verify` inside the extracted kit to check its manifest.
 
 ## Machine-local installations
 

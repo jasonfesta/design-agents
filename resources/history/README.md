@@ -53,3 +53,7 @@ The current [structure](../structure.md) adds an interface-family layer beneath 
 ## GitHub preparation · October 13, 2026
 
 Jason requested committing the current kit to his GitHub repository. The existing `jasonfesta/design-agents` `main` branch ends at `daf325e375751c2c87d4c1c50bf56fcd0ce38266`; its two commits remain the parent history of this reorganization. The [complete earlier repository tree](sources/history/2026-10-13-github-before-publication.zip) preserves all 644 tracked files at their original paths. The current kit replaces that root layout while retaining this snapshot, previous local source archives, and the original Git history. [Pre-publication documents](sources/history/2026-10-13-before-publication-notes.zip) preserve the six current notes before source/branch confirmation. Local tool installations, environment files, private benchmark runs, and annotations remain outside the commit.
+
+## Expanded Atlas overview · October 13, 2026
+
+Jason requested seeing every category, interface subcategory, and style family at the full-branch level, and selected [agents/ATLAS.md](../../agents/ATLAS.md#full-atlas) as the main overview page linked from the README. [The ten pre-expansion files](sources/history/2026-10-13-before-expanded-atlas.zip) preserve the previous diagrams, navigation, and maintenance code. The complete menus are rendered from the existing canonical tables into Atlas and each type README; no category IDs, draft statuses, personal style choices, or project folders were changed.

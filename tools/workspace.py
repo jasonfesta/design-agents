@@ -226,6 +226,99 @@ def file_links(config, selected):
     return errors, optional, absolute, len(documents)
 
 
+def atlas_menu_ids(path):
+    """Read stable category/family IDs from the canonical Markdown tables."""
+    ids = []
+    for line in relative_path(path).read_text().splitlines():
+        if not line.startswith('|'):
+            continue
+        value = line.split('|')[1].strip().strip('`')
+        if re.fullmatch(r'(?:games/)?[a-z][a-z0-9-]*', value):
+            ids.append(value.removeprefix('games/'))
+    if not ids or len(ids) != len(set(ids)):
+        raise ValueError(f'Expected a nonempty, unique Atlas menu: {path}')
+    return ids
+
+
+def atlas_style_groups(path, start, end):
+    """Keep the existing style-family headings and their exact stable IDs."""
+    body = relative_path(path).read_text().split(start, 1)[1].split(end, 1)[0]
+    groups = {}
+    for line in body.splitlines():
+        if line.startswith('### '):
+            groups[line[4:]] = []
+        elif line.startswith('|') and groups:
+            match = re.search(r'`([a-z][a-z0-9-]*)`', line)
+            if match:
+                groups[next(reversed(groups))].append(match[1])
+    if not groups or any(not ids for ids in groups.values()):
+        raise ValueError(f'Expected named Atlas style groups: {path}')
+    return groups
+
+
+def atlas_tree(design_type):
+    categories = atlas_menu_ids(f'resources/{design_type}/categories.md')
+    families = atlas_menu_ids(f'resources/{design_type}/subcategories.md')
+    shared = relative_path('resources/styles/README.md').read_text()
+    primary = re.findall(r'^\| .*?\| `([a-z][a-z0-9-]*)` \|',
+                        shared.split('## Primary app and website style menu', 1)[1]
+                        .split('\n## ', 1)[0], re.M)
+    if not primary or len(primary) != len(set(primary)):
+        raise ValueError('Expected unique primary style IDs')
+    if design_type == 'games':
+        primary = re.findall(r'^\| .*?`([a-z][a-z0-9-]*)`',
+                             relative_path('resources/games/styles.md').read_text()
+                             .split('## Preferred terms', 1)[1].split('\n## ', 1)[0], re.M)
+        extended = atlas_style_groups('resources/styles/README.md',
+                                      '## Extended visual terms', '## Corrections')
+        primary_name = f'Game art and rendering · {len(primary)} research terms'
+        extended_name = 'Shared influences · reference-led use'
+    else:
+        extended = atlas_style_groups(f'resources/{design_type}/styles.md',
+                                      '## Extended type-specific interpretations', '## Motion')
+        primary_name = f'Primary design languages · {len(primary)}'
+        extended_name = 'Extended influences · branch fit unassessed'
+    if not primary or len(primary) != len(set(primary)):
+        raise ValueError(f'Expected unique primary style IDs for {design_type}')
+    count = len(set(primary).union(*(set(ids) for ids in extended.values())))
+    status = 'existing families' if design_type == 'apps' else 'draft families'
+    lines = ['```text', design_type,
+             '└── device type · mobile / tablet / desktop / tv',
+             '    └── viewport size · width × height',
+             f'        └── category · choose one of {len(categories)}']
+    lines += ['            │  ' + value for value in categories]
+    lines += ['            │', f'            └── subcategory · {len(families)} {status}; choose one']
+    lines += ['                │  ' + value for value in families]
+    lines += ['                │', f'                └── style · {count} unique IDs across the groups below',
+              '                    ├── ' + primary_name]
+    for index, value in enumerate(primary):
+        lines.append('                    │   ' + ('└── ' if index == len(primary) - 1 else '├── ') + value)
+    lines.append('                    └── ' + extended_name)
+    for index, (name, values) in enumerate(extended.items()):
+        last = index == len(extended) - 1
+        lines.append('                        ' + ('└── ' if last else '├── ') + name)
+        for n, value in enumerate(values):
+            lines.append('                        ' + ('    ' if last else '│   ') +
+                         ('└── ' if n == len(values) - 1 else '├── ') + value)
+    lines.append('```')
+    return '\n'.join(lines)
+
+
+def atlas_documents():
+    """Render one menu into Atlas and its type README; definitions stay canonical."""
+    documents = {}
+    for design_type in ('apps', 'websites', 'games'):
+        start, end = f'<!-- atlas:{design_type}:start -->', f'<!-- atlas:{design_type}:end -->'
+        replacement = start + '\n' + atlas_tree(design_type) + '\n' + end
+        for name in ('agents/ATLAS.md', f'resources/{design_type}/README.md'):
+            body = documents.get(name, relative_path(name).read_text())
+            if body.count(start) != 1 or body.count(end) != 1:
+                raise ValueError(f'Expected one Atlas {design_type} block in {name}')
+            documents[name] = re.sub(re.escape(start) + r'.*?' + re.escape(end),
+                                     lambda match: replacement, body, flags=re.S)
+    return documents
+
+
 def check(config, paths, verify_export=False):
     errors = []
     for item in config.get('git_bundles', []):
@@ -249,6 +342,10 @@ def check(config, paths, verify_export=False):
         errors.append('Design-site directory is stale. Run: python3 tools/workspace.py catalogue')
     if (ROOT / 'resources/skills.md').read_text() != skill_directory():
         errors.append('Skill directory is stale. Run: python3 tools/workspace.py catalogue')
+
+    for name, expected in atlas_documents().items():
+        if relative_path(name).read_text() != expected:
+            errors.append(f'Atlas menu is stale: {name}. Run: python3 tools/workspace.py catalogue')
 
     source = json.loads(relative_path(config['craft_source_manifest']).read_text())
     for item in source['upstream_files']:
@@ -341,9 +438,12 @@ def main():
     config = json.loads((ROOT / 'workspace.json').read_text())
     if args.command == 'catalogue':
         content, documents, destinations = catalogue()
+        atlas = atlas_documents()
         (ROOT / 'resources/sites.md').write_text(content)
         (ROOT / 'resources/skills.md').write_text(skill_directory())
-        print(f'Updated site and skill directories: {documents} documents, {destinations} collected destinations.')
+        for name, body in atlas.items():
+            relative_path(name).write_text(body)
+        print(f'Updated site, skill, and Atlas directories: {documents} resource documents, {destinations} collected destinations.')
         return 0
     paths = selection(config)
     if args.command == 'export':

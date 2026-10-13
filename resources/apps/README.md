@@ -15,75 +15,139 @@ This is a reusable definition resource. Product code and working directions live
 
 ## Full branch skeleton
 
-```text
-apps/
-├── mobile/
-│   └── <width>x<height>/
-│       └── <category>/
-│           └── <subcategory>/
-│               └── <style>/
-│                   └── README.md
-├── tablet/
-│   └── <width>x<height>/
-│       └── <category>/
-│           └── <subcategory>/
-│               └── <style>/
-│                   └── README.md
-├── desktop/
-│   └── <width>x<height>/
-│       └── <category>/
-│           └── <subcategory>/
-│               └── <style>/
-│                   └── README.md
-└── tv/
-    └── <width>x<height>/
-        └── <category>/
-            └── <subcategory>/
-                └── <style>/
-                    └── README.md
-```
+[Categories](categories.md) · [Interface subcategories](subcategories.md) · [Style definitions](styles.md) · [Full Atlas: all three types](../../agents/ATLAS.md#full-atlas)
 
-Every created layer receives a README describing its settings and links. Create folders only for actual work; link shared definitions instead of duplicating their menus.
+Read down one branch: choose one ID at each layer. The names beside each vertical guide are that layer's complete menu; the next indentation continues under the chosen ID. Style-family headings are browsing groups within layer 6. Create only the actual direction's folders and give each created layer a README.
+
+<!-- atlas:apps:start -->
+```text
+apps
+└── device type · mobile / tablet / desktop / tv
+    └── viewport size · width × height
+        └── category · choose one of 32
+            │  art-design
+            │  auto-vehicles
+            │  beauty
+            │  books-reference
+            │  business
+            │  comics
+            │  communication
+            │  dating
+            │  education
+            │  entertainment
+            │  events
+            │  finance
+            │  food-drink
+            │  health-fitness
+            │  house-home
+            │  libraries-demo
+            │  lifestyle
+            │  maps-navigation
+            │  medical
+            │  music-audio
+            │  news-magazines
+            │  parenting
+            │  personalization
+            │  photography
+            │  productivity
+            │  shopping
+            │  social
+            │  sports
+            │  tools
+            │  travel-local
+            │  video-players-editors
+            │  weather
+            │
+            └── subcategory · 20 existing families; choose one
+                │  dashboards
+                │  feeds
+                │  messaging
+                │  search-discovery
+                │  content-libraries
+                │  detail-views
+                │  editors
+                │  canvas-builders
+                │  media-players
+                │  calendars
+                │  booking-flows
+                │  task-boards
+                │  data-management
+                │  maps-navigation
+                │  checkout-payments
+                │  onboarding
+                │  account-settings
+                │  notifications
+                │  progress-tracking
+                │  assistants
+                │
+                └── style · 46 unique IDs across the groups below
+                    ├── Primary design languages · 20
+                    │   ├── system
+                    │   ├── minimal
+                    │   ├── skeuomorphic
+                    │   ├── colorful
+                    │   ├── monochrome
+                    │   ├── collage
+                    │   ├── loud
+                    │   ├── friendly
+                    │   ├── silly
+                    │   ├── retro
+                    │   ├── grayscale
+                    │   ├── flat
+                    │   ├── typographic
+                    │   ├── cyberpunk
+                    │   ├── dense-ui
+                    │   ├── pixel-art
+                    │   ├── warm
+                    │   ├── brutalist
+                    │   ├── geometric
+                    │   └── technical
+                    └── Extended influences · branch fit unassessed
+                        ├── Composition
+                        │   ├── minimal
+                        │   ├── maximal
+                        │   └── editorial
+                        ├── Design traditions
+                        │   ├── swiss-typographic
+                        │   ├── bauhaus
+                        │   ├── de-stijl
+                        │   ├── constructivism
+                        │   ├── art-nouveau
+                        │   ├── art-deco
+                        │   └── mid-century-modern
+                        ├── Expressive graphics
+                        │   ├── memphis
+                        │   ├── pop-art
+                        │   ├── psychedelic
+                        │   ├── new-wave
+                        │   ├── punk
+                        │   └── grunge
+                        ├── Web and interface
+                        │   ├── flat
+                        │   ├── skeuomorphic
+                        │   ├── neumorphic
+                        │   ├── glassmorphic
+                        │   ├── claymorphic
+                        │   ├── brutalist
+                        │   └── neobrutalist
+                        ├── Digital eras
+                        │   ├── retro-computing
+                        │   ├── y2k
+                        │   ├── frutiger-aero
+                        │   ├── vaporwave
+                        │   └── synthwave
+                        └── Speculative aesthetics
+                            ├── retrofuturism
+                            ├── cyberpunk
+                            └── steampunk
+```
+<!-- atlas:apps:end -->
 
 ## Category and subcategory menus
 
-[Categories](categories.md): **32 Google Play product categories**. [Subcategories](subcategories.md): **20 existing interface families**. [Styles](styles.md) remain a separate visual choice.
+The complete menus above come from [Categories](categories.md) · [Interface subcategories](subcategories.md) · [Style definitions](styles.md). Website/game interface families remain draft; extended influences and game art terms require reference-led matching. Personal branch taste is still defined through Taste.
 
-```text
-category
-├── art-design
-├── auto-vehicles
-├── beauty
-├── books-reference
-├── business
-├── comics
-├── communication
-├── dating
-├── education
-├── entertainment
-├── events
-├── finance
-├── food-drink
-├── health-fitness
-├── house-home
-├── libraries-demo
-├── lifestyle
-├── maps-navigation
-├── medical
-├── music-audio
-├── news-magazines
-├── parenting
-├── personalization
-├── photography
-├── productivity
-├── shopping
-├── social
-├── sports
-├── tools
-├── travel-local
-├── video-players-editors
-└── weather
-```
+Edit the canonical definition tables, then run `python3 tools/workspace.py catalogue` to refresh this diagram and [Atlas](../../agents/ATLAS.md). The checker detects stale menus.
 
 ## Example direction
 

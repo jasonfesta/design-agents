@@ -10,13 +10,15 @@ format      portable Markdown + local React tools
 
 Three folders. Start with an agent, browse the resources it needs, and run a local tool when the work calls for it.
 
+**[Browse Atlas — apps, websites, and games](agents/ATLAS.md#full-atlas)** · Every category, interface subcategory, and style family on one page.
+
 ```text
 jason/
 ├── README.md
 ├── AGENTS.md                     IDE instructions
 ├── agents/
 │   ├── SETUP.md                  Install this kit as jason/
-│   ├── ATLAS.md                  Nomenclature and classification
+│   ├── ATLAS.md                  Complete Atlas overview and nomenclature
 │   ├── TASTE.md                  References and design direction
 │   ├── DIAL.md                   React components and layouts
 │   ├── DREAM.md                  Separate cleanup candidate for review
@@ -60,7 +62,8 @@ Already have the kit? Read [agents/README.md](agents/README.md) and load the rol
 | I need… | Open |
 | --- | --- |
 | The six agent roles | [Agents](agents/README.md) |
-| The design hierarchy and full skeleton | [Structure](resources/structure.md) |
+| All categories, subcategories, and styles across the three types | [Full Atlas](agents/ATLAS.md#full-atlas) |
+| The six-layer schema and project folder rules | [Structure](resources/structure.md) |
 | App product categories and interface families | [Apps](resources/apps/README.md) |
 | Game genres | [Games](resources/games/README.md) |
 | Website uses | [Websites](resources/websites/README.md) |
@@ -70,6 +73,8 @@ Already have the kit? Read [agents/README.md](agents/README.md) and load the rol
 | Local preview or model comparison | [Tools](tools/README.md) |
 
 ## Design structure
+
+[Open the full Atlas](agents/ATLAS.md#full-atlas) for the expanded [app](agents/ATLAS.md#apps), [website](agents/ATLAS.md#websites), and [game](agents/ATLAS.md#games) trees.
 
 ```text
 design type                       apps / games / websites

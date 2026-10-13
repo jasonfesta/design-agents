@@ -32,144 +32,28 @@ design type
 
 ## Category → subcategory menu
 
-```text
-apps
-├── finance
-│   ├── dashboards
-│   ├── data-management          Transaction history
-│   └── checkout-payments        Transfers and payments
-├── social
-│   ├── feeds
-│   ├── messaging
-│   └── detail-views
-└── productivity
-    ├── editors
-    ├── task-boards
-    └── calendars
+**[The full Atlas lives in agents/ATLAS.md](../agents/ATLAS.md#full-atlas).** Its [Apps](../agents/ATLAS.md#apps), [Websites](../agents/ATLAS.md#websites), and [Games](../agents/ATLAS.md#games) diagrams list every category, interface subcategory, and style family. Each type's README displays the same complete menu. The canonical tables own the definitions; `python3 tools/workspace.py catalogue` refreshes the diagrams from those tables.
 
-websites
-├── saas-marketing
-│   ├── landing-pages
-│   ├── pricing
-│   └── feature-pages
-├── ecommerce
-│   ├── listing-search
-│   ├── detail-pages
-│   └── checkout-payments
-└── portfolios
-    ├── homepages
-    ├── case-studies
-    └── about-team
+After category selection, suggest relevant subcategories and keep the full menu available. Reuse one shared family definition across applicable categories. The existing app interface names are retained; website/game family names remain drafts. No menu entry establishes personal taste.
 
-games
-├── puzzle
-│   ├── gameplay
-│   ├── level-selection
-│   └── results-rewards
-├── role-playing
-│   ├── inventory
-│   ├── maps-quests
-│   └── dialogue-narrative
-└── racing
-    ├── gameplay
-    ├── lobbies-matchmaking
-    └── leaderboards
-```
-
-This is a sample menu, not the full list or a required compatibility matrix. After category selection, suggest relevant subcategories and keep the full menu available. Reuse one shared family definition across applicable categories. The existing 20 app interface names are retained; new website/game family names are drafts for Atlas to resolve through use. No menu entry establishes personal taste.
-
-| Design type | Category menu | Subcategory menu | Style interpretation |
-| --- | --- | --- | --- |
-| apps | [32 Google Play product categories](apps/categories.md) | [20 existing interface families](apps/subcategories.md) | [App styles](apps/styles.md) |
-| games | [17 game genres](games/categories.md) | [15 proposed screen families](games/subcategories.md) | [Game art and HUD styles](games/styles.md) |
-| websites | [18 website purposes](websites/categories.md) | [20 proposed page/flow families](websites/subcategories.md) | [Website styles](websites/styles.md) |
-
-Google Play is the default app vocabulary. Keep a store’s exact category label and source in metadata; Apple’s taxonomy has different names and is not silently merged. Store secondary categories are not our interface subcategories. Website categories remain site purposes.
+Google Play is the default app vocabulary. Keep a store's exact category label and source in metadata; Apple's taxonomy has different names and is not silently merged. Store secondary categories are not our interface subcategories. Website categories remain site purposes.
 
 ## Full skeleton
 
-Within a chosen project’s design records:
+See [Atlas's complete named menus](../agents/ATLAS.md#full-atlas) for every choice. The folder path for a selected direction follows this template:
 
 ```text
 <project>/
-├── apps/
-│   ├── mobile/
-│   │   └── <width>x<height>/
-│   │       └── <category>/
-│   │           └── <subcategory>/
-│   │               └── <style>/
-│   │                   └── README.md
-│   ├── tablet/
-│   │   └── <width>x<height>/
-│   │       └── <category>/
-│   │           └── <subcategory>/
-│   │               └── <style>/
-│   │                   └── README.md
-│   ├── desktop/
-│   │   └── <width>x<height>/
-│   │       └── <category>/
-│   │           └── <subcategory>/
-│   │               └── <style>/
-│   │                   └── README.md
-│   └── tv/
-│       └── <width>x<height>/
-│           └── <category>/
-│               └── <subcategory>/
-│                   └── <style>/
-│                       └── README.md
-├── games/
-│   ├── mobile/
-│   │   └── <width>x<height>/
-│   │       └── <category>/
-│   │           └── <subcategory>/
-│   │               └── <style>/
-│   │                   └── README.md
-│   ├── tablet/
-│   │   └── <width>x<height>/
-│   │       └── <category>/
-│   │           └── <subcategory>/
-│   │               └── <style>/
-│   │                   └── README.md
-│   ├── desktop/
-│   │   └── <width>x<height>/
-│   │       └── <category>/
-│   │           └── <subcategory>/
-│   │               └── <style>/
-│   │                   └── README.md
-│   └── tv/
-│       └── <width>x<height>/
-│           └── <category>/
-│               └── <subcategory>/
-│                   └── <style>/
-│                       └── README.md
-└── websites/
-    ├── mobile/
-    │   └── <width>x<height>/
-    │       └── <category>/
-    │           └── <subcategory>/
-    │               └── <style>/
-    │                   └── README.md
-    ├── tablet/
-    │   └── <width>x<height>/
-    │       └── <category>/
-    │           └── <subcategory>/
-    │               └── <style>/
-    │                   └── README.md
-    ├── desktop/
-    │   └── <width>x<height>/
-    │       └── <category>/
-    │           └── <subcategory>/
-    │               └── <style>/
-    │                   └── README.md
-    └── tv/
+└── <apps | websites | games>/
+    └── <mobile | tablet | desktop | tv>/
         └── <width>x<height>/
-            └── <category>/
-                └── <subcategory>/
-                    └── <style>/
+            └── <selected category>/
+                └── <selected interface subcategory>/
+                    └── <selected style>/
                         └── README.md
 ```
 
-Each created layer has a README. Create only the routes being worked on; link shared menus from Resources. Product code follows the project’s stack and can serve multiple sizes and screens. Chrome preset names, DPR, safe areas, input, orientation, runtime, and exact screen/state details belong in metadata.
+Each created layer has a README. Create only the routes being worked on; link shared menus from Resources. Product code follows the project's stack and can serve multiple sizes and screens. Chrome preset names, DPR, safe areas, input, orientation, runtime, and exact screen/state details belong in metadata. Style-family headings in Atlas are browsing groups, not extra folder levels.
 
 ## Read a path
 
