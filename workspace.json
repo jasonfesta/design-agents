@@ -33,6 +33,7 @@
     "resources/apps",
     "resources/games",
     "resources/websites",
+    "resources/diagrams",
     "resources/devices",
     "resources/viewports",
     "resources/styles",

@@ -57,3 +57,9 @@ Jason requested committing the current kit to his GitHub repository. The existin
 ## Expanded Atlas overview · October 13, 2026
 
 Jason requested seeing every category, interface subcategory, and style family at the full-branch level, and selected [agents/ATLAS.md](../../agents/ATLAS.md#full-atlas) as the main overview page linked from the README. [The ten pre-expansion files](sources/history/2026-10-13-before-expanded-atlas.zip) preserve the previous diagrams, navigation, and maintenance code. The complete menus are rendered from the existing canonical tables into Atlas and each type README; no category IDs, draft statuses, personal style choices, or project folders were changed.
+
+## GitHub attribution and diagram PNGs · October 13, 2026
+
+Jason requested cropped GitHub-dark screenshots of the Atlas diagrams and the five-role use/result table, with previews and downloads in the README. [The original navigation and configuration](sources/history/2026-10-13-before-diagram-pngs.zip) are preserved. [The PNG collection](../diagrams/README.md) retains capture provenance and source-fragment hashes; the underlying Markdown remains editable.
+
+The two October 13 publishing commits had inherited a machine email associated with another GitHub account. At Jason's request, their author and committer were corrected to **Jason Festa**, using the already verified `jasonfesta@users.noreply.github.com` identity. Their file trees and timestamps are unchanged; the original September commits remain intact. The old October commits are retained in a local Git archive ref. Repository-local identity now uses Jason Festa, and GitHub's contributor list was verified to contain only `jasonfesta` after the correction.

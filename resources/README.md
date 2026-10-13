@@ -14,6 +14,7 @@ This is the library's front door. Design definitions and external capabilities l
 resources/
 ├── README.md                 Start here; where to save
 ├── structure.md              The complete six-layer design skeleton
+├── diagrams/                 Downloadable GitHub-dark PNG screenshots
 ├── apps/                     App product categories, interface families, and styles
 ├── games/                    Game genres, screen families, and art direction
 ├── websites/                 Website uses, page families, and styles
@@ -38,6 +39,7 @@ resources/
 | --- | --- |
 | [Full Atlas](../agents/ATLAS.md#full-atlas) | Every app, website, and game category, subcategory, and style family on one page. |
 | [Structure](structure.md) | How do the six layers fit together? |
+| [Diagram PNGs](diagrams/README.md) | Download the trees, folder maps, and role overview as GitHub-dark images. |
 | [Apps](apps/README.md) · [Games](games/README.md) · [Websites](websites/README.md) | What are we designing? Which category, subcategory, and style vocabulary applies? |
 | [Devices](devices/README.md) | What device class and input context are we targeting? |
 | [Viewports](viewports/README.md) | What exact width × height and Chrome preset are we using? |
