@@ -6,7 +6,7 @@ index     collected links, grouped by source type
 update    python3 tools/workspace.py catalogue
 ```
 
-**713 distinct destinations** · 147 primary records · 592 DesEngs memberships. One browsing directory; original IDs, labels, dates, and inspection notes stay linked. This is our collection history, not a claim that every destination is current or reviewed.
+**723 distinct destinations** · 157 primary records · 592 DesEngs memberships. One browsing directory; original IDs, labels, dates, and inspection notes stay linked. This is our collection history, not a claim that every destination is current or reviewed.
 
 Add or update a record using [the filing rules](README.md#add-a-reference), then rebuild this file. [Source collections](sources/README.md) retain larger component lists, clips, screenshots, and detailed captures.
 
@@ -25,10 +25,11 @@ Add or update a record using [the filing rules](README.md#add-a-reference), then
 - [Inspiration directories](#inspiration-directories) · 18
 - [Libraries and code](#libraries-and-code) · 25
 - [Minimum](#minimum) · 187
+- [Motion and animation references](#motion-and-animation-references) · 7
 - [Motion shaders and 3D](#motion-shaders-and-3d) · 21
 - [Open Graph images](#open-graph-images) · 45
 - [Portfolios](#portfolios) · 55
-- [Product and website inspiration](#product-and-website-inspiration) · 29
+- [Product and website inspiration](#product-and-website-inspiration) · 32
 - [Production interface references](#production-interface-references) · 1
 - [React components](#react-components) · 2
 - [Reading and research](#reading-and-research) · 34
@@ -493,6 +494,18 @@ Add or update a record using [the filing rules](README.md#add-a-reference), then
 | [Zaid Mukaddam](https://zaidmukaddam.com) | DesEngs: Minimum | 2026-10-12 | [de-93ebeb5d92fa](sources/desengs/websites.md) |
 | [Ömercan Balandı](https://omercan.io) | DesEngs: Minimum | 2026-10-12 | [de-06f7056fa73d](sources/desengs/websites.md) |
 
+## Motion and animation references
+
+| Reference | Source labels | Observed / captured | Evidence |
+| --- | --- | --- | --- |
+| [Anton Proshkuratov · endless canvas](https://x.com/prszkrtw/status/2094754060188401708) | Motion and animation references | 2026-10-13 | [x-2094754060188401708](sources/source-records.md) |
+| [Basit A. Khan · design exploration](https://x.com/basit_designs/status/2095435397828628584) | Motion and animation references | 2026-10-13 | [x-2095435397828628584](sources/source-records.md) |
+| [Basit A. Khan · gradient card](https://x.com/basit_designs/status/2099771881159098710) | Motion and animation references | 2026-10-13 | [x-2099771881159098710](sources/source-records.md) |
+| [dnatsu · WebGL / Three.js experiment](https://x.com/dnatsuuu/status/2095073497982935069) | Motion and animation references | 2026-10-13 | [x-2095073497982935069](sources/source-records.md) |
+| [Rashi · cutting and pasting](https://x.com/dezinbyrashi/status/2109607368480920020) | Motion and animation references | 2026-10-13 | [x-2109607368480920020](sources/source-records.md) |
+| [Sergei Semenov · money animation](https://x.com/Hollysem/status/2109628383156170792) | Motion and animation references | 2026-10-13 | [x-2109628383156170792](sources/source-records.md) |
+| [Shader Sweden · jelly-glass carousel](https://x.com/shadersweden/status/2095293113086431603) | Motion and animation references | 2026-10-13 | [x-2095293113086431603](sources/source-records.md) |
+
 ## Motion shaders and 3D
 
 | Reference | Source labels | Observed / captured | Evidence |
@@ -635,9 +648,11 @@ Add or update a record using [the filing rules](README.md#add-a-reference), then
 | --- | --- | --- | --- |
 | [404s.design](https://404s.design) | Product and website inspiration | 2026-10-12 | [404s.design](sources/source-records.md) |
 | [60fps](https://60fps.design) | Product and website inspiration | 2026-10-12 | [60fps.design](sources/source-records.md) |
+| [Alt Studios](https://alt-studios.com/) | Product and website inspiration | 2026-10-13 | [alt-studios.com](sources/source-records.md) |
 | [appkittie.com](https://appkittie.com) | Product and website inspiration | 2026-10-12 | [appkittie.com](sources/source-records.md) |
 | [appllama.io](https://appllama.io) | Product and website inspiration | 2026-10-12 | [appllama.io](sources/source-records.md) |
 | [appshots.design](https://appshots.design) | Product and website inspiration | 2026-10-12 | [appshots.design](sources/source-records.md) |
+| [CLOU architects](https://www.clouarchitects.com/) | Product and website inspiration | 2026-10-13 | [clouarchitects.com](sources/source-records.md) |
 | [collectui.com](https://collectui.com) | Product and website inspiration | 2026-10-12 | [collectui.com](sources/source-records.md) |
 | [cta.gallery](https://cta.gallery) | Product and website inspiration | 2026-10-12 | [cta.gallery](sources/source-records.md) |
 | [curated.design](https://curated.design) | Product and website inspiration | 2026-10-12 | [curated.design](sources/source-records.md) |
@@ -646,6 +661,7 @@ Add or update a record using [the filing rules](README.md#add-a-reference), then
 | [detail.design](https://detail.design) | Product and website inspiration | 2026-10-12 | [detail.design](sources/source-records.md) |
 | [footer.design](https://footer.design) | Product and website inspiration | 2026-10-12 | [footer.design](sources/source-records.md) |
 | [godly.website](https://godly.website) | Product and website inspiration | 2026-10-12 | [godly.website](sources/source-records.md) |
+| [Infinite Jelly Glass · v2](https://infinite-jelly-glass.shader.se/?v=2) | Product and website inspiration | 2026-10-13 | [infinite-jelly-glass.shader.se](sources/source-records.md) |
 | [Inspora](https://inspora.design) | Product and website inspiration | 2026-10-12 | [inspora.design](sources/source-records.md) |
 | [Land-book](https://land-book.com) | Product and website inspiration | 2026-10-12 | [land-book.com](sources/source-records.md) |
 | [loadmo.re](https://loadmo.re) | Product and website inspiration | 2026-10-12 | [loadmo.re](sources/source-records.md) |

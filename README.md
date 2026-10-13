@@ -183,3 +183,29 @@ Direct screenshots of the existing GitHub Markdown in **GitHub dark mode**, crop
 ![Read a path: annotated six-layer example](resources/diagrams/read-a-path.png)
 
 [Download PNG](resources/diagrams/read-a-path.png?raw=1)
+
+## Motion and website downloads
+
+[Open the single Markdown collection](resources/sources/motion-references/README.md) · [Download / copy the Markdown](https://github.com/jasonfesta/design-agents/raw/refs/heads/main/resources/sources/motion-references/README.md)
+
+Eight Twitter/X videos are saved here as individual MP4s, plus Dirt’s animated logo. Each link below opens the actual video file hosted in this repository. Collected October 13, 2026.
+
+| Reference / original post | Download | Public email |
+| --- | --- | --- |
+| [dnatsu · WebGL / Three.js experiment](https://x.com/dnatsuuu/status/2095073497982935069) | [MP4](https://github.com/jasonfesta/design-agents/raw/refs/heads/main/resources/sources/motion-references/videos/dnatsuuu-2095073497982935069.mp4) | Not publicly found |
+| [Shader Sweden · jelly-glass carousel](https://x.com/shadersweden/status/2095293113086431603) | [MP4](https://github.com/jasonfesta/design-agents/raw/refs/heads/main/resources/sources/motion-references/videos/shadersweden-2095293113086431603.mp4) | [hello@shader.se](mailto:hello@shader.se) |
+| [Basit A. Khan · design exploration](https://x.com/basit_designs/status/2095435397828628584) | [MP4](https://github.com/jasonfesta/design-agents/raw/refs/heads/main/resources/sources/motion-references/videos/basit_designs-2095435397828628584.mp4) | [hello@inspirux.com](mailto:hello@inspirux.com) |
+| [Anton Proshkuratov · endless canvas](https://x.com/prszkrtw/status/2094754060188401708) | [MP4](https://github.com/jasonfesta/design-agents/raw/refs/heads/main/resources/sources/motion-references/videos/prszkrtw-2094754060188401708.mp4) | [prszkrtw@gmail.com](mailto:prszkrtw@gmail.com) |
+| [Basit A. Khan · gradient card](https://x.com/basit_designs/status/2099771881159098710) | [MP4](https://github.com/jasonfesta/design-agents/raw/refs/heads/main/resources/sources/motion-references/videos/basit_designs-2099771881159098710.mp4) | [hello@inspirux.com](mailto:hello@inspirux.com) |
+| [Sergei Semenov · money animation](https://x.com/Hollysem/status/2109628383156170792) | [MP4](https://github.com/jasonfesta/design-agents/raw/refs/heads/main/resources/sources/motion-references/videos/hollysem-2109628383156170792.mp4) | [ssemenov@me.com](mailto:ssemenov@me.com) |
+| [60fps · Plasma flag carousel](https://x.com/60fpsdesign/status/2109604725880762373) | [MP4](https://github.com/jasonfesta/design-agents/raw/refs/heads/main/resources/sources/motion-references/videos/60fpsdesign-2109604725880762373.mp4) | [admin@60fps.design](mailto:admin@60fps.design) |
+| [Rashi · cutting and pasting](https://x.com/dezinbyrashi/status/2109607368480920020) | [MP4](https://github.com/jasonfesta/design-agents/raw/refs/heads/main/resources/sources/motion-references/videos/dezinbyrashi-2109607368480920020.mp4) | [sayhi@rashi.design](mailto:sayhi@rashi.design) |
+
+| Website / live demo | Download / access | Public email |
+| --- | --- | --- |
+| [Alt Studios](https://alt-studios.com/) | [Open website](https://alt-studios.com/) · no source MP4 found | [info@alt-studios.com](mailto:info@alt-studios.com) |
+| [CLOU architects](https://www.clouarchitects.com/) | [Open website](https://www.clouarchitects.com/) · no source MP4 found | [info@clouarchitects.com](mailto:info@clouarchitects.com) |
+| [Dirt](https://dirtverse.co/) | [Dirt logo MP4](https://github.com/jasonfesta/design-agents/raw/refs/heads/main/resources/sources/motion-references/videos/dirtverse-homepage.mp4) · 2.50 s · 0.3 MiB | [hello@dirtverse.co](mailto:hello@dirtverse.co) |
+| [Infinite Jelly Glass · v2](https://infinite-jelly-glass.shader.se/?v=2) | [Live interactive demo](https://infinite-jelly-glass.shader.se/?v=2) · [Twitter demo MP4](https://github.com/jasonfesta/design-agents/raw/refs/heads/main/resources/sources/motion-references/videos/shadersweden-2095293113086431603.mp4) | [hello@shader.se](mailto:hello@shader.se) |
+
+Public emails, source credits, file details, and contact verification links are included in the [collection](resources/sources/motion-references/README.md#contact-sources). The jelly-glass demo shares the Shader Sweden MP4 above. All nine videos were checked for complete playback decoding.

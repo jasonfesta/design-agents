@@ -1,0 +1,277 @@
+{
+  "collected_date": "2026-10-13",
+  "purpose": "User-supplied design references and individual downloadable MP4s",
+  "method": "yt-dlp metadata for supplied X posts; highest-resolution direct MP4 variants downloaded unchanged; Dirt MP4 discovered in homepage video element",
+  "license": "No reuse license recorded; creator attribution and original sources retained",
+  "quoted_media": [
+    {
+      "post": "https://x.com/Hollysem/status/2109628383156170792",
+      "also_contains": "https://x.com/60fpsdesign/status/2109604725880762373",
+      "saved_once_as": "videos/60fpsdesign-2109604725880762373.mp4"
+    }
+  ],
+  "videos": [
+    {
+      "file": "basit_designs-2095435397828628584.mp4",
+      "source": "https://x.com/basit_designs/status/2095435397828628584",
+      "creator": "Basit A. Khan",
+      "post_id": "2095435397828628584",
+      "video_id": "2095435256962875392",
+      "url": "https://video.twimg.com/amplify_video/2095435256962875392/vid/avc1/3548x2160/Q1lh2DXb3Ay57yKE.mp4?tag=29",
+      "format_id": "http-25128",
+      "kind": "original-mp4",
+      "bytes": 16614639,
+      "sha256": "1c6883e980479fb9e71eb0ca95559bcd5e965007d6051f9389a5ff814bc6e28f",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 3548,
+            "height": 2160,
+            "r_frame_rate": "60/1"
+          }
+        ],
+        "format": {
+          "duration": "10.733333",
+          "size": "16614639"
+        }
+      }
+    },
+    {
+      "file": "dnatsuuu-2095073497982935069.mp4",
+      "source": "https://x.com/dnatsuuu/status/2095073497982935069",
+      "creator": "dnatsu\ud83c\udf69",
+      "post_id": "2095073497982935069",
+      "video_id": "2095072592269037568",
+      "url": "https://video.twimg.com/amplify_video/2095072592269037568/vid/avc1/1204x720/-PK7HBzXKnqDF4IW.mp4?tag=14",
+      "format_id": "http-2176",
+      "kind": "original-mp4",
+      "bytes": 2504964,
+      "sha256": "ce1bfa68c13b5622cbcb1fbc5900bfb3086542e6a589c6b8b9b4227a6b1e3412",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 1204,
+            "height": 720,
+            "r_frame_rate": "60/1"
+          }
+        ],
+        "format": {
+          "duration": "10.216667",
+          "size": "2504964"
+        }
+      }
+    },
+    {
+      "file": "basit_designs-2099771881159098710.mp4",
+      "source": "https://x.com/basit_designs/status/2099771881159098710",
+      "creator": "Basit A. Khan",
+      "post_id": "2099771881159098710",
+      "video_id": "2099771632151601152",
+      "url": "https://video.twimg.com/amplify_video/2099771632151601152/vid/avc1/2700x2160/y81QUw_Yl71mEhQR.mp4?tag=29",
+      "format_id": "http-25128",
+      "kind": "original-mp4",
+      "bytes": 15809665,
+      "sha256": "7e4ba9a7ceae04bda6e6ea6f80baa07f02e0ca6786c269e4c0601cb7481a698a",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 2700,
+            "height": 2160,
+            "r_frame_rate": "60/1"
+          }
+        ],
+        "format": {
+          "duration": "14.583333",
+          "size": "15809665"
+        }
+      }
+    },
+    {
+      "file": "hollysem-2109628383156170792.mp4",
+      "source": "https://x.com/Hollysem/status/2109628383156170792",
+      "creator": "Sergei Semenov",
+      "post_id": "2109628383156170792",
+      "video_id": "2109627806216855552",
+      "url": "https://video.twimg.com/amplify_video/2109627806216855552/vid/avc1/2160x2160/i-wXPugAW-I8l2XV.mp4?tag=29",
+      "format_id": "http-25128",
+      "kind": "original-mp4",
+      "bytes": 6198846,
+      "sha256": "a6cea2900f25bc6110f3f5c2b96d024c7c1cd250d8f3b97a7997ba62a1fe02f0",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 2160,
+            "height": 2160,
+            "r_frame_rate": "30/1"
+          }
+        ],
+        "format": {
+          "duration": "14.466667",
+          "size": "6198846"
+        }
+      }
+    },
+    {
+      "file": "60fpsdesign-2109604725880762373.mp4",
+      "source": "https://x.com/60fpsdesign/status/2109604725880762373",
+      "creator": "60fps",
+      "post_id": "2109604725880762373",
+      "video_id": "2109604651335352320",
+      "url": "https://video.twimg.com/amplify_video/2109604651335352320/vid/avc1/2160x2160/LPUWruJ-GxFcSvHp.mp4?tag=29",
+      "format_id": "http-25128",
+      "kind": "original-mp4",
+      "bytes": 3223282,
+      "sha256": "9e2dc819397b8b83e0be1c46d3c0f80bb98fc1a969c0747f4aab3b0bddfb6804",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 2160,
+            "height": 2160,
+            "r_frame_rate": "60/1"
+          }
+        ],
+        "format": {
+          "duration": "8.916667",
+          "size": "3223282"
+        }
+      }
+    },
+    {
+      "file": "dezinbyrashi-2109607368480920020.mp4",
+      "source": "https://x.com/dezinbyrashi/status/2109607368480920020",
+      "creator": "Rashi",
+      "post_id": "2109607368480920020",
+      "video_id": "2109607001148055552",
+      "url": "https://video.twimg.com/amplify_video/2109607001148055552/vid/avc1/960x720/bfvd6xf40zMA8QtI.mp4?tag=14",
+      "format_id": "http-2176",
+      "kind": "original-mp4",
+      "bytes": 1578049,
+      "sha256": "85365c26c3766c65ee9e45b0a3e03766c6365bd78b5405a416e92eba7932f9b3",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 960,
+            "height": 720,
+            "r_frame_rate": "60/1"
+          }
+        ],
+        "format": {
+          "duration": "22.983333",
+          "size": "1578049"
+        }
+      }
+    },
+    {
+      "file": "dirtverse-homepage.mp4",
+      "source": "https://dirtverse.co/",
+      "creator": "Dirt",
+      "url": "https://framerusercontent.com/assets/u6yR8MvMBFCCe42ojcPLIR0AbQ.mp4",
+      "kind": "original-mp4",
+      "bytes": 320920,
+      "sha256": "77b94fd89b907dc5e932fe9aba9b6f25efd1d04d2e35050211dfc8b0cc897cde",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 1280,
+            "height": 720,
+            "r_frame_rate": "60000/1001"
+          }
+        ],
+        "format": {
+          "duration": "2.502500",
+          "size": "320920"
+        }
+      }
+    },
+    {
+      "file": "shadersweden-2095293113086431603.mp4",
+      "source": "https://x.com/shadersweden/status/2095293113086431603",
+      "creator": "Shader Development Studio",
+      "post_id": "2095293113086431603",
+      "video_id": "2095290696638844929",
+      "url": "https://video.twimg.com/amplify_video/2095290696638844929/vid/avc1/2600x2160/dAktEJL1j4dYwg3s.mp4?tag=29",
+      "format_id": "http-25128",
+      "kind": "original-mp4",
+      "bytes": 30580328,
+      "sha256": "3e23dc2091f7172344f83242c51142c139e383e4b76276b74faadc796b72330e",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 2600,
+            "height": 2160,
+            "r_frame_rate": "120/1"
+          }
+        ],
+        "format": {
+          "duration": "11.033333",
+          "size": "30580328"
+        }
+      }
+    },
+    {
+      "file": "prszkrtw-2094754060188401708.mp4",
+      "source": "https://x.com/prszkrtw/status/2094754060188401708",
+      "creator": "Anton Proshkuratov",
+      "post_id": "2094754060188401708",
+      "video_id": "2094751782907899904",
+      "url": "https://video.twimg.com/amplify_video/2094751782907899904/vid/avc1/3456x2160/3uQTq8V54kfF8hl5.mp4?tag=29",
+      "format_id": "http-25128",
+      "kind": "original-mp4",
+      "bytes": 33454340,
+      "sha256": "7f3dee788793265d979d28a09485601fac9f00a22a844d7bd44e06c3418d5b80",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 3456,
+            "height": 2160,
+            "r_frame_rate": "60/1"
+          }
+        ],
+        "format": {
+          "duration": "24.466667",
+          "size": "33454340"
+        }
+      }
+    }
+  ],
+  "validation": {
+    "all_files": "All nine MP4s fully decoded with FFmpeg; file hashes recorded below.",
+    "dnatsu_timing": "Source file contains a non-monotonic timestamp near its end. All frames decode; verification normalized output timestamps only. The archived source bytes were not changed."
+  }
+}

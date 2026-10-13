@@ -56,7 +56,7 @@ Entries retain the recorded evidence and review status. Inclusion does not estab
 - **Source status:** source_reviewed
 - **Website reviewed:** Yes
 - **Observed at:** 2026-10-12
-- **X posts:** ["https://x.com/neropursue/status/2107700124596019353", "https://x.com/neropursue/status/2104814947788091725", "https://x.com/neropursue/status/2104103369241399598"]
+- **X posts:** ["https://x.com/neropursue/status/2107700124596019353", "https://x.com/neropursue/status/2104814947788091725", "https://x.com/neropursue/status/2104103369241399598", "https://x.com/60fpsdesign/status/2109604725880762373"]
 - **Official sources:** ["https://60fps.design"]
 - **Github:** Not recorded
 - **Creators:** []
@@ -65,6 +65,8 @@ Entries retain the recorded evidence and review status. Inclusion does not estab
 - **Website reviewed at:** 2026-10-12
 - **Workflow tested:** No
 - **License:** Not recorded
+
+- **Collection record:** [Supplied Plasma clip, MP4, and public contact](motion-references/README.md) · October 13, 2026
 
 ## affectUI
 
@@ -2933,6 +2935,166 @@ Entries retain the recorded evidence and review status. Inclusion does not estab
 - **Workflow tested:** No
 - **License:** See the library record; preserve upstream attribution and check asset permissions before reuse.
 - **Collection record:** [Review and proposed Dial use](fancy-components.md#supplied-example)
+
+## dnatsu · WebGL / Three.js experiment
+
+- **Id:** x-2095073497982935069
+- **Name:** dnatsu · WebGL / Three.js experiment
+- **Url:** https://x.com/dnatsuuu/status/2095073497982935069
+- **Categories:** ["Motion and animation references"]
+- **Summary:** No public email found on the X profile or linked icycozy.com homepage.
+- **Source status:** media_and_contact_captured
+- **Observed at:** 2026-10-13
+- **Website reviewed:** Metadata/media/contact scope only
+- **License:** No reuse license recorded
+- **Notes:** []
+- **Origin:** ["user_supplied"]
+- **Inspected scope:** X post metadata and direct MP4 inspected; public contact source checked.
+- **Collection record:** [MP4 downloads and public contacts](motion-references/README.md)
+
+## Shader Sweden · jelly-glass carousel
+
+- **Id:** x-2095293113086431603
+- **Name:** Shader Sweden · jelly-glass carousel
+- **Url:** https://x.com/shadersweden/status/2095293113086431603
+- **Categories:** ["Motion and animation references"]
+- **Summary:** GPGPU cloth simulation, as described by the creator. Live demo linked below.
+- **Source status:** media_and_contact_captured
+- **Observed at:** 2026-10-13
+- **Website reviewed:** Metadata/media/contact scope only
+- **License:** No reuse license recorded
+- **Notes:** []
+- **Origin:** ["user_supplied"]
+- **Inspected scope:** X post metadata and direct MP4 inspected; public contact source checked.
+- **Collection record:** [MP4 downloads and public contacts](motion-references/README.md)
+
+## Basit A. Khan · design exploration
+
+- **Id:** x-2095435397828628584
+- **Name:** Basit A. Khan · design exploration
+- **Url:** https://x.com/basit_designs/status/2095435397828628584
+- **Categories:** ["Motion and animation references"]
+- **Summary:** Original exploration video from the supplied post.
+- **Source status:** media_and_contact_captured
+- **Observed at:** 2026-10-13
+- **Website reviewed:** Metadata/media/contact scope only
+- **License:** No reuse license recorded
+- **Notes:** []
+- **Origin:** ["user_supplied"]
+- **Inspected scope:** X post metadata and direct MP4 inspected; public contact source checked.
+- **Collection record:** [MP4 downloads and public contacts](motion-references/README.md)
+
+## Anton Proshkuratov · endless canvas
+
+- **Id:** x-2094754060188401708
+- **Name:** Anton Proshkuratov · endless canvas
+- **Url:** https://x.com/prszkrtw/status/2094754060188401708
+- **Categories:** ["Motion and animation references"]
+- **Summary:** Creator describes an endless-canvas stress test without WebGL.
+- **Source status:** media_and_contact_captured
+- **Observed at:** 2026-10-13
+- **Website reviewed:** Metadata/media/contact scope only
+- **License:** No reuse license recorded
+- **Notes:** []
+- **Origin:** ["user_supplied"]
+- **Inspected scope:** X post metadata and direct MP4 inspected; public contact source checked.
+- **Collection record:** [MP4 downloads and public contacts](motion-references/README.md)
+
+## Basit A. Khan · gradient card
+
+- **Id:** x-2099771881159098710
+- **Name:** Basit A. Khan · gradient card
+- **Url:** https://x.com/basit_designs/status/2099771881159098710
+- **Categories:** ["Motion and animation references"]
+- **Summary:** Gradient card exploration from the supplied post.
+- **Source status:** media_and_contact_captured
+- **Observed at:** 2026-10-13
+- **Website reviewed:** Metadata/media/contact scope only
+- **License:** No reuse license recorded
+- **Notes:** []
+- **Origin:** ["user_supplied"]
+- **Inspected scope:** X post metadata and direct MP4 inspected; public contact source checked.
+- **Collection record:** [MP4 downloads and public contacts](motion-references/README.md)
+
+## Sergei Semenov · money animation
+
+- **Id:** x-2109628383156170792
+- **Name:** Sergei Semenov · money animation
+- **Url:** https://x.com/Hollysem/status/2109628383156170792
+- **Categories:** ["Motion and animation references"]
+- **Summary:** This post also quotes the 60fps flag-carousel clip below. That shared clip is stored once.
+- **Source status:** media_and_contact_captured
+- **Observed at:** 2026-10-13
+- **Website reviewed:** Metadata/media/contact scope only
+- **License:** No reuse license recorded
+- **Notes:** []
+- **Origin:** ["user_supplied"]
+- **Inspected scope:** X post metadata and direct MP4 inspected; public contact source checked.
+- **Collection record:** [MP4 downloads and public contacts](motion-references/README.md)
+
+## Rashi · cutting and pasting
+
+- **Id:** x-2109607368480920020
+- **Name:** Rashi · cutting and pasting
+- **Url:** https://x.com/dezinbyrashi/status/2109607368480920020
+- **Categories:** ["Motion and animation references"]
+- **Summary:** Original cutting-and-pasting interaction video from the supplied post.
+- **Source status:** media_and_contact_captured
+- **Observed at:** 2026-10-13
+- **Website reviewed:** Metadata/media/contact scope only
+- **License:** No reuse license recorded
+- **Notes:** []
+- **Origin:** ["user_supplied"]
+- **Inspected scope:** X post metadata and direct MP4 inspected; public contact source checked.
+- **Collection record:** [MP4 downloads and public contacts](motion-references/README.md)
+
+## Alt Studios
+
+- **Id:** alt-studios.com
+- **Name:** Alt Studios
+- **Url:** https://alt-studios.com/
+- **Categories:** ["Product and website inspiration"]
+- **Summary:** Architecture studio reference; homepage and public contact captured.
+- **Source status:** media_and_contact_captured
+- **Observed at:** 2026-10-13
+- **Website reviewed:** Metadata/media/contact scope only
+- **License:** No reuse license recorded
+- **Notes:** []
+- **Origin:** ["user_supplied"]
+- **Inspected scope:** Supplied page inspected for title, source media, and contact links.
+- **Collection record:** [MP4 downloads and public contacts](motion-references/README.md)
+
+## CLOU architects
+
+- **Id:** clouarchitects.com
+- **Name:** CLOU architects
+- **Url:** https://www.clouarchitects.com/
+- **Categories:** ["Product and website inspiration"]
+- **Summary:** Architecture portfolio reference; homepage and official contact page inspected.
+- **Source status:** media_and_contact_captured
+- **Observed at:** 2026-10-13
+- **Website reviewed:** Metadata/media/contact scope only
+- **License:** No reuse license recorded
+- **Notes:** []
+- **Origin:** ["user_supplied"]
+- **Inspected scope:** Supplied page inspected for title, source media, and contact links.
+- **Collection record:** [MP4 downloads and public contacts](motion-references/README.md)
+
+## Infinite Jelly Glass · v2
+
+- **Id:** infinite-jelly-glass.shader.se
+- **Name:** Infinite Jelly Glass · v2
+- **Url:** https://infinite-jelly-glass.shader.se/?v=2
+- **Categories:** ["Product and website inspiration"]
+- **Summary:** Live experiment paired with the supplied Shader Sweden recording.
+- **Source status:** media_and_contact_captured
+- **Observed at:** 2026-10-13
+- **Website reviewed:** Metadata/media/contact scope only
+- **License:** No reuse license recorded
+- **Notes:** []
+- **Origin:** ["user_supplied"]
+- **Inspected scope:** Supplied page inspected for title, source media, and contact links.
+- **Collection record:** [MP4 downloads and public contacts](motion-references/README.md)
 
 ## Catalogue context
 
