@@ -26,7 +26,7 @@ jason/
 │   └── memory/                   Evidence, decisions, and coverage
 ├── resources/
 │   ├── structure.md              Six-layer design hierarchy
-│   ├── diagrams/                 GitHub-dark PNGs and download bundle
+│   ├── diagrams/                 Individual GitHub-dark PNG downloads
 │   ├── apps/                     README · categories · subcategories · styles
 │   ├── games/                    README · categories · subcategories · styles
 │   ├── websites/                 README · categories · subcategories · styles
@@ -90,66 +90,6 @@ These definitions live in Resources. Actual product code, selected references, l
 
 The workflow is **Taste ↔ Atlas → Dial → Dream**. Benchmark compares models against a saved Dial layout when requested. The shared jig and local Benchmark tool run today; the full reference-to-kit workflow still needs an end-to-end implementation, and Dream scheduling is not configured.
 
-## Diagram PNGs
-
-Cropped screenshots of the existing GitHub Markdown in **GitHub dark mode**, captured at **2× resolution**. The complete trees retain every line. Original Markdown stays editable above and in Atlas.
-
-**[Download all 13 PNGs](resources/diagrams/github-dark-diagrams.zip?raw=1)** · [Image index and source receipts](resources/diagrams/README.md)
-
-### Roles, uses, and results
-
-[![Atlas, Taste, Dial, Dream, and Benchmark: roles, uses, and results](resources/diagrams/agent-roles.png)](resources/diagrams/agent-roles.png?raw=1)
-
-[Download the role overview PNG](resources/diagrams/agent-roles.png?raw=1)
-
-### Complete nomenclature trees
-
-| Apps | Websites | Games |
-| --- | --- | --- |
-| [![Complete app nomenclature](resources/diagrams/apps.png)](resources/diagrams/apps.png?raw=1) | [![Complete website nomenclature](resources/diagrams/websites.png)](resources/diagrams/websites.png?raw=1) | [![Complete game nomenclature](resources/diagrams/games.png)](resources/diagrams/games.png?raw=1) |
-| [Download apps PNG](resources/diagrams/apps.png?raw=1) | [Download websites PNG](resources/diagrams/websites.png?raw=1) | [Download games PNG](resources/diagrams/games.png?raw=1) |
-
-### Atlas and main structure
-
-[![Atlas role, input, and output](resources/diagrams/atlas.png)](resources/diagrams/atlas.png?raw=1)
-
-[Download Atlas PNG](resources/diagrams/atlas.png?raw=1)
-
-[![Atlas main structure: design type, device type, viewport size, category, subcategory, style](resources/diagrams/atlas-main-structure.png)](resources/diagrams/atlas-main-structure.png?raw=1)
-
-[Download Atlas main structure PNG](resources/diagrams/atlas-main-structure.png?raw=1)
-
-### Folder maps and path diagrams
-
-| Diagram | PNG |
-| --- | --- |
-| Full workspace | [Download](resources/diagrams/workspace-structure.png?raw=1) |
-| Design structure with layer meanings | [Download](resources/diagrams/design-structure.png?raw=1) |
-| Agent files | [Download](resources/diagrams/agents-structure.png?raw=1) |
-| Resource folders | [Download](resources/diagrams/resources-structure.png?raw=1) |
-| Portable tools | [Download](resources/diagrams/tools-structure.png?raw=1) |
-| Selected project branch | [Download](resources/diagrams/project-branch.png?raw=1) |
-| Read a path | [Download](resources/diagrams/read-a-path.png?raw=1) |
-
-<details>
-<summary>Preview folder maps and path diagrams</summary>
-
-![Full workspace folder map](resources/diagrams/workspace-structure.png)
-
-![Design structure with layer meanings](resources/diagrams/design-structure.png)
-
-![Agent file map](resources/diagrams/agents-structure.png)
-
-![Resource folder map](resources/diagrams/resources-structure.png)
-
-![Portable tool map](resources/diagrams/tools-structure.png)
-
-![Selected project branch](resources/diagrams/project-branch.png)
-
-![Read a path](resources/diagrams/read-a-path.png)
-
-</details>
-
 ## Maintenance and transfer
 
 ```sh
@@ -159,3 +99,87 @@ python3 tools/workspace.py export
 ```
 
 The export is `.exports/jason.zip`; run `python3 tools/workspace.py verify` inside an extracted kit. Dependencies, credentials, private benchmark results, and local installations stay local. [History](resources/history/README.md) preserves prior material and source snapshots.
+
+## Diagram PNGs
+
+Direct screenshots of the existing GitHub Markdown in **GitHub dark mode**, cropped to each diagram or table at **2× resolution**. Every image is shown in full below. Select its download link to open the original PNG.
+
+[Source and capture details](resources/diagrams/README.md)
+
+### Atlas, Taste, Dial, Dream, Benchmark: use and result
+
+![Atlas, Taste, Dial, Dream, Benchmark: use and result](resources/diagrams/agent-roles.png)
+
+[Download PNG](resources/diagrams/agent-roles.png?raw=1)
+
+### Atlas: role, input, and output
+
+![Atlas: role, input, and output](resources/diagrams/atlas.png)
+
+[Download PNG](resources/diagrams/atlas.png?raw=1)
+
+### Atlas: six-layer main structure
+
+![Atlas: six-layer main structure](resources/diagrams/atlas-main-structure.png)
+
+[Download PNG](resources/diagrams/atlas-main-structure.png?raw=1)
+
+### Apps: complete category, subcategory, and style menu
+
+![Apps: complete category, subcategory, and style menu](resources/diagrams/apps.png)
+
+[Download PNG](resources/diagrams/apps.png?raw=1)
+
+### Websites: complete category, subcategory, and style menu
+
+![Websites: complete category, subcategory, and style menu](resources/diagrams/websites.png)
+
+[Download PNG](resources/diagrams/websites.png?raw=1)
+
+### Games: complete category, subcategory, and style menu
+
+![Games: complete category, subcategory, and style menu](resources/diagrams/games.png)
+
+[Download PNG](resources/diagrams/games.png?raw=1)
+
+### Workspace: full folder map
+
+![Workspace: full folder map](resources/diagrams/workspace-structure.png)
+
+[Download PNG](resources/diagrams/workspace-structure.png?raw=1)
+
+### Design structure: six layers with their meanings
+
+![Design structure: six layers with their meanings](resources/diagrams/design-structure.png)
+
+[Download PNG](resources/diagrams/design-structure.png?raw=1)
+
+### Agents: role-file map
+
+![Agents: role-file map](resources/diagrams/agents-structure.png)
+
+[Download PNG](resources/diagrams/agents-structure.png?raw=1)
+
+### Resources: complete folder map
+
+![Resources: complete folder map](resources/diagrams/resources-structure.png)
+
+[Download PNG](resources/diagrams/resources-structure.png?raw=1)
+
+### Tools: portable tool map
+
+![Tools: portable tool map](resources/diagrams/tools-structure.png)
+
+[Download PNG](resources/diagrams/tools-structure.png?raw=1)
+
+### Project: selected branch folder template
+
+![Project: selected branch folder template](resources/diagrams/project-branch.png)
+
+[Download PNG](resources/diagrams/project-branch.png?raw=1)
+
+### Read a path: annotated six-layer example
+
+![Read a path: annotated six-layer example](resources/diagrams/read-a-path.png)
+
+[Download PNG](resources/diagrams/read-a-path.png?raw=1)
