@@ -59,7 +59,7 @@ resources/
 
 ## Collected references
 
-**[Inspiration](inspiration.md)** groups the saved visual references into [WebGL / shaders](inspiration.md#webgl--shaders) and [Product](inspiration.md#product), with images, videos, source credits, and downloads.
+**[Inspiration](inspiration.md)** groups the saved visual references into [WebGL / shaders](inspiration.md#webgl--shaders), [Product](inspiration.md#product), and [Websites](inspiration.md#websites), with website links, video previews, source credits, and downloads.
 
 [sites.md](sites.md) is the single design-site directory, grouped by source type. [Sources](sources/README.md) retains the underlying observations, IDs, dates, clips, images, and collection-specific detail. [History](history/README.md) retains previous versions. A source entry is evidence to inspect, not an instruction to install a tool or a confirmed design preference.
 

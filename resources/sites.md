@@ -6,7 +6,7 @@ index     collected links, grouped by source type
 update    python3 tools/workspace.py catalogue
 ```
 
-**734 distinct destinations** · 174 primary records · 592 DesEngs memberships. One browsing directory; original IDs, labels, dates, and inspection notes stay linked. This is our collection history, not a claim that every destination is current or reviewed.
+**740 distinct destinations** · 180 primary records · 592 DesEngs memberships. One browsing directory; original IDs, labels, dates, and inspection notes stay linked. This is our collection history, not a claim that every destination is current or reviewed.
 
 Add or update a record using [the filing rules](README.md#add-a-reference), then rebuild this file. [Source collections](sources/README.md) retain larger component lists, clips, screenshots, and detailed captures.
 
@@ -29,7 +29,7 @@ Add or update a record using [the filing rules](README.md#add-a-reference), then
 - [Motion shaders and 3D](#motion-shaders-and-3d) · 21
 - [Open Graph images](#open-graph-images) · 45
 - [Portfolios](#portfolios) · 55
-- [Product and website inspiration](#product-and-website-inspiration) · 42
+- [Product and website inspiration](#product-and-website-inspiration) · 48
 - [Production interface references](#production-interface-references) · 1
 - [React components](#react-components) · 2
 - [Reading and research](#reading-and-research) · 34
@@ -649,10 +649,13 @@ Add or update a record using [the filing rules](README.md#add-a-reference), then
 | --- | --- | --- | --- |
 | [404s.design](https://404s.design) | Product and website inspiration | 2026-10-12 | [404s.design](sources/source-records.md) |
 | [60fps](https://60fps.design) | Product and website inspiration | 2026-10-12 | [60fps.design](sources/source-records.md) |
+| [Aave](https://aave.com/) | Product and website inspiration | 2026-10-13 | [website-aave](sources/source-records.md) |
 | [Alt Studios](https://alt-studios.com/) | Product and website inspiration | 2026-10-13 | [alt-studios.com](sources/source-records.md) |
 | [appkittie.com](https://appkittie.com) | Product and website inspiration | 2026-10-12 | [appkittie.com](sources/source-records.md) |
 | [appllama.io](https://appllama.io) | Product and website inspiration | 2026-10-12 | [appllama.io](sources/source-records.md) |
 | [appshots.design](https://appshots.design) | Product and website inspiration | 2026-10-12 | [appshots.design](sources/source-records.md) |
+| [Aside](https://aside.com/) | Product and website inspiration | 2026-10-13 | [website-aside](sources/source-records.md) |
+| [Augen Pro](https://augen.pro/?ref=godly) | Product and website inspiration | 2026-10-13 | [website-augen](sources/source-records.md) |
 | [CLOU architects](https://www.clouarchitects.com/) | Product and website inspiration | 2026-10-13 | [clouarchitects.com](sources/source-records.md) |
 | [collectui.com](https://collectui.com) | Product and website inspiration | 2026-10-12 | [collectui.com](sources/source-records.md) |
 | [Corner Radii](https://corner-radii.xyz/) | DesEngs: Resource links; Product and website inspiration; use | 2026-10-12; 2026-10-13 | [de-73ca920ebb56](sources/desengs/resources.md); [product-corner-radii](sources/source-records.md) |
@@ -675,6 +678,7 @@ Add or update a record using [the filing rules](README.md#add-a-reference), then
 | [ogfolio.com](https://ogfolio.com) | Product and website inspiration | 2026-10-12 | [ogfolio.com](sources/source-records.md) |
 | [pageflows.com](https://pageflows.com) | Product and website inspiration | 2026-10-12 | [pageflows.com](sources/source-records.md) |
 | [posts.design](https://posts.design) | Product and website inspiration | 2026-10-12 | [posts.design](sources/source-records.md) |
+| [Ragged Edge](https://raggededge.com/) | Product and website inspiration | 2026-10-13 | [website-ragged-edge](sources/source-records.md) |
 | [Recent](https://recent.design) | Product and website inspiration | 2026-10-12 | [recent.design](sources/source-records.md) |
 | [Refero](https://refero.design) | Product and website inspiration | 2026-10-12 | [refero.design](sources/source-records.md) |
 | [saaslandingpage.com](https://saaslandingpage.com) | Product and website inspiration | 2026-10-12 | [saaslandingpage.com](sources/source-records.md) |
@@ -685,10 +689,12 @@ Add or update a record using [the filing rules](README.md#add-a-reference), then
 | [Shopify Editions · Winter ’26](https://www.shopify.com/editions/winter2026) | Product and website inspiration | 2026-10-13 | [www.shopify.com-editions-winter2026](sources/source-records.md) |
 | [siteinspire.com](https://siteinspire.com) | Product and website inspiration | 2026-10-12 | [siteinspire.com](sources/source-records.md) |
 | [supahero.io](https://supahero.io) | Product and website inspiration | 2026-10-12 | [supahero.io](sources/source-records.md) |
+| [There’s Nothing to Watch](https://nothing-to-watch.port80.ch/) | Product and website inspiration | 2026-10-13 | [website-nothing-to-watch](sources/source-records.md) |
 | [ui.camera](https://ui.camera/) (also: UI Camera) | DesEngs: Resource links; Product and website inspiration; use | 2026-10-12; 2026-10-13 | [de-2e9b0fc89023](sources/desengs/resources.md); [product-ui-camera](sources/source-records.md) |
 | [useLayouts](https://uselayouts.com/) | DesEngs: Resource links; Product and website inspiration; browse | 2026-10-12; 2026-10-13 | [de-5ea96b41ebfe](sources/desengs/resources.md); [product-uselayouts](sources/source-records.md) |
 | [useLayouts · Accessible Action](https://uselayouts.com/docs/components/accessible-action) | Product and website inspiration | 2026-10-13 | [product-uselayouts-accessible-action](sources/source-records.md) |
 | [Vitra · Office Chair Finder](https://findmy.vitra.com/en-en/questionnaire/chairs) | Product and website inspiration | 2026-10-13 | [findmy.vitra.com-en-en-questionnaire-chairs](sources/source-records.md) |
+| [Zikd](https://www.zikd.space/lander) | Product and website inspiration | 2026-10-13 | [website-zikd-parked](sources/source-records.md) |
 
 ## Production interface references
 

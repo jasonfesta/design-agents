@@ -330,7 +330,7 @@ Entries retain the recorded evidence and review status. Inclusion does not estab
 - **Supplied page:** https://www.beautifului.dev/
 - **Screenshot credit:** Turbo product design studio
 - **Screenshot:** [Desktop capture](ui-references/screenshots/beautiful-ui.jpg) · 2026-10-13 · 1800 × 1004 px
-- **Collection record:** [Inspiration / Product](../inspiration.md#products-and-tools)
+- **Collection record:** [Inspiration / Product](../inspiration.md#product)
 
 ## bencho.dev
 
@@ -354,7 +354,7 @@ Entries retain the recorded evidence and review status. Inclusion does not estab
 - **Supplied page:** https://bencho.dev/
 - **Screenshot credit:** Lorenzo Cabra
 - **Screenshot:** [Desktop capture](ui-references/screenshots/bencho.jpg) · 2026-10-13 · 1800 × 948 px
-- **Collection record:** [Inspiration / Product](../inspiration.md#products-and-tools)
+- **Collection record:** [Inspiration / Product](../inspiration.md#product)
 
 ## bestfreefonts.com
 
@@ -1238,7 +1238,7 @@ Entries retain the recorded evidence and review status. Inclusion does not estab
 - **Supplied page:** https://libraries.dev/orbs
 - **Screenshot credit:** Jakub Antalik; Orbs with Alexandr Brinza
 - **Screenshot:** [Desktop capture](ui-references/screenshots/thinking-orbs.jpg) · 2026-10-13 · 1800 × 948 px
-- **Collection record:** [Inspiration / Product](../inspiration.md#products-and-tools)
+- **Collection record:** [Inspiration / Product](../inspiration.md#product)
 
 ## light-stroke-rail.vercel.app
 
@@ -2916,6 +2916,7 @@ Entries retain the recorded evidence and review status. Inclusion does not estab
 - **Workflow tested:** Tag browsing and source detail navigation; referenced apps not tested.
 - **License:** Original media and site code retain their ownership; metadata capture does not grant asset reuse rights.
 - **Collection record:** [Spotted in Prod tags](spotted-in-prod/README.md)
+- **Placement update:** October 13, 2026 — Jason requested first position in [Inspiration / Product](../inspiration.md#product). Homepage revisited; existing taxonomy and bounded onboarding study retained.
 
 ## Fancy Components
 
@@ -3284,7 +3285,7 @@ Entries retain the recorded evidence and review status. Inclusion does not estab
 - **Inspected scope:** Public page text and rendered viewport; no installation or component audit
 - **Screenshot credit:** Sam Limby
 - **Screenshot:** [Desktop capture](ui-references/screenshots/corner-radii.jpg) · 2026-10-13 · 1800 × 1004 px
-- **Collection record:** [Inspiration / Product](../inspiration.md#products-and-tools)
+- **Collection record:** [Inspiration / Product](../inspiration.md#product)
 
 ## shadowLab
 
@@ -3302,7 +3303,7 @@ Entries retain the recorded evidence and review status. Inclusion does not estab
 - **Inspected scope:** Public page text and rendered viewport; no installation or component audit
 - **Screenshot credit:** Adam Mocarski
 - **Screenshot:** [Desktop capture](ui-references/screenshots/shadowlab.jpg) · 2026-10-13 · 1800 × 1004 px
-- **Collection record:** [Inspiration / Product](../inspiration.md#products-and-tools)
+- **Collection record:** [Inspiration / Product](../inspiration.md#product)
 
 ## useLayouts · Accessible Action
 
@@ -3320,7 +3321,7 @@ Entries retain the recorded evidence and review status. Inclusion does not estab
 - **Inspected scope:** Public page text and rendered viewport; no installation or component audit
 - **Screenshot credit:** useLayouts / 0xUrvish
 - **Screenshot:** [Desktop capture](ui-references/screenshots/uselayouts-accessible-action.jpg) · 2026-10-13 · 1800 × 1004 px
-- **Collection record:** [Inspiration / Product](../inspiration.md#products-and-tools)
+- **Collection record:** [Inspiration / Product](../inspiration.md#product)
 
 ## interior.dev
 
@@ -3338,7 +3339,7 @@ Entries retain the recorded evidence and review status. Inclusion does not estab
 - **Inspected scope:** Public page text and rendered viewport; no installation or component audit
 - **Screenshot credit:** Ozzy
 - **Screenshot:** [Desktop capture](ui-references/screenshots/interior.jpg) · 2026-10-13 · 1797 × 946 px
-- **Collection record:** [Inspiration / Product](../inspiration.md#products-and-tools)
+- **Collection record:** [Inspiration / Product](../inspiration.md#product)
 
 ## useLayouts
 
@@ -3356,7 +3357,7 @@ Entries retain the recorded evidence and review status. Inclusion does not estab
 - **Inspected scope:** Public page text and rendered viewport; no installation or component audit
 - **Screenshot credit:** useLayouts / 0xUrvish
 - **Screenshot:** [Desktop capture](ui-references/screenshots/uselayouts.jpg) · 2026-10-13 · 1800 × 1004 px
-- **Collection record:** [Inspiration / Product](../inspiration.md#products-and-tools)
+- **Collection record:** [Inspiration / Product](../inspiration.md#product)
 
 ## Images in Motion
 
@@ -3374,7 +3375,7 @@ Entries retain the recorded evidence and review status. Inclusion does not estab
 - **Inspected scope:** Public page text and rendered viewport; no installation or component audit
 - **Screenshot credit:** Smart Squad; Samuel Burlon and Massimo De Luisa
 - **Screenshot:** [Desktop capture](ui-references/screenshots/images-in-motion.jpg) · 2026-10-13 · 1800 × 948 px
-- **Collection record:** [Inspiration / Product](../inspiration.md#products-and-tools)
+- **Collection record:** [Inspiration / Product](../inspiration.md#product)
 
 ## ui.camera
 
@@ -3392,7 +3393,103 @@ Entries retain the recorded evidence and review status. Inclusion does not estab
 - **Inspected scope:** Public page text and rendered viewport; no installation or component audit
 - **Screenshot credit:** ui.camera
 - **Screenshot:** [Desktop capture](ui-references/screenshots/ui-camera.jpg) · 2026-10-13 · 1800 × 948 px
-- **Collection record:** [Inspiration / Product](../inspiration.md#products-and-tools)
+- **Collection record:** [Inspiration / Product](../inspiration.md#product)
+
+## Augen Pro
+
+- **Id:** website-augen
+- **Name:** Augen Pro
+- **Url:** https://augen.pro/?ref=godly
+- **Categories:** ["Product and website inspiration"]
+- **Summary:** Wearable and neural product website.
+- **Source status:** public_page_reviewed
+- **Observed at:** 2026-10-13
+- **Website reviewed:** Supplied URL and visible page only
+- **License:** No reuse license recorded
+- **Notes:** []
+- **Origin:** ["user_supplied"]
+- **Inspected scope:** Page text and browser viewport; no product installation or account actions
+- **Collection record:** [Inspiration / Websites](../inspiration.md#websites)
+
+## There’s Nothing to Watch
+
+- **Id:** website-nothing-to-watch
+- **Name:** There’s Nothing to Watch
+- **Url:** https://nothing-to-watch.port80.ch/
+- **Categories:** ["Product and website inspiration"]
+- **Summary:** Interactive film-poster landscape.
+- **Source status:** public_page_reviewed
+- **Observed at:** 2026-10-13
+- **Website reviewed:** Supplied URL and visible page only
+- **License:** No reuse license recorded
+- **Notes:** []
+- **Origin:** ["user_supplied"]
+- **Inspected scope:** Page text and browser viewport; no product installation or account actions
+- **Collection record:** [Inspiration / Websites](../inspiration.md#websites)
+
+## Ragged Edge
+
+- **Id:** website-ragged-edge
+- **Name:** Ragged Edge
+- **Url:** https://raggededge.com/
+- **Categories:** ["Product and website inspiration"]
+- **Summary:** Branding studio and partnership case studies.
+- **Source status:** public_page_reviewed
+- **Observed at:** 2026-10-13
+- **Website reviewed:** Supplied URL and visible page only
+- **License:** No reuse license recorded
+- **Notes:** []
+- **Origin:** ["user_supplied"]
+- **Inspected scope:** Page text and browser viewport; no product installation or account actions
+- **Collection record:** [Inspiration / Websites](../inspiration.md#websites)
+
+## Aave
+
+- **Id:** website-aave
+- **Name:** Aave
+- **Url:** https://aave.com/
+- **Categories:** ["Product and website inspiration"]
+- **Summary:** Savings and lending product marketing website.
+- **Source status:** public_page_reviewed
+- **Observed at:** 2026-10-13
+- **Website reviewed:** Supplied URL and visible page only
+- **License:** No reuse license recorded
+- **Notes:** []
+- **Origin:** ["user_supplied"]
+- **Inspected scope:** Page text and browser viewport; no product installation or account actions
+- **Collection record:** [Inspiration / Websites](../inspiration.md#websites)
+
+## Zikd
+
+- **Id:** website-zikd-parked
+- **Name:** Zikd
+- **Url:** https://www.zikd.space/lander
+- **Categories:** ["Product and website inspiration"]
+- **Summary:** Currently displays a GoDaddy parked-domain page; original design unavailable on October 13, 2026.
+- **Source status:** parked_domain_observed
+- **Observed at:** 2026-10-13
+- **Website reviewed:** Supplied URL and visible page only
+- **License:** No reuse license recorded
+- **Notes:** []
+- **Origin:** ["user_supplied"]
+- **Inspected scope:** Page text and browser viewport; no product installation or account actions
+- **Collection record:** [Inspiration / Websites](../inspiration.md#websites)
+
+## Aside
+
+- **Id:** website-aside
+- **Name:** Aside
+- **Url:** https://aside.com/
+- **Categories:** ["Product and website inspiration"]
+- **Summary:** Browser product website with animated interface demonstrations.
+- **Source status:** public_page_reviewed
+- **Observed at:** 2026-10-13
+- **Website reviewed:** Supplied URL and visible page only
+- **License:** No reuse license recorded
+- **Notes:** []
+- **Origin:** ["user_supplied"]
+- **Inspected scope:** Page text and browser viewport; no product installation or account actions
+- **Collection record:** [Inspiration / Websites](../inspiration.md#websites)
 
 ## Catalogue context
 

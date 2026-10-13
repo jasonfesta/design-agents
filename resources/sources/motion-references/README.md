@@ -1,6 +1,6 @@
 # Motion and website references
 
-[Browse Inspiration — WebGL / shaders and Product](../../inspiration.md)
+[Browse Inspiration — WebGL / shaders, Product, and Websites](../../inspiration.md)
 
 ```text
 JASON / COLLECTED REFERENCES
@@ -845,3 +845,31 @@ Product, detail, and lifestyle images in the chair finder’s embedded page data
 </details>
 
 [Separate UI collection](../ui-references/README.md) · [Capture manifest](manifest.json)
+
+## Website link refresh · October 13, 2026
+
+| Website | Reference | Public contact |
+| --- | --- | --- |
+| [Augen Pro](https://augen.pro/?ref=godly) | Wearable and neural product website. | — |
+| [There’s Nothing to Watch](https://nothing-to-watch.port80.ch/) | Interactive film-poster landscape. | — |
+| [Ragged Edge](https://raggededge.com/) | Branding studio and partnership case studies. | [hello@raggededge.com](mailto:hello@raggededge.com) · [New business](mailto:workwithus@raggededge.com) |
+| [Vitra · Office Chair Finder](https://findmy.vitra.com/en-en/questionnaire/chairs) | Chair-selection questionnaire. [Saved media](README.md#vitra-media). | [info@vitra.com](mailto:info@vitra.com) |
+| [Aave](https://aave.com/) | Savings and lending product marketing website. | — |
+| [Zikd](https://www.zikd.space/lander) | Currently displays a GoDaddy parked-domain page; original design unavailable on October 13, 2026. | — |
+| [Aside](https://aside.com/) | Browser product website with animated interface demonstrations. | — |
+| [CLOU architects](https://www.clouarchitects.com/) | Architecture portfolio and studio website. [Saved media](README.md#clouarchitects-media). | [info@clouarchitects.com](mailto:info@clouarchitects.com) |
+| [Alt Studios](https://alt-studios.com/) | Creative studio website. [Saved media](README.md#alt-studios-media). | [info@alt-studios.com](mailto:info@alt-studios.com) |
+| [Dirt](https://dirtverse.co/) | Brand and motion website. [Saved media](README.md#dirtverse-media). | [hello@dirtverse.co](mailto:hello@dirtverse.co) |
+| [Shopify Editions · Winter ’26](https://www.shopify.com/editions/winter2026) | Seasonal product-release website. [Saved media](README.md#shopify-editions-media). | — |
+| [Shopify Design](https://shopify.design/) | Design team website. [Saved media](README.md#shopify-design-media). | — |
+| [Pacôme Pertant](https://pacomepertant.com/) | Designer portfolio. [Saved media](README.md#pacome-media). | [pertantpacome@gmail.com](mailto:pertantpacome@gmail.com) |
+
+Inspiration and the main README now use website links instead of repeating image galleries. Existing source media above remain preserved. Completed browser captures from this refresh are indexed in the manifest:
+
+- [Augen Pro](screenshots/augen.jpg) — browser viewport screenshot, 1800 × 1004 px.
+- [There’s Nothing to Watch](screenshots/nothing-to-watch.jpg) — browser viewport screenshot, 1800 × 948 px.
+- [Ragged Edge](screenshots/ragged-edge.jpg) — browser viewport screenshot, 1800 × 1004 px.
+- [Vitra · Office Chair Finder](screenshots/vitra-chair-finder.jpg) — browser viewport screenshot, 1800 × 1004 px.
+- [Aave](screenshots/aave.jpg) — browser viewport screenshot, 1794 × 945 px.
+- [Zikd](screenshots/zikd-parked.jpg) — parked-domain status capture, 1800 × 948 px.
+- [Aside](screenshots/aside.jpg) — browser viewport screenshot, 1800 × 1004 px.

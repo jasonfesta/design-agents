@@ -1,6 +1,6 @@
 # UI references
 
-[Browse Inspiration — WebGL / shaders and Product](../../inspiration.md)
+[Browse Inspiration — WebGL / shaders, Product, and Websites](../../inspiration.md)
 
 ```text
 JASON / UI REFERENCES

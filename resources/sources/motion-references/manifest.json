@@ -35974,5 +35974,98 @@
       "error": "404 Client Error: Not Found for url: https://infinite-jelly-glass.shader.se/pz.png"
     }
   ],
-  "stream_capture": "29 public HLS streams remuxed to MP4 without re-encoding."
+  "stream_capture": "29 public HLS streams remuxed to MP4 without re-encoding.",
+  "screenshots": [
+    {
+      "source": "https://augen.pro/?ref=godly",
+      "title": "Augen Pro",
+      "file": "screenshots/augen.jpg",
+      "kind": "image",
+      "role": "browser viewport screenshot",
+      "captured_at": "2026-10-13",
+      "bytes": 40188,
+      "sha256": "2f37500d8c9c3e245b6e5270eab516a38d29ef6b0e8f9859301c4720a00a7191",
+      "width": 1800,
+      "height": 1004,
+      "scope": "Visible page only; website entries are links in Inspiration. Nothing to Watch captured after selecting its default quality/preset."
+    },
+    {
+      "source": "https://nothing-to-watch.port80.ch/",
+      "title": "There’s Nothing to Watch",
+      "file": "screenshots/nothing-to-watch.jpg",
+      "kind": "image",
+      "role": "browser viewport screenshot",
+      "captured_at": "2026-10-13",
+      "bytes": 429383,
+      "sha256": "17cf283cc32b7ec7522a6c7550024b2a4c78fa8459b3af607cc2254b767b1b72",
+      "width": 1800,
+      "height": 948,
+      "scope": "Visible page only; website entries are links in Inspiration. Nothing to Watch captured after selecting its default quality/preset."
+    },
+    {
+      "source": "https://raggededge.com/",
+      "title": "Ragged Edge",
+      "file": "screenshots/ragged-edge.jpg",
+      "kind": "image",
+      "role": "browser viewport screenshot",
+      "captured_at": "2026-10-13",
+      "bytes": 70374,
+      "sha256": "3f680cdb9cdadbb7b215dc3ec5fec070206308bc8109b79e865e75185f9be424",
+      "width": 1800,
+      "height": 1004,
+      "scope": "Visible page only; website entries are links in Inspiration. Nothing to Watch captured after selecting its default quality/preset."
+    },
+    {
+      "source": "https://findmy.vitra.com/en-en/questionnaire/chairs",
+      "title": "Vitra · Office Chair Finder",
+      "file": "screenshots/vitra-chair-finder.jpg",
+      "kind": "image",
+      "role": "browser viewport screenshot",
+      "captured_at": "2026-10-13",
+      "bytes": 65525,
+      "sha256": "7df018782d83b86f39b05e428369d0e91a855d4b59452e4288ec918ea99f78fc",
+      "width": 1800,
+      "height": 1004,
+      "scope": "Visible page only; website entries are links in Inspiration. Nothing to Watch captured after selecting its default quality/preset."
+    },
+    {
+      "source": "https://aave.com/",
+      "title": "Aave",
+      "file": "screenshots/aave.jpg",
+      "kind": "image",
+      "role": "browser viewport screenshot",
+      "captured_at": "2026-10-13",
+      "bytes": 81178,
+      "sha256": "dcd1089ad893d0d862d8a7a37362b0d4aebb76bf113d79bd7f00b75f5bbb3ec9",
+      "width": 1794,
+      "height": 945,
+      "scope": "Visible page only; website entries are links in Inspiration. Nothing to Watch captured after selecting its default quality/preset."
+    },
+    {
+      "source": "https://www.zikd.space/lander",
+      "title": "Zikd",
+      "file": "screenshots/zikd-parked.jpg",
+      "kind": "image",
+      "role": "parked-domain status capture",
+      "captured_at": "2026-10-13",
+      "bytes": 61238,
+      "sha256": "69b9236abaaa02b4425c3b2e87ba849148cbb00043fbe9da2e17a979fa0f7ce1",
+      "width": 1800,
+      "height": 948,
+      "scope": "Visible page only; website entries are links in Inspiration. Nothing to Watch captured after selecting its default quality/preset."
+    },
+    {
+      "source": "https://aside.com/",
+      "title": "Aside",
+      "file": "screenshots/aside.jpg",
+      "kind": "image",
+      "role": "browser viewport screenshot",
+      "captured_at": "2026-10-13",
+      "bytes": 112237,
+      "sha256": "43ef215978106ed540bc82047a026e5bbd215755bfda3ed71ae021149f13e213",
+      "width": 1800,
+      "height": 1004,
+      "scope": "Visible page only; website entries are links in Inspiration. Nothing to Watch captured after selecting its default quality/preset."
+    }
+  ]
 }

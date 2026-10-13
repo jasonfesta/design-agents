@@ -42,3 +42,7 @@ The complete tag capture was available publicly. A free account was established 
 ## Dial reuse
 
 [The Dial component workflow](../../guides/workflows/components.md#shared-component-vocabulary-for-dial) shares the five component groups, totaling 203 labels, and breaks all 54 patterns into component families. Product categories remain in the source collection and outside Dial. Team type is optional source attribution. The workflow and local DialKit guide point here rather than maintain a separate tag catalogue.
+
+## Inspiration placement · October 13, 2026
+
+Jason requested Spotted in Prod first in [Inspiration / Product](../../inspiration.md#product). The homepage was revisited for this placement, and a [content screenshot](screenshots/homepage-2026-10-13.jpg) was retained as source evidence, cropped below the account toolbar. The Inspiration entry is a link. This refresh does not extend the earlier bounded clip collection or claim a new taxonomy audit.
