@@ -6,7 +6,7 @@ index     collected links, grouped by source type
 update    python3 tools/workspace.py catalogue
 ```
 
-**733 distinct destinations** · 167 primary records · 592 DesEngs memberships. One browsing directory; original IDs, labels, dates, and inspection notes stay linked. This is our collection history, not a claim that every destination is current or reviewed.
+**734 distinct destinations** · 174 primary records · 592 DesEngs memberships. One browsing directory; original IDs, labels, dates, and inspection notes stay linked. This is our collection history, not a claim that every destination is current or reviewed.
 
 Add or update a record using [the filing rules](README.md#add-a-reference), then rebuild this file. [Source collections](sources/README.md) retain larger component lists, clips, screenshots, and detailed captures.
 
@@ -19,17 +19,17 @@ Add or update a record using [the filing rules](README.md#add-a-reference), then
 - [Creative coding](#creative-coding) · 2
 - [Design engineering research](#design-engineering-research) · 1
 - [Design systems skills and agent context](#design-systems-skills-and-agent-context) · 26
-- [Design tools](#design-tools) · 13
+- [Design tools](#design-tools) · 10
 - [Designers and people](#designers-and-people) · 76
 - [Discovery directories](#discovery-directories) · 3
-- [Inspiration directories](#inspiration-directories) · 18
-- [Libraries and code](#libraries-and-code) · 25
+- [Inspiration directories](#inspiration-directories) · 17
+- [Libraries and code](#libraries-and-code) · 23
 - [Minimum](#minimum) · 187
 - [Motion and animation references](#motion-and-animation-references) · 13
 - [Motion shaders and 3D](#motion-shaders-and-3d) · 21
 - [Open Graph images](#open-graph-images) · 45
 - [Portfolios](#portfolios) · 55
-- [Product and website inspiration](#product-and-website-inspiration) · 35
+- [Product and website inspiration](#product-and-website-inspiration) · 42
 - [Production interface references](#production-interface-references) · 1
 - [React components](#react-components) · 2
 - [Reading and research](#reading-and-research) · 34
@@ -147,7 +147,6 @@ Add or update a record using [the filing rules](README.md#add-a-reference), then
 
 | Reference | Source labels | Observed / captured | Evidence |
 | --- | --- | --- | --- |
-| [Corner Radii](https://corner-radii.xyz/) | DesEngs: Resource links; use | 2026-10-12 | [de-73ca920ebb56](sources/desengs/resources.md) |
 | [Design System Checklist](https://www.designsystemchecklist.com/) | DesEngs: Resource links; use | 2026-10-12 | [de-67c0316ca839](sources/desengs/resources.md) |
 | [Design Tokens Generator](https://design.dev/ai/design-tokens-generator/) | DesEngs: Resource links; use | 2026-10-12 | [de-41a31f37e89d](sources/desengs/resources.md) |
 | [Easing Graphs](https://www.easing.dev/) | DesEngs: Resource links; use | 2026-10-12 | [de-be0b5c12ad4a](sources/desengs/resources.md) |
@@ -157,9 +156,7 @@ Add or update a record using [the filing rules](README.md#add-a-reference), then
 | [jakubkrehel/skills](https://github.com/jakubkrehel/skills) | DesEngs: Resource links; use | 2026-10-12 | [de-c7f7c21cf166](sources/desengs/resources.md) |
 | [OKLCH.fyi](https://oklch.fyi/) | DesEngs: Resource links; use | 2026-10-12 | [de-1bb17fcc312b](sources/desengs/resources.md) |
 | [rams](https://www.rams.ai/) | DesEngs: Resource links; use | 2026-10-12 | [de-ff96e97317e7](sources/desengs/resources.md) |
-| [shadowLab](https://shadowlab.mocarski.design/) | DesEngs: Resource links; use | 2026-10-12 | [de-2116c90aff6d](sources/desengs/resources.md) |
 | [Taste Skill](https://www.tasteskill.dev/) | DesEngs: Resource links; use | 2026-10-12 | [de-aab0ab712828](sources/desengs/resources.md) |
-| [UI Camera](https://ui.camera) | DesEngs: Resource links; use | 2026-10-12 | [de-2e9b0fc89023](sources/desengs/resources.md) |
 
 ## Designers and people
 
@@ -270,7 +267,6 @@ Add or update a record using [the filing rules](README.md#add-a-reference), then
 | [Shoogle](https://shoogle.dev) | DesEngs: Resource links; browse | 2026-10-12 | [de-2c17ba8bd69b](sources/desengs/resources.md) |
 | [UI Playbook](https://uiplaybook.dev/) | DesEngs: Resource links; browse | 2026-10-12 | [de-437941bf3577](sources/desengs/resources.md) |
 | [ui.land](https://ui.land/) | DesEngs: Resource links; browse | 2026-10-12 | [de-e8609a625114](sources/desengs/resources.md) |
-| [useLayouts](https://uselayouts.com/) | DesEngs: Resource links; browse | 2026-10-12 | [de-5ea96b41ebfe](sources/desengs/resources.md) |
 | [userinterface.wiki](https://userinterface.wiki/) | DesEngs: Resource links; browse | 2026-10-12 | [de-dc9917269a0d](sources/desengs/resources.md) |
 
 ## Libraries and code
@@ -288,8 +284,6 @@ Add or update a record using [the filing rules](README.md#add-a-reference), then
 | [Dot Matrix](https://dotmatrix.zzzzshawn.cloud) | DesEngs: Resource links; build | 2026-10-12 | [de-df01c26fc96e](sources/desengs/resources.md) |
 | [Gradient Border Plugin](https://gradient-border.floriankiem.com/) | DesEngs: Resource links; build | 2026-10-12 | [de-ceeefa768fdd](sources/desengs/resources.md) |
 | [Hashvatar](https://www.hashvatar.com/) | DesEngs: Resource links; build | 2026-10-12 | [de-5499f0a96f0e](sources/desengs/resources.md) |
-| [Images in motion](https://iim.smartsquad.io) | DesEngs: Resource links; build | 2026-10-12 | [de-1c0d7c9b3e30](sources/desengs/resources.md) |
-| [interior.dev](https://www.interior.dev/) | DesEngs: Resource links; build | 2026-10-12 | [de-bd7f88e48663](sources/desengs/resources.md) |
 | [kugiri](https://edoardolunardi.github.io/kugiri/) | DesEngs: Resource links; build | 2026-10-12 | [de-bb8b60c18e21](sources/desengs/resources.md) |
 | [Liquid Gooey](https://gooey.jakubantalik.com/) | DesEngs: Resource links; build | 2026-10-12 | [de-54c80199b77d](sources/desengs/resources.md) |
 | [Liveline](https://github.com/benjitaylor/liveline) | DesEngs: Resource links; build | 2026-10-12 | [de-38905d2d978d](sources/desengs/resources.md) |
@@ -661,6 +655,7 @@ Add or update a record using [the filing rules](README.md#add-a-reference), then
 | [appshots.design](https://appshots.design) | Product and website inspiration | 2026-10-12 | [appshots.design](sources/source-records.md) |
 | [CLOU architects](https://www.clouarchitects.com/) | Product and website inspiration | 2026-10-13 | [clouarchitects.com](sources/source-records.md) |
 | [collectui.com](https://collectui.com) | Product and website inspiration | 2026-10-12 | [collectui.com](sources/source-records.md) |
+| [Corner Radii](https://corner-radii.xyz/) | DesEngs: Resource links; Product and website inspiration; use | 2026-10-12; 2026-10-13 | [de-73ca920ebb56](sources/desengs/resources.md); [product-corner-radii](sources/source-records.md) |
 | [cta.gallery](https://cta.gallery) | Product and website inspiration | 2026-10-12 | [cta.gallery](sources/source-records.md) |
 | [curated.design](https://curated.design) | Product and website inspiration | 2026-10-12 | [curated.design](sources/source-records.md) |
 | [dark.design](https://dark.design) | Product and website inspiration | 2026-10-12 | [dark.design](sources/source-records.md) |
@@ -668,8 +663,10 @@ Add or update a record using [the filing rules](README.md#add-a-reference), then
 | [detail.design](https://detail.design) | Product and website inspiration | 2026-10-12 | [detail.design](sources/source-records.md) |
 | [footer.design](https://footer.design) | Product and website inspiration | 2026-10-12 | [footer.design](sources/source-records.md) |
 | [godly.website](https://godly.website) | Product and website inspiration | 2026-10-12 | [godly.website](sources/source-records.md) |
+| [Images in Motion](https://iim.smartsquad.io/) (also: Images in motion) | DesEngs: Resource links; Product and website inspiration; build | 2026-10-12; 2026-10-13 | [de-1c0d7c9b3e30](sources/desengs/resources.md); [product-images-in-motion](sources/source-records.md) |
 | [Infinite Jelly Glass · v2](https://infinite-jelly-glass.shader.se/?v=2) | Product and website inspiration | 2026-10-13 | [infinite-jelly-glass.shader.se](sources/source-records.md) |
 | [Inspora](https://inspora.design) | Product and website inspiration | 2026-10-12 | [inspora.design](sources/source-records.md) |
+| [interior.dev](https://www.interior.dev/) | DesEngs: Resource links; Product and website inspiration; build | 2026-10-12; 2026-10-13 | [de-bd7f88e48663](sources/desengs/resources.md); [product-interior](sources/source-records.md) |
 | [Land-book](https://land-book.com) | Product and website inspiration | 2026-10-12 | [land-book.com](sources/source-records.md) |
 | [loadmo.re](https://loadmo.re) | Product and website inspiration | 2026-10-12 | [loadmo.re](sources/source-records.md) |
 | [minimal.gallery](https://minimal.gallery) | Product and website inspiration | 2026-10-12 | [minimal.gallery](sources/source-records.md) |
@@ -683,10 +680,14 @@ Add or update a record using [the filing rules](README.md#add-a-reference), then
 | [saaslandingpage.com](https://saaslandingpage.com) | Product and website inspiration | 2026-10-12 | [saaslandingpage.com](sources/source-records.md) |
 | [saaspo.com](https://saaspo.com) | Product and website inspiration | 2026-10-12 | [saaspo.com](sources/source-records.md) |
 | [screensdesign.com](https://screensdesign.com) | Product and website inspiration | 2026-10-12 | [screensdesign.com](sources/source-records.md) |
+| [shadowLab](https://shadowlab.mocarski.design/) | DesEngs: Resource links; Product and website inspiration; use | 2026-10-12; 2026-10-13 | [de-2116c90aff6d](sources/desengs/resources.md); [product-shadowlab](sources/source-records.md) |
 | [Shopify Design](https://shopify.design/) | Product and website inspiration | 2026-10-13 | [shopify.design](sources/source-records.md) |
 | [Shopify Editions · Winter ’26](https://www.shopify.com/editions/winter2026) | Product and website inspiration | 2026-10-13 | [www.shopify.com-editions-winter2026](sources/source-records.md) |
 | [siteinspire.com](https://siteinspire.com) | Product and website inspiration | 2026-10-12 | [siteinspire.com](sources/source-records.md) |
 | [supahero.io](https://supahero.io) | Product and website inspiration | 2026-10-12 | [supahero.io](sources/source-records.md) |
+| [ui.camera](https://ui.camera/) (also: UI Camera) | DesEngs: Resource links; Product and website inspiration; use | 2026-10-12; 2026-10-13 | [de-2e9b0fc89023](sources/desengs/resources.md); [product-ui-camera](sources/source-records.md) |
+| [useLayouts](https://uselayouts.com/) | DesEngs: Resource links; Product and website inspiration; browse | 2026-10-12; 2026-10-13 | [de-5ea96b41ebfe](sources/desengs/resources.md); [product-uselayouts](sources/source-records.md) |
+| [useLayouts · Accessible Action](https://uselayouts.com/docs/components/accessible-action) | Product and website inspiration | 2026-10-13 | [product-uselayouts-accessible-action](sources/source-records.md) |
 | [Vitra · Office Chair Finder](https://findmy.vitra.com/en-en/questionnaire/chairs) | Product and website inspiration | 2026-10-13 | [findmy.vitra.com-en-en-questionnaire-chairs](sources/source-records.md) |
 
 ## Production interface references

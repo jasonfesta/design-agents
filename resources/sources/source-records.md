@@ -314,19 +314,23 @@ Entries retain the recorded evidence and review status. Inclusion does not estab
 - **Name:** beautifului.dev
 - **Url:** https://beautifului.dev
 - **Categories:** ["UI components and charts"]
-- **Summary:** Not recorded
-- **Source status:** primary_x_post_read
-- **Website reviewed:** No
+- **Summary:** Interface primitives for AI products, including thinking, streaming, approval, prompt, and table patterns.
+- **Source status:** website_screenshot_captured
+- **Website reviewed:** Supplied page and desktop viewport only
 - **Observed at:** 2026-10-12
 - **X posts:** ["https://x.com/neropursue/status/2106023808255623288", "https://x.com/neropursue/status/2099449677556977844", "https://x.com/neropursue/status/2092883541482692728"]
 - **Official sources:** []
 - **Github:** Not recorded
 - **Creators:** []
 - **Notes:** []
-- **Origin:** ["neropursue_crawl"]
-- **Website reviewed at:** Not recorded
+- **Origin:** ["neropursue_crawl", "user_supplied"]
+- **Website reviewed at:** 2026-10-13
 - **Workflow tested:** No
 - **License:** Not recorded
+- **Supplied page:** https://www.beautifului.dev/
+- **Screenshot credit:** Turbo product design studio
+- **Screenshot:** [Desktop capture](ui-references/screenshots/beautiful-ui.jpg) · 2026-10-13 · 1800 × 1004 px
+- **Collection record:** [Inspiration / Product](../inspiration.md#products-and-tools)
 
 ## bencho.dev
 
@@ -334,19 +338,23 @@ Entries retain the recorded evidence and review status. Inclusion does not estab
 - **Name:** bencho.dev
 - **Url:** https://bencho.dev
 - **Categories:** ["UI components and charts"]
-- **Summary:** Not recorded
-- **Source status:** primary_x_post_read
-- **Website reviewed:** No
+- **Summary:** Interactive React component library organized by gestures and micro-interactions.
+- **Source status:** website_screenshot_captured
+- **Website reviewed:** Supplied page and desktop viewport only
 - **Observed at:** 2026-10-12
 - **X posts:** ["https://x.com/neropursue/status/2099023560429719726"]
 - **Official sources:** []
 - **Github:** Not recorded
 - **Creators:** []
 - **Notes:** []
-- **Origin:** ["neropursue_crawl"]
-- **Website reviewed at:** Not recorded
+- **Origin:** ["neropursue_crawl", "user_supplied"]
+- **Website reviewed at:** 2026-10-13
 - **Workflow tested:** No
 - **License:** Not recorded
+- **Supplied page:** https://bencho.dev/
+- **Screenshot credit:** Lorenzo Cabra
+- **Screenshot:** [Desktop capture](ui-references/screenshots/bencho.jpg) · 2026-10-13 · 1800 × 948 px
+- **Collection record:** [Inspiration / Product](../inspiration.md#products-and-tools)
 
 ## bestfreefonts.com
 
@@ -1214,19 +1222,23 @@ Entries retain the recorded evidence and review status. Inclusion does not estab
 - **Name:** libraries.dev
 - **Url:** https://libraries.dev
 - **Categories:** ["UI components and charts"]
-- **Summary:** Not recorded
-- **Source status:** primary_x_post_read
-- **Website reviewed:** No
+- **Summary:** Animated loading indicators for AI interfaces, with nine illustrated states and a playground.
+- **Source status:** website_screenshot_captured
+- **Website reviewed:** Supplied page and desktop viewport only
 - **Observed at:** 2026-10-12
 - **X posts:** ["https://x.com/neropursue/status/2099449677556977844", "https://x.com/neropursue/status/2095736094138499349"]
 - **Official sources:** []
 - **Github:** Not recorded
 - **Creators:** []
 - **Notes:** []
-- **Origin:** ["neropursue_crawl"]
-- **Website reviewed at:** Not recorded
+- **Origin:** ["neropursue_crawl", "user_supplied"]
+- **Website reviewed at:** 2026-10-13
 - **Workflow tested:** No
 - **License:** Not recorded
+- **Supplied page:** https://libraries.dev/orbs
+- **Screenshot credit:** Jakub Antalik; Orbs with Alexandr Brinza
+- **Screenshot:** [Desktop capture](ui-references/screenshots/thinking-orbs.jpg) · 2026-10-13 · 1800 × 948 px
+- **Collection record:** [Inspiration / Product](../inspiration.md#products-and-tools)
 
 ## light-stroke-rail.vercel.app
 
@@ -3255,6 +3267,132 @@ Entries retain the recorded evidence and review status. Inclusion does not estab
 - **Origin:** ["user_supplied"]
 - **Inspected scope:** Supplied post/page, directly exposed media, embedded page data, and source contact links. Saved files checked; no implementation or personal taste evaluation.
 - **Collection record:** [Images, videos, and public contacts](motion-references/README.md)
+
+## Corner Radii
+
+- **Id:** product-corner-radii
+- **Name:** Corner Radii
+- **Url:** https://corner-radii.xyz/
+- **Categories:** ["Product and website inspiration"]
+- **Summary:** Nested border-radius calculator with outer radius, inner radius, padding, and size controls.
+- **Source status:** website_screenshot_captured
+- **Observed at:** 2026-10-13
+- **Website reviewed:** Supplied page and desktop viewport only
+- **License:** No screenshot reuse license recorded
+- **Notes:** []
+- **Origin:** ["user_supplied"]
+- **Inspected scope:** Public page text and rendered viewport; no installation or component audit
+- **Screenshot credit:** Sam Limby
+- **Screenshot:** [Desktop capture](ui-references/screenshots/corner-radii.jpg) · 2026-10-13 · 1800 × 1004 px
+- **Collection record:** [Inspiration / Product](../inspiration.md#products-and-tools)
+
+## shadowLab
+
+- **Id:** product-shadowlab
+- **Name:** shadowLab
+- **Url:** https://shadowlab.mocarski.design/
+- **Categories:** ["Product and website inspiration"]
+- **Summary:** Layered CSS shadow editor with offsets, blur, spread, opacity, color, and export controls.
+- **Source status:** website_screenshot_captured
+- **Observed at:** 2026-10-13
+- **Website reviewed:** Supplied page and desktop viewport only
+- **License:** No screenshot reuse license recorded
+- **Notes:** []
+- **Origin:** ["user_supplied"]
+- **Inspected scope:** Public page text and rendered viewport; no installation or component audit
+- **Screenshot credit:** Adam Mocarski
+- **Screenshot:** [Desktop capture](ui-references/screenshots/shadowlab.jpg) · 2026-10-13 · 1800 × 1004 px
+- **Collection record:** [Inspiration / Product](../inspiration.md#products-and-tools)
+
+## useLayouts · Accessible Action
+
+- **Id:** product-uselayouts-accessible-action
+- **Name:** useLayouts · Accessible Action
+- **Url:** https://uselayouts.com/docs/components/accessible-action
+- **Categories:** ["Product and website inspiration"]
+- **Summary:** Swipeable image-card demo and installation entry for Accessible Action.
+- **Source status:** website_screenshot_captured
+- **Observed at:** 2026-10-13
+- **Website reviewed:** Supplied page and desktop viewport only
+- **License:** No screenshot reuse license recorded
+- **Notes:** []
+- **Origin:** ["user_supplied"]
+- **Inspected scope:** Public page text and rendered viewport; no installation or component audit
+- **Screenshot credit:** useLayouts / 0xUrvish
+- **Screenshot:** [Desktop capture](ui-references/screenshots/uselayouts-accessible-action.jpg) · 2026-10-13 · 1800 × 1004 px
+- **Collection record:** [Inspiration / Product](../inspiration.md#products-and-tools)
+
+## interior.dev
+
+- **Id:** product-interior
+- **Name:** interior.dev
+- **Url:** https://www.interior.dev/
+- **Categories:** ["Product and website inspiration"]
+- **Summary:** React micro-interactions with component source, built with Tailwind CSS and Motion.
+- **Source status:** website_screenshot_captured
+- **Observed at:** 2026-10-13
+- **Website reviewed:** Supplied page and desktop viewport only
+- **License:** No screenshot reuse license recorded
+- **Notes:** []
+- **Origin:** ["user_supplied"]
+- **Inspected scope:** Public page text and rendered viewport; no installation or component audit
+- **Screenshot credit:** Ozzy
+- **Screenshot:** [Desktop capture](ui-references/screenshots/interior.jpg) · 2026-10-13 · 1797 × 946 px
+- **Collection record:** [Inspiration / Product](../inspiration.md#products-and-tools)
+
+## useLayouts
+
+- **Id:** product-uselayouts
+- **Name:** useLayouts
+- **Url:** https://uselayouts.com/
+- **Categories:** ["Product and website inspiration"]
+- **Summary:** Animated React components spanning layouts, navigation, interactions, and interface patterns.
+- **Source status:** website_screenshot_captured
+- **Observed at:** 2026-10-13
+- **Website reviewed:** Supplied page and desktop viewport only
+- **License:** No screenshot reuse license recorded
+- **Notes:** []
+- **Origin:** ["user_supplied"]
+- **Inspected scope:** Public page text and rendered viewport; no installation or component audit
+- **Screenshot credit:** useLayouts / 0xUrvish
+- **Screenshot:** [Desktop capture](ui-references/screenshots/uselayouts.jpg) · 2026-10-13 · 1800 × 1004 px
+- **Collection record:** [Inspiration / Product](../inspiration.md#products-and-tools)
+
+## Images in Motion
+
+- **Id:** product-images-in-motion
+- **Name:** Images in Motion
+- **Url:** https://iim.smartsquad.io/
+- **Categories:** ["Product and website inspiration"]
+- **Summary:** Continuous image mosaics with independently moving columns, framework bindings, and a tuning studio.
+- **Source status:** website_screenshot_captured
+- **Observed at:** 2026-10-13
+- **Website reviewed:** Supplied page and desktop viewport only
+- **License:** No screenshot reuse license recorded
+- **Notes:** []
+- **Origin:** ["user_supplied"]
+- **Inspected scope:** Public page text and rendered viewport; no installation or component audit
+- **Screenshot credit:** Smart Squad; Samuel Burlon and Massimo De Luisa
+- **Screenshot:** [Desktop capture](ui-references/screenshots/images-in-motion.jpg) · 2026-10-13 · 1800 × 948 px
+- **Collection record:** [Inspiration / Product](../inspiration.md#products-and-tools)
+
+## ui.camera
+
+- **Id:** product-ui-camera
+- **Name:** ui.camera
+- **Url:** https://ui.camera/
+- **Categories:** ["Product and website inspiration"]
+- **Summary:** Browser studio for composing software product images and videos with camera, framing, and backdrop controls.
+- **Source status:** website_screenshot_captured
+- **Observed at:** 2026-10-13
+- **Website reviewed:** Supplied page and desktop viewport only
+- **License:** No screenshot reuse license recorded
+- **Notes:** []
+- **Origin:** ["user_supplied"]
+- **Inspected scope:** Public page text and rendered viewport; no installation or component audit
+- **Screenshot credit:** ui.camera
+- **Screenshot:** [Desktop capture](ui-references/screenshots/ui-camera.jpg) · 2026-10-13 · 1800 × 948 px
+- **Collection record:** [Inspiration / Product](../inspiration.md#products-and-tools)
 
 ## Catalogue context
 

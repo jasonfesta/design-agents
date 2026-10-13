@@ -883,3 +883,7 @@ Product, detail, and lifestyle images in the chair finder’s embedded page data
 | Preview |
 | --- |
 | [![Eirperuier · streaming SwiftUI](resources/sources/ui-references/images/eirperuier-2109510794828546355.jpg)](https://github.com/jasonfesta/design-agents/raw/refs/heads/main/resources/sources/ui-references/videos/eirperuier-2109510794828546355.mp4)<br>Eirperuier · streaming SwiftUI · [MP4](https://github.com/jasonfesta/design-agents/raw/refs/heads/main/resources/sources/ui-references/videos/eirperuier-2109510794828546355.mp4) |
+
+## Inspiration
+
+[WebGL / shaders and Product](resources/inspiration.md) brings all 33 supplied references together with saved images, videos, and downloads. [Product screenshots](resources/inspiration.md#products-and-tools) includes all ten new product links and their full-size captures.
